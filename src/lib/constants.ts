@@ -3,6 +3,9 @@ export const RSS_URL = "https://anchor.fm/s/107c9fe84/podcast/rss";
 export const RSS_API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`;
 export const SPOTIFY_SHOW = "0Vnmcv13lSwnCR7wCcEJta";
 export const SPOTIFY_EP: Record<number, string> = {
+  8: "0Vk3Rozr2bnCaDOnOLzTsD",
+  7: "5NmXzivym4oGiEWxWBW6P2",
+  6: "0rmfZsaBOZuWzgpaFNzgUh",
   5: "3TE8qJGofmNxxu2cjJwYNm",
   4: "659NPghSdRdre1wALeWIoj",
   3: "14Vmknlu0VcSy7ayTZWjRl",

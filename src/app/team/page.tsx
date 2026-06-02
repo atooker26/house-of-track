@@ -21,8 +21,7 @@ export default function TeamPage() {
         <div className="wrap profile">
           <div className="profile-portrait">
             <span className="profile-tag"><span className="tag tag-ink">Founder</span></span>
-            <img src="/assets/logo-mark-cream.png" alt="David Ribich" className="ph-mark" />
-            <span className="ph-note">Drop in David&apos;s photo</span>
+            <img src="/assets/david-portrait-2.jpg" alt="David Ribich" />
           </div>
           <div>
             <p className="profile-role">Founder · Host</p>

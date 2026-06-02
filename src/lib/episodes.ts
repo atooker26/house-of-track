@@ -73,6 +73,16 @@ async function spotifyThumb(n: number): Promise<string | null> {
   }
 }
 
+function episodeImage(
+  itemThumb: string | undefined,
+  feedImage: string | undefined,
+  n: number
+): string {
+  // Skip the generic podcast logo — it means no episode-specific art was uploaded
+  if (itemThumb && itemThumb !== feedImage) return itemThumb;
+  return coverFor(n);
+}
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function loadEpisodes(): Promise<Episode[]> {
   try {
@@ -99,8 +109,7 @@ export async function loadEpisodes(): Promise<Episode[]> {
         tags: [],
         live: i === 0,
         spotifyUrl: spotifyUrlFor(n),
-        image:
-          item.thumbnail || item.enclosure?.thumbnail || data.feed?.image || coverFor(n),
+        image: episodeImage(item.thumbnail, data.feed?.image, n),
         slug: slugify(title, String(n)),
         audioUrl: item.enclosure?.link || "",
       };
