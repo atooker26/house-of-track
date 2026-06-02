@@ -15,6 +15,7 @@ export interface Episode {
   spotifyUrl: string;
   image: string;
   slug: string;
+  audioUrl: string;
 }
 
 function strip(html: string): string {
@@ -101,6 +102,7 @@ export async function loadEpisodes(): Promise<Episode[]> {
         image:
           item.thumbnail || item.enclosure?.thumbnail || data.feed?.image || coverFor(n),
         slug: slugify(title, String(n)),
+        audioUrl: item.enclosure?.link || "",
       };
     });
 
