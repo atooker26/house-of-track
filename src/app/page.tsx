@@ -15,7 +15,19 @@ export default async function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="hero grain">
+      <section className="hero hero-video">
+        <video
+          className="hero-video-bg"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          poster="/assets/logo-mark-cream.png"
+        >
+          <source src="/assets/hero-bg.mp4" type="video/mp4" />
+        </video>
+        <div className="hero-video-overlay" />
         <div className="hero-inner">
           <div className="fade">
             <p className="eyebrow on-dark">The House of Track Podcast</p>

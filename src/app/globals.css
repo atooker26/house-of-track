@@ -197,6 +197,10 @@ button { font: inherit; cursor: pointer; }
    HERO
    ============================================================ */
 .hero { background: radial-gradient(130% 110% at 30% 15%, #2A2E6B 0%, #161B45 45%, #0D112D 100%); color: var(--cream); overflow: hidden; position: relative; }
+.hero-video { background: #0D112D; }
+.hero-video-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.hero-video-overlay { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(13,17,45,.85) 0%, rgba(13,17,45,.6) 50%, rgba(13,17,45,.3) 100%); }
+.hero-video .hero-inner { position: relative; z-index: 2; }
 .hero-inner { display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: center; padding: 96px 32px 104px; max-width: 1180px; margin: 0 auto; }
 .hero h1 { font-family: var(--font-display); text-transform: uppercase; font-size: 78px; line-height: .94; letter-spacing: .01em; margin: 18px 0 22px; color: var(--cream); }
 .hero p.lead { font-family: var(--font-body); font-size: 19px; line-height: 1.5; color: var(--fg-on-dark-2); max-width: 46ch; margin: 0 0 30px; }
@@ -208,6 +212,7 @@ button { font: inherit; cursor: pointer; }
   .hero-inner { grid-template-columns: 1fr; padding: 64px 24px 72px; }
   .hero h1 { font-size: 48px; }
   .hero-mark { display: none; }
+  .hero-video-overlay { background: rgba(13,17,45,.75); }
 }
 
 /* ============================================================
