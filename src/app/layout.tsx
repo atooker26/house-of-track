@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Open_Sans } from "next/font/google";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
@@ -9,6 +9,12 @@ const openSans = Open_Sans({
   weight: ["400", "500", "600", "700", "800"],
   variable: "--font-open-sans",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 export const metadata: Metadata = {
   title: "House of Track — Redefining the Narrative",
