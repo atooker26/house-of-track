@@ -83,17 +83,30 @@ function episodeImage(
   return coverFor(n);
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+interface RssItem {
+  title?: string;
+  description?: string;
+  pubDate?: string;
+  thumbnail?: string;
+  enclosure?: { link?: string; duration?: number };
+}
+
+interface RssFeed {
+  status: string;
+  feed?: { image?: string };
+  items?: RssItem[];
+}
+
 export async function loadEpisodes(): Promise<Episode[]> {
   try {
     const res = await fetch(RSS_API, { next: { revalidate: 300 } });
-    const data = await res.json();
+    const data: RssFeed = await res.json();
     if (data.status !== "ok" || !data.items?.length) throw new Error("rss");
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const eps: Episode[] = data.items.map((item: any, i: number) => {
+    const items = data.items;
+    const eps: Episode[] = items.map((item: RssItem, i: number) => {
       const rawTitle = (item.title || "").replace(/&amp;/g, "&");
-      const n = epNumFrom(rawTitle) || (data.items.length - i);
+      const n = epNumFrom(rawTitle) || (items.length - i);
       const { guest, title } = splitGuest(rawTitle);
       const desc = strip(item.description || "");
       return {
@@ -103,7 +116,7 @@ export async function loadEpisodes(): Promise<Episode[]> {
         guest,
         disc: "Track & Field",
         len: fmtLen(item.enclosure?.duration || 0),
-        date: fmtDate(item.pubDate),
+        date: fmtDate(item.pubDate || ""),
         blurb: desc.slice(0, 150),
         notes: desc.slice(0, 600),
         tags: [],

@@ -98,7 +98,6 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-#__next { min-height: 100vh; }
 img { max-width: 100%; display: block; }
 button { font: inherit; cursor: pointer; }
 ::selection { background: var(--indigo); color: #fff; }

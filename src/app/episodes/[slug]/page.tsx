@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { loadEpisodes } from "@/lib/episodes";
 import { initials, coverFor, PLATFORMS } from "@/lib/constants";
 import AudioPlayer from "@/components/AudioPlayer";
@@ -14,6 +15,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${ep.title} — House of Track`,
     description: ep.blurb,
+    openGraph: {
+      title: `${ep.title} — House of Track`,
+      description: ep.blurb,
+      type: "music.song",
+      images: ep.image?.startsWith("http") ? [{ url: ep.image, width: 600, height: 600, alt: ep.title }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${ep.title} — House of Track`,
+      description: ep.blurb,
+      images: ep.image?.startsWith("http") ? [ep.image] : undefined,
+    },
   };
 }
 
@@ -32,7 +45,11 @@ export default async function EpisodeDetail({ params }: { params: Promise<{ slug
       <section className="ep-hero grain">
         <div className="ep-hero-inner">
           <div className="ep-hero-art">
-            <img src={ep.image || coverFor(ep.n)} alt={ep.title} />
+            {ep.image?.startsWith("http") ? (
+              <Image src={ep.image} alt={ep.title} fill sizes="300px" style={{ objectFit: "cover" }} priority />
+            ) : (
+              <img src={ep.image || coverFor(ep.n)} alt={ep.title} />
+            )}
           </div>
           <div>
             <p className="eyebrow on-dark">Episode {ep.n}{ep.date ? ` · ${ep.date}` : ""}{ep.len ? ` · ${ep.len}` : ""}</p>
@@ -112,7 +129,7 @@ export default async function EpisodeDetail({ params }: { params: Promise<{ slug
               </div>
             </div>
             <div className="feed-grid">
-              {related.map(ep => <EpisodeCard key={ep.n} ep={ep} light />)}
+              {related.map(r => <EpisodeCard key={r.n} ep={r} light />)}
             </div>
           </div>
         </section>

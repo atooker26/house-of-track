@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Icon from "@/components/Icon";
 
@@ -21,7 +22,7 @@ export default function TeamPage() {
         <div className="wrap profile">
           <div className="profile-portrait">
             <span className="profile-tag"><span className="tag tag-ink">Founder</span></span>
-            <img src="/assets/david-portrait-2.jpg" alt="David Ribich" />
+            <Image src="/assets/david-portrait-2.jpg" alt="David Ribich" fill sizes="(max-width: 768px) 320px, 380px" style={{ objectFit: "cover" }} priority />
           </div>
           <div>
             <p className="profile-role">Founder · Host</p>
