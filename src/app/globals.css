@@ -253,7 +253,7 @@ button { font: inherit; cursor: pointer; }
 /* ============================================================
    LANES
    ============================================================ */
-.lanes { position: relative; height: 120px; margin-top: 34px; }
+.lanes { position: relative; height: 120px; margin-top: 34px; overflow: hidden; }
 .lane { position: absolute; left: 0; height: 2px; background: var(--cream); opacity: .9; }
 .lane-word { position: absolute; transform: translateY(-50%); font-family: var(--font-cond); font-weight: 700;
   text-transform: uppercase; letter-spacing: .18em; font-size: 13px; color: var(--cream); padding-left: 12px; }
