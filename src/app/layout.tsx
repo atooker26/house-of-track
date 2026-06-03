@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Open_Sans } from "next/font/google";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
@@ -33,6 +34,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <TopNav />
         <main>{children}</main>
         <Footer />
+        <Script
+          src="https://www.tegomarketing.com/tego.js"
+          data-slug="house-of-track"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
