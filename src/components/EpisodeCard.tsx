@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Episode } from "@/lib/episodes";
 import { coverFor } from "@/lib/constants";
@@ -6,7 +7,11 @@ export default function EpisodeCard({ ep, light }: { ep: Episode; light?: boolea
   return (
     <Link href={`/episodes/${ep.slug}`} className={`feed-card${light ? " on-light" : ""}`}>
       <div className="feed-cart">
-        <img src={ep.image || coverFor(ep.n)} alt={ep.title} />
+        {ep.image?.startsWith("http") ? (
+          <Image src={ep.image} alt={ep.title} fill sizes="(max-width: 560px) 100vw, (max-width: 920px) 50vw, 33vw" style={{ objectFit: "cover" }} />
+        ) : (
+          <img src={ep.image || coverFor(ep.n)} alt={ep.title} />
+        )}
         <div className="feed-coverlay">
           <div className="feed-cplay">
             <svg

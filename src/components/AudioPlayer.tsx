@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useRef, useEffect, useCallback } from "react";
 import type { Episode } from "@/lib/episodes";
 import { HOST, coverFor } from "@/lib/constants";
@@ -43,6 +44,11 @@ export default function AudioPlayer({ ep }: { ep: Episode }) {
     audio.currentTime = Math.max(0, Math.min(duration, audio.currentTime + seconds));
   };
 
+  const seekKeyboard = (e: React.KeyboardEvent) => {
+    if (e.key === "ArrowRight") skip(5);
+    else if (e.key === "ArrowLeft") skip(-5);
+  };
+
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
@@ -73,7 +79,11 @@ export default function AudioPlayer({ ep }: { ep: Episode }) {
       {ep.audioUrl && <audio ref={audioRef} src={ep.audioUrl} preload="metadata" />}
       <div className="player-top">
         <div className="player-art">
-          <img src={ep.image || coverFor(ep.n)} alt="" />
+          {ep.image?.startsWith("http") ? (
+            <Image src={ep.image} alt="" width={72} height={72} style={{ objectFit: "cover" }} />
+          ) : (
+            <img src={ep.image || coverFor(ep.n)} alt="" />
+          )}
         </div>
         <div className="player-info">
           <p className="eyebrow on-dark" style={{ margin: 0 }}>
@@ -100,7 +110,18 @@ export default function AudioPlayer({ ep }: { ep: Episode }) {
         </button>
         <div className="scrub">
           <span className="time">{fmt(currentTime)}</span>
-          <div className="track" onClick={seek}>
+          <div
+            className="track"
+            onClick={seek}
+            onKeyDown={seekKeyboard}
+            role="slider"
+            tabIndex={0}
+            aria-label="Seek"
+            aria-valuenow={Math.round(currentTime)}
+            aria-valuemin={0}
+            aria-valuemax={Math.round(duration)}
+            aria-valuetext={`${fmt(currentTime)} of ${duration > 0 ? fmt(duration) : "unknown"}`}
+          >
             <div className="track-fill" style={{ width: pct + "%" }} />
             <div className="track-knob" style={{ left: pct + "%" }} />
           </div>

@@ -22,6 +22,7 @@ export default function EpisodesClient({ episodes }: { episodes: Episode[] }) {
             <div className="field" style={{ margin: 0 }}>
               <input
                 placeholder="Search episodes or guests..."
+                aria-label="Search episodes"
                 value={q}
                 onChange={e => setQ(e.target.value)}
                 style={{ background: "rgba(13,17,45,.5)", borderColor: "var(--line-dark)", color: "var(--cream)" }}

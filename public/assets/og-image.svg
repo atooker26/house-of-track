@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="15%">
+      <stop offset="0" stop-color="#2A2E6B"/>
+      <stop offset="0.45" stop-color="#161B45"/>
+      <stop offset="1" stop-color="#0D112D"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="600" y="260" fill="#EDE9D8" font-family="system-ui,sans-serif" font-size="96" font-weight="800" text-anchor="middle" letter-spacing="4" text-transform="uppercase">HOUSE OF TRACK</text>
+  <text x="600" y="340" fill="#A9ADCB" font-family="system-ui,sans-serif" font-size="28" font-weight="600" text-anchor="middle" letter-spacing="8" text-transform="uppercase">Redefining the Narrative</text>
+  <line x1="400" y1="390" x2="800" y2="390" stroke="#4540BF" stroke-width="2" opacity="0.6"/>
+  <text x="600" y="440" fill="#A9ADCB" font-family="system-ui,sans-serif" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="12" text-transform="uppercase">Share . Connect . Inspire</text>
+</svg>

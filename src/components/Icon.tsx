@@ -1,5 +1,3 @@
-"use client";
-
 const paths: Record<string, React.ReactNode> = {
   play: <path d="M6 4l14 8-14 8z" fill="currentColor" stroke="none" />,
   pause: (

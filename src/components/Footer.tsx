@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -5,7 +6,7 @@ export default function Footer() {
     <footer className="footer grain">
       <div className="footer-inner">
         <div className="footer-logo">
-          <img src="/assets/logo-mark-cream.png" alt="House of Track" style={{ height: 64 }} />
+          <Image src="/assets/logo-mark-cream.png" alt="House of Track" width={64} height={64} />
           <p>
             A podcast and storytelling platform redefining the narrative of track and field.
             Share &middot; Connect &middot; Inspire.
@@ -29,7 +30,7 @@ export default function Footer() {
           <a href="https://open.spotify.com/show/0Vnmcv13lSwnCR7wCcEJta" target="_blank" rel="noopener">
             Spotify
           </a>
-          <a href="https://bsky.app" target="_blank" rel="noopener">
+          <a href="https://bsky.app/profile/houseoftrack.bsky.social" target="_blank" rel="noopener">
             Bluesky
           </a>
         </div>

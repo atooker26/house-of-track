@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Episode } from "@/lib/episodes";
 import { coverFor } from "@/lib/constants";
@@ -13,7 +14,11 @@ export default function FeedFeatured({ ep }: { ep: Episode }) {
             Latest
           </span>
         </span>
-        <img src={ep.image || coverFor(ep.n)} alt={ep.title} />
+        {ep.image?.startsWith("http") ? (
+          <Image src={ep.image} alt={ep.title} fill sizes="420px" style={{ objectFit: "cover" }} />
+        ) : (
+          <img src={ep.image || coverFor(ep.n)} alt={ep.title} />
+        )}
       </div>
       <div className="feed-fbody">
         <div className="feed-meta">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { loadEpisodes } from "@/lib/episodes";
 import Lanes from "@/components/Lanes";
@@ -22,7 +23,7 @@ export default async function Home() {
           loop
           muted
           playsInline
-          preload="auto"
+          preload="metadata"
           poster="/assets/logo-mark-cream.png"
         >
           <source src="/assets/hero-bg.mp4" type="video/mp4" />
@@ -57,7 +58,7 @@ export default async function Home() {
             <Lanes />
           </div>
           <div className="hero-mark fade">
-            <img src="/assets/logo-mark-cream.png" alt="House of Track" />
+            <Image src="/assets/logo-mark-cream.png" alt="House of Track" width={320} height={320} priority />
           </div>
         </div>
       </section>
