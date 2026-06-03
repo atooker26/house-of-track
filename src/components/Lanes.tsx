@@ -1,12 +1,18 @@
 export default function Lanes() {
+  const lanes = [
+    { top: 18, width: "46%", label: "Share" },
+    { top: 58, width: "68%", label: "Connect" },
+    { top: 98, width: "calc(100% - 80px)", label: "Inspire" },
+  ];
+
   return (
     <div className="lanes">
-      <div className="lane" style={{ top: 18, width: "46%" }} />
-      <div className="lane-word" style={{ top: 18, left: "46%" }}>Share</div>
-      <div className="lane" style={{ top: 58, width: "68%" }} />
-      <div className="lane-word" style={{ top: 58, left: "68%" }}>Connect</div>
-      <div className="lane" style={{ top: 98, width: "90%" }} />
-      <div className="lane-word" style={{ top: 98, left: "90%" }}>Inspire</div>
+      {lanes.map(({ top, width, label }) => (
+        <div key={label}>
+          <div className="lane" style={{ top, width }} />
+          <div className="lane-word" style={{ top, left: width }}>{label}</div>
+        </div>
+      ))}
     </div>
   );
 }
