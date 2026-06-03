@@ -36,8 +36,8 @@ export async function POST(req: NextRequest) {
       email: body.email,
       discipline: body.discipline,
       story: body.story,
-      _hp: body._hp,
     }),
+    signal: AbortSignal.timeout(5000),
   });
 
   if (!res.ok) {
