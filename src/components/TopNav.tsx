@@ -1,11 +1,15 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 
 export default function TopNav() {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => { setOpen(false); }, [pathname]);
   const isLight = pathname === "/guest";
   const theme = isLight ? "light" : "dark";
 
@@ -25,17 +29,26 @@ export default function TopNav() {
         />
         <span className="nm">House of Track</span>
       </Link>
-      <div className="nav-links">
+      <button
+        className="nav-toggle"
+        onClick={() => setOpen(!open)}
+        aria-label={open ? "Close menu" : "Open menu"}
+        aria-expanded={open}
+      >
+        <Icon name={open ? "x" : "menu"} size={24} />
+      </button>
+      <div className={`nav-links${open ? " open" : ""}`}>
         {links.map(({ href, label }) => (
           <Link
             key={href}
             href={href}
             className={`nav-link${pathname === href ? " active" : ""}`}
+            onClick={() => setOpen(false)}
           >
             {label}
           </Link>
         ))}
-        <Link href="/guest" className={`btn btn-${isLight ? "primary" : "cream"}`}>
+        <Link href="/guest" className={`btn btn-${isLight ? "primary" : "cream"}`} onClick={() => setOpen(false)}>
           <Icon name="mic" size={16} />
           Be a Guest
         </Link>

@@ -37,7 +37,7 @@ export default async function EpisodeDetail({ params }: { params: Promise<{ slug
           <div>
             <p className="eyebrow on-dark">Episode {ep.n}{ep.date ? ` · ${ep.date}` : ""}{ep.len ? ` · ${ep.len}` : ""}</p>
             <h1>{ep.title}</h1>
-            <p style={{ fontFamily: "var(--font-body)", fontSize: 18, color: "var(--fg-on-dark-2)", maxWidth: "48ch", margin: "0 0 22px" }}>{ep.blurb}</p>
+            <p className="ep-hero-blurb">{ep.blurb}</p>
             {ep.guest && (
               <div className="guest-line">
                 <div className="guest-av">{av}</div>
@@ -108,7 +108,7 @@ export default async function EpisodeDetail({ params }: { params: Promise<{ slug
             <div className="sec-head">
               <div>
                 <p className="eyebrow">Keep listening</p>
-                <h2 style={{ fontFamily: "var(--font-display)", textTransform: "uppercase", fontSize: 40, letterSpacing: "0.01em", margin: "8px 0 0", color: "var(--ink)" }}>Related Episodes</h2>
+                <h2 style={{ color: "var(--ink)" }}>Related Episodes</h2>
               </div>
             </div>
             <div className="feed-grid">

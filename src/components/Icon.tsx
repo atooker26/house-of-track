@@ -65,6 +65,19 @@ const paths: Record<string, React.ReactNode> = {
       <path d="M14.3 6.3c.5-.7.9-1.6.8-2.5-.8 0-1.7.5-2.3 1.2-.5.6-.9 1.5-.8 2.4.9.1 1.7-.4 2.3-1.1z" />
     </g>
   ),
+  menu: (
+    <g fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="3" y1="18" x2="21" y2="18" />
+    </g>
+  ),
+  x: (
+    <g fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+      <line x1="6" y1="6" x2="18" y2="18" />
+      <line x1="18" y1="6" x2="6" y2="18" />
+    </g>
+  ),
   share: (
     <g fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
       <circle cx="18" cy="5" r="3" />

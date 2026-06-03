@@ -17,7 +17,7 @@ export default function EpisodesClient({ episodes }: { episodes: Episode[] }) {
       <section className="grain" style={{ background: "var(--navy-700)", padding: "64px 0 52px" }}>
         <div className="wrap">
           <p className="eyebrow on-dark">The Archive</p>
-          <h1 style={{ fontFamily: "var(--font-display)", textTransform: "uppercase", fontSize: 60, color: "var(--cream)", margin: "12px 0 22px", lineHeight: 1 }}>Every Episode</h1>
+          <h1 className="ep-list-h1">Every Episode</h1>
           <div style={{ maxWidth: 420 }}>
             <div className="field" style={{ margin: 0 }}>
               <input

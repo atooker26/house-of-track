@@ -55,7 +55,7 @@ export default function TeamPage() {
           <div className="sec-head">
             <div>
               <p className="eyebrow on-dark">How the House works</p>
-              <h2 style={{ fontFamily: "var(--font-display)", textTransform: "uppercase", fontSize: 40, letterSpacing: "0.01em", margin: "8px 0 0", color: "var(--cream)" }}>One Conversation at a Time</h2>
+              <h2 style={{ color: "var(--cream)" }}>One Conversation at a Time</h2>
             </div>
           </div>
           <div className="team-band">
