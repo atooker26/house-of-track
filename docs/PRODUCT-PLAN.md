@@ -2,6 +2,8 @@
 
 > Updated definition of the product following the 2026-07-03 team call (David Ribich, Aidan, technical partner). Supersedes the brand→creative framing in _House of Track — The Creator Marketplace_ (June 2026 deck) where the two conflict. Confidential.
 
+> **Status (2026-07-03):** Phase 0 shipped — the marketplace hub is **live in production at [`/hub`](https://house-of-track.vercel.app/hub)** (the existing podcast homepage at `/` is unchanged). Library content is placeholder pending the real RSS + creator sheet; forms post to the TEGO webhook via `/api/join`.
+
 ## 1. What the product is now
 
 **House of Track is the hub for track & field's creatives and athletes — a curated content library on the front, a creative↔athlete marketplace underneath, with the podcast and brand behind the curtain.**
@@ -55,7 +57,7 @@ Lightest-lift first: **newsletter sponsors → featured listings → credentiali
 
 ## 7. Phased roadmap
 
-- **Phase 0 — Front page + Library (now, Aidan):** landing page with two doors, forms, working Library preview off RSS + YouTube sheet, subscription capture, team page. Pitch asset for trails + Steve DeCoker / Hoka Portland Fly (August).
+- **Phase 0 — Front page + Library — ✅ shipped at `/hub`:** two-door landing, role-toggle join forms (with athlete photo-consent), credentialing meet list, Library preview, weekly-recap capture. Live in production; pitch asset for trails + Steve DeCoker / Hoka Portland Fly (August). _Remaining:_ wire Library to the real RSS + YouTube sheet, build the team page (Aidan + David), swap placeholder athlete names.
 - **Phase 1 — Marketplace MVP (technical partner):** claimable profiles, JPEG upload (capped), meet tagging, athlete notification. Facial recognition manual → automated.
 - **Phase 2 — Credentialing live + weekly email automation.**
 - **Phase 3 — Monetization layers + physical pop-up anchor.** Tie the digital roadmap to a physical launch date (Bandit-style event / Flash Awards) to force momentum.
