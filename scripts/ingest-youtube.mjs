@@ -400,8 +400,12 @@ async function fetchApi(channels) {
     }
 
     creators.push({
+      slug: seed.slug,
+      // The person's real name from the roster, not the channel's branding —
+      // "Matt Fox", not "Matt Fox | Sweat Elite".
+      name: seed.name,
+      channelTitle: ch.snippet.title,
       channelId: ch.id,
-      name: ch.snippet.title,
       handle: seed.handle ?? ch.snippet.customUrl?.replace(/^@/, "") ?? null,
       url: channelUrl(seed),
       description: ch.snippet.description?.slice(0, 400) ?? null,
@@ -518,7 +522,8 @@ function normalize(raw, channels) {
       discipline: classify(title, description, seed?.disciplineHint),
       // Who shot / made it. Free and always correct — it's the channel itself.
       creator: {
-        name: String(channelName).trim(),
+        name: seed?.name ?? String(channelName).trim(),
+        slug: seed?.slug ?? null,
         handle: seed?.handle ?? null,
         url: pick(item, "channelUrl") ?? (seed ? `https://www.youtube.com/@${seed.handle}` : null),
         kind: seed?.kind ?? "media",
@@ -558,13 +563,32 @@ function normalize(raw, channels) {
 
 /* ------------------------------------------------------------------- main */
 
+// The roster is keyed by person; only some of them have a YouTube account. Flatten
+// to the channel rows the fetchers want, carrying the person through so creators in
+// the output can link straight to /creators/<slug>.
+function channelsFromPeople(people) {
+  return people
+    .filter((p) => p.accounts?.youtube)
+    .map((p) => ({
+      ...p.accounts.youtube, // handle | channelId
+      slug: p.slug,
+      name: p.name,
+      kind: p.kind,
+      disciplineHint: p.discipline,
+      dormant: p.dormant ?? false,
+    }));
+}
+
 async function main() {
-  const { channels } = JSON.parse(await readFile(join(ROOT, "data/channels.json"), "utf8"));
+  const { people } = JSON.parse(await readFile(join(ROOT, "data/people.json"), "utf8"));
+  const channels = channelsFromPeople(people);
   const budget = channels.length * MAX_PER_CHANNEL;
 
   console.log(`\nHouse of Track — Library ingest`);
   console.log(`  source   : ${SOURCE}`);
-  console.log(`  channels : ${channels.length}`);
+  console.log(
+    `  people   : ${people.length} (${channels.length} with YouTube, ${people.length - channels.length} without)`
+  );
   console.log(`  cap      : ${MAX_PER_CHANNEL}/channel → ${budget} videos max`);
   console.log(`  since    : ${SINCE}`);
   const COST = {

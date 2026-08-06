@@ -1,12 +1,14 @@
 {
-  "generatedAt": "2026-08-06T20:20:26.472Z",
+  "generatedAt": "2026-08-06T20:36:05.146Z",
   "source": "youtube:data-api-v3",
   "runId": null,
-  "quotaUnits": 60,
+  "quotaUnits": 58,
   "creators": [
     {
-      "channelId": "UCbVEx9qG_hLrb6FrWQJz_Tg",
+      "slug": "nick-bare",
       "name": "Nick Bare",
+      "channelTitle": "Nick Bare",
+      "channelId": "UCbVEx9qG_hLrb6FrWQJz_Tg",
       "handle": "NickBareFitness",
       "url": "https://www.youtube.com/@NickBareFitness",
       "description": "Welcome to the Official YouTube Channel of Nick Bare.\n\nNick founded Bare Performance Nutrition in 2012 out of his small college apartment in Pennsylvania. During this time, he was studying nutrition and on the path of joining the military upon graduation. After graduating college, Nick commissioned into the US Army as an Infantry Officer, where he spent the next four years completing various milit",
@@ -17,8 +19,10 @@
       "claimState": "unclaimed"
     },
     {
+      "slug": "hellah-good",
+      "name": "Hellah Good",
+      "channelTitle": "HellahGood",
       "channelId": "UCXVX_0ukCPMLPWk64KYnHFA",
-      "name": "HellahGood",
       "handle": "HellahGood",
       "url": "https://www.youtube.com/@HellahGood",
       "description": "Running every day since may 15, 2017 and ran from LA to NYC in 84 days!\n\nThe first African man to run across America from LA to NYC, 3,061 miles in 84 days. I’m the guy who ran every day for 365 days in a row.. that turned into 2 years, 3 years, 4 years, 5, 6, 7, 8, and we're still going! I'm a vegan athlete and former pro soccer player striving to inspire and change lives through my platform and ",
@@ -29,8 +33,10 @@
       "claimState": "unclaimed"
     },
     {
+      "slug": "sage-canaday",
+      "name": "Sage Canaday",
+      "channelTitle": "Vo2maxProductions",
       "channelId": "UCh_w_vLvlZNBeTAP8qaWhoA",
-      "name": "Vo2maxProductions",
       "handle": "Vo2maxProductions",
       "url": "https://www.youtube.com/@Vo2maxProductions",
       "description": "Pro Distance Running Tips and Advice from 2:16 Marathoner (16th place at Boston Marathon), 2-time US Olympic Marathon Trials Qualifier and Mountain-Ultra-Trail runner Sage Canaday. Best running form tips and run technique videos on Youtube as well as nutrition for runners, marathon and half marathon training advice as well as trail running, strength training, long runs, 5k training, ultramarathons",
@@ -41,8 +47,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCe43pe3w4L6w3tNMRkWiJBA",
+      "slug": "kofuzi",
       "name": "kofuzi",
+      "channelTitle": "kofuzi",
+      "channelId": "UCe43pe3w4L6w3tNMRkWiJBA",
       "handle": "kofuzi",
       "url": "https://www.youtube.com/@kofuzi",
       "description": "non elite runner who reviews shoes\n",
@@ -53,8 +61,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCBS9THMv6Gm16XeQ88Axv1Q",
+      "slug": "truett-hanes",
       "name": "Truett Hanes",
+      "channelTitle": "Truett Hanes",
+      "channelId": "UCBS9THMv6Gm16XeQ88Axv1Q",
       "handle": "truetthanes",
       "url": "https://www.youtube.com/@truetthanes",
       "description": "It’s just pain, baby",
@@ -65,8 +75,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCeSHo5kTvzoik4STh7MuMCA",
+      "slug": "seth-james-demoor",
       "name": "Seth James DeMoor",
+      "channelTitle": "Seth James DeMoor",
+      "channelId": "UCeSHo5kTvzoik4STh7MuMCA",
       "handle": "SethJamesDeMoor",
       "url": "https://www.youtube.com/@SethJamesDeMoor",
       "description": "This YouTube channel will offer the subscriber inspiration and motivation for falling in love with running. As we all aspire to remain healthy and fit, running is one of the best ways to maintain a high level of fitness. Through this channel you will learn about running, experience running through my daily vlog experience, and learn how to choose the best running gear for you. Running gear and run",
@@ -77,8 +89,24 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCScHdYFS_KBduqkRBjbQNuA",
+      "slug": "matt-fox",
+      "name": "Matt Fox",
+      "channelTitle": "Matt Fox | Sweat Elite ",
+      "channelId": "UCFYpwqeNXx7M9xosFjdm5kQ",
+      "handle": "SweatElite",
+      "url": "https://www.youtube.com/@SweatElite",
+      "description": "I’m a 2:18 marathoner, 39 years old, with the goal of running 2:10 one day. This is my journey.\n\nFor the past 8 years I’ve studied the world’s best distance runners, learning everything I can from them and applying those lessons to my own training.\n\nI coach athletes for the 5k, 10k, half marathon and marathon all over the world. To enquire: https://sweatelite.co/coaching/personalized-1-1/\n\nMore in",
+      "avatar": "https://yt3.ggpht.com/aMXszUuRPRTXMPdFeb0aEiG-66530HJ4aJoi5an4ckvxpjx2O6FWOkgOIjpBJxe6tUo6w7BKRQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 146000,
+      "videoCount": 420,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "billy-yang",
       "name": "Billy Yang",
+      "channelTitle": "Billy Yang",
+      "channelId": "UCScHdYFS_KBduqkRBjbQNuA",
       "handle": "BillyYang",
       "url": "https://www.youtube.com/@BillyYang",
       "description": "",
@@ -89,8 +117,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCSE6bU26riJK7_tYmhubh7w",
+      "slug": "floberg-runs",
       "name": "Floberg Runs",
+      "channelTitle": "Floberg Runs",
+      "channelId": "UCSE6bU26riJK7_tYmhubh7w",
       "handle": "FlobergRuns",
       "url": "https://www.youtube.com/@FlobergRuns",
       "description": "Just a dad trying to run consistently, hit new goals, and motivate others to get into the running game! ",
@@ -101,8 +131,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCVmv5i2UWoUmlo2OSX4BCVA",
+      "slug": "max-jolliffe",
       "name": "Max Jolliffe",
+      "channelTitle": "Max Jolliffe",
+      "channelId": "UCVmv5i2UWoUmlo2OSX4BCVA",
       "handle": "woah_max",
       "url": "https://www.youtube.com/@woah_max",
       "description": "",
@@ -113,8 +145,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCp0Ik7dnHvpKnqinfZJv0Gw",
+      "slug": "marcus-milione",
       "name": "Marcus Milione",
+      "channelTitle": "Marcus Milione",
+      "channelId": "UCp0Ik7dnHvpKnqinfZJv0Gw",
       "handle": "marcusmilione1",
       "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
       "description": "Documenting Minted New York\n\nhttps://mintednewyork.com/\n\nSay hello: business@marcusmilione.com\n",
@@ -125,8 +159,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCH-IFmmrHATR37Dj7umRdBg",
+      "slug": "clayton-young",
       "name": "Clayton Young",
+      "channelTitle": "Clayton Young",
+      "channelId": "UCH-IFmmrHATR37Dj7umRdBg",
       "handle": "_Clayton_Young_",
       "url": "https://www.youtube.com/@_Clayton_Young_",
       "description": "Olympian—Paris 2024 Marathon\n4x USA Road Champ | NCAA 10k Champ\nAshley & L & J 👨‍👩‍👧‍👧\nChristian\n",
@@ -137,8 +173,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCm3ERqka5Tzpzdki3RAmKiQ",
+      "slug": "josh-kerr",
       "name": "Josh Kerr",
+      "channelTitle": "Josh Kerr",
+      "channelId": "UCm3ERqka5Tzpzdki3RAmKiQ",
       "handle": "joshhkerr",
       "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
       "description": "Mile World Record Holder\nWorld Champion & Olympic Medalist",
@@ -149,8 +187,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCTMILrsABq1tQfVkFxy5qiQ",
+      "slug": "cole-hocker",
       "name": "Cole Hocker",
+      "channelTitle": "Cole Hocker",
+      "channelId": "UCTMILrsABq1tQfVkFxy5qiQ",
       "handle": "thecolehocker",
       "url": "https://www.youtube.com/@thecolehocker",
       "description": "Olympic Champion · 1500 m · Olympic Record Holder",
@@ -161,8 +201,10 @@
       "claimState": "unclaimed"
     },
     {
+      "slug": "rory-linkletter",
+      "name": "Rory Linkletter",
+      "channelTitle": "Rory Linkletter, OLY",
       "channelId": "UCHGRRgKG5XJTZ3hp_H7hOWQ",
-      "name": "Rory Linkletter, OLY",
       "handle": "LinkletterRory",
       "url": "https://www.youtube.com/@LinkletterRory",
       "description": "2024 Canadian Olympian, Husband, Father, Believer, and Marathoner for Puma 🐾🇨🇦\nDocumenting the process and my story of being a professional runner. \nCurrently chasing after my next Boston Marathon in 2026!\n\nhttps://www.letstango.run/pre-launch\n\n",
@@ -173,8 +215,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCo5TE6wpU50kREWVbRdKnOQ",
+      "slug": "tracklandia",
       "name": "Tracklandia",
+      "channelTitle": "Tracklandia",
+      "channelId": "UCo5TE6wpU50kREWVbRdKnOQ",
       "handle": "Tracklandia",
       "url": "https://www.youtube.com/@Tracklandia",
       "description": "Your favorite tiny niche track-focused web series giving you the untold stories of track and field. \n\n\nIn the mid 1800s, pioneers set out on a dusty trail westward to find the land of Track and Field.  They arrived in Portland yesterday, so we're helping them unpack.   We're on a mission to spread knowledge about track racing and the people who do it best.  Come with us to Tracklandia.",
@@ -185,8 +229,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCJ4NB-c6SbjRCWAl_OhXXDg",
+      "slug": "jimmy-whelan",
       "name": "Jimmy Whelan",
+      "channelTitle": "Jimmy Whelan",
+      "channelId": "UCJ4NB-c6SbjRCWAl_OhXXDg",
       "handle": "JimmyWhelan",
       "url": "https://www.youtube.com/@JimmyWhelan",
       "description": "🇦🇺 Pro Runner for Salomon \nFormer Pro Cyclist",
@@ -197,8 +243,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UCzpnGo6-sK_xlF51HDDDECQ",
+      "slug": "joe-klecker",
       "name": "Joe Klecker",
+      "channelTitle": "Joe Klecker",
+      "channelId": "UCzpnGo6-sK_xlF51HDDDECQ",
       "handle": "joe_klecker",
       "url": "https://www.youtube.com/@joe_klecker",
       "description": "",
@@ -209,8 +257,10 @@
       "claimState": "unclaimed"
     },
     {
-      "channelId": "UC97WaNw_C_0K8RhWa1RjWDg",
+      "slug": "house-of-track",
       "name": "House of Track",
+      "channelTitle": "House of Track",
+      "channelId": "UC97WaNw_C_0K8RhWa1RjWDg",
       "handle": "House_of_Track",
       "url": "https://www.youtube.com/@House_of_Track",
       "description": "",
@@ -230,6 +280,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -237,7 +288,7 @@
       "athlete": null,
       "publishedAt": "2026-08-06T11:00:25.000Z",
       "durationSeconds": 1380,
-      "viewCount": 5524,
+      "viewCount": 5645,
       "kind": "video"
     },
     {
@@ -248,6 +299,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Joe Klecker",
+        "slug": "joe-klecker",
         "handle": "joe_klecker",
         "url": "https://www.youtube.com/@joe_klecker",
         "kind": "athlete"
@@ -255,7 +307,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 4032,
+      "viewCount": 4064,
       "kind": "video"
     },
     {
@@ -266,6 +318,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -273,7 +326,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 13450,
+      "viewCount": 13549,
       "kind": "video"
     },
     {
@@ -284,6 +337,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -291,7 +345,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 6518,
+      "viewCount": 6562,
       "kind": "video"
     },
     {
@@ -301,7 +355,8 @@
       "url": "https://www.youtube.com/watch?v=iVUTOoYjRTo",
       "discipline": "Trail",
       "creator": {
-        "name": "Vo2maxProductions",
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
         "handle": "Vo2maxProductions",
         "url": "https://www.youtube.com/@Vo2maxProductions",
         "kind": "athlete"
@@ -319,7 +374,8 @@
       "url": "https://www.youtube.com/watch?v=x-oFXTJBkTc",
       "discipline": "Distance",
       "creator": {
-        "name": "HellahGood",
+        "name": "Hellah Good",
+        "slug": "hellah-good",
         "handle": "HellahGood",
         "url": "https://www.youtube.com/@HellahGood",
         "kind": "athlete"
@@ -338,6 +394,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -356,6 +413,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Nick Bare",
+        "slug": "nick-bare",
         "handle": "NickBareFitness",
         "url": "https://www.youtube.com/@NickBareFitness",
         "kind": "athlete"
@@ -363,7 +421,7 @@
       "athlete": null,
       "publishedAt": "2026-07-30T13:00:03.000Z",
       "durationSeconds": 1790,
-      "viewCount": 207455,
+      "viewCount": 207546,
       "kind": "video"
     },
     {
@@ -373,7 +431,8 @@
       "url": "https://www.youtube.com/watch?v=BXhLrEiFVes",
       "discipline": "Distance",
       "creator": {
-        "name": "Rory Linkletter, OLY",
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
         "handle": "LinkletterRory",
         "url": "https://www.youtube.com/@LinkletterRory",
         "kind": "athlete"
@@ -392,6 +451,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -410,6 +470,7 @@
       "discipline": "Sprints",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -417,7 +478,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 107127,
+      "viewCount": 107131,
       "kind": "video"
     },
     {
@@ -427,7 +488,8 @@
       "url": "https://www.youtube.com/watch?v=QobPx6PHxc0",
       "discipline": "Distance",
       "creator": {
-        "name": "Matt Fox | Sweat Elite",
+        "name": "Matt Fox",
+        "slug": "matt-fox",
         "handle": "SweatElite",
         "url": "https://www.youtube.com/@SweatElite",
         "kind": "athlete"
@@ -435,7 +497,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 6756,
+      "viewCount": 6758,
       "kind": "video"
     },
     {
@@ -446,6 +508,7 @@
       "discipline": "Sprints",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -464,6 +527,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -482,6 +546,7 @@
       "discipline": "Sprints",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -500,6 +565,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -518,6 +584,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -536,6 +603,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Billy Yang",
+        "slug": "billy-yang",
         "handle": "BillyYang",
         "url": "https://www.youtube.com/@BillyYang",
         "kind": "creative"
@@ -554,6 +622,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
         "handle": "woah_max",
         "url": "https://www.youtube.com/@woah_max",
         "kind": "athlete"
@@ -572,6 +641,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -579,7 +649,7 @@
       "athlete": null,
       "publishedAt": "2026-08-04T18:09:40.000Z",
       "durationSeconds": 973,
-      "viewCount": 23979,
+      "viewCount": 24010,
       "kind": "video"
     },
     {
@@ -590,6 +660,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Joe Klecker",
+        "slug": "joe-klecker",
         "handle": "joe_klecker",
         "url": "https://www.youtube.com/@joe_klecker",
         "kind": "athlete"
@@ -597,7 +668,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 8924,
+      "viewCount": 8925,
       "kind": "video"
     },
     {
@@ -608,6 +679,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -626,6 +698,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -643,7 +716,8 @@
       "url": "https://www.youtube.com/watch?v=in52B26PpU8",
       "discipline": "Trail",
       "creator": {
-        "name": "Vo2maxProductions",
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
         "handle": "Vo2maxProductions",
         "url": "https://www.youtube.com/@Vo2maxProductions",
         "kind": "athlete"
@@ -661,7 +735,8 @@
       "url": "https://www.youtube.com/watch?v=sjur-_VI69U",
       "discipline": "Distance",
       "creator": {
-        "name": "HellahGood",
+        "name": "Hellah Good",
+        "slug": "hellah-good",
         "handle": "HellahGood",
         "url": "https://www.youtube.com/@HellahGood",
         "kind": "athlete"
@@ -680,6 +755,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -687,7 +763,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 42467,
+      "viewCount": 42471,
       "kind": "video"
     },
     {
@@ -698,6 +774,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Nick Bare",
+        "slug": "nick-bare",
         "handle": "NickBareFitness",
         "url": "https://www.youtube.com/@NickBareFitness",
         "kind": "athlete"
@@ -705,7 +782,7 @@
       "athlete": null,
       "publishedAt": "2026-07-23T13:10:02.000Z",
       "durationSeconds": 1487,
-      "viewCount": 182875,
+      "viewCount": 182909,
       "kind": "video"
     },
     {
@@ -715,7 +792,8 @@
       "url": "https://www.youtube.com/watch?v=oyX_zK4kEXY",
       "discipline": "Trail",
       "creator": {
-        "name": "Rory Linkletter, OLY",
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
         "handle": "LinkletterRory",
         "url": "https://www.youtube.com/@LinkletterRory",
         "kind": "athlete"
@@ -734,6 +812,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -752,6 +831,7 @@
       "discipline": "Sprints",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -759,7 +839,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 30776,
+      "viewCount": 30777,
       "kind": "video"
     },
     {
@@ -769,7 +849,8 @@
       "url": "https://www.youtube.com/watch?v=bNL0ik16eVs",
       "discipline": "Distance",
       "creator": {
-        "name": "Matt Fox | Sweat Elite",
+        "name": "Matt Fox",
+        "slug": "matt-fox",
         "handle": "SweatElite",
         "url": "https://www.youtube.com/@SweatElite",
         "kind": "athlete"
@@ -777,7 +858,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8195,
+      "viewCount": 8194,
       "kind": "video"
     },
     {
@@ -788,6 +869,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -806,6 +888,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -813,7 +896,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 56960,
+      "viewCount": 56962,
       "kind": "video"
     },
     {
@@ -824,6 +907,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -842,6 +926,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -849,7 +934,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 62841,
+      "viewCount": 62846,
       "kind": "video"
     },
     {
@@ -860,6 +945,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -878,6 +964,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Billy Yang",
+        "slug": "billy-yang",
         "handle": "BillyYang",
         "url": "https://www.youtube.com/@BillyYang",
         "kind": "creative"
@@ -896,6 +983,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
         "handle": "woah_max",
         "url": "https://www.youtube.com/@woah_max",
         "kind": "athlete"
@@ -914,6 +1002,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -932,6 +1021,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -950,6 +1040,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -967,7 +1058,8 @@
       "url": "https://www.youtube.com/watch?v=7v7FLcgSj4Y",
       "discipline": "Trail",
       "creator": {
-        "name": "Vo2maxProductions",
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
         "handle": "Vo2maxProductions",
         "url": "https://www.youtube.com/@Vo2maxProductions",
         "kind": "athlete"
@@ -985,7 +1077,8 @@
       "url": "https://www.youtube.com/watch?v=2yPluKsCI3s",
       "discipline": "Distance",
       "creator": {
-        "name": "HellahGood",
+        "name": "Hellah Good",
+        "slug": "hellah-good",
         "handle": "HellahGood",
         "url": "https://www.youtube.com/@HellahGood",
         "kind": "athlete"
@@ -993,7 +1086,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:39:29.000Z",
       "durationSeconds": 2057,
-      "viewCount": 5917,
+      "viewCount": 5919,
       "kind": "video"
     },
     {
@@ -1004,6 +1097,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -1022,6 +1116,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Nick Bare",
+        "slug": "nick-bare",
         "handle": "NickBareFitness",
         "url": "https://www.youtube.com/@NickBareFitness",
         "kind": "athlete"
@@ -1029,7 +1124,7 @@
       "athlete": null,
       "publishedAt": "2026-07-19T17:36:45.000Z",
       "durationSeconds": 1850,
-      "viewCount": 248236,
+      "viewCount": 248296,
       "kind": "video"
     },
     {
@@ -1039,7 +1134,8 @@
       "url": "https://www.youtube.com/watch?v=_ECjsFX_jbk",
       "discipline": "Distance",
       "creator": {
-        "name": "Rory Linkletter, OLY",
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
         "handle": "LinkletterRory",
         "url": "https://www.youtube.com/@LinkletterRory",
         "kind": "athlete"
@@ -1058,6 +1154,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -1076,6 +1173,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -1093,7 +1191,8 @@
       "url": "https://www.youtube.com/watch?v=CDpJ3Z4DyDk",
       "discipline": "Distance",
       "creator": {
-        "name": "Matt Fox | Sweat Elite",
+        "name": "Matt Fox",
+        "slug": "matt-fox",
         "handle": "SweatElite",
         "url": "https://www.youtube.com/@SweatElite",
         "kind": "athlete"
@@ -1112,6 +1211,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -1130,6 +1230,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -1148,6 +1249,7 @@
       "discipline": "Field",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -1166,6 +1268,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -1184,6 +1287,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -1202,6 +1306,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Billy Yang",
+        "slug": "billy-yang",
         "handle": "BillyYang",
         "url": "https://www.youtube.com/@BillyYang",
         "kind": "creative"
@@ -1220,6 +1325,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
         "handle": "woah_max",
         "url": "https://www.youtube.com/@woah_max",
         "kind": "athlete"
@@ -1227,7 +1333,7 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 218213,
+      "viewCount": 218258,
       "kind": "video"
     },
     {
@@ -1238,6 +1344,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -1256,6 +1363,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -1263,7 +1371,7 @@
       "athlete": null,
       "publishedAt": "2026-06-27T17:02:09.000Z",
       "durationSeconds": 1135,
-      "viewCount": 21218,
+      "viewCount": 21230,
       "kind": "video"
     },
     {
@@ -1274,6 +1382,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -1291,7 +1400,8 @@
       "url": "https://www.youtube.com/watch?v=25qm7C7Ef0A",
       "discipline": "Trail",
       "creator": {
-        "name": "Vo2maxProductions",
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
         "handle": "Vo2maxProductions",
         "url": "https://www.youtube.com/@Vo2maxProductions",
         "kind": "athlete"
@@ -1309,7 +1419,8 @@
       "url": "https://www.youtube.com/watch?v=ixgueHGSZNM",
       "discipline": "Distance",
       "creator": {
-        "name": "HellahGood",
+        "name": "Hellah Good",
+        "slug": "hellah-good",
         "handle": "HellahGood",
         "url": "https://www.youtube.com/@HellahGood",
         "kind": "athlete"
@@ -1328,6 +1439,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -1335,7 +1447,7 @@
       "athlete": null,
       "publishedAt": "2026-07-02T00:00:29.000Z",
       "durationSeconds": 1687,
-      "viewCount": 49986,
+      "viewCount": 50000,
       "kind": "video"
     },
     {
@@ -1346,6 +1458,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Nick Bare",
+        "slug": "nick-bare",
         "handle": "NickBareFitness",
         "url": "https://www.youtube.com/@NickBareFitness",
         "kind": "athlete"
@@ -1353,7 +1466,7 @@
       "athlete": null,
       "publishedAt": "2026-07-15T18:26:16.000Z",
       "durationSeconds": 817,
-      "viewCount": 126705,
+      "viewCount": 126728,
       "kind": "video"
     },
     {
@@ -1363,7 +1476,8 @@
       "url": "https://www.youtube.com/watch?v=olzZOWA5iME",
       "discipline": "Distance",
       "creator": {
-        "name": "Rory Linkletter, OLY",
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
         "handle": "LinkletterRory",
         "url": "https://www.youtube.com/@LinkletterRory",
         "kind": "athlete"
@@ -1382,6 +1496,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -1400,6 +1515,7 @@
       "discipline": "Sprints",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -1417,7 +1533,8 @@
       "url": "https://www.youtube.com/watch?v=0cwMUEIutxY",
       "discipline": "Distance",
       "creator": {
-        "name": "Matt Fox | Sweat Elite",
+        "name": "Matt Fox",
+        "slug": "matt-fox",
         "handle": "SweatElite",
         "url": "https://www.youtube.com/@SweatElite",
         "kind": "athlete"
@@ -1425,7 +1542,7 @@
       "athlete": null,
       "publishedAt": "2026-04-21T12:59:40.000Z",
       "durationSeconds": 933,
-      "viewCount": 31947,
+      "viewCount": 31946,
       "kind": "video"
     },
     {
@@ -1436,6 +1553,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -1454,6 +1572,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -1472,6 +1591,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -1490,6 +1610,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -1508,6 +1629,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -1526,6 +1648,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Billy Yang",
+        "slug": "billy-yang",
         "handle": "BillyYang",
         "url": "https://www.youtube.com/@BillyYang",
         "kind": "creative"
@@ -1533,7 +1656,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18456,
+      "viewCount": 18455,
       "kind": "video"
     },
     {
@@ -1544,6 +1667,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
         "handle": "woah_max",
         "url": "https://www.youtube.com/@woah_max",
         "kind": "athlete"
@@ -1562,6 +1686,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -1569,7 +1694,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T12:00:04.000Z",
       "durationSeconds": 1127,
-      "viewCount": 34787,
+      "viewCount": 34790,
       "kind": "video"
     },
     {
@@ -1580,6 +1705,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -1598,6 +1724,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -1615,7 +1742,8 @@
       "url": "https://www.youtube.com/watch?v=lz6dkvFx0fw",
       "discipline": "Trail",
       "creator": {
-        "name": "Vo2maxProductions",
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
         "handle": "Vo2maxProductions",
         "url": "https://www.youtube.com/@Vo2maxProductions",
         "kind": "athlete"
@@ -1633,7 +1761,8 @@
       "url": "https://www.youtube.com/watch?v=YlfCgjocxhY",
       "discipline": "Distance",
       "creator": {
-        "name": "HellahGood",
+        "name": "Hellah Good",
+        "slug": "hellah-good",
         "handle": "HellahGood",
         "url": "https://www.youtube.com/@HellahGood",
         "kind": "athlete"
@@ -1652,6 +1781,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -1670,6 +1800,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -1688,6 +1819,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -1695,7 +1827,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 36309,
+      "viewCount": 36310,
       "kind": "video"
     },
     {
@@ -1705,7 +1837,8 @@
       "url": "https://www.youtube.com/watch?v=S69V6EDSoQs",
       "discipline": "Distance",
       "creator": {
-        "name": "Matt Fox | Sweat Elite",
+        "name": "Matt Fox",
+        "slug": "matt-fox",
         "handle": "SweatElite",
         "url": "https://www.youtube.com/@SweatElite",
         "kind": "athlete"
@@ -1724,6 +1857,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -1742,6 +1876,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -1760,6 +1895,7 @@
       "discipline": "Sprints",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -1778,6 +1914,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -1796,6 +1933,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -1814,6 +1952,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
         "handle": "woah_max",
         "url": "https://www.youtube.com/@woah_max",
         "kind": "athlete"
@@ -1832,6 +1971,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -1850,6 +1990,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -1868,6 +2009,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -1875,7 +2017,7 @@
       "athlete": null,
       "publishedAt": "2025-11-03T08:44:21.000Z",
       "durationSeconds": 1287,
-      "viewCount": 43277,
+      "viewCount": 43287,
       "kind": "video"
     },
     {
@@ -1886,6 +2028,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -1904,6 +2047,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -1922,6 +2066,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -1939,7 +2084,8 @@
       "url": "https://www.youtube.com/watch?v=_3D30DUJdLg",
       "discipline": "Distance",
       "creator": {
-        "name": "Matt Fox | Sweat Elite",
+        "name": "Matt Fox",
+        "slug": "matt-fox",
         "handle": "SweatElite",
         "url": "https://www.youtube.com/@SweatElite",
         "kind": "athlete"
@@ -1958,6 +2104,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -1976,6 +2123,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -1994,6 +2142,7 @@
       "discipline": "Field",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -2012,6 +2161,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -2030,6 +2180,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -2048,6 +2199,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
         "handle": "woah_max",
         "url": "https://www.youtube.com/@woah_max",
         "kind": "athlete"
@@ -2055,7 +2207,7 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 1700024,
+      "viewCount": 1700048,
       "kind": "video"
     },
     {
@@ -2066,6 +2218,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -2084,6 +2237,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -2102,6 +2256,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -2120,6 +2275,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -2138,6 +2294,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -2156,6 +2313,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Josh Kerr",
+        "slug": "josh-kerr",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
         "kind": "athlete"
@@ -2174,6 +2332,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -2192,6 +2351,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -2210,6 +2370,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -2228,6 +2389,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -2235,7 +2397,7 @@
       "athlete": null,
       "publishedAt": "2025-09-06T17:57:25.000Z",
       "durationSeconds": 1118,
-      "viewCount": 61270,
+      "viewCount": 61272,
       "kind": "video"
     },
     {
@@ -2246,6 +2408,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -2264,6 +2427,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -2282,6 +2446,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -2289,7 +2454,7 @@
       "athlete": null,
       "publishedAt": "2026-05-02T14:57:59.000Z",
       "durationSeconds": 1497,
-      "viewCount": 68811,
+      "viewCount": 68815,
       "kind": "video"
     },
     {
@@ -2300,6 +2465,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -2318,6 +2484,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -2336,6 +2503,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
         "handle": "SethJamesDeMoor",
         "url": "https://www.youtube.com/@SethJamesDeMoor",
         "kind": "creative"
@@ -2354,6 +2522,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -2372,6 +2541,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -2390,6 +2560,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "House of Track",
+        "slug": "house-of-track",
         "handle": "House_of_Track",
         "url": "https://www.youtube.com/@House_of_Track",
         "kind": "media"
@@ -2408,6 +2579,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -2415,7 +2587,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T19:01:48.000Z",
       "durationSeconds": 1276,
-      "viewCount": 94700,
+      "viewCount": 94698,
       "kind": "video"
     },
     {
@@ -2426,6 +2598,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -2444,6 +2617,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -2451,7 +2625,7 @@
       "athlete": null,
       "publishedAt": "2026-07-14T11:31:12.000Z",
       "durationSeconds": 789,
-      "viewCount": 14363,
+      "viewCount": 14365,
       "kind": "video"
     },
     {
@@ -2462,6 +2636,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -2480,6 +2655,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -2498,6 +2674,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -2516,6 +2693,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -2534,6 +2712,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -2552,6 +2731,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Clayton Young",
+        "slug": "clayton-young",
         "handle": "_Clayton_Young_",
         "url": "https://www.youtube.com/@_Clayton_Young_",
         "kind": "athlete"
@@ -2559,7 +2739,7 @@
       "athlete": null,
       "publishedAt": "2025-08-09T20:32:10.000Z",
       "durationSeconds": 953,
-      "viewCount": 82859,
+      "viewCount": 82858,
       "kind": "video"
     },
     {
@@ -2570,6 +2750,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -2588,6 +2769,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -2606,6 +2788,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -2624,6 +2807,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -2642,6 +2826,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -2660,6 +2845,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -2678,6 +2864,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -2696,6 +2883,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Cole Hocker",
+        "slug": "cole-hocker",
         "handle": "thecolehocker",
         "url": "https://www.youtube.com/@thecolehocker",
         "kind": "athlete"
@@ -2714,6 +2902,7 @@
       "discipline": "Field",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -2732,6 +2921,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Floberg Runs",
+        "slug": "floberg-runs",
         "handle": "FlobergRuns",
         "url": "https://www.youtube.com/@FlobergRuns",
         "kind": "creative"
@@ -2750,6 +2940,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -2768,6 +2959,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Truett Hanes",
+        "slug": "truett-hanes",
         "handle": "truetthanes",
         "url": "https://www.youtube.com/@truetthanes",
         "kind": "athlete"
@@ -2786,6 +2978,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -2804,6 +2997,7 @@
       "discipline": "Field",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"
@@ -2822,6 +3016,7 @@
       "discipline": "Trail",
       "creator": {
         "name": "kofuzi",
+        "slug": "kofuzi",
         "handle": "kofuzi",
         "url": "https://www.youtube.com/@kofuzi",
         "kind": "creative"
@@ -2840,6 +3035,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
         "handle": "JimmyWhelan",
         "url": "https://www.youtube.com/@JimmyWhelan",
         "kind": "athlete"
@@ -2858,6 +3054,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Tracklandia",
+        "slug": "tracklandia",
         "handle": "Tracklandia",
         "url": "https://www.youtube.com/@Tracklandia",
         "kind": "creative"
@@ -2876,6 +3073,7 @@
       "discipline": "Distance",
       "creator": {
         "name": "Marcus Milione",
+        "slug": "marcus-milione",
         "handle": null,
         "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
         "kind": "athlete"

@@ -13,6 +13,8 @@ import type { Discipline } from "./hub";
 
 export interface LibraryCreator {
   name: string;
+  /** Links to /creators/<slug>. Null only if a channel drifted out of the roster. */
+  slug: string | null;
   handle: string | null;
   url: string | null;
   kind: "athlete" | "creative" | "media";
@@ -39,8 +41,11 @@ export interface LibraryItem {
  * `unclaimed → claimed` state the marketplace profile shares.
  */
 export interface CreatorProfile {
-  channelId: string;
+  slug: string;
+  /** The person's real name from the roster — "Matt Fox", not "Matt Fox | Sweat Elite". */
   name: string;
+  channelTitle: string;
+  channelId: string;
   handle: string | null;
   url: string;
   description: string | null;
