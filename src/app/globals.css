@@ -615,6 +615,22 @@ button { font: inherit; cursor: pointer; }
   font-weight: 600; text-transform: uppercase; letter-spacing: .04em; font-size: 11px;
   color: var(--fg-on-dark-2); margin-top: 8px; }
 .lib-credit svg { flex: 0 0 auto; }
+.lib-credit a { color: inherit; text-decoration: none; }
+.lib-credit a:hover { color: var(--cream); text-decoration: underline; text-underline-offset: 2px; }
+
+/* library cards — click-to-load YouTube embeds (thumbnail first, iframe on play) */
+.lib-play-btn { position: absolute; inset: 0; width: 100%; height: 100%; padding: 0;
+  border: 0; background: transparent; cursor: pointer; display: block; }
+.lib-play-btn:focus-visible { outline: none; box-shadow: inset 0 0 0 3px var(--cream); }
+.lib-play-btn:focus-visible .feed-coverlay { opacity: 1; }
+.lib-embed { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.lib-dur { position: absolute; bottom: 11px; right: 11px; background: rgba(13,17,45,.85); color: var(--cream);
+  font-family: var(--font-cond); font-weight: 700; letter-spacing: .04em; font-size: 11px;
+  padding: 4px 8px; border-radius: var(--r-pill); font-variant-numeric: tabular-nums; }
+.lib-title-link { color: inherit; text-decoration: none; }
+.lib-title-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+.lib-empty { font-family: var(--font-cond); font-weight: 600; text-transform: uppercase;
+  letter-spacing: .06em; font-size: 13px; color: var(--fg-on-dark-2); }
 
 /* credentialing meet list */
 .meet-list { display: flex; flex-direction: column; border-top: 1px solid var(--line); }

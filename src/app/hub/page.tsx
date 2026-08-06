@@ -186,7 +186,7 @@ export default function HubPage() {
               <p className="eyebrow on-dark">Watch the sport</p>
               <h2 style={{ color: "var(--cream)" }}>The library</h2>
             </div>
-            <span className="tag tag-out-dark">Sample — feeds from RSS + creator sheet</span>
+            <span className="tag tag-out-dark">Embedded &amp; credited — never re-hosted</span>
           </div>
           <LibraryPreview />
         </div>

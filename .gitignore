@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# raw apify dataset dumps (kept locally for correcting the field map)
+/data/.raw-*.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
