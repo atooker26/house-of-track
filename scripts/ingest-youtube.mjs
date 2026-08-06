@@ -568,6 +568,11 @@ function normalize(raw, channels) {
 // the output can link straight to /creators/<slug>.
 function channelsFromPeople(people) {
   return people
+    // Opted out — never fetch them again. This is the half of "remove me" that
+    // actually matters: their videos have to stop coming back into the Library on
+    // every run, not just stop rendering on their profile page. The row stays in
+    // people.json as a tombstone so re-adding them takes a deliberate edit.
+    .filter((p) => !p.optedOut)
     .filter((p) => p.accounts?.youtube)
     .map((p) => ({
       ...p.accounts.youtube, // handle | channelId
@@ -581,14 +586,19 @@ function channelsFromPeople(people) {
 
 async function main() {
   const { people } = JSON.parse(await readFile(join(ROOT, "data/people.json"), "utf8"));
+  const optedOut = people.filter((p) => p.optedOut);
   const channels = channelsFromPeople(people);
   const budget = channels.length * MAX_PER_CHANNEL;
 
   console.log(`\nHouse of Track — Library ingest`);
   console.log(`  source   : ${SOURCE}`);
   console.log(
-    `  people   : ${people.length} (${channels.length} with YouTube, ${people.length - channels.length} without)`
+    `  people   : ${people.length} (${channels.length} with YouTube, ${people.length - channels.length - optedOut.length} without)`
   );
+  if (optedOut.length) {
+    // Say it out loud every run. A silent exclusion is indistinguishable from a bug.
+    console.log(`  opted out: ${optedOut.length} — ${optedOut.map((p) => p.name).join(", ")}`);
+  }
   console.log(`  cap      : ${MAX_PER_CHANNEL}/channel → ${budget} videos max`);
   console.log(`  since    : ${SINCE}`);
   const COST = {

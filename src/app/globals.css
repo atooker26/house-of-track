@@ -650,6 +650,27 @@ button { font: inherit; cursor: pointer; }
   border-bottom: 1px solid rgba(237,233,216,.4); }
 .creator-claim a:hover { border-bottom-color: var(--cream); }
 
+/* removal request — deliberately quiet, but never hidden */
+.removal-note { font-family: var(--font-cond); font-weight: 600; text-transform: uppercase;
+  letter-spacing: .05em; font-size: 11px; color: var(--fg-on-dark-3, rgba(237,233,216,.45)); margin: 8px 0 0; }
+.removal-toggle { font: inherit; letter-spacing: inherit; text-transform: inherit; background: none;
+  border: 0; padding: 0; color: inherit; cursor: pointer; text-decoration: underline;
+  text-underline-offset: 3px; }
+.removal-toggle:hover { color: var(--cream); }
+.removal-sent { display: flex; align-items: center; gap: 6px; color: var(--cream); }
+.removal-form { margin-top: 14px; max-width: 460px; }
+.removal-form-lead { font-size: 13px; line-height: 1.5; color: var(--fg-on-dark-2); margin: 0 0 10px;
+  text-transform: none; letter-spacing: 0; font-family: var(--font-sans, inherit); }
+.removal-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.removal-form input[type="email"], .removal-form textarea {
+  flex: 1 1 200px; background: rgba(13,17,45,.5); border: 1px solid rgba(237,233,216,.25);
+  border-radius: var(--r-sm, 8px); color: var(--cream); padding: 10px 12px; font-size: 14px; }
+.removal-form textarea { width: 100%; margin-top: 8px; resize: vertical; font-family: inherit; }
+.removal-form input::placeholder, .removal-form textarea::placeholder { color: rgba(237,233,216,.4); }
+.removal-form input:focus, .removal-form textarea:focus { outline: none; border-color: var(--cream);
+  box-shadow: 0 0 0 3px rgba(237,233,216,.15); }
+.removal-error { color: #ff9c8a; font-size: 13px; margin: 8px 0 0; text-transform: none; letter-spacing: 0; }
+
 .creator-ep { display: flex; gap: 26px; align-items: flex-start; flex-wrap: wrap; margin-top: 6px; }
 .creator-ep-art { position: relative; width: 200px; height: 200px; flex: 0 0 auto; border-radius: var(--r-md);
   overflow: hidden; background: var(--navy-900); box-shadow: var(--shadow-sm); }

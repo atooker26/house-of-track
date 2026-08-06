@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Icon from "@/components/Icon";
 import LibraryCard from "@/components/LibraryCard";
+import RemovalRequest from "@/components/RemovalRequest";
 import { loadEpisodes } from "@/lib/episodes";
 import { CREATORS, LIBRARY, formatSubscribers } from "@/lib/library";
 import { KIND_LABEL, PEOPLE, personBySlug, socialLinks } from "@/lib/people";
@@ -100,6 +101,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
                 Claim this profile <Icon name="arrow" size={14} />
               </Link>
             </p>
+            <RemovalRequest slug={person.slug} name={person.name} />
           </div>
         </div>
       </section>

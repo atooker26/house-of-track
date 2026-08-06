@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T20:36:05.146Z",
+  "generatedAt": "2026-08-06T20:54:56.810Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 58,
@@ -251,7 +251,7 @@
       "url": "https://www.youtube.com/@joe_klecker",
       "description": "",
       "avatar": "https://yt3.ggpht.com/AUduKpkuG1yqYpKHH3V_0t6x-J2leWP-GcdQlsl5xD73eW1kv_OL3CtUgAV97McQoVHQ8q-AWw=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 1130,
+      "subscriberCount": 1140,
       "videoCount": 2,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -288,7 +288,7 @@
       "athlete": null,
       "publishedAt": "2026-08-06T11:00:25.000Z",
       "durationSeconds": 1380,
-      "viewCount": 5645,
+      "viewCount": 5809,
       "kind": "video"
     },
     {
@@ -307,7 +307,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 4064,
+      "viewCount": 4113,
       "kind": "video"
     },
     {
@@ -326,7 +326,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 13549,
+      "viewCount": 13648,
       "kind": "video"
     },
     {
@@ -345,7 +345,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 6562,
+      "viewCount": 6634,
       "kind": "video"
     },
     {
@@ -421,7 +421,7 @@
       "athlete": null,
       "publishedAt": "2026-07-30T13:00:03.000Z",
       "durationSeconds": 1790,
-      "viewCount": 207546,
+      "viewCount": 207672,
       "kind": "video"
     },
     {
@@ -630,7 +630,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 103946,
+      "viewCount": 103991,
       "kind": "video"
     },
     {
@@ -649,7 +649,7 @@
       "athlete": null,
       "publishedAt": "2026-08-04T18:09:40.000Z",
       "durationSeconds": 973,
-      "viewCount": 24010,
+      "viewCount": 24036,
       "kind": "video"
     },
     {
@@ -763,7 +763,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 42471,
+      "viewCount": 42477,
       "kind": "video"
     },
     {
@@ -782,7 +782,7 @@
       "athlete": null,
       "publishedAt": "2026-07-23T13:10:02.000Z",
       "durationSeconds": 1487,
-      "viewCount": 182909,
+      "viewCount": 182963,
       "kind": "video"
     },
     {
@@ -820,7 +820,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5582,
+      "viewCount": 5583,
       "kind": "video"
     },
     {
@@ -839,7 +839,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 30777,
+      "viewCount": 30781,
       "kind": "video"
     },
     {
@@ -1048,7 +1048,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 24683,
+      "viewCount": 24682,
       "kind": "video"
     },
     {
@@ -1105,7 +1105,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 50859,
+      "viewCount": 50875,
       "kind": "video"
     },
     {
@@ -1124,7 +1124,7 @@
       "athlete": null,
       "publishedAt": "2026-07-19T17:36:45.000Z",
       "durationSeconds": 1850,
-      "viewCount": 248296,
+      "viewCount": 248373,
       "kind": "video"
     },
     {
@@ -1238,7 +1238,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14205,
+      "viewCount": 14206,
       "kind": "video"
     },
     {
@@ -1276,7 +1276,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 84407,
+      "viewCount": 84417,
       "kind": "video"
     },
     {
@@ -1314,7 +1314,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 28508,
+      "viewCount": 28509,
       "kind": "video"
     },
     {
@@ -1333,7 +1333,7 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 218258,
+      "viewCount": 218271,
       "kind": "video"
     },
     {
@@ -1390,7 +1390,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 10461,
+      "viewCount": 10465,
       "kind": "video"
     },
     {
@@ -1466,7 +1466,7 @@
       "athlete": null,
       "publishedAt": "2026-07-15T18:26:16.000Z",
       "durationSeconds": 817,
-      "viewCount": 126728,
+      "viewCount": 126778,
       "kind": "video"
     },
     {
@@ -1637,7 +1637,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 39645,
+      "viewCount": 39647,
       "kind": "video"
     },
     {
@@ -1656,7 +1656,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18455,
+      "viewCount": 18457,
       "kind": "video"
     },
     {
@@ -1675,7 +1675,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 109089,
+      "viewCount": 109090,
       "kind": "video"
     },
     {
@@ -1694,7 +1694,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T12:00:04.000Z",
       "durationSeconds": 1127,
-      "viewCount": 34790,
+      "viewCount": 34797,
       "kind": "video"
     },
     {
@@ -1732,7 +1732,7 @@
       "athlete": null,
       "publishedAt": "2026-02-18T16:33:28.000Z",
       "durationSeconds": 1037,
-      "viewCount": 12185,
+      "viewCount": 12186,
       "kind": "video"
     },
     {
@@ -1789,7 +1789,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T14:00:10.000Z",
       "durationSeconds": 1139,
-      "viewCount": 44972,
+      "viewCount": 44973,
       "kind": "video"
     },
     {
@@ -1884,7 +1884,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22127,
+      "viewCount": 22128,
       "kind": "video"
     },
     {
@@ -1960,7 +1960,7 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 251786,
+      "viewCount": 251783,
       "kind": "video"
     },
     {
@@ -1998,7 +1998,7 @@
       "athlete": null,
       "publishedAt": "2026-05-15T13:02:18.000Z",
       "durationSeconds": 1076,
-      "viewCount": 23030,
+      "viewCount": 23036,
       "kind": "video"
     },
     {
@@ -2017,7 +2017,7 @@
       "athlete": null,
       "publishedAt": "2025-11-03T08:44:21.000Z",
       "durationSeconds": 1287,
-      "viewCount": 43287,
+      "viewCount": 43288,
       "kind": "video"
     },
     {
@@ -2036,7 +2036,7 @@
       "athlete": null,
       "publishedAt": "2026-06-13T23:00:22.000Z",
       "durationSeconds": 980,
-      "viewCount": 36925,
+      "viewCount": 36926,
       "kind": "video"
     },
     {
@@ -2207,7 +2207,7 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 1700048,
+      "viewCount": 1700109,
       "kind": "video"
     },
     {
@@ -2454,7 +2454,7 @@
       "athlete": null,
       "publishedAt": "2026-05-02T14:57:59.000Z",
       "durationSeconds": 1497,
-      "viewCount": 68815,
+      "viewCount": 68818,
       "kind": "video"
     },
     {
@@ -2625,7 +2625,7 @@
       "athlete": null,
       "publishedAt": "2026-07-14T11:31:12.000Z",
       "durationSeconds": 789,
-      "viewCount": 14365,
+      "viewCount": 14380,
       "kind": "video"
     },
     {
@@ -2739,7 +2739,7 @@
       "athlete": null,
       "publishedAt": "2025-08-09T20:32:10.000Z",
       "durationSeconds": 953,
-      "viewCount": 82858,
+      "viewCount": 82863,
       "kind": "video"
     },
     {
