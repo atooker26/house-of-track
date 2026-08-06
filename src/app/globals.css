@@ -686,7 +686,17 @@ button { font: inherit; cursor: pointer; }
   .creator-ep-art { width: 100%; height: auto; aspect-ratio: 1; }
 }
 
-/* credentialing meet list */
+/* credentialing sliver — a thin hand-off band into the closing CTA */
+.cred-sliver { background: var(--paper); border-top: 1px solid var(--line); padding: 26px 0; }
+.cred-sliver-inner { display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; flex-wrap: wrap; }
+.cred-sliver-line { color: var(--fg-2); font-size: 15px; line-height: 1.5; margin: 4px 0 0;
+  max-width: 62ch; }
+.cred-sliver-line strong { color: var(--ink); }
+.cred-sliver .btn { flex: 0 0 auto; }
+@media (max-width: 640px) { .cred-sliver-inner { align-items: flex-start; } }
+
+/* credentialing meet list (still used by the credentialing hub, not /hub) */
 .meet-list { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
 .meet-row { display: grid; grid-template-columns: 1fr auto auto; gap: 18px; align-items: center;
   padding: 18px 4px; border-bottom: 1px solid var(--line); }

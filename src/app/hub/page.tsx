@@ -6,7 +6,6 @@ import Icon from "@/components/Icon";
 import LibraryPreview from "./LibraryPreview";
 import JoinForms from "./JoinForms";
 import Subscribe from "./Subscribe";
-import { MEETS } from "@/lib/hub";
 
 export const metadata: Metadata = {
   title: "House of Track — The Creative Network for Track & Field",
@@ -180,7 +179,28 @@ export default function HubPage() {
         </div>
       </section>
 
-      {/* Weekly recap */}
+      {/* Credentialing — a sliver, not a section. The per-meet list is gone: it was
+          five rows of static data carrying one message, and it sat between the reader
+          and the closing CTA. One line and a button does the same job and hands off
+          to the recap band below. MEETS still lives in lib/hub.ts for the
+          credentialing hub itself. */}
+      <section className="cred-sliver">
+        <div className="wrap cred-sliver-inner">
+          <div>
+            <p className="eyebrow">Credentialing</p>
+            <p className="cred-sliver-line">
+              <strong>One pass to shoot the sport.</strong> Every meet is a separate ask — House of
+              Track is building the single hub, and already holds credentials at USATF and Portland
+              Track Festival.
+            </p>
+          </div>
+          <Link href="#join" className="btn btn-accent">
+            <Icon name="ticket" size={16} /> Request a credential
+          </Link>
+        </div>
+      </section>
+
+      {/* Weekly recap — the closing CTA */}
       <section
         className="grain guest-cta-band"
         style={{ background: "radial-gradient(120% 130% at 80% 20%, #2A2E6B, #0D112D)" }}
@@ -192,46 +212,6 @@ export default function HubPage() {
             One email. Every athlete and creative who posted, in one place. No noise.
           </p>
           <Subscribe />
-        </div>
-      </section>
-
-      {/* Credentialing — last on the page, below the recap band */}
-      <section className="section" style={{ background: "var(--paper)" }}>
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <p className="eyebrow">Credentialing</p>
-              <h2 style={{ color: "var(--ink)" }}>One pass to shoot the sport</h2>
-            </div>
-          </div>
-          <p style={{ color: "var(--fg-2)", maxWidth: "60ch", marginTop: "-12px", marginBottom: 28 }}>
-            There&apos;s no master list for getting credentialed in track &amp; field — every meet is
-            a separate ask. House of Track is building the single hub, and lending our name to
-            creatives who do great work. We&apos;re already credentialed at USATF and Portland Track
-            Festival.
-          </p>
-          <div className="meet-list">
-            {MEETS.map((m) => (
-              <div className="meet-row" key={m.name}>
-                <div>
-                  <p className="m-name">{m.name}</p>
-                  <p className="m-meta">
-                    {m.location} · {m.window}
-                  </p>
-                </div>
-                {m.credentialed ? (
-                  <span className="tag tag-ink">
-                    <Icon name="check" size={13} /> HOT credentialed
-                  </span>
-                ) : (
-                  <span className="tag tag-out">Credential available</span>
-                )}
-                <Link href="#join" className="btn btn-ghost">
-                  <Icon name="ticket" size={16} /> Request credential
-                </Link>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </div>
