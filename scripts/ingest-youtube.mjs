@@ -9,16 +9,21 @@
  *   APIFY_TOKEN=apify_api_… node scripts/ingest-youtube.mjs
  *
  * Flags:
- *   --source <apify|rss>  where the videos come from       (default apify)
- *   --max <n>             videos per channel               (default 12)
- *   --since <date>        only videos newer than this      (default 2025-01-01)
- *   --dry                 print the plan and cost estimate, call nothing
+ *   --source <api|rss|apify>  where the videos come from   (default api)
+ *   --max <n>                 videos per channel           (default 12)
+ *   --since <date>            only videos newer than this  (default 2025-01-01)
+ *   --dry                     print the plan, call nothing
  *
- * `--source rss` reads YouTube's public per-channel Atom feed instead. It needs no
- * token and costs nothing, but is capped at each channel's 15 most recent uploads
- * with no duration and no backfill. That's the hybrid split in the plan's §2: use
- * the free sanctioned source where it suffices, pay Apify for what it can't do
- * (backfill, discovery, Shorts, transcripts, and Instagram later).
+ * Three sources, in the order you should reach for them:
+ *
+ *   api    YouTube Data API v3. Free (10,000 units/day, ~1 unit per call), and a
+ *          strict superset of the others for our purposes: avatars + subscriber
+ *          counts, real durations, and unlimited backfill. Needs YOUTUBE_API_KEY.
+ *   rss    YouTube's public per-channel Atom feed. No key at all, but capped at 15
+ *          recent uploads, no durations, no backfill. A zero-setup fallback.
+ *   apify  streamers/youtube-channel-scraper. Costs money and is against YouTube's
+ *          ToS. Kept for what the API genuinely can't do — transcripts, and the
+ *          same actor family for Instagram/TikTok, which have no public API.
  *
  * Deliberately dependency-free — plain node, no packages to add to the app.
  */
@@ -39,11 +44,11 @@ const flag = (name, fallback) => {
 };
 const MAX_PER_CHANNEL = Number(flag("max", 12));
 const SINCE = flag("since", "2025-01-01");
-const SOURCE = flag("source", "apify");
+const SOURCE = flag("source", "api");
 const DRY = args.includes("--dry");
 
-if (!["apify", "rss"].includes(SOURCE)) {
-  console.error(`\n✗ --source must be "apify" or "rss"\n`);
+if (!["api", "apify", "rss"].includes(SOURCE)) {
+  console.error(`\n✗ --source must be "api", "apify" or "rss"\n`);
   process.exit(1);
 }
 
@@ -243,16 +248,39 @@ async function isShort(videoId) {
   }
 }
 
+// Shorts can run up to 3 minutes, so duration alone can't decide it — a 2-minute
+// race edit is not a Short. When we have durations (the api source), use them to
+// split three ways: <=60s is a Short, >180s never is, and only the ambiguous band
+// between pays for the redirect check. On --source rss there are no durations, so
+// everything falls through to the network check.
+const SHORT_CERTAIN = 60;
+const SHORT_POSSIBLE = 180;
+
 async function dropShorts(raw) {
   const kept = [];
-  for (let i = 0; i < raw.length; i += 8) {
-    const batch = raw.slice(i, i + 8);
+  const ambiguous = [];
+
+  for (const item of raw) {
+    const d = item.durationSeconds;
+    if (typeof d === "number") {
+      if (d <= SHORT_CERTAIN) continue;
+      if (d > SHORT_POSSIBLE) {
+        kept.push(item);
+        continue;
+      }
+    }
+    ambiguous.push(item);
+  }
+
+  for (const batch of chunk(ambiguous, 8)) {
     const flags = await Promise.all(batch.map((item) => isShort(item.videoId)));
     batch.forEach((item, n) => {
       if (!flags[n]) kept.push(item);
     });
   }
-  return kept;
+
+  kept.sort((a, b) => String(b.date ?? "").localeCompare(String(a.date ?? "")));
+  return { kept, checked: ambiguous.length };
 }
 
 async function fetchRss(channels) {
@@ -292,6 +320,152 @@ async function fetchRss(channels) {
     }
   }
   return raw;
+}
+
+/* ------------------------------------------------- youtube data api source */
+
+// The official API. Free, sanctioned, and a strict superset of the Atom feed:
+// avatars and subscriber counts (which profile pages need), real durations, and
+// backfill past the feed's hard cap of 15. Quota is 10,000 units/day and every
+// call below costs 1 unit, so a full refresh of the roster is a rounding error.
+// `search.list` is the only expensive method (100 units) and we never call it.
+const YT = "https://www.googleapis.com/youtube/v3";
+let quotaUnits = 0;
+
+async function yt(path, params) {
+  const key = process.env.YOUTUBE_API_KEY;
+  if (!key) throw new Error("YOUTUBE_API_KEY is not set (expected in .env.local)");
+  const qs = new URLSearchParams({ ...params, key });
+  const res = await fetch(`${YT}/${path}?${qs}`, { signal: AbortSignal.timeout(20_000) });
+  quotaUnits += 1;
+  const json = await res.json();
+  if (json.error) {
+    throw new Error(`${path} → ${json.error.code} ${json.error.message}`);
+  }
+  return json;
+}
+
+const chunk = (arr, n) =>
+  Array.from({ length: Math.ceil(arr.length / n) }, (_, i) => arr.slice(i * n, i * n + n));
+
+// PT1H2M3S → 3723
+function isoDurationToSeconds(iso) {
+  const m = String(iso ?? "").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  if (!m) return null;
+  return Number(m[1] ?? 0) * 3600 + Number(m[2] ?? 0) * 60 + Number(m[3] ?? 0);
+}
+
+// channels.list takes up to 50 ids in one call, but forHandle resolves only one
+// at a time — so batch the id-based rows and spend a single unit per handle.
+async function resolveChannels(channels) {
+  const resolved = new Map(); // seed -> channel resource
+  const withId = channels.filter((c) => c.channelId);
+  const withHandle = channels.filter((c) => !c.channelId && c.handle);
+  const PART = "snippet,statistics,contentDetails";
+
+  for (const batch of chunk(withId, 50)) {
+    const { items = [] } = await yt("channels", {
+      part: PART,
+      id: batch.map((c) => c.channelId).join(","),
+    });
+    for (const seed of batch) {
+      const found = items.find((i) => i.id === seed.channelId);
+      if (found) resolved.set(seed, found);
+    }
+  }
+
+  for (const seed of withHandle) {
+    try {
+      const { items = [] } = await yt("channels", { part: PART, forHandle: seed.handle });
+      if (items[0]) resolved.set(seed, items[0]);
+    } catch (err) {
+      console.log(`  ${channelLabel(seed).padEnd(22)} ✗ ${err.message}`);
+    }
+  }
+  return resolved;
+}
+
+async function fetchApi(channels) {
+  const cutoff = new Date(SINCE).getTime();
+  const resolved = await resolveChannels(channels);
+  const raw = [];
+  const creators = [];
+
+  for (const [seed, ch] of resolved) {
+    const label = channelLabel(seed);
+    const uploads = ch.contentDetails?.relatedPlaylists?.uploads;
+    if (!uploads) {
+      console.log(`  ${label.padEnd(22)} ✗ no uploads playlist`);
+      continue;
+    }
+
+    creators.push({
+      channelId: ch.id,
+      name: ch.snippet.title,
+      handle: seed.handle ?? ch.snippet.customUrl?.replace(/^@/, "") ?? null,
+      url: channelUrl(seed),
+      description: ch.snippet.description?.slice(0, 400) ?? null,
+      avatar: ch.snippet.thumbnails?.high?.url ?? ch.snippet.thumbnails?.default?.url ?? null,
+      subscriberCount: Number(ch.statistics?.subscriberCount) || null,
+      videoCount: Number(ch.statistics?.videoCount) || null,
+      kind: seed.kind ?? "media",
+      // Everything below stays unclaimed until Phase D. A creator must be able to
+      // opt out and have it survive the next ingest — see the plan's §5.
+      claimState: "unclaimed",
+    });
+
+    // Page the uploads playlist. Stop at the per-channel cap or once we cross the
+    // date cutoff — uploads come back newest-first, so the first old one ends it.
+    const ids = [];
+    let pageToken;
+    let exhausted = false;
+    while (ids.length < MAX_PER_CHANNEL && !exhausted) {
+      const page = await yt("playlistItems", {
+        part: "contentDetails",
+        playlistId: uploads,
+        maxResults: String(Math.min(50, MAX_PER_CHANNEL - ids.length)),
+        ...(pageToken ? { pageToken } : {}),
+      });
+      for (const it of page.items ?? []) {
+        const published = it.contentDetails?.videoPublishedAt;
+        if (published && new Date(published).getTime() < cutoff) {
+          exhausted = true;
+          break;
+        }
+        ids.push(it.contentDetails.videoId);
+      }
+      pageToken = page.nextPageToken;
+      if (!pageToken) exhausted = true;
+    }
+
+    // videos.list gives us what neither the playlist nor the Atom feed carries:
+    // duration (hence Shorts), view counts, and the full description.
+    let kept = 0;
+    for (const batch of chunk(ids, 50)) {
+      const { items = [] } = await yt("videos", {
+        part: "snippet,contentDetails,statistics",
+        id: batch.join(","),
+      });
+      for (const v of items) {
+        raw.push({
+          videoId: v.id,
+          title: v.snippet.title,
+          channelName: ch.snippet.title,
+          channelUrl: channelUrl(seed),
+          channelId: ch.id,
+          date: v.snippet.publishedAt,
+          text: v.snippet.description,
+          viewCount: Number(v.statistics?.viewCount) || null,
+          durationSeconds: isoDurationToSeconds(v.contentDetails?.duration),
+          _seed: seed,
+        });
+        kept++;
+      }
+    }
+    console.log(`  ${label.padEnd(22)} ${String(kept).padStart(3)}  ${(Number(ch.statistics?.subscriberCount) || 0).toLocaleString()} subs`);
+  }
+
+  return { raw, creators };
 }
 
 /* ---------------------------------------------------------------- normalize */
@@ -393,9 +567,12 @@ async function main() {
   console.log(`  channels : ${channels.length}`);
   console.log(`  cap      : ${MAX_PER_CHANNEL}/channel → ${budget} videos max`);
   console.log(`  since    : ${SINCE}`);
-  console.log(
-    `  est. cost: ${SOURCE === "rss" ? "$0.00 (public Atom feeds)" : `$${((budget / 1000) * PRICE_PER_1K).toFixed(2)}`}\n`
-  );
+  const COST = {
+    api: "$0.00 (YouTube Data API free quota)",
+    rss: "$0.00 (public Atom feeds)",
+    apify: `$${((budget / 1000) * PRICE_PER_1K).toFixed(2)}`,
+  };
+  console.log(`  est. cost: ${COST[SOURCE]}\n`);
 
   if (DRY) {
     console.log("--dry — nothing called.\n");
@@ -404,12 +581,25 @@ async function main() {
 
   let raw;
   let runId = null;
+  let creatorRecords = [];
 
-  if (SOURCE === "rss") {
+  if (SOURCE === "api") {
+    const out = await fetchApi(channels);
+    raw = out.raw;
+    creatorRecords = out.creators;
+    console.log(`\n  collected ${raw.length} items in ${quotaUnits} quota units of 10,000`);
+    const before = raw.length;
+    const { kept, checked } = await dropShorts(raw);
+    raw = kept;
+    console.log(
+      `  dropped ${before - raw.length} Shorts (${checked} needed the redirect check), ${raw.length} left`
+    );
+  } else if (SOURCE === "rss") {
     raw = await fetchRss(channels);
     console.log(`\n  collected ${raw.length} items — checking for Shorts…`);
     const before = raw.length;
-    raw = await dropShorts(raw);
+    const { kept } = await dropShorts(raw);
+    raw = kept;
     console.log(`  dropped ${before - raw.length} Shorts, ${raw.length} left`);
   } else {
     console.log(`Starting ${ACTOR}…`);
@@ -437,7 +627,20 @@ async function main() {
     acc[i.discipline] = (acc[i.discipline] ?? 0) + 1;
     return acc;
   }, {});
-  const creators = new Set(items.map((i) => i.creator.name));
+  const channelNames = new Set(items.map((i) => i.creator.name));
+
+  // Only keep creators that actually contributed a published item, so the roster
+  // and the feed can't drift apart.
+  const published = new Set(items.map((i) => i.creator.name));
+  const creators = creatorRecords
+    .filter((c) => published.has(c.name))
+    .sort((a, b) => (b.subscriberCount ?? 0) - (a.subscriberCount ?? 0));
+
+  const SOURCE_LABEL = {
+    api: "youtube:data-api-v3",
+    rss: "youtube:atom-feed",
+    apify: `apify:${ACTOR.replace("~", "/")}`,
+  };
 
   await mkdir(join(ROOT, "src/data"), { recursive: true });
   await writeFile(
@@ -445,8 +648,10 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        source: SOURCE === "rss" ? "youtube:atom-feed" : `apify:${ACTOR.replace("~", "/")}`,
+        source: SOURCE_LABEL[SOURCE],
         runId,
+        quotaUnits: SOURCE === "api" ? quotaUnits : null,
+        creators,
         items,
       },
       null,
@@ -454,8 +659,15 @@ async function main() {
     ) + "\n"
   );
 
-  console.log(`\n  ✓ ${items.length} videos from ${creators.size} channels`);
+  console.log(`\n  ✓ ${items.length} videos from ${channelNames.size} channels`);
   console.log(`    ${Object.entries(byDiscipline).map(([d, n]) => `${d} ${n}`).join(" · ")}`);
+  if (creators.length) {
+    const subs = creators.reduce((n, c) => n + (c.subscriberCount ?? 0), 0);
+    console.log(`    ${creators.length} creator profiles · ${subs.toLocaleString()} combined subs`);
+  }
+  if (SOURCE === "api") {
+    console.log(`    ${quotaUnits} quota units used of 10,000/day`);
+  }
   console.log(`    → src/data/library.json`);
   if (unmapped.length) {
     console.log(`\n  ! ${unmapped.length} items had no title/channel — field map may need a fix.`);

@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
       { hostname: "image-cdn-fa.spotifycdn.com" },
       // Library video thumbnails. Metadata + embeds only — no video is ever hosted here.
       { protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**", search: "" },
+      // Channel avatars for creator profiles.
+      { protocol: "https", hostname: "yt3.ggpht.com" },
     ],
   },
 };

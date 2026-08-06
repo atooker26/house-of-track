@@ -33,9 +33,36 @@ export interface LibraryItem {
   kind: "video" | "short" | "stream";
 }
 
+/**
+ * A channel we ingest from, as a roster entry rather than a feed source. This is
+ * the seed for claimable profiles (product plan §5) — avatar, reach, and the
+ * `unclaimed → claimed` state the marketplace profile shares.
+ */
+export interface CreatorProfile {
+  channelId: string;
+  name: string;
+  handle: string | null;
+  url: string;
+  description: string | null;
+  avatar: string | null;
+  subscriberCount: number | null;
+  videoCount: number | null;
+  kind: "athlete" | "creative" | "media";
+  claimState: "unclaimed" | "invited" | "claimed";
+}
+
 export const LIBRARY: LibraryItem[] = raw.items as LibraryItem[];
 
+export const CREATORS: CreatorProfile[] = (raw.creators ?? []) as CreatorProfile[];
+
 export const LIBRARY_GENERATED_AT: string | null = raw.generatedAt;
+
+export function formatSubscribers(count: number | null): string | null {
+  if (!count) return null;
+  if (count >= 1_000_000) return `${(count / 1_000_000).toFixed(1).replace(/\.0$/, "")}M`;
+  if (count >= 1_000) return `${Math.round(count / 1_000)}K`;
+  return String(count);
+}
 
 /** YouTube always serves mqdefault; maxresdefault is missing on plenty of older uploads. */
 export function thumbnailFor(videoId: string, res: "max" | "hq" = "max"): string {
