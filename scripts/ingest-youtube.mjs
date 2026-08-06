@@ -676,9 +676,48 @@ async function main() {
     apify: `apify:${ACTOR.replace("~", "/")}`,
   };
 
+  const outPath = join(ROOT, "src/data/library.json");
+
+  // What counts as "changed" for the scheduled refresh. Deliberately ignores the
+  // volatile counters — view counts and subscriber counts move every single run, so
+  // comparing them would mean a commit and a redeploy every day even when nobody
+  // posted anything, and the diff would be 148 lines of noise. We redeploy when the
+  // *content* changes (a new video, a creator added or opted out, a retitle); fresh
+  // counts ride along whenever that happens. Slightly stale view counts on a quiet
+  // week are a fair trade for a deploy history that means something.
+  const fingerprint = (cs, is) =>
+    JSON.stringify({
+      creators: cs.map((c) => [c.slug, c.name, c.handle, c.kind, c.avatar, c.claimState]),
+      items: is.map((i) => [
+        i.id,
+        i.title,
+        i.discipline,
+        i.durationSeconds,
+        i.publishedAt,
+        i.creator.slug,
+        i.athlete,
+      ]),
+    });
+
+  const payload = fingerprint(creators, items);
+  let unchanged = false;
+  try {
+    const prev = JSON.parse(await readFile(outPath, "utf8"));
+    unchanged = fingerprint(prev.creators ?? [], prev.items ?? []) === payload;
+  } catch {
+    // no existing file — treat as changed
+  }
+
+  if (unchanged) {
+    console.log(`\n  = no change — ${items.length} videos, file left untouched`);
+    if (SOURCE === "api") console.log(`    ${quotaUnits} quota units used of 10,000/day`);
+    console.log();
+    return;
+  }
+
   await mkdir(join(ROOT, "src/data"), { recursive: true });
   await writeFile(
-    join(ROOT, "src/data/library.json"),
+    outPath,
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),

@@ -1,0 +1,80 @@
+name: Refresh Library
+
+# Keeps src/data/library.json from going stale. It's a committed snapshot, so
+# without this it silently decays — which is worse than breaking, because nothing
+# tells you. See docs/YOUTUBE-INGEST-PLAN.md §9.
+#
+# Deliberately NOT a Vercel Cron writing to Blob. The ingest makes ~58 API calls
+# plus a handful of network checks and takes 20-40s — it's a build-time job, not a
+# request-time one. Committing the result keeps the app reading a static import
+# (no async refactor of library.ts, LibraryPreview and the creator pages) and gives
+# a reviewable history of what changed. Blob/Postgres earns its place when claiming
+# introduces writes, and at that point Postgres is the answer anyway.
+
+on:
+  schedule:
+    # 06:00 UTC daily — ~10pm PT, well clear of when these creators post.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Videos per channel"
+        default: "12"
+      since:
+        description: "Only videos newer than (YYYY-MM-DD)"
+        default: "2025-01-01"
+
+# Least privilege: the job's only side effect is committing library.json.
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-library
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Run the ingest
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "::error::YOUTUBE_API_KEY secret is not set — add it with 'gh secret set YOUTUBE_API_KEY'"
+            exit 1
+          fi
+          node scripts/ingest-youtube.mjs \
+            --source api \
+            --max "${{ inputs.max || '12' }}" \
+            --since "${{ inputs.since || '2025-01-01' }}"
+
+      # The script leaves the file untouched when only view counts moved, so an
+      # empty diff here means "nothing new was posted", not "the run failed".
+      - name: Commit if the library changed
+        run: |
+          if git diff --quiet src/data/library.json; then
+            echo "No content change — nothing to commit."
+            echo "### Library unchanged — nobody posted anything new" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          node -e '
+            const j = require("./src/data/library.json");
+            const subs = j.creators.reduce((n, c) => n + (c.subscriberCount ?? 0), 0);
+            console.log(`${j.items.length} videos · ${j.creators.length} creators · ${subs.toLocaleString()} subs`);
+          ' > /tmp/summary.txt
+          echo "### Library refreshed" >> "$GITHUB_STEP_SUMMARY"
+          cat /tmp/summary.txt >> "$GITHUB_STEP_SUMMARY"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/library.json
+          git commit -m "chore: refresh library — $(cat /tmp/summary.txt)"
+          git push
