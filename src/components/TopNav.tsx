@@ -15,6 +15,7 @@ export default function TopNav() {
 
   const links = [
     { href: "/", label: "The Show" },
+    { href: "/hub", label: "Hub" },
     { href: "/episodes", label: "Episodes" },
     { href: "/team", label: "Team" },
   ];

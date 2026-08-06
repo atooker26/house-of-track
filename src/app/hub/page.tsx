@@ -138,46 +138,6 @@ export default function HubPage() {
         </div>
       </section>
 
-      {/* Credentialing */}
-      <section className="section" style={{ background: "var(--paper)" }}>
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <p className="eyebrow">Credentialing</p>
-              <h2 style={{ color: "var(--ink)" }}>One pass to shoot the sport</h2>
-            </div>
-          </div>
-          <p style={{ color: "var(--fg-2)", maxWidth: "60ch", marginTop: "-12px", marginBottom: 28 }}>
-            There&apos;s no master list for getting credentialed in track &amp; field — every meet is
-            a separate ask. House of Track is building the single hub, and lending our name to
-            creatives who do great work. We&apos;re already credentialed at USATF and Portland Track
-            Festival.
-          </p>
-          <div className="meet-list">
-            {MEETS.map((m) => (
-              <div className="meet-row" key={m.name}>
-                <div>
-                  <p className="m-name">{m.name}</p>
-                  <p className="m-meta">
-                    {m.location} · {m.window}
-                  </p>
-                </div>
-                {m.credentialed ? (
-                  <span className="tag tag-ink">
-                    <Icon name="check" size={13} /> HOT credentialed
-                  </span>
-                ) : (
-                  <span className="tag tag-out">Credential available</span>
-                )}
-                <Link href="#join" className="btn btn-ghost">
-                  <Icon name="ticket" size={16} /> Request credential
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Library — watch the sport */}
       <section className="section grain on-navy" style={{ background: "var(--navy-700)" }}>
         <div className="wrap">
@@ -232,6 +192,46 @@ export default function HubPage() {
             One email. Every athlete and creative who posted, in one place. No noise.
           </p>
           <Subscribe />
+        </div>
+      </section>
+
+      {/* Credentialing — last on the page, below the recap band */}
+      <section className="section" style={{ background: "var(--paper)" }}>
+        <div className="wrap">
+          <div className="sec-head">
+            <div>
+              <p className="eyebrow">Credentialing</p>
+              <h2 style={{ color: "var(--ink)" }}>One pass to shoot the sport</h2>
+            </div>
+          </div>
+          <p style={{ color: "var(--fg-2)", maxWidth: "60ch", marginTop: "-12px", marginBottom: 28 }}>
+            There&apos;s no master list for getting credentialed in track &amp; field — every meet is
+            a separate ask. House of Track is building the single hub, and lending our name to
+            creatives who do great work. We&apos;re already credentialed at USATF and Portland Track
+            Festival.
+          </p>
+          <div className="meet-list">
+            {MEETS.map((m) => (
+              <div className="meet-row" key={m.name}>
+                <div>
+                  <p className="m-name">{m.name}</p>
+                  <p className="m-meta">
+                    {m.location} · {m.window}
+                  </p>
+                </div>
+                {m.credentialed ? (
+                  <span className="tag tag-ink">
+                    <Icon name="check" size={13} /> HOT credentialed
+                  </span>
+                ) : (
+                  <span className="tag tag-out">Credential available</span>
+                )}
+                <Link href="#join" className="btn btn-ghost">
+                  <Icon name="ticket" size={16} /> Request credential
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </div>
