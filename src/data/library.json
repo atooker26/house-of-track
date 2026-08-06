@@ -1,0 +1,3088 @@
+{
+  "generatedAt": "2026-08-06T20:54:56.810Z",
+  "source": "youtube:data-api-v3",
+  "runId": null,
+  "quotaUnits": 58,
+  "creators": [
+    {
+      "slug": "nick-bare",
+      "name": "Nick Bare",
+      "channelTitle": "Nick Bare",
+      "channelId": "UCbVEx9qG_hLrb6FrWQJz_Tg",
+      "handle": "NickBareFitness",
+      "url": "https://www.youtube.com/@NickBareFitness",
+      "description": "Welcome to the Official YouTube Channel of Nick Bare.\n\nNick founded Bare Performance Nutrition in 2012 out of his small college apartment in Pennsylvania. During this time, he was studying nutrition and on the path of joining the military upon graduation. After graduating college, Nick commissioned into the US Army as an Infantry Officer, where he spent the next four years completing various milit",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_mVx6fQ8UNrMx2sjhQ5JwJyQTCfSXAoznqRdRSZLoxmGqQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 1500000,
+      "videoCount": 1078,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "hellah-good",
+      "name": "Hellah Good",
+      "channelTitle": "HellahGood",
+      "channelId": "UCXVX_0ukCPMLPWk64KYnHFA",
+      "handle": "HellahGood",
+      "url": "https://www.youtube.com/@HellahGood",
+      "description": "Running every day since may 15, 2017 and ran from LA to NYC in 84 days!\n\nThe first African man to run across America from LA to NYC, 3,061 miles in 84 days. I’m the guy who ran every day for 365 days in a row.. that turned into 2 years, 3 years, 4 years, 5, 6, 7, 8, and we're still going! I'm a vegan athlete and former pro soccer player striving to inspire and change lives through my platform and ",
+      "avatar": "https://yt3.ggpht.com/fMMRRwW1KGpxOGoqD39YkW7N4t3urQBLUeZqwGGdBUQ51EnQtwqBgR5wXdXNK9lv1pC1hxU4xmM=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 295000,
+      "videoCount": 466,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "sage-canaday",
+      "name": "Sage Canaday",
+      "channelTitle": "Vo2maxProductions",
+      "channelId": "UCh_w_vLvlZNBeTAP8qaWhoA",
+      "handle": "Vo2maxProductions",
+      "url": "https://www.youtube.com/@Vo2maxProductions",
+      "description": "Pro Distance Running Tips and Advice from 2:16 Marathoner (16th place at Boston Marathon), 2-time US Olympic Marathon Trials Qualifier and Mountain-Ultra-Trail runner Sage Canaday. Best running form tips and run technique videos on Youtube as well as nutrition for runners, marathon and half marathon training advice as well as trail running, strength training, long runs, 5k training, ultramarathons",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_nkZOYCRFSvUO-YsygJG6GUFac3XAAJM12iHul63_YVTg=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 252000,
+      "videoCount": 1422,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "kofuzi",
+      "name": "kofuzi",
+      "channelTitle": "kofuzi",
+      "channelId": "UCe43pe3w4L6w3tNMRkWiJBA",
+      "handle": "kofuzi",
+      "url": "https://www.youtube.com/@kofuzi",
+      "description": "non elite runner who reviews shoes\n",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_m3XwPwWSYZpWcrJ7xUZi4hj33WfMTkwsL4rDZL0C-MwQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 240000,
+      "videoCount": 3464,
+      "kind": "creative",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "truett-hanes",
+      "name": "Truett Hanes",
+      "channelTitle": "Truett Hanes",
+      "channelId": "UCBS9THMv6Gm16XeQ88Axv1Q",
+      "handle": "truetthanes",
+      "url": "https://www.youtube.com/@truetthanes",
+      "description": "It’s just pain, baby",
+      "avatar": "https://yt3.ggpht.com/2cPTM26jwX_QhDO8n4njN5hYRoweRy0xz6a7vH5chmawZUc9bjj6brbWAAC6Zcv5B6rW5HuhxQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 214000,
+      "videoCount": 143,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "seth-james-demoor",
+      "name": "Seth James DeMoor",
+      "channelTitle": "Seth James DeMoor",
+      "channelId": "UCeSHo5kTvzoik4STh7MuMCA",
+      "handle": "SethJamesDeMoor",
+      "url": "https://www.youtube.com/@SethJamesDeMoor",
+      "description": "This YouTube channel will offer the subscriber inspiration and motivation for falling in love with running. As we all aspire to remain healthy and fit, running is one of the best ways to maintain a high level of fitness. Through this channel you will learn about running, experience running through my daily vlog experience, and learn how to choose the best running gear for you. Running gear and run",
+      "avatar": "https://yt3.ggpht.com/-LH6yU1_-e-OtV9ZnHvPZvkGbmO-xLc56FFVudAxfSxFGDyPpDcPaq_AUr9vluUiWZyPVJoE=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 169000,
+      "videoCount": 3322,
+      "kind": "creative",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "matt-fox",
+      "name": "Matt Fox",
+      "channelTitle": "Matt Fox | Sweat Elite ",
+      "channelId": "UCFYpwqeNXx7M9xosFjdm5kQ",
+      "handle": "SweatElite",
+      "url": "https://www.youtube.com/@SweatElite",
+      "description": "I’m a 2:18 marathoner, 39 years old, with the goal of running 2:10 one day. This is my journey.\n\nFor the past 8 years I’ve studied the world’s best distance runners, learning everything I can from them and applying those lessons to my own training.\n\nI coach athletes for the 5k, 10k, half marathon and marathon all over the world. To enquire: https://sweatelite.co/coaching/personalized-1-1/\n\nMore in",
+      "avatar": "https://yt3.ggpht.com/aMXszUuRPRTXMPdFeb0aEiG-66530HJ4aJoi5an4ckvxpjx2O6FWOkgOIjpBJxe6tUo6w7BKRQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 146000,
+      "videoCount": 420,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "billy-yang",
+      "name": "Billy Yang",
+      "channelTitle": "Billy Yang",
+      "channelId": "UCScHdYFS_KBduqkRBjbQNuA",
+      "handle": "BillyYang",
+      "url": "https://www.youtube.com/@BillyYang",
+      "description": "",
+      "avatar": "https://yt3.ggpht.com/QGQaPwkyeStHKHex1PpRlhcNoPeI-1i8rfBy94uszeBU2LIMYsdTbHk6EhcQsyZildtZmSINa70=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 130000,
+      "videoCount": 161,
+      "kind": "creative",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "floberg-runs",
+      "name": "Floberg Runs",
+      "channelTitle": "Floberg Runs",
+      "channelId": "UCSE6bU26riJK7_tYmhubh7w",
+      "handle": "FlobergRuns",
+      "url": "https://www.youtube.com/@FlobergRuns",
+      "description": "Just a dad trying to run consistently, hit new goals, and motivate others to get into the running game! ",
+      "avatar": "https://yt3.ggpht.com/sUeq81d9sHZPg4Ao0a83YOkHK6UNtguxiZL7VQZ6YLFd4StYWnu3EFIh1rHAH_Ysqjcdd3enYQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 69700,
+      "videoCount": 167,
+      "kind": "creative",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "max-jolliffe",
+      "name": "Max Jolliffe",
+      "channelTitle": "Max Jolliffe",
+      "channelId": "UCVmv5i2UWoUmlo2OSX4BCVA",
+      "handle": "woah_max",
+      "url": "https://www.youtube.com/@woah_max",
+      "description": "",
+      "avatar": "https://yt3.ggpht.com/XXJGUOqS8MJ9UBFNIWBVNv6nZ6QgUproa2h0tFOBfALbaBF2KGID5u8QHcqfbit8l3CW5t4rrg=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 62100,
+      "videoCount": 18,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "marcus-milione",
+      "name": "Marcus Milione",
+      "channelTitle": "Marcus Milione",
+      "channelId": "UCp0Ik7dnHvpKnqinfZJv0Gw",
+      "handle": "marcusmilione1",
+      "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+      "description": "Documenting Minted New York\n\nhttps://mintednewyork.com/\n\nSay hello: business@marcusmilione.com\n",
+      "avatar": "https://yt3.ggpht.com/3LG9wBcMVrE1gi_k8TE4Y86aZwAQWk1cFG_y9ZuBH8ADIXFE-n7zBukfPQuoDL68_K5N38S2xQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 45600,
+      "videoCount": 118,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "clayton-young",
+      "name": "Clayton Young",
+      "channelTitle": "Clayton Young",
+      "channelId": "UCH-IFmmrHATR37Dj7umRdBg",
+      "handle": "_Clayton_Young_",
+      "url": "https://www.youtube.com/@_Clayton_Young_",
+      "description": "Olympian—Paris 2024 Marathon\n4x USA Road Champ | NCAA 10k Champ\nAshley & L & J 👨‍👩‍👧‍👧\nChristian\n",
+      "avatar": "https://yt3.ggpht.com/WSsZ_AZMG4IVFaUgRVVclQ7fzBBBG9rNhCdSX6uvdjKG9jqgmZD3BjrytGDmYJtscJONnNY8wQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 41600,
+      "videoCount": 47,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "josh-kerr",
+      "name": "Josh Kerr",
+      "channelTitle": "Josh Kerr",
+      "channelId": "UCm3ERqka5Tzpzdki3RAmKiQ",
+      "handle": "joshhkerr",
+      "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+      "description": "Mile World Record Holder\nWorld Champion & Olympic Medalist",
+      "avatar": "https://yt3.ggpht.com/k0VaGSjJwQfANf-bwiWh386WDHqjgrZZ0kM91wVaJTFQJrC9FCUyQIlaB4AQdKmbfd6UYfIc0A=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 21900,
+      "videoCount": 148,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "cole-hocker",
+      "name": "Cole Hocker",
+      "channelTitle": "Cole Hocker",
+      "channelId": "UCTMILrsABq1tQfVkFxy5qiQ",
+      "handle": "thecolehocker",
+      "url": "https://www.youtube.com/@thecolehocker",
+      "description": "Olympic Champion · 1500 m · Olympic Record Holder",
+      "avatar": "https://yt3.ggpht.com/xMrCfPw4dXNAjt9TMNugWks4xFIDCB1biD3TlnoQVQTlb9ClzGz9qeg_H_4AAtpq7Svg6wSlk_E=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 20000,
+      "videoCount": 88,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "rory-linkletter",
+      "name": "Rory Linkletter",
+      "channelTitle": "Rory Linkletter, OLY",
+      "channelId": "UCHGRRgKG5XJTZ3hp_H7hOWQ",
+      "handle": "LinkletterRory",
+      "url": "https://www.youtube.com/@LinkletterRory",
+      "description": "2024 Canadian Olympian, Husband, Father, Believer, and Marathoner for Puma 🐾🇨🇦\nDocumenting the process and my story of being a professional runner. \nCurrently chasing after my next Boston Marathon in 2026!\n\nhttps://www.letstango.run/pre-launch\n\n",
+      "avatar": "https://yt3.ggpht.com/EgVeUSQtdU4ScAIpImLeChSkBSyP5Avcib6p7lzYjSjsyid3PqGzBSYD90bs-TqTitbQ3I3cwLQ=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 18000,
+      "videoCount": 126,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "tracklandia",
+      "name": "Tracklandia",
+      "channelTitle": "Tracklandia",
+      "channelId": "UCo5TE6wpU50kREWVbRdKnOQ",
+      "handle": "Tracklandia",
+      "url": "https://www.youtube.com/@Tracklandia",
+      "description": "Your favorite tiny niche track-focused web series giving you the untold stories of track and field. \n\n\nIn the mid 1800s, pioneers set out on a dusty trail westward to find the land of Track and Field.  They arrived in Portland yesterday, so we're helping them unpack.   We're on a mission to spread knowledge about track racing and the people who do it best.  Come with us to Tracklandia.",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_nRS7hpFmf0KkCgG1ZRGPXXCSnPQdAu3j1RFTiSQGWKRaU=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 11200,
+      "videoCount": 287,
+      "kind": "creative",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "jimmy-whelan",
+      "name": "Jimmy Whelan",
+      "channelTitle": "Jimmy Whelan",
+      "channelId": "UCJ4NB-c6SbjRCWAl_OhXXDg",
+      "handle": "JimmyWhelan",
+      "url": "https://www.youtube.com/@JimmyWhelan",
+      "description": "🇦🇺 Pro Runner for Salomon \nFormer Pro Cyclist",
+      "avatar": "https://yt3.ggpht.com/4juj9eG34dkPrU4bYvL2Hnc3dotKTrO-izuNBZy16xWdGIzTSHx0cIRUbx0FeK5lIc6sbNpd=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 6590,
+      "videoCount": 20,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "joe-klecker",
+      "name": "Joe Klecker",
+      "channelTitle": "Joe Klecker",
+      "channelId": "UCzpnGo6-sK_xlF51HDDDECQ",
+      "handle": "joe_klecker",
+      "url": "https://www.youtube.com/@joe_klecker",
+      "description": "",
+      "avatar": "https://yt3.ggpht.com/AUduKpkuG1yqYpKHH3V_0t6x-J2leWP-GcdQlsl5xD73eW1kv_OL3CtUgAV97McQoVHQ8q-AWw=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 1140,
+      "videoCount": 2,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "house-of-track",
+      "name": "House of Track",
+      "channelTitle": "House of Track",
+      "channelId": "UC97WaNw_C_0K8RhWa1RjWDg",
+      "handle": "House_of_Track",
+      "url": "https://www.youtube.com/@House_of_Track",
+      "description": "",
+      "avatar": "https://yt3.ggpht.com/NPq_FFvkOctAk3DeS457MuYgQrJiudJbzU3VddHr-ldVqGYYv0Y_tlPXhyyrjBiNhJfTI5dmzw=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 11,
+      "videoCount": 8,
+      "kind": "media",
+      "claimState": "unclaimed"
+    }
+  ],
+  "items": [
+    {
+      "id": "DoP5270fHkY",
+      "videoId": "DoP5270fHkY",
+      "title": "What Supplements Do I Take as an Aging Endurance Athlete? Berlin Marathon Training Week 2",
+      "url": "https://www.youtube.com/watch?v=DoP5270fHkY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-06T11:00:25.000Z",
+      "durationSeconds": 1380,
+      "viewCount": 5809,
+      "kind": "video"
+    },
+    {
+      "id": "u9Pn1t8h7CQ",
+      "videoId": "u9Pn1t8h7CQ",
+      "title": "I Almost Missed My Race + On Shoe Giveaway | Fall Marathon Build",
+      "url": "https://www.youtube.com/watch?v=u9Pn1t8h7CQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Joe Klecker",
+        "slug": "joe-klecker",
+        "handle": "joe_klecker",
+        "url": "https://www.youtube.com/@joe_klecker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-05T21:06:57.000Z",
+      "durationSeconds": 950,
+      "viewCount": 4113,
+      "kind": "video"
+    },
+    {
+      "id": "_VT2PN2MJA8",
+      "videoId": "_VT2PN2MJA8",
+      "title": "SUB 16:00 5K?? - Training for BERLIN MARATHON",
+      "url": "https://www.youtube.com/watch?v=_VT2PN2MJA8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-05T16:46:39.000Z",
+      "durationSeconds": 1112,
+      "viewCount": 13648,
+      "kind": "video"
+    },
+    {
+      "id": "R4TlwLWZw0Q",
+      "videoId": "R4TlwLWZw0Q",
+      "title": "Barcelona VLOG - Life Update and training video",
+      "url": "https://www.youtube.com/watch?v=R4TlwLWZw0Q",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-05T15:21:01.000Z",
+      "durationSeconds": 1980,
+      "viewCount": 6634,
+      "kind": "video"
+    },
+    {
+      "id": "iVUTOoYjRTo",
+      "videoId": "iVUTOoYjRTo",
+      "title": "I Ran the KagaSpa 50km by UTMB in JAPAN!",
+      "url": "https://www.youtube.com/watch?v=iVUTOoYjRTo",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-04T06:16:22.000Z",
+      "durationSeconds": 393,
+      "viewCount": 2261,
+      "kind": "video"
+    },
+    {
+      "id": "x-oFXTJBkTc",
+      "videoId": "x-oFXTJBkTc",
+      "title": "marathon training week 3 - a run week in my life",
+      "url": "https://www.youtube.com/watch?v=x-oFXTJBkTc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Hellah Good",
+        "slug": "hellah-good",
+        "handle": "HellahGood",
+        "url": "https://www.youtube.com/@HellahGood",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-02T15:12:34.000Z",
+      "durationSeconds": 2016,
+      "viewCount": 2629,
+      "kind": "video"
+    },
+    {
+      "id": "daKLGajU5Lc",
+      "videoId": "daKLGajU5Lc",
+      "title": "Episode 25 - Flagstaff Training Camp or death",
+      "url": "https://www.youtube.com/watch?v=daKLGajU5Lc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-31T18:00:17.000Z",
+      "durationSeconds": 1458,
+      "viewCount": 40770,
+      "kind": "video"
+    },
+    {
+      "id": "QybajoPWXwE",
+      "videoId": "QybajoPWXwE",
+      "title": "How I Eat To Lift Heavy & Run Far | 3,800 Calorie Full Day Of Eating",
+      "url": "https://www.youtube.com/watch?v=QybajoPWXwE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-30T13:00:03.000Z",
+      "durationSeconds": 1790,
+      "viewCount": 207672,
+      "kind": "video"
+    },
+    {
+      "id": "BXhLrEiFVes",
+      "videoId": "BXhLrEiFVes",
+      "title": "New Partner, New Data: Getting Every Marker Tested Before My Next Marathon Block",
+      "url": "https://www.youtube.com/watch?v=BXhLrEiFVes",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-21T19:00:22.000Z",
+      "durationSeconds": 644,
+      "viewCount": 9081,
+      "kind": "video"
+    },
+    {
+      "id": "sisSG9noBNI",
+      "videoId": "sisSG9noBNI",
+      "title": "Racing the Leadville Marathon to 13,000+ Feet with the whole Family",
+      "url": "https://www.youtube.com/watch?v=sisSG9noBNI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-20T21:48:31.000Z",
+      "durationSeconds": 888,
+      "viewCount": 6749,
+      "kind": "video"
+    },
+    {
+      "id": "iyA0KlP4jxY",
+      "videoId": "iyA0KlP4jxY",
+      "title": "PROJECT 222 | World Record Time Trial | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=iyA0KlP4jxY",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-17T20:00:25.000Z",
+      "durationSeconds": 262,
+      "viewCount": 107131,
+      "kind": "video"
+    },
+    {
+      "id": "QobPx6PHxc0",
+      "videoId": "QobPx6PHxc0",
+      "title": "Gold Coast Marathon 2026 - vlog 005",
+      "url": "https://www.youtube.com/watch?v=QobPx6PHxc0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Matt Fox",
+        "slug": "matt-fox",
+        "handle": "SweatElite",
+        "url": "https://www.youtube.com/@SweatElite",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-05T10:16:48.000Z",
+      "durationSeconds": 1450,
+      "viewCount": 6758,
+      "kind": "video"
+    },
+    {
+      "id": "xTi2uWgNpVE",
+      "videoId": "xTi2uWgNpVE",
+      "title": "Portland Track Festival 2026 - Sunday",
+      "url": "https://www.youtube.com/watch?v=xTi2uWgNpVE",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-22T04:27:00.000Z",
+      "durationSeconds": 22221,
+      "viewCount": 10706,
+      "kind": "video"
+    },
+    {
+      "id": "8Na416EgLFM",
+      "videoId": "8Na416EgLFM",
+      "title": "We Took Chromium to London",
+      "url": "https://www.youtube.com/watch?v=8Na416EgLFM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-29T15:42:53.000Z",
+      "durationSeconds": 903,
+      "viewCount": 18761,
+      "kind": "video"
+    },
+    {
+      "id": "eC38Zh9Ovg0",
+      "videoId": "eC38Zh9Ovg0",
+      "title": "Trevor Bassitt -Clearing Every Hurdle",
+      "url": "https://www.youtube.com/watch?v=eC38Zh9Ovg0",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-03T14:01:03.000Z",
+      "durationSeconds": 3650,
+      "viewCount": 18,
+      "kind": "video"
+    },
+    {
+      "id": "gWMA23pNpsA",
+      "videoId": "gWMA23pNpsA",
+      "title": "Race Week | Boston 2026 Marathon Build: Episode 4",
+      "url": "https://www.youtube.com/watch?v=gWMA23pNpsA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-25T15:39:20.000Z",
+      "durationSeconds": 1376,
+      "viewCount": 51747,
+      "kind": "video"
+    },
+    {
+      "id": "oqY1BJnVb-A",
+      "videoId": "oqY1BJnVb-A",
+      "title": "World Championship Prep",
+      "url": "https://www.youtube.com/watch?v=oqY1BJnVb-A",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-20T16:00:06.000Z",
+      "durationSeconds": 677,
+      "viewCount": 22833,
+      "kind": "video"
+    },
+    {
+      "id": "cEE1aCz2CpE",
+      "videoId": "cEE1aCz2CpE",
+      "title": "Thinking About 2026…During a Long Run in Southern California",
+      "url": "https://www.youtube.com/watch?v=cEE1aCz2CpE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Billy Yang",
+        "slug": "billy-yang",
+        "handle": "BillyYang",
+        "url": "https://www.youtube.com/@BillyYang",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-06T16:10:58.000Z",
+      "durationSeconds": 1168,
+      "viewCount": 18930,
+      "kind": "video"
+    },
+    {
+      "id": "3nB3X4gF9W0",
+      "videoId": "3nB3X4gF9W0",
+      "title": "2026 IS HEATING UP",
+      "url": "https://www.youtube.com/watch?v=3nB3X4gF9W0",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
+        "handle": "woah_max",
+        "url": "https://www.youtube.com/@woah_max",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-22T15:08:07.000Z",
+      "durationSeconds": 875,
+      "viewCount": 103991,
+      "kind": "video"
+    },
+    {
+      "id": "CpGiJ3VRjps",
+      "videoId": "CpGiJ3VRjps",
+      "title": "New Balance SC Elite v6",
+      "url": "https://www.youtube.com/watch?v=CpGiJ3VRjps",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-04T18:09:40.000Z",
+      "durationSeconds": 973,
+      "viewCount": 24036,
+      "kind": "video"
+    },
+    {
+      "id": "39yVuAfM3x4",
+      "videoId": "39yVuAfM3x4",
+      "title": "Hard Long Run on Magnolia Road | Fall Marathon Build",
+      "url": "https://www.youtube.com/watch?v=39yVuAfM3x4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Joe Klecker",
+        "slug": "joe-klecker",
+        "handle": "joe_klecker",
+        "url": "https://www.youtube.com/@joe_klecker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-25T19:57:10.000Z",
+      "durationSeconds": 957,
+      "viewCount": 8925,
+      "kind": "video"
+    },
+    {
+      "id": "sfhKlVs5DHY",
+      "videoId": "sfhKlVs5DHY",
+      "title": "FULL WEEK of Marathon Training - Berlin Marathon [2:27 Goal]",
+      "url": "https://www.youtube.com/watch?v=sfhKlVs5DHY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-29T19:45:27.000Z",
+      "durationSeconds": 2131,
+      "viewCount": 24421,
+      "kind": "video"
+    },
+    {
+      "id": "zzFTe6eyi1A",
+      "videoId": "zzFTe6eyi1A",
+      "title": "SALOMON HQ - Behind the Scenes - Day 1",
+      "url": "https://www.youtube.com/watch?v=zzFTe6eyi1A",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-06T09:00:17.000Z",
+      "durationSeconds": 1144,
+      "viewCount": 12561,
+      "kind": "video"
+    },
+    {
+      "id": "in52B26PpU8",
+      "videoId": "in52B26PpU8",
+      "title": "In light of more “anti-doping and clean sport”posts…especially around Cocodona 250",
+      "url": "https://www.youtube.com/watch?v=in52B26PpU8",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-28T22:38:49.000Z",
+      "durationSeconds": 815,
+      "viewCount": 3698,
+      "kind": "video"
+    },
+    {
+      "id": "sjur-_VI69U",
+      "videoId": "sjur-_VI69U",
+      "title": "running shoe rotation for marathon training",
+      "url": "https://www.youtube.com/watch?v=sjur-_VI69U",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Hellah Good",
+        "slug": "hellah-good",
+        "handle": "HellahGood",
+        "url": "https://www.youtube.com/@HellahGood",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-26T18:37:02.000Z",
+      "durationSeconds": 744,
+      "viewCount": 2022,
+      "kind": "video"
+    },
+    {
+      "id": "WSnw44ZwANg",
+      "videoId": "WSnw44ZwANg",
+      "title": "EPISODE 24 - Olympic Trials or Die Tryin' (Flagstaff)",
+      "url": "https://www.youtube.com/watch?v=WSnw44ZwANg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-24T01:30:21.000Z",
+      "durationSeconds": 1090,
+      "viewCount": 42477,
+      "kind": "video"
+    },
+    {
+      "id": "OgLpf-p0kcU",
+      "videoId": "OgLpf-p0kcU",
+      "title": "How To Be More Consistent",
+      "url": "https://www.youtube.com/watch?v=OgLpf-p0kcU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-23T13:10:02.000Z",
+      "durationSeconds": 1487,
+      "viewCount": 182963,
+      "kind": "video"
+    },
+    {
+      "id": "oyX_zK4kEXY",
+      "videoId": "oyX_zK4kEXY",
+      "title": "Road 2 Trail- Broken Arrow",
+      "url": "https://www.youtube.com/watch?v=oyX_zK4kEXY",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-24T21:30:33.000Z",
+      "durationSeconds": 1092,
+      "viewCount": 28225,
+      "kind": "video"
+    },
+    {
+      "id": "LF-nVlSxgg0",
+      "videoId": "LF-nVlSxgg0",
+      "title": "Running Up Colorado’s Tallest Mountain to Naturally Boost Red Blood Cells",
+      "url": "https://www.youtube.com/watch?v=LF-nVlSxgg0",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-19T20:24:26.000Z",
+      "durationSeconds": 571,
+      "viewCount": 5583,
+      "kind": "video"
+    },
+    {
+      "id": "BmbTpynkpnM",
+      "videoId": "BmbTpynkpnM",
+      "title": "PROJECT 222 | World Record Time Trial and Ticket Giveaway",
+      "url": "https://www.youtube.com/watch?v=BmbTpynkpnM",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-12T21:30:06.000Z",
+      "durationSeconds": 273,
+      "viewCount": 30781,
+      "kind": "video"
+    },
+    {
+      "id": "bNL0ik16eVs",
+      "videoId": "bNL0ik16eVs",
+      "title": "15 Weeks Until the Melbourne Marathon - Vlog 004",
+      "url": "https://www.youtube.com/watch?v=bNL0ik16eVs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Matt Fox",
+        "slug": "matt-fox",
+        "handle": "SweatElite",
+        "url": "https://www.youtube.com/@SweatElite",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-03T00:44:43.000Z",
+      "durationSeconds": 1528,
+      "viewCount": 8194,
+      "kind": "video"
+    },
+    {
+      "id": "zewZEnFBY38",
+      "videoId": "zewZEnFBY38",
+      "title": "Portland Track Festival 2026 - Saturday",
+      "url": "https://www.youtube.com/watch?v=zewZEnFBY38",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-21T04:44:58.000Z",
+      "durationSeconds": 16082,
+      "viewCount": 5298,
+      "kind": "video"
+    },
+    {
+      "id": "izu6G3G9fio",
+      "videoId": "izu6G3G9fio",
+      "title": "They didn't say it would be easy!",
+      "url": "https://www.youtube.com/watch?v=izu6G3G9fio",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-01-23T19:01:28.000Z",
+      "durationSeconds": 735,
+      "viewCount": 56962,
+      "kind": "video"
+    },
+    {
+      "id": "aHKyBMVqpM0",
+      "videoId": "aHKyBMVqpM0",
+      "title": "Episode 7: Liam Meirow - The Creative and Competitive Canvas of Trail Running",
+      "url": "https://www.youtube.com/watch?v=aHKyBMVqpM0",
+      "discipline": "Trail",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-19T14:00:01.000Z",
+      "durationSeconds": 4196,
+      "viewCount": 8,
+      "kind": "video"
+    },
+    {
+      "id": "V2RjAf-KR8c",
+      "videoId": "V2RjAf-KR8c",
+      "title": "Near + Far | Boston 2026 Marathon Build: Episode 3",
+      "url": "https://www.youtube.com/watch?v=V2RjAf-KR8c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-18T15:42:32.000Z",
+      "durationSeconds": 1163,
+      "viewCount": 62846,
+      "kind": "video"
+    },
+    {
+      "id": "zdUJ1qaLSeA",
+      "videoId": "zdUJ1qaLSeA",
+      "title": "How to Run a 3:45 Mile",
+      "url": "https://www.youtube.com/watch?v=zdUJ1qaLSeA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-26T19:00:06.000Z",
+      "durationSeconds": 551,
+      "viewCount": 41265,
+      "kind": "video"
+    },
+    {
+      "id": "O5FTcgxh4Uc",
+      "videoId": "O5FTcgxh4Uc",
+      "title": "RUNNING THE TOUR DU MONT BLANC | 100 Miles, 6 Days",
+      "url": "https://www.youtube.com/watch?v=O5FTcgxh4Uc",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Billy Yang",
+        "slug": "billy-yang",
+        "handle": "BillyYang",
+        "url": "https://www.youtube.com/@BillyYang",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-09-19T15:05:04.000Z",
+      "durationSeconds": 1303,
+      "viewCount": 44969,
+      "kind": "video"
+    },
+    {
+      "id": "-wyXfLgy7fQ",
+      "videoId": "-wyXfLgy7fQ",
+      "title": "MAMMOTH 200 GEAR BREAKDOWN",
+      "url": "https://www.youtube.com/watch?v=-wyXfLgy7fQ",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
+        "handle": "woah_max",
+        "url": "https://www.youtube.com/@woah_max",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-10-23T20:43:51.000Z",
+      "durationSeconds": 1208,
+      "viewCount": 95786,
+      "kind": "video"
+    },
+    {
+      "id": "fjLVG5nJu-M",
+      "videoId": "fjLVG5nJu-M",
+      "title": "Hoka Clifton 11",
+      "url": "https://www.youtube.com/watch?v=fjLVG5nJu-M",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-30T15:37:41.000Z",
+      "durationSeconds": 664,
+      "viewCount": 10323,
+      "kind": "video"
+    },
+    {
+      "id": "sWLnYKJCTGY",
+      "videoId": "sWLnYKJCTGY",
+      "title": "2:27:XX in the Marathon - Build to BERLIN Ep. 01",
+      "url": "https://www.youtube.com/watch?v=sWLnYKJCTGY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-21T15:03:48.000Z",
+      "durationSeconds": 1470,
+      "viewCount": 34659,
+      "kind": "video"
+    },
+    {
+      "id": "zpipJAR5Ao8",
+      "videoId": "zpipJAR5Ao8",
+      "title": "Pacing the Barcelona Marathon - RACE VLOG",
+      "url": "https://www.youtube.com/watch?v=zpipJAR5Ao8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-15T13:57:48.000Z",
+      "durationSeconds": 715,
+      "viewCount": 24682,
+      "kind": "video"
+    },
+    {
+      "id": "7v7FLcgSj4Y",
+      "videoId": "7v7FLcgSj4Y",
+      "title": "Sleep Better, Run Better! ft. the CoolNest Memory Foam Mattress from SweetNight (Product Feature).",
+      "url": "https://www.youtube.com/watch?v=7v7FLcgSj4Y",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-27T04:53:02.000Z",
+      "durationSeconds": 437,
+      "viewCount": 550,
+      "kind": "video"
+    },
+    {
+      "id": "2yPluKsCI3s",
+      "videoId": "2yPluKsCI3s",
+      "title": "marathon training week 1 - RUN VLOG",
+      "url": "https://www.youtube.com/watch?v=2yPluKsCI3s",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Hellah Good",
+        "slug": "hellah-good",
+        "handle": "HellahGood",
+        "url": "https://www.youtube.com/@HellahGood",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-18T15:39:29.000Z",
+      "durationSeconds": 2057,
+      "viewCount": 5919,
+      "kind": "video"
+    },
+    {
+      "id": "osbMzjXqj6I",
+      "videoId": "osbMzjXqj6I",
+      "title": "EPISODE 23 - 5K PR",
+      "url": "https://www.youtube.com/watch?v=osbMzjXqj6I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-10T01:30:37.000Z",
+      "durationSeconds": 1135,
+      "viewCount": 50875,
+      "kind": "video"
+    },
+    {
+      "id": "b6SYEMUnL_Y",
+      "videoId": "b6SYEMUnL_Y",
+      "title": "The Only Strategy That Actually Works Long Term",
+      "url": "https://www.youtube.com/watch?v=b6SYEMUnL_Y",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-19T17:36:45.000Z",
+      "durationSeconds": 1850,
+      "viewCount": 248373,
+      "kind": "video"
+    },
+    {
+      "id": "_ECjsFX_jbk",
+      "videoId": "_ECjsFX_jbk",
+      "title": "2026 Ottawa Race Weekend - The Full Recap",
+      "url": "https://www.youtube.com/watch?v=_ECjsFX_jbk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-04T16:38:43.000Z",
+      "durationSeconds": 2095,
+      "viewCount": 19532,
+      "kind": "video"
+    },
+    {
+      "id": "5fV9Fg42Ii0",
+      "videoId": "5fV9Fg42Ii0",
+      "title": "Bought my First Running Shoe in 8 Years...and it did not live up to history",
+      "url": "https://www.youtube.com/watch?v=5fV9Fg42Ii0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-15T15:54:48.000Z",
+      "durationSeconds": 507,
+      "viewCount": 10403,
+      "kind": "video"
+    },
+    {
+      "id": "yWjSTBjH05I",
+      "videoId": "yWjSTBjH05I",
+      "title": "PROJECT 222: How to Improve Tempos without Running | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=yWjSTBjH05I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-05T18:15:06.000Z",
+      "durationSeconds": 422,
+      "viewCount": 55091,
+      "kind": "video"
+    },
+    {
+      "id": "CDpJ3Z4DyDk",
+      "videoId": "CDpJ3Z4DyDk",
+      "title": "I Ran The Palestine Marathon 10km",
+      "url": "https://www.youtube.com/watch?v=CDpJ3Z4DyDk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Matt Fox",
+        "slug": "matt-fox",
+        "handle": "SweatElite",
+        "url": "https://www.youtube.com/@SweatElite",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-29T05:53:40.000Z",
+      "durationSeconds": 929,
+      "viewCount": 10803,
+      "kind": "video"
+    },
+    {
+      "id": "D4wJ6SuN9Ow",
+      "videoId": "D4wJ6SuN9Ow",
+      "title": "2025 Stumptown Twilight Livestream",
+      "url": "https://www.youtube.com/watch?v=D4wJ6SuN9Ow",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-07-20T18:01:32.000Z",
+      "durationSeconds": 9354,
+      "viewCount": 27567,
+      "kind": "video"
+    },
+    {
+      "id": "1-aKp3bqbO4",
+      "videoId": "1-aKp3bqbO4",
+      "title": "Built to Last - an exploration of our Menswear",
+      "url": "https://www.youtube.com/watch?v=1-aKp3bqbO4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-10-07T23:55:07.000Z",
+      "durationSeconds": 773,
+      "viewCount": 14206,
+      "kind": "video"
+    },
+    {
+      "id": "7lQaVArZCxo",
+      "videoId": "7lQaVArZCxo",
+      "title": "Episode 6: Josh Kerr - Legacy in Motion",
+      "url": "https://www.youtube.com/watch?v=7lQaVArZCxo",
+      "discipline": "Field",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-12T14:00:12.000Z",
+      "durationSeconds": 3460,
+      "viewCount": 44,
+      "kind": "video"
+    },
+    {
+      "id": "Kmv5mcyIq30",
+      "videoId": "Kmv5mcyIq30",
+      "title": "Roll the Dice | Boston 2026 Marathon Build: Episode 2",
+      "url": "https://www.youtube.com/watch?v=Kmv5mcyIq30",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-04T18:10:11.000Z",
+      "durationSeconds": 1215,
+      "viewCount": 84417,
+      "kind": "video"
+    },
+    {
+      "id": "Cb1wIpZEFOs",
+      "videoId": "Cb1wIpZEFOs",
+      "title": "Training For a Fast Mile",
+      "url": "https://www.youtube.com/watch?v=Cb1wIpZEFOs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-22T01:00:06.000Z",
+      "durationSeconds": 605,
+      "viewCount": 29802,
+      "kind": "video"
+    },
+    {
+      "id": "CfsePEmUmJI",
+      "videoId": "CfsePEmUmJI",
+      "title": "From Zimbabwe to Western States | 15 Hours with Emily Hawgood",
+      "url": "https://www.youtube.com/watch?v=CfsePEmUmJI",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Billy Yang",
+        "slug": "billy-yang",
+        "handle": "BillyYang",
+        "url": "https://www.youtube.com/@BillyYang",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-28T00:42:42.000Z",
+      "durationSeconds": 426,
+      "viewCount": 28509,
+      "kind": "video"
+    },
+    {
+      "id": "GicZ8nJtZCM",
+      "videoId": "GicZ8nJtZCM",
+      "title": "ANGELES CREST 100",
+      "url": "https://www.youtube.com/watch?v=GicZ8nJtZCM",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
+        "handle": "woah_max",
+        "url": "https://www.youtube.com/@woah_max",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-09-03T17:13:31.000Z",
+      "durationSeconds": 934,
+      "viewCount": 218271,
+      "kind": "video"
+    },
+    {
+      "id": "70ceZiQeyTs",
+      "videoId": "70ceZiQeyTs",
+      "title": "Li Ning Red Hare 9 Ultra",
+      "url": "https://www.youtube.com/watch?v=70ceZiQeyTs",
+      "discipline": "Trail",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-27T11:00:30.000Z",
+      "durationSeconds": 905,
+      "viewCount": 29515,
+      "kind": "video"
+    },
+    {
+      "id": "RwwGf3LpVJU",
+      "videoId": "RwwGf3LpVJU",
+      "title": "The Missing Link for Most Marathoners [Speed Work]",
+      "url": "https://www.youtube.com/watch?v=RwwGf3LpVJU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-27T17:02:09.000Z",
+      "durationSeconds": 1135,
+      "viewCount": 21230,
+      "kind": "video"
+    },
+    {
+      "id": "C33pAAmnNdA",
+      "videoId": "C33pAAmnNdA",
+      "title": "Back in Sunny Barcelona - ft MNSTRY",
+      "url": "https://www.youtube.com/watch?v=C33pAAmnNdA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-07T13:19:45.000Z",
+      "durationSeconds": 834,
+      "viewCount": 10465,
+      "kind": "video"
+    },
+    {
+      "id": "25qm7C7Ef0A",
+      "videoId": "25qm7C7Ef0A",
+      "title": "My Pre-Run Mobility Dynamic Stretching Routine! Coach Sage Canaday for Team Stop the Clot (NBCA) '26",
+      "url": "https://www.youtube.com/watch?v=25qm7C7Ef0A",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-15T15:02:13.000Z",
+      "durationSeconds": 732,
+      "viewCount": 3188,
+      "kind": "video"
+    },
+    {
+      "id": "ixgueHGSZNM",
+      "videoId": "ixgueHGSZNM",
+      "title": "a hellahgood summer - run streak day 3332, dream car, marathon training",
+      "url": "https://www.youtube.com/watch?v=ixgueHGSZNM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Hellah Good",
+        "slug": "hellah-good",
+        "handle": "HellahGood",
+        "url": "https://www.youtube.com/@HellahGood",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-11T17:42:16.000Z",
+      "durationSeconds": 2202,
+      "viewCount": 3645,
+      "kind": "video"
+    },
+    {
+      "id": "RakR0ihKRGw",
+      "videoId": "RakR0ihKRGw",
+      "title": "EPISODE 22 - The Tely 10 Miler",
+      "url": "https://www.youtube.com/watch?v=RakR0ihKRGw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-02T00:00:29.000Z",
+      "durationSeconds": 1687,
+      "viewCount": 50000,
+      "kind": "video"
+    },
+    {
+      "id": "NSKbYmrazyI",
+      "videoId": "NSKbYmrazyI",
+      "title": "Heavy Leg Day Strength Session For Hybrid Athletes",
+      "url": "https://www.youtube.com/watch?v=NSKbYmrazyI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-15T18:26:16.000Z",
+      "durationSeconds": 817,
+      "viewCount": 126778,
+      "kind": "video"
+    },
+    {
+      "id": "olzZOWA5iME",
+      "videoId": "olzZOWA5iME",
+      "title": "The In-Between: From Boston to Ottawa",
+      "url": "https://www.youtube.com/watch?v=olzZOWA5iME",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-17T16:01:16.000Z",
+      "durationSeconds": 1149,
+      "viewCount": 18994,
+      "kind": "video"
+    },
+    {
+      "id": "EC3dCk7l3ng",
+      "videoId": "EC3dCk7l3ng",
+      "title": "A Tradition Like No Other: Chasing the First Thaw of the High Peaks",
+      "url": "https://www.youtube.com/watch?v=EC3dCk7l3ng",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-11T14:04:37.000Z",
+      "durationSeconds": 791,
+      "viewCount": 4450,
+      "kind": "video"
+    },
+    {
+      "id": "ePBNcAdWvS0",
+      "videoId": "ePBNcAdWvS0",
+      "title": "PROJECT 222 | My Toughest Workout | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=ePBNcAdWvS0",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-28T18:00:06.000Z",
+      "durationSeconds": 812,
+      "viewCount": 52846,
+      "kind": "video"
+    },
+    {
+      "id": "0cwMUEIutxY",
+      "videoId": "0cwMUEIutxY",
+      "title": "Testing Chinese Super Shoes - Sub 2:15 Marathon Project - Vlog 003",
+      "url": "https://www.youtube.com/watch?v=0cwMUEIutxY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Matt Fox",
+        "slug": "matt-fox",
+        "handle": "SweatElite",
+        "url": "https://www.youtube.com/@SweatElite",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-21T12:59:40.000Z",
+      "durationSeconds": 933,
+      "viewCount": 31946,
+      "kind": "video"
+    },
+    {
+      "id": "P0kbYTAX5dI",
+      "videoId": "P0kbYTAX5dI",
+      "title": "Big last lap for the win in the Portland Track Festival High School Girls 1500m",
+      "url": "https://www.youtube.com/watch?v=P0kbYTAX5dI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-07-08T17:35:39.000Z",
+      "durationSeconds": 348,
+      "viewCount": 1389,
+      "kind": "video"
+    },
+    {
+      "id": "ii8vSylU4U8",
+      "videoId": "ii8vSylU4U8",
+      "title": "Life is complicated and thats what makes it fun",
+      "url": "https://www.youtube.com/watch?v=ii8vSylU4U8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-09-05T21:51:40.000Z",
+      "durationSeconds": 519,
+      "viewCount": 26494,
+      "kind": "video"
+    },
+    {
+      "id": "cHEPmLEcRQE",
+      "videoId": "cHEPmLEcRQE",
+      "title": "Episode 5: Xavier Gallo",
+      "url": "https://www.youtube.com/watch?v=cHEPmLEcRQE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-21T14:00:57.000Z",
+      "durationSeconds": 3664,
+      "viewCount": 2,
+      "kind": "video"
+    },
+    {
+      "id": "L1tRfNVsl64",
+      "videoId": "L1tRfNVsl64",
+      "title": "Team Brooks | Boston 2026 Marathon Build: Episode 1",
+      "url": "https://www.youtube.com/watch?v=L1tRfNVsl64",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-21T17:11:32.000Z",
+      "durationSeconds": 934,
+      "viewCount": 100935,
+      "kind": "video"
+    },
+    {
+      "id": "LKxel9s5MFU",
+      "videoId": "LKxel9s5MFU",
+      "title": "We Ran a 3:57 Mile... Then Kept Going",
+      "url": "https://www.youtube.com/watch?v=LKxel9s5MFU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-05T21:15:06.000Z",
+      "durationSeconds": 576,
+      "viewCount": 39647,
+      "kind": "video"
+    },
+    {
+      "id": "7dWSGnujx4U",
+      "videoId": "7dWSGnujx4U",
+      "title": "From Pro Athlete to Race Director: Tim Tollefson’s True Calling | 15 HOURS",
+      "url": "https://www.youtube.com/watch?v=7dWSGnujx4U",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Billy Yang",
+        "slug": "billy-yang",
+        "handle": "BillyYang",
+        "url": "https://www.youtube.com/@BillyYang",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-02-26T15:14:48.000Z",
+      "durationSeconds": 517,
+      "viewCount": 18457,
+      "kind": "video"
+    },
+    {
+      "id": "tUQDuTW1Qjo",
+      "videoId": "tUQDuTW1Qjo",
+      "title": "COCODONA AFTERMATH",
+      "url": "https://www.youtube.com/watch?v=tUQDuTW1Qjo",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
+        "handle": "woah_max",
+        "url": "https://www.youtube.com/@woah_max",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-13T16:41:11.000Z",
+      "durationSeconds": 860,
+      "viewCount": 109090,
+      "kind": "video"
+    },
+    {
+      "id": "O3S7ufkybSY",
+      "videoId": "O3S7ufkybSY",
+      "title": "Injured Already? - Berlin Marathon Training Week 1, Chasing Ghost Season 2 Episode 1",
+      "url": "https://www.youtube.com/watch?v=O3S7ufkybSY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-24T12:00:04.000Z",
+      "durationSeconds": 1127,
+      "viewCount": 34797,
+      "kind": "video"
+    },
+    {
+      "id": "dL4UrEXx0UM",
+      "videoId": "dL4UrEXx0UM",
+      "title": "I Ran a Sub 2:30 Marathon, What's Next?",
+      "url": "https://www.youtube.com/watch?v=dL4UrEXx0UM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-16T13:04:10.000Z",
+      "durationSeconds": 2078,
+      "viewCount": 26757,
+      "kind": "video"
+    },
+    {
+      "id": "w_NhX998EJ8",
+      "videoId": "w_NhX998EJ8",
+      "title": "Morning in Melbourne - VLOG",
+      "url": "https://www.youtube.com/watch?v=w_NhX998EJ8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-18T16:33:28.000Z",
+      "durationSeconds": 1037,
+      "viewCount": 12186,
+      "kind": "video"
+    },
+    {
+      "id": "lz6dkvFx0fw",
+      "videoId": "lz6dkvFx0fw",
+      "title": "Using The HoverAir Pro Max Self Flying Camera for Content Creation in Outdoor Sports VLOGs",
+      "url": "https://www.youtube.com/watch?v=lz6dkvFx0fw",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-29T07:00:39.000Z",
+      "durationSeconds": 482,
+      "viewCount": 1333,
+      "kind": "video"
+    },
+    {
+      "id": "YlfCgjocxhY",
+      "videoId": "YlfCgjocxhY",
+      "title": "running hot takes - run influencer reacts",
+      "url": "https://www.youtube.com/watch?v=YlfCgjocxhY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Hellah Good",
+        "slug": "hellah-good",
+        "handle": "HellahGood",
+        "url": "https://www.youtube.com/@HellahGood",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-16T22:41:02.000Z",
+      "durationSeconds": 1090,
+      "viewCount": 3272,
+      "kind": "video"
+    },
+    {
+      "id": "Vg_20jlJjUw",
+      "videoId": "Vg_20jlJjUw",
+      "title": "EPISODE 21 - Olympic Trials or DIE TRYING",
+      "url": "https://www.youtube.com/watch?v=Vg_20jlJjUw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-21T14:00:10.000Z",
+      "durationSeconds": 1139,
+      "viewCount": 44973,
+      "kind": "video"
+    },
+    {
+      "id": "kV-pBmoVZ3E",
+      "videoId": "kV-pBmoVZ3E",
+      "title": "Running Injury Insights after 28 Years of Running... and running gear of course",
+      "url": "https://www.youtube.com/watch?v=kV-pBmoVZ3E",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-04T15:38:34.000Z",
+      "durationSeconds": 882,
+      "viewCount": 6382,
+      "kind": "video"
+    },
+    {
+      "id": "RMD3zYq8PoU",
+      "videoId": "RMD3zYq8PoU",
+      "title": "PROJECT 222 | Last Race Before the WR Attempt | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=RMD3zYq8PoU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-21T18:00:06.000Z",
+      "durationSeconds": 567,
+      "viewCount": 36310,
+      "kind": "video"
+    },
+    {
+      "id": "S69V6EDSoQs",
+      "videoId": "S69V6EDSoQs",
+      "title": "Training in Thailand - Sub 2:15 Marathon Project - Vlog 002",
+      "url": "https://www.youtube.com/watch?v=S69V6EDSoQs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Matt Fox",
+        "slug": "matt-fox",
+        "handle": "SweatElite",
+        "url": "https://www.youtube.com/@SweatElite",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-20T02:52:47.000Z",
+      "durationSeconds": 815,
+      "viewCount": 71590,
+      "kind": "video"
+    },
+    {
+      "id": "lNUurzbRhXY",
+      "videoId": "lNUurzbRhXY",
+      "title": "A Nail Biter Finish! High School Boys 1500m at The Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=lNUurzbRhXY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-07-08T17:26:44.000Z",
+      "durationSeconds": 316,
+      "viewCount": 2419,
+      "kind": "video"
+    },
+    {
+      "id": "8r--ZohtS50",
+      "videoId": "8r--ZohtS50",
+      "title": "is this what overcooked feels like?",
+      "url": "https://www.youtube.com/watch?v=8r--ZohtS50",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-23T01:01:58.000Z",
+      "durationSeconds": 496,
+      "viewCount": 22128,
+      "kind": "video"
+    },
+    {
+      "id": "U4YIl80xWBs",
+      "videoId": "U4YIl80xWBs",
+      "title": "Episode 4: Valery Tobias",
+      "url": "https://www.youtube.com/watch?v=U4YIl80xWBs",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-07T15:00:47.000Z",
+      "durationSeconds": 3774,
+      "viewCount": 47,
+      "kind": "video"
+    },
+    {
+      "id": "ZBHeTPBYJm8",
+      "videoId": "ZBHeTPBYJm8",
+      "title": "Temper | Valencia Marathon Build: Episode 1 | Am I injured?",
+      "url": "https://www.youtube.com/watch?v=ZBHeTPBYJm8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-11-15T18:46:02.000Z",
+      "durationSeconds": 1060,
+      "viewCount": 58699,
+      "kind": "video"
+    },
+    {
+      "id": "7jW5j8ez6Eo",
+      "videoId": "7jW5j8ez6Eo",
+      "title": "Running \"the Michigan\" in Chicago",
+      "url": "https://www.youtube.com/watch?v=7jW5j8ez6Eo",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-01-12T17:15:06.000Z",
+      "durationSeconds": 618,
+      "viewCount": 22737,
+      "kind": "video"
+    },
+    {
+      "id": "HR2HMPjCKuU",
+      "videoId": "HR2HMPjCKuU",
+      "title": "BLACK CANYON 50K",
+      "url": "https://www.youtube.com/watch?v=HR2HMPjCKuU",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
+        "handle": "woah_max",
+        "url": "https://www.youtube.com/@woah_max",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-04-21T16:39:16.000Z",
+      "durationSeconds": 947,
+      "viewCount": 251783,
+      "kind": "video"
+    },
+    {
+      "id": "nHlGARdqqBw",
+      "videoId": "nHlGARdqqBw",
+      "title": "Tracksmith Eliot Ryder",
+      "url": "https://www.youtube.com/watch?v=nHlGARdqqBw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-23T11:00:09.000Z",
+      "durationSeconds": 759,
+      "viewCount": 10218,
+      "kind": "video"
+    },
+    {
+      "id": "P6Kac3Oh6JI",
+      "videoId": "P6Kac3Oh6JI",
+      "title": "What's the Boston Marathon Cut Off Time? [How to Qualify]",
+      "url": "https://www.youtube.com/watch?v=P6Kac3Oh6JI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-15T13:02:18.000Z",
+      "durationSeconds": 1076,
+      "viewCount": 23036,
+      "kind": "video"
+    },
+    {
+      "id": "5lfNg_H4e4Q",
+      "videoId": "5lfNg_H4e4Q",
+      "title": "2025 Valencia Half Marathon - 61:37 Race VLOG",
+      "url": "https://www.youtube.com/watch?v=5lfNg_H4e4Q",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-11-03T08:44:21.000Z",
+      "durationSeconds": 1287,
+      "viewCount": 43288,
+      "kind": "video"
+    },
+    {
+      "id": "-6RfJlXyAe0",
+      "videoId": "-6RfJlXyAe0",
+      "title": "EPISODE 20 - Olympic Trials or DIE Trying",
+      "url": "https://www.youtube.com/watch?v=-6RfJlXyAe0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-13T23:00:22.000Z",
+      "durationSeconds": 980,
+      "viewCount": 36926,
+      "kind": "video"
+    },
+    {
+      "id": "4XdciqSNoTY",
+      "videoId": "4XdciqSNoTY",
+      "title": "LONG FKTs and Throwing down Birthday Miles at the DeMoor Household",
+      "url": "https://www.youtube.com/watch?v=4XdciqSNoTY",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-27T15:05:04.000Z",
+      "durationSeconds": 854,
+      "viewCount": 3498,
+      "kind": "video"
+    },
+    {
+      "id": "44d4Yo0xhFM",
+      "videoId": "44d4Yo0xhFM",
+      "title": "PROJECT 222 | INSANE 4x800m at WORLD RECORD Pace | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=44d4Yo0xhFM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-14T18:00:06.000Z",
+      "durationSeconds": 716,
+      "viewCount": 74892,
+      "kind": "video"
+    },
+    {
+      "id": "_3D30DUJdLg",
+      "videoId": "_3D30DUJdLg",
+      "title": "Re-Launch: Sub 2:15 Marathon Project - Vlog 001",
+      "url": "https://www.youtube.com/watch?v=_3D30DUJdLg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Matt Fox",
+        "slug": "matt-fox",
+        "handle": "SweatElite",
+        "url": "https://www.youtube.com/@SweatElite",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-24T05:49:56.000Z",
+      "durationSeconds": 1176,
+      "viewCount": 56422,
+      "kind": "video"
+    },
+    {
+      "id": "fz3_ZbV7it0",
+      "videoId": "fz3_ZbV7it0",
+      "title": "Spence Rolls for DII in the High Performance 5,000m at the Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=fz3_ZbV7it0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-30T22:20:10.000Z",
+      "durationSeconds": 1017,
+      "viewCount": 9499,
+      "kind": "video"
+    },
+    {
+      "id": "IH9K0UePqdM",
+      "videoId": "IH9K0UePqdM",
+      "title": "Brooklyn Mile Race Day + Product Insights",
+      "url": "https://www.youtube.com/watch?v=IH9K0UePqdM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-08T23:25:12.000Z",
+      "durationSeconds": 592,
+      "viewCount": 22310,
+      "kind": "video"
+    },
+    {
+      "id": "Er7DHZ2nK4M",
+      "videoId": "Er7DHZ2nK4M",
+      "title": "House of Track - Episode 3: Marquis Dendy",
+      "url": "https://www.youtube.com/watch?v=Er7DHZ2nK4M",
+      "discipline": "Field",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-13T15:00:32.000Z",
+      "durationSeconds": 4292,
+      "viewCount": 15,
+      "kind": "video"
+    },
+    {
+      "id": "70P5JeSWR7U",
+      "videoId": "70P5JeSWR7U",
+      "title": "Race Week | Tokyo World Champs Marathon Build: Episode 4",
+      "url": "https://www.youtube.com/watch?v=70P5JeSWR7U",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-09-20T16:46:24.000Z",
+      "durationSeconds": 1074,
+      "viewCount": 64138,
+      "kind": "video"
+    },
+    {
+      "id": "jXS3Yl4StNk",
+      "videoId": "jXS3Yl4StNk",
+      "title": "When Pro Runners Race Cross Country",
+      "url": "https://www.youtube.com/watch?v=jXS3Yl4StNk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-01-08T19:00:06.000Z",
+      "durationSeconds": 572,
+      "viewCount": 30785,
+      "kind": "video"
+    },
+    {
+      "id": "euOpy884bgQ",
+      "videoId": "euOpy884bgQ",
+      "title": "KING OF MOAB",
+      "url": "https://www.youtube.com/watch?v=euOpy884bgQ",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Max Jolliffe",
+        "slug": "max-jolliffe",
+        "handle": "woah_max",
+        "url": "https://www.youtube.com/@woah_max",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-03-21T16:00:06.000Z",
+      "durationSeconds": 3149,
+      "viewCount": 1700109,
+      "kind": "video"
+    },
+    {
+      "id": "Jy-NM5efxyI",
+      "videoId": "Jy-NM5efxyI",
+      "title": "New Balance Supercomp Rebel",
+      "url": "https://www.youtube.com/watch?v=Jy-NM5efxyI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-21T12:14:24.000Z",
+      "durationSeconds": 1213,
+      "viewCount": 57794,
+      "kind": "video"
+    },
+    {
+      "id": "sPKPLSv2AAI",
+      "videoId": "sPKPLSv2AAI",
+      "title": "BOSTON MARATHON SUB-2:30 Breakdown [2:29:46]",
+      "url": "https://www.youtube.com/watch?v=sPKPLSv2AAI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-05T23:12:51.000Z",
+      "durationSeconds": 4785,
+      "viewCount": 26782,
+      "kind": "video"
+    },
+    {
+      "id": "Zx3NOcga2MY",
+      "videoId": "Zx3NOcga2MY",
+      "title": "Uncut training footage - Barcelona",
+      "url": "https://www.youtube.com/watch?v=Zx3NOcga2MY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-10-05T11:15:29.000Z",
+      "durationSeconds": 353,
+      "viewCount": 3834,
+      "kind": "video"
+    },
+    {
+      "id": "VsM88to5e2c",
+      "videoId": "VsM88to5e2c",
+      "title": "EPISODE 19 - Olympic Trials or DIE trying",
+      "url": "https://www.youtube.com/watch?v=VsM88to5e2c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-06T00:55:20.000Z",
+      "durationSeconds": 720,
+      "viewCount": 42909,
+      "kind": "video"
+    },
+    {
+      "id": "KsOZvS9goWQ",
+      "videoId": "KsOZvS9goWQ",
+      "title": "40 Years Old, The Furthest Run of My Life – Building Real Strength, One Virtuous Mile at a Time",
+      "url": "https://www.youtube.com/watch?v=KsOZvS9goWQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-09T20:35:21.000Z",
+      "durationSeconds": 754,
+      "viewCount": 8799,
+      "kind": "video"
+    },
+    {
+      "id": "kYNIB3H7ZVE",
+      "videoId": "kYNIB3H7ZVE",
+      "title": "New PB in LA | 800m | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=kYNIB3H7ZVE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-07T18:00:06.000Z",
+      "durationSeconds": 486,
+      "viewCount": 47374,
+      "kind": "video"
+    },
+    {
+      "id": "RnOY73DIRV4",
+      "videoId": "RnOY73DIRV4",
+      "title": "Luis Grijalva Returns to Racing at the Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=RnOY73DIRV4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-30T22:12:22.000Z",
+      "durationSeconds": 897,
+      "viewCount": 9177,
+      "kind": "video"
+    },
+    {
+      "id": "OE2ZFczEAB8",
+      "videoId": "OE2ZFczEAB8",
+      "title": "Figuring it out as we go - the ups and downs of business | NYC",
+      "url": "https://www.youtube.com/watch?v=OE2ZFczEAB8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-07-25T22:28:28.000Z",
+      "durationSeconds": 668,
+      "viewCount": 24375,
+      "kind": "video"
+    },
+    {
+      "id": "XQ8p8RwWkxM",
+      "videoId": "XQ8p8RwWkxM",
+      "title": "Episode 2: Sinclaire Johnson & Craig Nowak - Record Setting Trust",
+      "url": "https://www.youtube.com/watch?v=XQ8p8RwWkxM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-05T15:01:05.000Z",
+      "durationSeconds": 3616,
+      "viewCount": 13,
+      "kind": "video"
+    },
+    {
+      "id": "NCwHay2EHso",
+      "videoId": "NCwHay2EHso",
+      "title": "Peak Fitness | Tokyo World Champs Marathon Build: Episode 3",
+      "url": "https://www.youtube.com/watch?v=NCwHay2EHso",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-09-06T17:57:25.000Z",
+      "durationSeconds": 1118,
+      "viewCount": 61272,
+      "kind": "video"
+    },
+    {
+      "id": "p6fA3zEvfSM",
+      "videoId": "p6fA3zEvfSM",
+      "title": "Indoor Build EP 2 | Nike Headquarters Workout",
+      "url": "https://www.youtube.com/watch?v=p6fA3zEvfSM",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-12-29T22:00:06.000Z",
+      "durationSeconds": 672,
+      "viewCount": 48003,
+      "kind": "video"
+    },
+    {
+      "id": "4DDt4xL2bWI",
+      "videoId": "4DDt4xL2bWI",
+      "title": "Off Season - Before the Next Marathon Build. Chasing Ghosts Season 2, Episode 0",
+      "url": "https://www.youtube.com/watch?v=4DDt4xL2bWI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-17T19:37:54.000Z",
+      "durationSeconds": 972,
+      "viewCount": 25125,
+      "kind": "video"
+    },
+    {
+      "id": "MHWQqNBhzl4",
+      "videoId": "MHWQqNBhzl4",
+      "title": "SUB-2:30 at the BOSTON MARATHON [Race Film]",
+      "url": "https://www.youtube.com/watch?v=MHWQqNBhzl4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-02T14:57:59.000Z",
+      "durationSeconds": 1497,
+      "viewCount": 68818,
+      "kind": "video"
+    },
+    {
+      "id": "6vquhqT1rUk",
+      "videoId": "6vquhqT1rUk",
+      "title": "Training Day - Valencia Half Prep",
+      "url": "https://www.youtube.com/watch?v=6vquhqT1rUk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-10-03T06:00:09.000Z",
+      "durationSeconds": 665,
+      "viewCount": 9182,
+      "kind": "video"
+    },
+    {
+      "id": "PmhNYZRjZNc",
+      "videoId": "PmhNYZRjZNc",
+      "title": "EPISODE 18 - Olympics Trials or DIE trying",
+      "url": "https://www.youtube.com/watch?v=PmhNYZRjZNc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-29T00:00:12.000Z",
+      "durationSeconds": 749,
+      "viewCount": 38292,
+      "kind": "video"
+    },
+    {
+      "id": "6jVq_Mb7I9M",
+      "videoId": "6jVq_Mb7I9M",
+      "title": "Running Deeper Into the Unknown – Next Round of Funky Recovery Arrives in the Shoedio",
+      "url": "https://www.youtube.com/watch?v=6jVq_Mb7I9M",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Seth James DeMoor",
+        "slug": "seth-james-demoor",
+        "handle": "SethJamesDeMoor",
+        "url": "https://www.youtube.com/@SethJamesDeMoor",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-03T19:35:09.000Z",
+      "durationSeconds": 641,
+      "viewCount": 3286,
+      "kind": "video"
+    },
+    {
+      "id": "po5IVf6eUts",
+      "videoId": "po5IVf6eUts",
+      "title": "Patrick Tuohy Makes a Bold Move at the Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=po5IVf6eUts",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-30T22:04:55.000Z",
+      "durationSeconds": 185,
+      "viewCount": 2066,
+      "kind": "video"
+    },
+    {
+      "id": "JQg6ecDvs2U",
+      "videoId": "JQg6ecDvs2U",
+      "title": "Paris Fashion Week With The Team - first time",
+      "url": "https://www.youtube.com/watch?v=JQg6ecDvs2U",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-07-11T21:14:58.000Z",
+      "durationSeconds": 641,
+      "viewCount": 21394,
+      "kind": "video"
+    },
+    {
+      "id": "g-2sEWn9xfI",
+      "videoId": "g-2sEWn9xfI",
+      "title": "House of Track - Episode 1: Ahmed Muhumed",
+      "url": "https://www.youtube.com/watch?v=g-2sEWn9xfI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "House of Track",
+        "slug": "house-of-track",
+        "handle": "House_of_Track",
+        "url": "https://www.youtube.com/@House_of_Track",
+        "kind": "media"
+      },
+      "athlete": null,
+      "publishedAt": "2026-01-29T15:01:13.000Z",
+      "durationSeconds": 4039,
+      "viewCount": 32,
+      "kind": "video"
+    },
+    {
+      "id": "rfog39B1Bek",
+      "videoId": "rfog39B1Bek",
+      "title": "The Pursuit | Tokyo World Champs Marathon Build: Episode 2",
+      "url": "https://www.youtube.com/watch?v=rfog39B1Bek",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-23T19:01:48.000Z",
+      "durationSeconds": 1276,
+      "viewCount": 94698,
+      "kind": "video"
+    },
+    {
+      "id": "JTCeMOF7uSc",
+      "videoId": "JTCeMOF7uSc",
+      "title": "The Indoor Build Begins",
+      "url": "https://www.youtube.com/watch?v=JTCeMOF7uSc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-12-18T19:00:06.000Z",
+      "durationSeconds": 790,
+      "viewCount": 29375,
+      "kind": "video"
+    },
+    {
+      "id": "Pn1B8ekPwbk",
+      "videoId": "Pn1B8ekPwbk",
+      "title": "Topo Specter Elite",
+      "url": "https://www.youtube.com/watch?v=Pn1B8ekPwbk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-14T11:31:12.000Z",
+      "durationSeconds": 789,
+      "viewCount": 14380,
+      "kind": "video"
+    },
+    {
+      "id": "qfrngnGEfbw",
+      "videoId": "qfrngnGEfbw",
+      "title": "BACK2:BOSTON - The Race Plan [Sub 2:30 Attempt]",
+      "url": "https://www.youtube.com/watch?v=qfrngnGEfbw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-17T17:10:29.000Z",
+      "durationSeconds": 1330,
+      "viewCount": 31933,
+      "kind": "video"
+    },
+    {
+      "id": "eWGTtFwjCfs",
+      "videoId": "eWGTtFwjCfs",
+      "title": "Chit Chat Vlog",
+      "url": "https://www.youtube.com/watch?v=eWGTtFwjCfs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-14T10:44:48.000Z",
+      "durationSeconds": 1330,
+      "viewCount": 2119,
+      "kind": "video"
+    },
+    {
+      "id": "HRKYjC93dDM",
+      "videoId": "HRKYjC93dDM",
+      "title": "Episode 17 - Ogden Marathon or die trying",
+      "url": "https://www.youtube.com/watch?v=HRKYjC93dDM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-21T23:00:24.000Z",
+      "durationSeconds": 904,
+      "viewCount": 54633,
+      "kind": "video"
+    },
+    {
+      "id": "6vRzrKOmKiY",
+      "videoId": "6vRzrKOmKiY",
+      "title": "The Return of Raevyn Rogers at the Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=6vRzrKOmKiY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-30T21:55:10.000Z",
+      "durationSeconds": 188,
+      "viewCount": 854,
+      "kind": "video"
+    },
+    {
+      "id": "H49ndz_avrM",
+      "videoId": "H49ndz_avrM",
+      "title": "Training with Grant Fisher in the Mountains of Utah",
+      "url": "https://www.youtube.com/watch?v=H49ndz_avrM",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-27T21:29:23.000Z",
+      "durationSeconds": 683,
+      "viewCount": 43054,
+      "kind": "video"
+    },
+    {
+      "id": "m4cnDXHjzXI",
+      "videoId": "m4cnDXHjzXI",
+      "title": "Going East | Tokyo World Champs Marathon Build: Episode 1",
+      "url": "https://www.youtube.com/watch?v=m4cnDXHjzXI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Clayton Young",
+        "slug": "clayton-young",
+        "handle": "_Clayton_Young_",
+        "url": "https://www.youtube.com/@_Clayton_Young_",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-09T20:32:10.000Z",
+      "durationSeconds": 953,
+      "viewCount": 82863,
+      "kind": "video"
+    },
+    {
+      "id": "Bj4wDz7MQzw",
+      "videoId": "Bj4wDz7MQzw",
+      "title": "Final Preparation: World Championships 2025",
+      "url": "https://www.youtube.com/watch?v=Bj4wDz7MQzw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-09-12T20:36:13.000Z",
+      "durationSeconds": 567,
+      "viewCount": 32082,
+      "kind": "video"
+    },
+    {
+      "id": "baSoO8rnBXs",
+      "videoId": "baSoO8rnBXs",
+      "title": "Brooks Ghost Amp",
+      "url": "https://www.youtube.com/watch?v=baSoO8rnBXs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-11T11:00:28.000Z",
+      "durationSeconds": 876,
+      "viewCount": 19553,
+      "kind": "video"
+    },
+    {
+      "id": "XutnPoqIGPY",
+      "videoId": "XutnPoqIGPY",
+      "title": "It isn't always just about running. [BACK2:BOSTON Ep. 09]",
+      "url": "https://www.youtube.com/watch?v=XutnPoqIGPY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-11T12:21:19.000Z",
+      "durationSeconds": 1060,
+      "viewCount": 15053,
+      "kind": "video"
+    },
+    {
+      "id": "OasTHN-mFa8",
+      "videoId": "OasTHN-mFa8",
+      "title": "Where have I Been? Injury Update, CT Scans, Jimnys and other things :)",
+      "url": "https://www.youtube.com/watch?v=OasTHN-mFa8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-06T19:14:34.000Z",
+      "durationSeconds": 1754,
+      "viewCount": 3326,
+      "kind": "video"
+    },
+    {
+      "id": "07nlV0DXdjA",
+      "videoId": "07nlV0DXdjA",
+      "title": "EPISODE 16 - Olympic Trials or DIE Trying",
+      "url": "https://www.youtube.com/watch?v=07nlV0DXdjA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-14T01:00:00.000Z",
+      "durationSeconds": 825,
+      "viewCount": 48051,
+      "kind": "video"
+    },
+    {
+      "id": "FxsSwuQ1FqE",
+      "videoId": "FxsSwuQ1FqE",
+      "title": "Women's High Performance 1500m at the Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=FxsSwuQ1FqE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-30T21:42:50.000Z",
+      "durationSeconds": 319,
+      "viewCount": 3101,
+      "kind": "video"
+    },
+    {
+      "id": "mMBqh5kEHZA",
+      "videoId": "mMBqh5kEHZA",
+      "title": "The hardest track workout of my life - NYC",
+      "url": "https://www.youtube.com/watch?v=mMBqh5kEHZA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-13T19:51:09.000Z",
+      "durationSeconds": 642,
+      "viewCount": 27626,
+      "kind": "video"
+    },
+    {
+      "id": "IvPBBwIfbks",
+      "videoId": "IvPBBwIfbks",
+      "title": "Training for the Tokyo World Championships",
+      "url": "https://www.youtube.com/watch?v=IvPBBwIfbks",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-26T16:00:06.000Z",
+      "durationSeconds": 626,
+      "viewCount": 74440,
+      "kind": "video"
+    },
+    {
+      "id": "JTvhrie_ZjQ",
+      "videoId": "JTvhrie_ZjQ",
+      "title": "Mizuno Neo Vista 3",
+      "url": "https://www.youtube.com/watch?v=JTvhrie_ZjQ",
+      "discipline": "Field",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-07T17:34:40.000Z",
+      "durationSeconds": 957,
+      "viewCount": 14959,
+      "kind": "video"
+    },
+    {
+      "id": "HuVE3MEsnQU",
+      "videoId": "HuVE3MEsnQU",
+      "title": "SUB 2:30 [Attempt 3] - Am I Fit Enough? - BOSTON MARATHON 2026",
+      "url": "https://www.youtube.com/watch?v=HuVE3MEsnQU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-04-02T15:18:47.000Z",
+      "durationSeconds": 1713,
+      "viewCount": 32883,
+      "kind": "video"
+    },
+    {
+      "id": "vjI3vJCEvUw",
+      "videoId": "vjI3vJCEvUw",
+      "title": "A Friday morning in Barcelona & Pre race chats",
+      "url": "https://www.youtube.com/watch?v=vjI3vJCEvUw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-03-02T09:35:50.000Z",
+      "durationSeconds": 1120,
+      "viewCount": 2504,
+      "kind": "video"
+    },
+    {
+      "id": "GZAEWtm43gs",
+      "videoId": "GZAEWtm43gs",
+      "title": "London Marathon | Keep Going",
+      "url": "https://www.youtube.com/watch?v=GZAEWtm43gs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-07T00:00:32.000Z",
+      "durationSeconds": 1919,
+      "viewCount": 116727,
+      "kind": "video"
+    },
+    {
+      "id": "Z23CzrP-600",
+      "videoId": "Z23CzrP-600",
+      "title": "Sair Salgado and Leo Young Rock the Portland Track Festival HP 1500m",
+      "url": "https://www.youtube.com/watch?v=Z23CzrP-600",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-30T21:34:44.000Z",
+      "durationSeconds": 289,
+      "viewCount": 10506,
+      "kind": "video"
+    },
+    {
+      "id": "89ebBpkLy9s",
+      "videoId": "89ebBpkLy9s",
+      "title": "A Day in My Life: Discussing New Products & Public Speaking",
+      "url": "https://www.youtube.com/watch?v=89ebBpkLy9s",
+      "discipline": "Field",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-05-30T21:15:01.000Z",
+      "durationSeconds": 528,
+      "viewCount": 19049,
+      "kind": "video"
+    },
+    {
+      "id": "CwmWgSwrsqA",
+      "videoId": "CwmWgSwrsqA",
+      "title": "Brooks Ghost Max 4",
+      "url": "https://www.youtube.com/watch?v=CwmWgSwrsqA",
+      "discipline": "Trail",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-03T12:23:36.000Z",
+      "durationSeconds": 738,
+      "viewCount": 18819,
+      "kind": "video"
+    },
+    {
+      "id": "sXiwymXoH0w",
+      "videoId": "sXiwymXoH0w",
+      "title": "Barcelona Half Marathon - DNF :(",
+      "url": "https://www.youtube.com/watch?v=sXiwymXoH0w",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-02-17T09:54:31.000Z",
+      "durationSeconds": 1078,
+      "viewCount": 7740,
+      "kind": "video"
+    },
+    {
+      "id": "Zx6wr1gXQqM",
+      "videoId": "Zx6wr1gXQqM",
+      "title": "Gracie Hyde, Grace Fetherstonhaugh and Amy Cashin battle at the Portland Track Festival",
+      "url": "https://www.youtube.com/watch?v=Zx6wr1gXQqM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Tracklandia",
+        "slug": "tracklandia",
+        "handle": "Tracklandia",
+        "url": "https://www.youtube.com/@Tracklandia",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2025-06-27T18:21:44.000Z",
+      "durationSeconds": 646,
+      "viewCount": 1955,
+      "kind": "video"
+    },
+    {
+      "id": "1LtY3VLqtBw",
+      "videoId": "1LtY3VLqtBw",
+      "title": "People, Product, Process - NYC",
+      "url": "https://www.youtube.com/watch?v=1LtY3VLqtBw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Marcus Milione",
+        "slug": "marcus-milione",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCp0Ik7dnHvpKnqinfZJv0Gw",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-05-16T21:00:04.000Z",
+      "durationSeconds": 596,
+      "viewCount": 27096,
+      "kind": "video"
+    }
+  ]
+}

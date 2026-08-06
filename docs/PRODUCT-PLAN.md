@@ -57,7 +57,9 @@ Lightest-lift first: **newsletter sponsors → featured listings → credentiali
 
 ## 7. Phased roadmap
 
-- **Phase 0 — Front page + Library — ✅ shipped at `/hub`:** two-door landing, role-toggle join forms (with athlete photo-consent), credentialing meet list, Library preview, weekly-recap capture. Live in production; pitch asset for trails + Steve DeCoker / Hoka Portland Fly (August). _Remaining:_ wire Library to the real RSS + YouTube sheet, build the team page (Aidan + David), swap placeholder athlete names.
+- **Phase 0 — Front page + Library — ✅ shipped at `/hub`:** two-door landing, role-toggle join forms (with athlete photo-consent), credentialing meet list, Library preview, weekly-recap capture. Live in production; pitch asset for trails + Steve DeCoker / Hoka Portland Fly (August).
+  - **Library is real** (2026-08-06): 148 credited, embedded videos from 19 channels via the YouTube Data API, plus **29 creator pages at `/creators/<slug>`** anchored on each person's podcast episode, and 19 unclaimed profiles totalling 3.24M subscribers. Placeholder athlete names are gone. Cost $0. See `docs/YOUTUBE-INGEST-PLAN.md`.
+  - _Remaining:_ automate the Library refresh (it's a committed snapshot today), and expand the roster from David's sheet.
 - **Phase 1 — Marketplace MVP (technical partner):** claimable profiles, JPEG upload (capped), meet tagging, athlete notification. Facial recognition manual → automated.
 - **Phase 2 — Credentialing live + weekly email automation.**
 - **Phase 3 — Monetization layers + physical pop-up anchor.** Tie the digital roadmap to a physical launch date (Bandit-style event / Flash Awards) to force momentum.

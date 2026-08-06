@@ -3,7 +3,14 @@ import { NextRequest, NextResponse } from "next/server";
 const TEGO_WEBHOOK_URL = "https://www.tegomarketing.com/api/webhooks/house-of-track";
 const TEGO_WEBHOOK_SECRET = process.env.TEGO_WEBHOOK_SECRET ?? "";
 
-const ALLOWED_FORM_TYPES = new Set(["creative-signup", "athlete-signup", "newsletter"]);
+const ALLOWED_FORM_TYPES = new Set([
+  "creative-signup",
+  "athlete-signup",
+  "newsletter",
+  // Someone asking to be taken off a creator profile. Routed here rather than to a
+  // mailto so it lands in the same inbox as everything else and can't be missed.
+  "profile-removal",
+]);
 
 export async function POST(req: NextRequest) {
   if (!TEGO_WEBHOOK_SECRET) {
@@ -47,6 +54,10 @@ export async function POST(req: NextRequest) {
       eventGroup: body.eventGroup,
       meets: body.meets,
       photoConsent: body.photoConsent,
+      // profile-removal fields — which profile, and anything they wanted to say
+      profileSlug: body.profileSlug,
+      profileName: body.profileName,
+      message: body.message,
     }),
     signal: AbortSignal.timeout(5000),
   });

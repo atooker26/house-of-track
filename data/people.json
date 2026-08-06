@@ -1,0 +1,259 @@
+{
+  "_comment": [
+    "The roster — PEOPLE, not channels. See docs/YOUTUBE-INGEST-PLAN.md.",
+    "",
+    "This replaced the channel-centric data/channels.json once the podcast join was",
+    "designed. The reason is in the numbers: of 8 podcast guests and 18 YouTube",
+    "creators, exactly ONE person (Josh Kerr) is both. Five guests have no YouTube",
+    "channel at all and three have empty auto-created ones (0 subs, 0 videos). A",
+    "channel-keyed roster gives 7 of the 8 people House of Track actually has a",
+    "relationship with a blank page. So the person is the record, and platform",
+    "accounts hang off them.",
+    "",
+    "HANDLES DO NOT TRANSFER, and cannot be guessed. Cole Hocker is @thecolehocker on",
+    "YouTube but @colehocker on Faves. First-guess handles were wrong for Cole Hocker,",
+    "Clayton Young, Max Jolliffe, Grant Fisher, Sam Parsons and Conner Mantz — they",
+    "resolve to namesakes and dead channels. Every account below was opened and read.",
+    "This mapping is the scarce asset in this project; it is stored, never re-derived.",
+    "",
+    "podcastEpisode: episode number in the House of Track feed. Drives the episode",
+    "                block at the top of the person's creator page.",
+    "kind:           athlete | creative | media",
+    "discipline:     Sprints | Distance | Field | Trail",
+    "accounts:       youtube needs handle OR channelId (some channels have no handle).",
+    "                faves/instagram are display + future-ingest only; YouTube's API no",
+    "                longer exposes channel links, so these are hand-verified until the",
+    "                claim flow lets people supply their own.",
+    "dormant:        real person, not posting — kept in case they resume.",
+    "optedOut:       they asked to be removed. SET THE FLAG, DO NOT DELETE THE ROW.",
+    "                Deleting it would let a later discovery pass or a re-import of",
+    "                David's sheet silently put them back; the flag is a tombstone",
+    "                that survives every future ingest. It removes their page AND",
+    "                stops their videos re-entering the Library. Verified: flagging",
+    "                one person dropped 148 items to 138 and 19 profiles to 18, and",
+    "                their page stopped being generated.",
+    "",
+    "GAPS worth filling on David's sheet: Sam Parsons has no YouTube channel found",
+    "(Instagram/podcast-first). Tara Davis-Woodhall is on Faves and would add Field",
+    "reach. @GrantFisher on YouTube is a namesake (803 subs), not the medallist."
+  ],
+  "people": [
+    {
+      "slug": "trevor-bassitt",
+      "name": "Trevor Bassitt",
+      "kind": "athlete",
+      "discipline": "Sprints",
+      "podcastEpisode": 8,
+      "accounts": {}
+    },
+    {
+      "slug": "liam-meirow",
+      "name": "Liam Meirow",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "podcastEpisode": 7,
+      "accounts": {}
+    },
+    {
+      "slug": "josh-kerr",
+      "name": "Josh Kerr",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "podcastEpisode": 6,
+      "accounts": { "youtube": { "channelId": "UCm3ERqka5Tzpzdki3RAmKiQ" } }
+    },
+    {
+      "slug": "xavier-gallo",
+      "name": "Xavier Gallo",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "podcastEpisode": 5,
+      "accounts": {}
+    },
+    {
+      "slug": "valery-tobias",
+      "name": "Valery Tobias",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "podcastEpisode": 4,
+      "accounts": {}
+    },
+    {
+      "slug": "marquis-dendy",
+      "name": "Marquis Dendy",
+      "kind": "athlete",
+      "discipline": "Field",
+      "podcastEpisode": 3,
+      "accounts": {}
+    },
+    {
+      "slug": "sinclaire-johnson",
+      "name": "Sinclaire Johnson",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "podcastEpisode": 2,
+      "accounts": {}
+    },
+    {
+      "slug": "craig-nowak",
+      "name": "Craig Nowak",
+      "kind": "creative",
+      "discipline": "Distance",
+      "podcastEpisode": 2,
+      "accounts": {}
+    },
+    {
+      "slug": "ahmed-muhumed",
+      "name": "Ahmed Muhumed",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "podcastEpisode": 1,
+      "accounts": {}
+    },
+
+    {
+      "slug": "cole-hocker",
+      "name": "Cole Hocker",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": {
+        "youtube": { "handle": "thecolehocker" },
+        "faves": "colehocker"
+      }
+    },
+    {
+      "slug": "conner-mantz",
+      "name": "Conner Mantz",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "faves": "connermantz", "instagram": "connermantz" }
+    },
+    {
+      "slug": "joe-klecker",
+      "name": "Joe Klecker",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "joe_klecker" } }
+    },
+    {
+      "slug": "jimmy-whelan",
+      "name": "Jimmy Whelan",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "JimmyWhelan" } }
+    },
+    {
+      "slug": "clayton-young",
+      "name": "Clayton Young",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "_Clayton_Young_" } }
+    },
+    {
+      "slug": "truett-hanes",
+      "name": "Truett Hanes",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "truetthanes" } }
+    },
+    {
+      "slug": "rory-linkletter",
+      "name": "Rory Linkletter",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "LinkletterRory" } }
+    },
+    {
+      "slug": "max-jolliffe",
+      "name": "Max Jolliffe",
+      "kind": "athlete",
+      "discipline": "Trail",
+      "accounts": { "youtube": { "handle": "woah_max" } }
+    },
+    {
+      "slug": "nick-bare",
+      "name": "Nick Bare",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "NickBareFitness" } }
+    },
+    {
+      "slug": "matt-fox",
+      "name": "Matt Fox",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "SweatElite" } }
+    },
+    {
+      "slug": "sage-canaday",
+      "name": "Sage Canaday",
+      "kind": "athlete",
+      "discipline": "Trail",
+      "accounts": { "youtube": { "handle": "Vo2maxProductions" } }
+    },
+    {
+      "slug": "hellah-good",
+      "name": "Hellah Good",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "HellahGood" } }
+    },
+    {
+      "slug": "nick-symmonds",
+      "name": "Nick Symmonds",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "dormant": true,
+      "accounts": { "youtube": { "handle": "nicksymmonds" } }
+    },
+    {
+      "slug": "kofuzi",
+      "name": "kofuzi",
+      "kind": "creative",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "kofuzi" } }
+    },
+    {
+      "slug": "seth-james-demoor",
+      "name": "Seth James DeMoor",
+      "kind": "creative",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "SethJamesDeMoor" } }
+    },
+    {
+      "slug": "billy-yang",
+      "name": "Billy Yang",
+      "kind": "creative",
+      "discipline": "Trail",
+      "accounts": { "youtube": { "handle": "BillyYang" } }
+    },
+    {
+      "slug": "floberg-runs",
+      "name": "Floberg Runs",
+      "kind": "creative",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "FlobergRuns" } }
+    },
+    {
+      "slug": "marcus-milione",
+      "name": "Marcus Milione",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "channelId": "UCp0Ik7dnHvpKnqinfZJv0Gw" } }
+    },
+    {
+      "slug": "tracklandia",
+      "name": "Tracklandia",
+      "kind": "creative",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "Tracklandia" } }
+    },
+    {
+      "slug": "house-of-track",
+      "name": "House of Track",
+      "kind": "media",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "House_of_Track" } }
+    }
+  ]
+}
