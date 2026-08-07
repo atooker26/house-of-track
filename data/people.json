@@ -33,9 +33,15 @@
     "                one person dropped 148 items to 138 and 19 profiles to 18, and",
     "                their page stopped being generated.",
     "",
+    "JOINT CHANNELS: @thewoodhalls is one channel run by two athletes (Tara Davis-",
+    "Woodhall, long jump; Hunter Woodhall, sprints), so it is ONE roster row. A",
+    "channel can only attach to a single person — the ingest dedupes videos by id, so",
+    "two rows sharing a channel would leave the second with nothing. Filed under Field",
+    "for Tara's long jump, which was the thinnest discipline.",
+    "",
     "GAPS worth filling on David's sheet: Sam Parsons has no YouTube channel found",
-    "(Instagram/podcast-first). Tara Davis-Woodhall is on Faves and would add Field",
-    "reach. @GrantFisher on YouTube is a namesake (803 subs), not the medallist."
+    "(Instagram/podcast-first). @GrantFisher on YouTube is a namesake (803 subs), not",
+    "the medallist."
   ],
   "people": [
     {
@@ -205,6 +211,62 @@
       "discipline": "Distance",
       "dormant": true,
       "accounts": { "youtube": { "handle": "nicksymmonds" } }
+    },
+    {
+      "slug": "tara-hunter-woodhall",
+      "name": "Tara & Hunter Woodhall",
+      "kind": "athlete",
+      "discipline": "Field",
+      "accounts": { "youtube": { "handle": "thewoodhalls" } }
+    },
+    {
+      "slug": "paul-chelimo",
+      "name": "Paul Chelimo",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "paul_chelimo" } }
+    },
+    {
+      "slug": "allie-ostrander",
+      "name": "Allie Ostrander",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "allie_ostrander" } }
+    },
+    {
+      "slug": "alica-schmidt",
+      "name": "Alica Schmidt",
+      "kind": "athlete",
+      "discipline": "Sprints",
+      "accounts": { "youtube": { "handle": "alicaschmidt4882" } }
+    },
+    {
+      "slug": "phily-bowden",
+      "name": "Phily Bowden",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "philybowden" } }
+    },
+    {
+      "slug": "ben-is-running",
+      "name": "Ben Is Running",
+      "kind": "athlete",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "benisrunning" } }
+    },
+    {
+      "slug": "ben-parkes",
+      "name": "Ben Parkes",
+      "kind": "creative",
+      "discipline": "Distance",
+      "accounts": { "youtube": { "handle": "benparkes" } }
+    },
+    {
+      "slug": "jeff-pelletier",
+      "name": "Jeff Pelletier",
+      "kind": "creative",
+      "discipline": "Trail",
+      "accounts": { "youtube": { "handle": "jeffpelletier" } }
     },
     {
       "slug": "kofuzi",

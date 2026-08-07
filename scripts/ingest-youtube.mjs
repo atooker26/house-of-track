@@ -59,8 +59,10 @@ if (!["api", "apify", "rss"].includes(SOURCE)) {
 // wrong less often than a guess.
 const KEYWORDS = {
   Field: [
+    // "decathlon" is deliberately absent — it's also a sporting-goods retailer, and
+    // it filed "I bought every running shoe from Decathlon" under Field.
     "high jump", "long jump", "triple jump", "pole vault", "shot put", "discus",
-    "javelin", "hammer throw", "heptathlon", "decathlon", "throws", "vaulter", "jumper",
+    "javelin", "hammer throw", "heptathlon", "throws", "vaulter", "jumper",
   ],
   Trail: [
     "trail", "ultra", "utmb", "western states", "mountain", "50k", "100k", "100 mile",
@@ -663,12 +665,13 @@ async function main() {
   }, {});
   const channelNames = new Set(items.map((i) => i.creator.name));
 
-  // Only keep creators that actually contributed a published item, so the roster
-  // and the feed can't drift apart.
-  const published = new Set(items.map((i) => i.creator.name));
-  const creators = creatorRecords
-    .filter((c) => published.has(c.name))
-    .sort((a, b) => (b.subscriberCount ?? 0) - (a.subscriberCount ?? 0));
+  // Keep every resolved creator, including those whose videos were all filtered out.
+  // This block powers profile pages, not a feed listing — and dropping them meant a
+  // 911k-subscriber athlete (the Woodhalls, who post short-form almost exclusively)
+  // rendered a profile with no avatar, no reach and no explanation.
+  const creators = creatorRecords.sort(
+    (a, b) => (b.subscriberCount ?? 0) - (a.subscriberCount ?? 0)
+  );
 
   const SOURCE_LABEL = {
     api: "youtube:data-api-v3",

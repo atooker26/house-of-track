@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-08-06T20:54:56.810Z",
+  "generatedAt": "2026-08-07T15:53:27.819Z",
   "source": "youtube:data-api-v3",
   "runId": null,
-  "quotaUnits": 58,
+  "quotaUnits": 82,
   "creators": [
+    {
+      "slug": "nick-symmonds",
+      "name": "Nick Symmonds",
+      "channelTitle": "Nick Symmonds",
+      "channelId": "UCeXJQ2GQh4BoRuAEkteU0Wg",
+      "handle": "nicksymmonds",
+      "url": "https://www.youtube.com/@nicksymmonds",
+      "description": "Being successful doesn't guarantee happiness, but happiness guarantees success! \n\nSome accomplishments I'm proud of...\nEagle Scout (this was really hard to get as a kid, must happen before you turn 18)\nCollege Degree in Biochemistry (maybe the hardest thing I've ever done in my life. I hated college)\nPublished Author (also very challenging, I wanted to give up many, many times)\n2x Olympian (very p",
+      "avatar": "https://yt3.ggpht.com/GvqsDjbaApsymTivZD9p-IyNcN8dDzOX5SSy5rAxIuqs2Q_ySqLU91P8U_i4KxysvYQHJhuIEtk=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 1710000,
+      "videoCount": 485,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
     {
       "slug": "nick-bare",
       "name": "Nick Bare",
@@ -14,7 +28,49 @@
       "description": "Welcome to the Official YouTube Channel of Nick Bare.\n\nNick founded Bare Performance Nutrition in 2012 out of his small college apartment in Pennsylvania. During this time, he was studying nutrition and on the path of joining the military upon graduation. After graduating college, Nick commissioned into the US Army as an Infantry Officer, where he spent the next four years completing various milit",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_mVx6fQ8UNrMx2sjhQ5JwJyQTCfSXAoznqRdRSZLoxmGqQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 1500000,
-      "videoCount": 1078,
+      "videoCount": 1079,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "tara-hunter-woodhall",
+      "name": "Tara & Hunter Woodhall",
+      "channelTitle": "Tara and Hunter",
+      "channelId": "UCIK0rlPzvgI0tCwuHrtO82w",
+      "handle": "thewoodhalls",
+      "url": "https://www.youtube.com/@thewoodhalls",
+      "description": "Just running around the world. ",
+      "avatar": "https://yt3.ggpht.com/PHy-OUtm6Sznye8_V-XEDcXooiDP-IS391OqG8MsEH_dNfQ8pBSwy6DppZQR9HQDOgbsnXIfUA=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 911000,
+      "videoCount": 706,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "ben-parkes",
+      "name": "Ben Parkes",
+      "channelTitle": "Ben Parkes",
+      "channelId": "UCZPqG0yh_xPm2AyLjffbDvw",
+      "handle": "benparkes",
+      "url": "https://www.youtube.com/@benparkes",
+      "description": "Athlete - Coach - Creator - 2:25 Marathon PB \n\nCreating videos to help you become the runner you want to be. \n\nBased in London, UK.",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_mDy4ZoQqcj7DiO_-1z6j2Y6Nu_PvFESGAsJagEM5FdPg=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 357000,
+      "videoCount": 560,
+      "kind": "creative",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "alica-schmidt",
+      "name": "Alica Schmidt",
+      "channelTitle": "Alica Schmidt",
+      "channelId": "UCcE1cmPLAh2g7lVo1s4n22g",
+      "handle": "alicaschmidt4882",
+      "url": "https://www.youtube.com/@alicaschmidt4882",
+      "description": "Alica Schmidt, Track&Field Athlete,\nInstagram: @alicasmd",
+      "avatar": "https://yt3.ggpht.com/FRrLLgvSvPtlMsDZwLsA_OgsvuszwsBLTnsRXVgepmIyR0UcKhRvpIEctg4g7kDvxQs-OZqrrkc=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 310000,
+      "videoCount": 96,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -27,7 +83,7 @@
       "url": "https://www.youtube.com/@HellahGood",
       "description": "Running every day since may 15, 2017 and ran from LA to NYC in 84 days!\n\nThe first African man to run across America from LA to NYC, 3,061 miles in 84 days. I’m the guy who ran every day for 365 days in a row.. that turned into 2 years, 3 years, 4 years, 5, 6, 7, 8, and we're still going! I'm a vegan athlete and former pro soccer player striving to inspire and change lives through my platform and ",
       "avatar": "https://yt3.ggpht.com/fMMRRwW1KGpxOGoqD39YkW7N4t3urQBLUeZqwGGdBUQ51EnQtwqBgR5wXdXNK9lv1pC1hxU4xmM=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 295000,
+      "subscriberCount": 294000,
       "videoCount": 466,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -61,6 +117,20 @@
       "claimState": "unclaimed"
     },
     {
+      "slug": "phily-bowden",
+      "name": "Phily Bowden",
+      "channelTitle": "Phily Bowden",
+      "channelId": "UCzCCsm1ry8no4j-gS6TgySQ",
+      "handle": "philybowden",
+      "url": "https://www.youtube.com/@philybowden",
+      "description": "I'm making videos about my journey as a professional marathon runner, with my partner in crime and partner in life, otherwise known as @DanielMoves\n\nI keep it 100% real on here, what you see is what you get, and I'm here to take you on the ride wherever it takes me: highs, lows and parts not mentionable at the dinner table all included.\n\n@lululemon Athlete\n\nLOVE THE GRIND!\n",
+      "avatar": "https://yt3.ggpht.com/2DbXzcidcP1Edmz9hxFCSN8eXOwI51hSYMrY31i-RErhXKqOTASWMOIijVEsRgpJhIO8VMWA=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 216000,
+      "videoCount": 379,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
       "slug": "truett-hanes",
       "name": "Truett Hanes",
       "channelTitle": "Truett Hanes",
@@ -70,8 +140,22 @@
       "description": "It’s just pain, baby",
       "avatar": "https://yt3.ggpht.com/2cPTM26jwX_QhDO8n4njN5hYRoweRy0xz6a7vH5chmawZUc9bjj6brbWAAC6Zcv5B6rW5HuhxQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 214000,
-      "videoCount": 143,
+      "videoCount": 144,
       "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "jeff-pelletier",
+      "name": "Jeff Pelletier",
+      "channelTitle": "Jeff Pelletier",
+      "channelId": "UCNKMpnM_Yvf6E-Hhf9btYqA",
+      "handle": "jeffpelletier",
+      "url": "https://www.youtube.com/@jeffpelletier",
+      "description": "Trail runner & filmmaker, based in Vancouver, Canada.\n\nSubscribe to my newsletter or get in touch: http://jeffpelletier.com\n",
+      "avatar": "https://yt3.ggpht.com/YLRllcd7Q0iPYDIkJjXGEiOiJStz4KK7iepwcfTVK0yveHKqFSaLVzTvvZ0anO-SeUlXs1jNCIE=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 171000,
+      "videoCount": 211,
+      "kind": "creative",
       "claimState": "unclaimed"
     },
     {
@@ -89,6 +173,20 @@
       "claimState": "unclaimed"
     },
     {
+      "slug": "ben-is-running",
+      "name": "Ben Is Running",
+      "channelTitle": "Ben Is Running",
+      "channelId": "UC-vlZFFRyWKx-d3LpoAhNfg",
+      "handle": "benisrunning",
+      "url": "https://www.youtube.com/@benisrunning",
+      "description": "Documenting my running journey- sharing videos on my training, the gear I use and race day vlogs.\nThank you for your support. \n",
+      "avatar": "https://yt3.ggpht.com/K-mVXkTijLVtW2pVByXP5FuW026wV6bVesxWI8AJfgABAYYpylZqRxp-sfyWEwSBbwMTgpYE=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 156000,
+      "videoCount": 696,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
       "slug": "matt-fox",
       "name": "Matt Fox",
       "channelTitle": "Matt Fox | Sweat Elite ",
@@ -99,6 +197,34 @@
       "avatar": "https://yt3.ggpht.com/aMXszUuRPRTXMPdFeb0aEiG-66530HJ4aJoi5an4ckvxpjx2O6FWOkgOIjpBJxe6tUo6w7BKRQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 146000,
       "videoCount": 420,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "paul-chelimo",
+      "name": "Paul Chelimo",
+      "channelTitle": "Paul Chelimo",
+      "channelId": "UC6dF_YjIuy1eC1Dmo1FhPvA",
+      "handle": "paul_chelimo",
+      "url": "https://www.youtube.com/@paul_chelimo",
+      "description": "Paul Chelimo is the name.\nRunning is the game.\n \nGo Hard or Suffer for the Rest of Your Life!\n\n2016 Olympic Silver Medalist - 5,000m\n2017 World Championship Bronze - 5000m\n2020 Olympic Bronze Medalist-5000m",
+      "avatar": "https://yt3.ggpht.com/as7Rj1Zdh94zqyNcEMW2dId0DxnzZ4rjNstzRrRojywFMZnDxTIBRpDbZkJNSEcIgb3oPhH73A=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 140000,
+      "videoCount": 32,
+      "kind": "athlete",
+      "claimState": "unclaimed"
+    },
+    {
+      "slug": "allie-ostrander",
+      "name": "Allie Ostrander",
+      "channelTitle": "Allie Ostrander",
+      "channelId": "UCn5hg2riwFTCNif80JbaA8A",
+      "handle": "allie_ostrander",
+      "url": "https://www.youtube.com/@allie_ostrander",
+      "description": "Welcome to the life of an elite runner. Through all the highs and lows of running, I have kept coming back to the sport because I love it so much. This channel is my way of sharing that passion with the world and providing inspiration for working through tough workouts, injuries, mental health struggles, and anything else life throws our way. \n\nAbout me: Hi! I'm Allie O, a runner from Alaska who l",
+      "avatar": "https://yt3.ggpht.com/lzNU5OJHIWWXNoEblw-oKWGZ23jr2OVMNEeN0p7pilSjLWZjk0rr91nsynjPZGZ7KaX7RpfDPJM=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": 133000,
+      "videoCount": 754,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -139,7 +265,7 @@
       "url": "https://www.youtube.com/@woah_max",
       "description": "",
       "avatar": "https://yt3.ggpht.com/XXJGUOqS8MJ9UBFNIWBVNv6nZ6QgUproa2h0tFOBfALbaBF2KGID5u8QHcqfbit8l3CW5t4rrg=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 62100,
+      "subscriberCount": 62200,
       "videoCount": 18,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -181,7 +307,7 @@
       "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
       "description": "Mile World Record Holder\nWorld Champion & Olympic Medalist",
       "avatar": "https://yt3.ggpht.com/k0VaGSjJwQfANf-bwiWh386WDHqjgrZZ0kM91wVaJTFQJrC9FCUyQIlaB4AQdKmbfd6UYfIc0A=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 21900,
+      "subscriberCount": 22000,
       "videoCount": 148,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -237,7 +363,7 @@
       "url": "https://www.youtube.com/@JimmyWhelan",
       "description": "🇦🇺 Pro Runner for Salomon \nFormer Pro Cyclist",
       "avatar": "https://yt3.ggpht.com/4juj9eG34dkPrU4bYvL2Hnc3dotKTrO-izuNBZy16xWdGIzTSHx0cIRUbx0FeK5lIc6sbNpd=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 6590,
+      "subscriberCount": 6620,
       "videoCount": 20,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -251,7 +377,7 @@
       "url": "https://www.youtube.com/@joe_klecker",
       "description": "",
       "avatar": "https://yt3.ggpht.com/AUduKpkuG1yqYpKHH3V_0t6x-J2leWP-GcdQlsl5xD73eW1kv_OL3CtUgAV97McQoVHQ8q-AWw=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 1140,
+      "subscriberCount": 1200,
       "videoCount": 2,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -273,6 +399,63 @@
   ],
   "items": [
     {
+      "id": "yG-x6eP-7iY",
+      "videoId": "yG-x6eP-7iY",
+      "title": "Hybrid Strength & Endurance Workout At Bare Ranch (Full Training Session)",
+      "url": "https://www.youtube.com/watch?v=yG-x6eP-7iY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-07T13:00:39.000Z",
+      "durationSeconds": 1290,
+      "viewCount": 5014,
+      "kind": "video"
+    },
+    {
+      "id": "YxLk_CqCSbE",
+      "videoId": "YxLk_CqCSbE",
+      "title": "EPISODE 26 - Flagestan & FORGET.. or die tryin'",
+      "url": "https://www.youtube.com/watch?v=YxLk_CqCSbE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-07T02:21:01.000Z",
+      "durationSeconds": 1305,
+      "viewCount": 10767,
+      "kind": "video"
+    },
+    {
+      "id": "wV8F6VFfK5c",
+      "videoId": "wV8F6VFfK5c",
+      "title": "I'm Going to The World Championships *yes, I'm crying*",
+      "url": "https://www.youtube.com/watch?v=wV8F6VFfK5c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-06T18:30:00.000Z",
+      "durationSeconds": 840,
+      "viewCount": 56442,
+      "kind": "video"
+    },
+    {
       "id": "DoP5270fHkY",
       "videoId": "DoP5270fHkY",
       "title": "What Supplements Do I Take as an Aging Endurance Athlete? Berlin Marathon Training Week 2",
@@ -288,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-08-06T11:00:25.000Z",
       "durationSeconds": 1380,
-      "viewCount": 5809,
+      "viewCount": 11677,
       "kind": "video"
     },
     {
@@ -307,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 4113,
+      "viewCount": 5478,
       "kind": "video"
     },
     {
@@ -326,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 13648,
+      "viewCount": 17179,
       "kind": "video"
     },
     {
@@ -345,7 +528,26 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 6634,
+      "viewCount": 8760,
+      "kind": "video"
+    },
+    {
+      "id": "s4Z8W9ESYQk",
+      "videoId": "s4Z8W9ESYQk",
+      "title": "Breaking 2:20 Starts Now | 17 Week Marathon Training Block Begins!",
+      "url": "https://www.youtube.com/watch?v=s4Z8W9ESYQk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-05T15:00:29.000Z",
+      "durationSeconds": 1421,
+      "viewCount": 29924,
       "kind": "video"
     },
     {
@@ -364,7 +566,45 @@
       "athlete": null,
       "publishedAt": "2026-08-04T06:16:22.000Z",
       "durationSeconds": 393,
-      "viewCount": 2261,
+      "viewCount": 2392,
+      "kind": "video"
+    },
+    {
+      "id": "EqZwvoZqW50",
+      "videoId": "EqZwvoZqW50",
+      "title": "The Only Half Marathon Workouts YOU NEED",
+      "url": "https://www.youtube.com/watch?v=EqZwvoZqW50",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-02T18:00:24.000Z",
+      "durationSeconds": 1430,
+      "viewCount": 92826,
+      "kind": "video"
+    },
+    {
+      "id": "gbnW0QpuCUE",
+      "videoId": "gbnW0QpuCUE",
+      "title": "Garmin vs Coros",
+      "url": "https://www.youtube.com/watch?v=gbnW0QpuCUE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-02T16:00:09.000Z",
+      "durationSeconds": 811,
+      "viewCount": 86495,
       "kind": "video"
     },
     {
@@ -383,45 +623,26 @@
       "athlete": null,
       "publishedAt": "2026-08-02T15:12:34.000Z",
       "durationSeconds": 2016,
-      "viewCount": 2629,
+      "viewCount": 2661,
       "kind": "video"
     },
     {
-      "id": "daKLGajU5Lc",
-      "videoId": "daKLGajU5Lc",
-      "title": "Episode 25 - Flagstaff Training Camp or death",
-      "url": "https://www.youtube.com/watch?v=daKLGajU5Lc",
-      "discipline": "Distance",
+      "id": "-AZ1eEl0c90",
+      "videoId": "-AZ1eEl0c90",
+      "title": "The Truth About Headlamp Brightness",
+      "url": "https://www.youtube.com/watch?v=-AZ1eEl0c90",
+      "discipline": "Trail",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
-        "kind": "athlete"
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-07-31T18:00:17.000Z",
-      "durationSeconds": 1458,
-      "viewCount": 40770,
-      "kind": "video"
-    },
-    {
-      "id": "QybajoPWXwE",
-      "videoId": "QybajoPWXwE",
-      "title": "How I Eat To Lift Heavy & Run Far | 3,800 Calorie Full Day Of Eating",
-      "url": "https://www.youtube.com/watch?v=QybajoPWXwE",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Nick Bare",
-        "slug": "nick-bare",
-        "handle": "NickBareFitness",
-        "url": "https://www.youtube.com/@NickBareFitness",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-30T13:00:03.000Z",
-      "durationSeconds": 1790,
-      "viewCount": 207672,
+      "publishedAt": "2026-07-28T16:01:07.000Z",
+      "durationSeconds": 364,
+      "viewCount": 8917,
       "kind": "video"
     },
     {
@@ -440,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T19:00:22.000Z",
       "durationSeconds": 644,
-      "viewCount": 9081,
+      "viewCount": 9123,
       "kind": "video"
     },
     {
@@ -459,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 6749,
+      "viewCount": 6775,
       "kind": "video"
     },
     {
@@ -478,7 +699,26 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 107131,
+      "viewCount": 107486,
+      "kind": "video"
+    },
+    {
+      "id": "PAlXfA-AkjA",
+      "videoId": "PAlXfA-AkjA",
+      "title": "Bestie in town, Alltag & Training bei 40 Grad ❤️‍🔥 | Vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=PAlXfA-AkjA",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-12T07:59:54.000Z",
+      "durationSeconds": 1067,
+      "viewCount": 29361,
       "kind": "video"
     },
     {
@@ -497,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 6758,
+      "viewCount": 6771,
       "kind": "video"
     },
     {
@@ -516,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 10706,
+      "viewCount": 10708,
       "kind": "video"
     },
     {
@@ -535,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 18761,
+      "viewCount": 18798,
       "kind": "video"
     },
     {
@@ -573,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 51747,
+      "viewCount": 51825,
       "kind": "video"
     },
     {
@@ -592,7 +832,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 22833,
+      "viewCount": 22840,
       "kind": "video"
     },
     {
@@ -611,7 +851,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 18930,
+      "viewCount": 18936,
       "kind": "video"
     },
     {
@@ -630,7 +870,83 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 103991,
+      "viewCount": 104192,
+      "kind": "video"
+    },
+    {
+      "id": "SSEMhK5KLi8",
+      "videoId": "SSEMhK5KLi8",
+      "title": "CAN I TAKE DOWN THE COLORADO 5K RECORD? | Full Race",
+      "url": "https://www.youtube.com/watch?v=SSEMhK5KLi8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Paul Chelimo",
+        "slug": "paul-chelimo",
+        "handle": "paul_chelimo",
+        "url": "https://www.youtube.com/@paul_chelimo",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-10-17T13:00:55.000Z",
+      "durationSeconds": 1110,
+      "viewCount": 579549,
+      "kind": "video"
+    },
+    {
+      "id": "QybajoPWXwE",
+      "videoId": "QybajoPWXwE",
+      "title": "How I Eat To Lift Heavy & Run Far | 3,800 Calorie Full Day Of Eating",
+      "url": "https://www.youtube.com/watch?v=QybajoPWXwE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-30T13:00:03.000Z",
+      "durationSeconds": 1790,
+      "viewCount": 213495,
+      "kind": "video"
+    },
+    {
+      "id": "daKLGajU5Lc",
+      "videoId": "daKLGajU5Lc",
+      "title": "Episode 25 - Flagstaff Training Camp or death",
+      "url": "https://www.youtube.com/watch?v=daKLGajU5Lc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-31T18:00:17.000Z",
+      "durationSeconds": 1458,
+      "viewCount": 42175,
+      "kind": "video"
+    },
+    {
+      "id": "N1-mH4QVS9w",
+      "videoId": "N1-mH4QVS9w",
+      "title": "My Season Is Over",
+      "url": "https://www.youtube.com/watch?v=N1-mH4QVS9w",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-01T19:00:13.000Z",
+      "durationSeconds": 665,
+      "viewCount": 74592,
       "kind": "video"
     },
     {
@@ -649,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-08-04T18:09:40.000Z",
       "durationSeconds": 973,
-      "viewCount": 24036,
+      "viewCount": 25452,
       "kind": "video"
     },
     {
@@ -668,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 8925,
+      "viewCount": 9044,
       "kind": "video"
     },
     {
@@ -687,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 24421,
+      "viewCount": 24784,
       "kind": "video"
     },
     {
@@ -706,7 +1022,26 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 12561,
+      "viewCount": 12581,
+      "kind": "video"
+    },
+    {
+      "id": "yzmcE7QImI0",
+      "videoId": "yzmcE7QImI0",
+      "title": "9 Marathons Down, Sub 2:20 Next | Here's Everything I Learned",
+      "url": "https://www.youtube.com/watch?v=yzmcE7QImI0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-02T15:00:10.000Z",
+      "durationSeconds": 1792,
+      "viewCount": 25342,
       "kind": "video"
     },
     {
@@ -725,7 +1060,45 @@
       "athlete": null,
       "publishedAt": "2026-07-28T22:38:49.000Z",
       "durationSeconds": 815,
-      "viewCount": 3698,
+      "viewCount": 3714,
+      "kind": "video"
+    },
+    {
+      "id": "pMLtoRwFUYc",
+      "videoId": "pMLtoRwFUYc",
+      "title": "Honest take on where I’m at now",
+      "url": "https://www.youtube.com/watch?v=pMLtoRwFUYc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-26T18:00:03.000Z",
+      "durationSeconds": 1133,
+      "viewCount": 86343,
+      "kind": "video"
+    },
+    {
+      "id": "iAjVZ522NyE",
+      "videoId": "iAjVZ522NyE",
+      "title": "I spent £1730 to review every asics running shoe - these are the best!",
+      "url": "https://www.youtube.com/watch?v=iAjVZ522NyE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-30T17:01:08.000Z",
+      "durationSeconds": 1057,
+      "viewCount": 76211,
       "kind": "video"
     },
     {
@@ -744,45 +1117,26 @@
       "athlete": null,
       "publishedAt": "2026-07-26T18:37:02.000Z",
       "durationSeconds": 744,
-      "viewCount": 2022,
+      "viewCount": 2030,
       "kind": "video"
     },
     {
-      "id": "WSnw44ZwANg",
-      "videoId": "WSnw44ZwANg",
-      "title": "EPISODE 24 - Olympic Trials or Die Tryin' (Flagstaff)",
-      "url": "https://www.youtube.com/watch?v=WSnw44ZwANg",
-      "discipline": "Distance",
+      "id": "nis9yS6oxJk",
+      "videoId": "nis9yS6oxJk",
+      "title": "Behind the Scenes at the Fastest Western States Ever",
+      "url": "https://www.youtube.com/watch?v=nis9yS6oxJk",
+      "discipline": "Trail",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
-        "kind": "athlete"
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-07-24T01:30:21.000Z",
-      "durationSeconds": 1090,
-      "viewCount": 42477,
-      "kind": "video"
-    },
-    {
-      "id": "OgLpf-p0kcU",
-      "videoId": "OgLpf-p0kcU",
-      "title": "How To Be More Consistent",
-      "url": "https://www.youtube.com/watch?v=OgLpf-p0kcU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Nick Bare",
-        "slug": "nick-bare",
-        "handle": "NickBareFitness",
-        "url": "https://www.youtube.com/@NickBareFitness",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-23T13:10:02.000Z",
-      "durationSeconds": 1487,
-      "viewCount": 182963,
+      "publishedAt": "2026-07-18T15:45:00.000Z",
+      "durationSeconds": 3212,
+      "viewCount": 68180,
       "kind": "video"
     },
     {
@@ -801,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-06-24T21:30:33.000Z",
       "durationSeconds": 1092,
-      "viewCount": 28225,
+      "viewCount": 28290,
       "kind": "video"
     },
     {
@@ -820,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5583,
+      "viewCount": 5586,
       "kind": "video"
     },
     {
@@ -839,7 +1193,26 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 30781,
+      "viewCount": 30817,
+      "kind": "video"
+    },
+    {
+      "id": "XDswlCQdWEY",
+      "videoId": "XDswlCQdWEY",
+      "title": "Season opener in Stockholm  / Vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=XDswlCQdWEY",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-28T15:51:06.000Z",
+      "durationSeconds": 1041,
+      "viewCount": 31219,
       "kind": "video"
     },
     {
@@ -858,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8194,
+      "viewCount": 8201,
       "kind": "video"
     },
     {
@@ -877,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5298,
+      "viewCount": 5299,
       "kind": "video"
     },
     {
@@ -896,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 56962,
+      "viewCount": 56981,
       "kind": "video"
     },
     {
@@ -934,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 62846,
+      "viewCount": 62899,
       "kind": "video"
     },
     {
@@ -953,7 +1326,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 41265,
+      "viewCount": 41276,
       "kind": "video"
     },
     {
@@ -972,7 +1345,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 44969,
+      "viewCount": 44991,
       "kind": "video"
     },
     {
@@ -991,7 +1364,83 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 95786,
+      "viewCount": 95942,
+      "kind": "video"
+    },
+    {
+      "id": "IrcOzd8Cc5E",
+      "videoId": "IrcOzd8Cc5E",
+      "title": "25x400 DOWN TO SUB 60\" | Getting Close to Marathon Shape!",
+      "url": "https://www.youtube.com/watch?v=IrcOzd8Cc5E",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Paul Chelimo",
+        "slug": "paul-chelimo",
+        "handle": "paul_chelimo",
+        "url": "https://www.youtube.com/@paul_chelimo",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2025-08-08T21:00:29.000Z",
+      "durationSeconds": 1244,
+      "viewCount": 275329,
+      "kind": "video"
+    },
+    {
+      "id": "OgLpf-p0kcU",
+      "videoId": "OgLpf-p0kcU",
+      "title": "How To Be More Consistent",
+      "url": "https://www.youtube.com/watch?v=OgLpf-p0kcU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-23T13:10:02.000Z",
+      "durationSeconds": 1487,
+      "viewCount": 185389,
+      "kind": "video"
+    },
+    {
+      "id": "WSnw44ZwANg",
+      "videoId": "WSnw44ZwANg",
+      "title": "EPISODE 24 - Olympic Trials or Die Tryin' (Flagstaff)",
+      "url": "https://www.youtube.com/watch?v=WSnw44ZwANg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-24T01:30:21.000Z",
+      "durationSeconds": 1090,
+      "viewCount": 42665,
+      "kind": "video"
+    },
+    {
+      "id": "dyUwYyIcUAI",
+      "videoId": "dyUwYyIcUAI",
+      "title": "I Raced One of the Fastest 10Ks in America",
+      "url": "https://www.youtube.com/watch?v=dyUwYyIcUAI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-27T18:00:15.000Z",
+      "durationSeconds": 602,
+      "viewCount": 73497,
       "kind": "video"
     },
     {
@@ -1010,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-07-30T15:37:41.000Z",
       "durationSeconds": 664,
-      "viewCount": 10323,
+      "viewCount": 10500,
       "kind": "video"
     },
     {
@@ -1029,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T15:03:48.000Z",
       "durationSeconds": 1470,
-      "viewCount": 34659,
+      "viewCount": 34936,
       "kind": "video"
     },
     {
@@ -1048,7 +1497,26 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 24682,
+      "viewCount": 24723,
+      "kind": "video"
+    },
+    {
+      "id": "Q_CeUoL0C_0",
+      "videoId": "Q_CeUoL0C_0",
+      "title": "2:23 Marathoner Takes On The Hardest Stage Of The TOUR DE FRANCE!",
+      "url": "https://www.youtube.com/watch?v=Q_CeUoL0C_0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-26T16:03:23.000Z",
+      "durationSeconds": 1834,
+      "viewCount": 42107,
       "kind": "video"
     },
     {
@@ -1067,7 +1535,45 @@
       "athlete": null,
       "publishedAt": "2026-07-27T04:53:02.000Z",
       "durationSeconds": 437,
-      "viewCount": 550,
+      "viewCount": 551,
+      "kind": "video"
+    },
+    {
+      "id": "cVuVmXlPO7k",
+      "videoId": "cVuVmXlPO7k",
+      "title": "The Core Workout That Changed My Running",
+      "url": "https://www.youtube.com/watch?v=cVuVmXlPO7k",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-12T18:00:34.000Z",
+      "durationSeconds": 1087,
+      "viewCount": 184720,
+      "kind": "video"
+    },
+    {
+      "id": "pSeY9pBmaUI",
+      "videoId": "pSeY9pBmaUI",
+      "title": "How I build my shoe rotation, plus my top shoes for 2026! (daily, race, long, speed & recovery)",
+      "url": "https://www.youtube.com/watch?v=pSeY9pBmaUI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-26T16:00:36.000Z",
+      "durationSeconds": 722,
+      "viewCount": 63281,
       "kind": "video"
     },
     {
@@ -1086,45 +1592,26 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:39:29.000Z",
       "durationSeconds": 2057,
-      "viewCount": 5919,
+      "viewCount": 5926,
       "kind": "video"
     },
     {
-      "id": "osbMzjXqj6I",
-      "videoId": "osbMzjXqj6I",
-      "title": "EPISODE 23 - 5K PR",
-      "url": "https://www.youtube.com/watch?v=osbMzjXqj6I",
-      "discipline": "Distance",
+      "id": "qxRQxIYAreM",
+      "videoId": "qxRQxIYAreM",
+      "title": "10 Essentials for Trail Running (in 2026)",
+      "url": "https://www.youtube.com/watch?v=qxRQxIYAreM",
+      "discipline": "Trail",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
-        "kind": "athlete"
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-07-10T01:30:37.000Z",
-      "durationSeconds": 1135,
-      "viewCount": 50875,
-      "kind": "video"
-    },
-    {
-      "id": "b6SYEMUnL_Y",
-      "videoId": "b6SYEMUnL_Y",
-      "title": "The Only Strategy That Actually Works Long Term",
-      "url": "https://www.youtube.com/watch?v=b6SYEMUnL_Y",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Nick Bare",
-        "slug": "nick-bare",
-        "handle": "NickBareFitness",
-        "url": "https://www.youtube.com/@NickBareFitness",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-19T17:36:45.000Z",
-      "durationSeconds": 1850,
-      "viewCount": 248373,
+      "publishedAt": "2026-07-13T16:00:25.000Z",
+      "durationSeconds": 746,
+      "viewCount": 43593,
       "kind": "video"
     },
     {
@@ -1143,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-06-04T16:38:43.000Z",
       "durationSeconds": 2095,
-      "viewCount": 19532,
+      "viewCount": 19549,
       "kind": "video"
     },
     {
@@ -1162,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 10403,
+      "viewCount": 10410,
       "kind": "video"
     },
     {
@@ -1181,7 +1668,26 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 55091,
+      "viewCount": 55280,
+      "kind": "video"
+    },
+    {
+      "id": "lnyDgNqhD-U",
+      "videoId": "lnyDgNqhD-U",
+      "title": "Erstes mal Rennstrecke und von 0 auf 100 in unter 3sek | vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=lnyDgNqhD-U",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-03T15:16:23.000Z",
+      "durationSeconds": 1018,
+      "viewCount": 24192,
       "kind": "video"
     },
     {
@@ -1200,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 10803,
+      "viewCount": 10806,
       "kind": "video"
     },
     {
@@ -1219,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2025-07-20T18:01:32.000Z",
       "durationSeconds": 9354,
-      "viewCount": 27567,
+      "viewCount": 27568,
       "kind": "video"
     },
     {
@@ -1238,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14206,
+      "viewCount": 14208,
       "kind": "video"
     },
     {
@@ -1276,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 84417,
+      "viewCount": 84466,
       "kind": "video"
     },
     {
@@ -1295,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 29802,
+      "viewCount": 29821,
       "kind": "video"
     },
     {
@@ -1314,7 +1820,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 28509,
+      "viewCount": 28513,
       "kind": "video"
     },
     {
@@ -1333,7 +1839,64 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 218271,
+      "viewCount": 218587,
+      "kind": "video"
+    },
+    {
+      "id": "b6SYEMUnL_Y",
+      "videoId": "b6SYEMUnL_Y",
+      "title": "The Only Strategy That Actually Works Long Term",
+      "url": "https://www.youtube.com/watch?v=b6SYEMUnL_Y",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Nick Bare",
+        "slug": "nick-bare",
+        "handle": "NickBareFitness",
+        "url": "https://www.youtube.com/@NickBareFitness",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-19T17:36:45.000Z",
+      "durationSeconds": 1850,
+      "viewCount": 251286,
+      "kind": "video"
+    },
+    {
+      "id": "osbMzjXqj6I",
+      "videoId": "osbMzjXqj6I",
+      "title": "EPISODE 23 - 5K PR",
+      "url": "https://www.youtube.com/watch?v=osbMzjXqj6I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-10T01:30:37.000Z",
+      "durationSeconds": 1135,
+      "viewCount": 51006,
+      "kind": "video"
+    },
+    {
+      "id": "BvkE5Zjnub0",
+      "videoId": "BvkE5Zjnub0",
+      "title": "The Hardest Race of My Season | US Championships",
+      "url": "https://www.youtube.com/watch?v=BvkE5Zjnub0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-21T18:30:06.000Z",
+      "durationSeconds": 571,
+      "viewCount": 65847,
       "kind": "video"
     },
     {
@@ -1352,7 +1915,7 @@
       "athlete": null,
       "publishedAt": "2026-07-27T11:00:30.000Z",
       "durationSeconds": 905,
-      "viewCount": 29515,
+      "viewCount": 29885,
       "kind": "video"
     },
     {
@@ -1371,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-06-27T17:02:09.000Z",
       "durationSeconds": 1135,
-      "viewCount": 21230,
+      "viewCount": 21308,
       "kind": "video"
     },
     {
@@ -1390,7 +1953,26 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 10465,
+      "viewCount": 10504,
+      "kind": "video"
+    },
+    {
+      "id": "P7VDx17titA",
+      "videoId": "P7VDx17titA",
+      "title": "The Harsh Reality Of Being A Running Influencer",
+      "url": "https://www.youtube.com/watch?v=P7VDx17titA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-19T15:00:03.000Z",
+      "durationSeconds": 1254,
+      "viewCount": 46417,
       "kind": "video"
     },
     {
@@ -1409,7 +1991,45 @@
       "athlete": null,
       "publishedAt": "2026-07-15T15:02:13.000Z",
       "durationSeconds": 732,
-      "viewCount": 3188,
+      "viewCount": 3198,
+      "kind": "video"
+    },
+    {
+      "id": "3m3rXg6tljY",
+      "videoId": "3m3rXg6tljY",
+      "title": "THIS is holding runners back....including me",
+      "url": "https://www.youtube.com/watch?v=3m3rXg6tljY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-02T18:00:25.000Z",
+      "durationSeconds": 794,
+      "viewCount": 108279,
+      "kind": "video"
+    },
+    {
+      "id": "LR3mY0BO-_I",
+      "videoId": "LR3mY0BO-_I",
+      "title": "The Simplest Way to Improve Your VO2 Max (for runners)",
+      "url": "https://www.youtube.com/watch?v=LR3mY0BO-_I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-12T16:13:40.000Z",
+      "durationSeconds": 487,
+      "viewCount": 115332,
       "kind": "video"
     },
     {
@@ -1428,45 +2048,26 @@
       "athlete": null,
       "publishedAt": "2026-07-11T17:42:16.000Z",
       "durationSeconds": 2202,
-      "viewCount": 3645,
+      "viewCount": 3647,
       "kind": "video"
     },
     {
-      "id": "RakR0ihKRGw",
-      "videoId": "RakR0ihKRGw",
-      "title": "EPISODE 22 - The Tely 10 Miler",
-      "url": "https://www.youtube.com/watch?v=RakR0ihKRGw",
-      "discipline": "Distance",
+      "id": "ofYX-aQICbI",
+      "videoId": "ofYX-aQICbI",
+      "title": "This Race Wasn’t Supposed to Be This Hard (Lake Sonoma 100K)",
+      "url": "https://www.youtube.com/watch?v=ofYX-aQICbI",
+      "discipline": "Trail",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
-        "kind": "athlete"
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-07-02T00:00:29.000Z",
-      "durationSeconds": 1687,
-      "viewCount": 50000,
-      "kind": "video"
-    },
-    {
-      "id": "NSKbYmrazyI",
-      "videoId": "NSKbYmrazyI",
-      "title": "Heavy Leg Day Strength Session For Hybrid Athletes",
-      "url": "https://www.youtube.com/watch?v=NSKbYmrazyI",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Nick Bare",
-        "slug": "nick-bare",
-        "handle": "NickBareFitness",
-        "url": "https://www.youtube.com/@NickBareFitness",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-15T18:26:16.000Z",
-      "durationSeconds": 817,
-      "viewCount": 126778,
+      "publishedAt": "2026-07-03T15:00:17.000Z",
+      "durationSeconds": 2148,
+      "viewCount": 121360,
       "kind": "video"
     },
     {
@@ -1485,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-05-17T16:01:16.000Z",
       "durationSeconds": 1149,
-      "viewCount": 18994,
+      "viewCount": 19005,
       "kind": "video"
     },
     {
@@ -1504,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-04-11T14:04:37.000Z",
       "durationSeconds": 791,
-      "viewCount": 4450,
+      "viewCount": 4451,
       "kind": "video"
     },
     {
@@ -1523,7 +2124,26 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 52846,
+      "viewCount": 52971,
+      "kind": "video"
+    },
+    {
+      "id": "-VpAooGbfxY",
+      "videoId": "-VpAooGbfxY",
+      "title": "Höhentrainingslager, Verletzung und everyday life as an athlete | Vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=-VpAooGbfxY",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-03T11:11:31.000Z",
+      "durationSeconds": 2142,
+      "viewCount": 50513,
       "kind": "video"
     },
     {
@@ -1542,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-04-21T12:59:40.000Z",
       "durationSeconds": 933,
-      "viewCount": 31946,
+      "viewCount": 31951,
       "kind": "video"
     },
     {
@@ -1580,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 26494,
+      "viewCount": 26505,
       "kind": "video"
     },
     {
@@ -1618,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 100935,
+      "viewCount": 101005,
       "kind": "video"
     },
     {
@@ -1637,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 39647,
+      "viewCount": 39654,
       "kind": "video"
     },
     {
@@ -1675,7 +2295,45 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 109090,
+      "viewCount": 109182,
+      "kind": "video"
+    },
+    {
+      "id": "RakR0ihKRGw",
+      "videoId": "RakR0ihKRGw",
+      "title": "EPISODE 22 - The Tely 10 Miler",
+      "url": "https://www.youtube.com/watch?v=RakR0ihKRGw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-02T00:00:29.000Z",
+      "durationSeconds": 1687,
+      "viewCount": 50080,
+      "kind": "video"
+    },
+    {
+      "id": "dgGmWHzVhZI",
+      "videoId": "dgGmWHzVhZI",
+      "title": "I've Never Been This Close | US 6k Championships",
+      "url": "https://www.youtube.com/watch?v=dgGmWHzVhZI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-14T18:30:01.000Z",
+      "durationSeconds": 752,
+      "viewCount": 72283,
       "kind": "video"
     },
     {
@@ -1694,7 +2352,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T12:00:04.000Z",
       "durationSeconds": 1127,
-      "viewCount": 34797,
+      "viewCount": 35118,
       "kind": "video"
     },
     {
@@ -1713,7 +2371,7 @@
       "athlete": null,
       "publishedAt": "2026-06-16T13:04:10.000Z",
       "durationSeconds": 2078,
-      "viewCount": 26757,
+      "viewCount": 26790,
       "kind": "video"
     },
     {
@@ -1732,7 +2390,26 @@
       "athlete": null,
       "publishedAt": "2026-02-18T16:33:28.000Z",
       "durationSeconds": 1037,
-      "viewCount": 12186,
+      "viewCount": 12204,
+      "kind": "video"
+    },
+    {
+      "id": "1NgX_H1elR8",
+      "videoId": "1NgX_H1elR8",
+      "title": "I Ran The LONDON 10K With My Mum…This Race Was Special!",
+      "url": "https://www.youtube.com/watch?v=1NgX_H1elR8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-14T15:02:09.000Z",
+      "durationSeconds": 1021,
+      "viewCount": 24218,
       "kind": "video"
     },
     {
@@ -1751,7 +2428,45 @@
       "athlete": null,
       "publishedAt": "2026-06-29T07:00:39.000Z",
       "durationSeconds": 482,
-      "viewCount": 1333,
+      "viewCount": 1334,
+      "kind": "video"
+    },
+    {
+      "id": "6ziuMCnT_QQ",
+      "videoId": "6ziuMCnT_QQ",
+      "title": "This is a sh*t show.",
+      "url": "https://www.youtube.com/watch?v=6ziuMCnT_QQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-25T18:00:29.000Z",
+      "durationSeconds": 763,
+      "viewCount": 110322,
+      "kind": "video"
+    },
+    {
+      "id": "3JUoTRliicc",
+      "videoId": "3JUoTRliicc",
+      "title": "The Best (& WORST) Shoes Of 2026 So Far (in each category)",
+      "url": "https://www.youtube.com/watch?v=3JUoTRliicc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-05T14:29:27.000Z",
+      "durationSeconds": 1540,
+      "viewCount": 317091,
       "kind": "video"
     },
     {
@@ -1770,26 +2485,26 @@
       "athlete": null,
       "publishedAt": "2026-03-16T22:41:02.000Z",
       "durationSeconds": 1090,
-      "viewCount": 3272,
+      "viewCount": 3273,
       "kind": "video"
     },
     {
-      "id": "Vg_20jlJjUw",
-      "videoId": "Vg_20jlJjUw",
-      "title": "EPISODE 21 - Olympic Trials or DIE TRYING",
-      "url": "https://www.youtube.com/watch?v=Vg_20jlJjUw",
-      "discipline": "Distance",
+      "id": "yXboKHPNWX0",
+      "videoId": "yXboKHPNWX0",
+      "title": "Why I (still) don't use a bladder",
+      "url": "https://www.youtube.com/watch?v=yXboKHPNWX0",
+      "discipline": "Trail",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
-        "kind": "athlete"
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-06-21T14:00:10.000Z",
-      "durationSeconds": 1139,
-      "viewCount": 44973,
+      "publishedAt": "2026-06-19T16:00:28.000Z",
+      "durationSeconds": 422,
+      "viewCount": 39503,
       "kind": "video"
     },
     {
@@ -1808,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T15:38:34.000Z",
       "durationSeconds": 882,
-      "viewCount": 6382,
+      "viewCount": 6389,
       "kind": "video"
     },
     {
@@ -1827,7 +2542,26 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 36310,
+      "viewCount": 36354,
+      "kind": "video"
+    },
+    {
+      "id": "4XnQkAd83gw",
+      "videoId": "4XnQkAd83gw",
+      "title": "Intervall session & Bestleistung über 800m | Vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=4XnQkAd83gw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-15T15:21:53.000Z",
+      "durationSeconds": 1344,
+      "viewCount": 51562,
       "kind": "video"
     },
     {
@@ -1846,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T02:52:47.000Z",
       "durationSeconds": 815,
-      "viewCount": 71590,
+      "viewCount": 71591,
       "kind": "video"
     },
     {
@@ -1884,7 +2618,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22128,
+      "viewCount": 22130,
       "kind": "video"
     },
     {
@@ -1922,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 58699,
+      "viewCount": 58713,
       "kind": "video"
     },
     {
@@ -1941,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 22737,
+      "viewCount": 22743,
       "kind": "video"
     },
     {
@@ -1960,7 +2694,45 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 251783,
+      "viewCount": 252078,
+      "kind": "video"
+    },
+    {
+      "id": "Vg_20jlJjUw",
+      "videoId": "Vg_20jlJjUw",
+      "title": "EPISODE 21 - Olympic Trials or DIE TRYING",
+      "url": "https://www.youtube.com/watch?v=Vg_20jlJjUw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-21T14:00:10.000Z",
+      "durationSeconds": 1139,
+      "viewCount": 45138,
+      "kind": "video"
+    },
+    {
+      "id": "T3tOy8MNWtM",
+      "videoId": "T3tOy8MNWtM",
+      "title": "All That's Left Is to Race | US Championships",
+      "url": "https://www.youtube.com/watch?v=T3tOy8MNWtM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-09T18:30:07.000Z",
+      "durationSeconds": 741,
+      "viewCount": 42330,
       "kind": "video"
     },
     {
@@ -1979,7 +2751,7 @@
       "athlete": null,
       "publishedAt": "2026-07-23T11:00:09.000Z",
       "durationSeconds": 759,
-      "viewCount": 10218,
+      "viewCount": 10289,
       "kind": "video"
     },
     {
@@ -1998,7 +2770,7 @@
       "athlete": null,
       "publishedAt": "2026-05-15T13:02:18.000Z",
       "durationSeconds": 1076,
-      "viewCount": 23036,
+      "viewCount": 23059,
       "kind": "video"
     },
     {
@@ -2017,26 +2789,83 @@
       "athlete": null,
       "publishedAt": "2025-11-03T08:44:21.000Z",
       "durationSeconds": 1287,
-      "viewCount": 43288,
+      "viewCount": 43331,
       "kind": "video"
     },
     {
-      "id": "-6RfJlXyAe0",
-      "videoId": "-6RfJlXyAe0",
-      "title": "EPISODE 20 - Olympic Trials or DIE Trying",
-      "url": "https://www.youtube.com/watch?v=-6RfJlXyAe0",
+      "id": "4MuuP0gOzec",
+      "videoId": "4MuuP0gOzec",
+      "title": "154 Days to Valencia Marathon...Here's My Possibly Unhinged GOAL!",
+      "url": "https://www.youtube.com/watch?v=4MuuP0gOzec",
       "discipline": "Distance",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
         "kind": "athlete"
       },
       "athlete": null,
-      "publishedAt": "2026-06-13T23:00:22.000Z",
-      "durationSeconds": 980,
-      "viewCount": 36926,
+      "publishedAt": "2026-07-05T15:00:17.000Z",
+      "durationSeconds": 1109,
+      "viewCount": 36998,
+      "kind": "video"
+    },
+    {
+      "id": "vJOjR6yqobY",
+      "videoId": "vJOjR6yqobY",
+      "title": "Your running watch is lying to you.",
+      "url": "https://www.youtube.com/watch?v=vJOjR6yqobY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-18T18:00:09.000Z",
+      "durationSeconds": 1152,
+      "viewCount": 227632,
+      "kind": "video"
+    },
+    {
+      "id": "WLm0qQMIKys",
+      "videoId": "WLm0qQMIKys",
+      "title": "I bought every Adidas EVO SL, here’s the one you should buy…",
+      "url": "https://www.youtube.com/watch?v=WLm0qQMIKys",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-28T16:00:25.000Z",
+      "durationSeconds": 725,
+      "viewCount": 92969,
+      "kind": "video"
+    },
+    {
+      "id": "P9dt6kVuBCg",
+      "videoId": "P9dt6kVuBCg",
+      "title": "Everything Näak Makes (and When To Use It)",
+      "url": "https://www.youtube.com/watch?v=P9dt6kVuBCg",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-12T15:00:13.000Z",
+      "durationSeconds": 574,
+      "viewCount": 7123,
       "kind": "video"
     },
     {
@@ -2055,7 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-03-27T15:05:04.000Z",
       "durationSeconds": 854,
-      "viewCount": 3498,
+      "viewCount": 3499,
       "kind": "video"
     },
     {
@@ -2074,7 +2903,26 @@
       "athlete": null,
       "publishedAt": "2026-06-14T18:00:06.000Z",
       "durationSeconds": 716,
-      "viewCount": 74892,
+      "viewCount": 75076,
+      "kind": "video"
+    },
+    {
+      "id": "e6aYvQHjuT8",
+      "videoId": "e6aYvQHjuT8",
+      "title": "The high & lows of my weekend - fashion show & Deutsche Meisterschaften | vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=e6aYvQHjuT8",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-04T17:56:52.000Z",
+      "durationSeconds": 641,
+      "viewCount": 22145,
       "kind": "video"
     },
     {
@@ -2093,7 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-02-24T05:49:56.000Z",
       "durationSeconds": 1176,
-      "viewCount": 56422,
+      "viewCount": 56425,
       "kind": "video"
     },
     {
@@ -2131,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 22310,
+      "viewCount": 22313,
       "kind": "video"
     },
     {
@@ -2169,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 64138,
+      "viewCount": 64157,
       "kind": "video"
     },
     {
@@ -2188,7 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 30785,
+      "viewCount": 30830,
       "kind": "video"
     },
     {
@@ -2207,7 +3055,45 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 1700109,
+      "viewCount": 1702570,
+      "kind": "video"
+    },
+    {
+      "id": "-6RfJlXyAe0",
+      "videoId": "-6RfJlXyAe0",
+      "title": "EPISODE 20 - Olympic Trials or DIE Trying",
+      "url": "https://www.youtube.com/watch?v=-6RfJlXyAe0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-13T23:00:22.000Z",
+      "durationSeconds": 980,
+      "viewCount": 36971,
+      "kind": "video"
+    },
+    {
+      "id": "VomfurjrusE",
+      "videoId": "VomfurjrusE",
+      "title": "I Chose My Dream Over Everything",
+      "url": "https://www.youtube.com/watch?v=VomfurjrusE",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-03T18:30:34.000Z",
+      "durationSeconds": 815,
+      "viewCount": 45098,
       "kind": "video"
     },
     {
@@ -2226,7 +3112,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T12:14:24.000Z",
       "durationSeconds": 1213,
-      "viewCount": 57794,
+      "viewCount": 58239,
       "kind": "video"
     },
     {
@@ -2245,7 +3131,7 @@
       "athlete": null,
       "publishedAt": "2026-05-05T23:12:51.000Z",
       "durationSeconds": 4785,
-      "viewCount": 26782,
+      "viewCount": 26825,
       "kind": "video"
     },
     {
@@ -2264,26 +3150,64 @@
       "athlete": null,
       "publishedAt": "2025-10-05T11:15:29.000Z",
       "durationSeconds": 353,
-      "viewCount": 3834,
+      "viewCount": 3839,
       "kind": "video"
     },
     {
-      "id": "VsM88to5e2c",
-      "videoId": "VsM88to5e2c",
-      "title": "EPISODE 19 - Olympic Trials or DIE trying",
-      "url": "https://www.youtube.com/watch?v=VsM88to5e2c",
+      "id": "xN2YX4M0-JI",
+      "videoId": "xN2YX4M0-JI",
+      "title": "How To Build A Running Shoe Rotation + My Favourites In 2026!",
+      "url": "https://www.youtube.com/watch?v=xN2YX4M0-JI",
       "discipline": "Distance",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
         "kind": "athlete"
       },
       "athlete": null,
-      "publishedAt": "2026-06-06T00:55:20.000Z",
-      "durationSeconds": 720,
-      "viewCount": 42909,
+      "publishedAt": "2026-06-28T15:00:28.000Z",
+      "durationSeconds": 980,
+      "viewCount": 23135,
+      "kind": "video"
+    },
+    {
+      "id": "t5p6y0PFc94",
+      "videoId": "t5p6y0PFc94",
+      "title": "I bought every running shoe from Decathlon, here’s what’s actually good (and bad)",
+      "url": "https://www.youtube.com/watch?v=t5p6y0PFc94",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-21T16:12:02.000Z",
+      "durationSeconds": 997,
+      "viewCount": 117447,
+      "kind": "video"
+    },
+    {
+      "id": "fY8f5jjk5xg",
+      "videoId": "fY8f5jjk5xg",
+      "title": "My Gear for the Mammoth 200",
+      "url": "https://www.youtube.com/watch?v=fY8f5jjk5xg",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-31T20:10:06.000Z",
+      "durationSeconds": 894,
+      "viewCount": 32804,
       "kind": "video"
     },
     {
@@ -2302,7 +3226,7 @@
       "athlete": null,
       "publishedAt": "2026-03-09T20:35:21.000Z",
       "durationSeconds": 754,
-      "viewCount": 8799,
+      "viewCount": 8804,
       "kind": "video"
     },
     {
@@ -2321,7 +3245,26 @@
       "athlete": null,
       "publishedAt": "2026-06-07T18:00:06.000Z",
       "durationSeconds": 486,
-      "viewCount": 47374,
+      "viewCount": 47433,
+      "kind": "video"
+    },
+    {
+      "id": "uuayrkSS6Jo",
+      "videoId": "uuayrkSS6Jo",
+      "title": "Hahnenkammrennen, Training und Alltag 💪🏼 | Vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=uuayrkSS6Jo",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-20T17:57:08.000Z",
+      "durationSeconds": 902,
+      "viewCount": 39873,
       "kind": "video"
     },
     {
@@ -2359,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24375,
+      "viewCount": 24382,
       "kind": "video"
     },
     {
@@ -2397,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2025-09-06T17:57:25.000Z",
       "durationSeconds": 1118,
-      "viewCount": 61272,
+      "viewCount": 61289,
       "kind": "video"
     },
     {
@@ -2416,7 +3359,26 @@
       "athlete": null,
       "publishedAt": "2025-12-29T22:00:06.000Z",
       "durationSeconds": 672,
-      "viewCount": 48003,
+      "viewCount": 48011,
+      "kind": "video"
+    },
+    {
+      "id": "VsM88to5e2c",
+      "videoId": "VsM88to5e2c",
+      "title": "EPISODE 19 - Olympic Trials or DIE trying",
+      "url": "https://www.youtube.com/watch?v=VsM88to5e2c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-06T00:55:20.000Z",
+      "durationSeconds": 720,
+      "viewCount": 42934,
       "kind": "video"
     },
     {
@@ -2435,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T19:37:54.000Z",
       "durationSeconds": 972,
-      "viewCount": 25125,
+      "viewCount": 25275,
       "kind": "video"
     },
     {
@@ -2454,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-05-02T14:57:59.000Z",
       "durationSeconds": 1497,
-      "viewCount": 68818,
+      "viewCount": 68931,
       "kind": "video"
     },
     {
@@ -2473,26 +3435,64 @@
       "athlete": null,
       "publishedAt": "2025-10-03T06:00:09.000Z",
       "durationSeconds": 665,
-      "viewCount": 9182,
+      "viewCount": 9198,
       "kind": "video"
     },
     {
-      "id": "PmhNYZRjZNc",
-      "videoId": "PmhNYZRjZNc",
-      "title": "EPISODE 18 - Olympics Trials or DIE trying",
-      "url": "https://www.youtube.com/watch?v=PmhNYZRjZNc",
+      "id": "NzWqAPLNVZc",
+      "videoId": "NzWqAPLNVZc",
+      "title": "not another injury.",
+      "url": "https://www.youtube.com/watch?v=NzWqAPLNVZc",
       "discipline": "Distance",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
         "kind": "athlete"
       },
       "athlete": null,
-      "publishedAt": "2026-05-29T00:00:12.000Z",
-      "durationSeconds": 749,
-      "viewCount": 38292,
+      "publishedAt": "2026-06-24T15:03:11.000Z",
+      "durationSeconds": 1264,
+      "viewCount": 45128,
+      "kind": "video"
+    },
+    {
+      "id": "9qv6rh34rXU",
+      "videoId": "9qv6rh34rXU",
+      "title": "The Best Running Shoe From Every Brand in 2026!",
+      "url": "https://www.youtube.com/watch?v=9qv6rh34rXU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-14T16:00:25.000Z",
+      "durationSeconds": 943,
+      "viewCount": 208251,
+      "kind": "video"
+    },
+    {
+      "id": "6KwOoFXLR_M",
+      "videoId": "6KwOoFXLR_M",
+      "title": "Racing 215 Miles Around Mammoth Lakes (The Mammoth 200)",
+      "url": "https://www.youtube.com/watch?v=6KwOoFXLR_M",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-31T19:00:06.000Z",
+      "durationSeconds": 3977,
+      "viewCount": 179992,
       "kind": "video"
     },
     {
@@ -2511,7 +3511,26 @@
       "athlete": null,
       "publishedAt": "2026-03-03T19:35:09.000Z",
       "durationSeconds": 641,
-      "viewCount": 3286,
+      "viewCount": 3287,
+      "kind": "video"
+    },
+    {
+      "id": "HTO4yenJXXk",
+      "videoId": "HTO4yenJXXk",
+      "title": "Train with me in portugal 💪🏼 Tough tempo sessions & group challenges | Vlog Alica Schmidt",
+      "url": "https://www.youtube.com/watch?v=HTO4yenJXXk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-10T18:33:46.000Z",
+      "durationSeconds": 1515,
+      "viewCount": 46723,
       "kind": "video"
     },
     {
@@ -2549,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21394,
+      "viewCount": 21398,
       "kind": "video"
     },
     {
@@ -2587,7 +3606,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T19:01:48.000Z",
       "durationSeconds": 1276,
-      "viewCount": 94698,
+      "viewCount": 94736,
       "kind": "video"
     },
     {
@@ -2606,7 +3625,26 @@
       "athlete": null,
       "publishedAt": "2025-12-18T19:00:06.000Z",
       "durationSeconds": 790,
-      "viewCount": 29375,
+      "viewCount": 29387,
+      "kind": "video"
+    },
+    {
+      "id": "PmhNYZRjZNc",
+      "videoId": "PmhNYZRjZNc",
+      "title": "EPISODE 18 - Olympics Trials or DIE trying",
+      "url": "https://www.youtube.com/watch?v=PmhNYZRjZNc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-29T00:00:12.000Z",
+      "durationSeconds": 749,
+      "viewCount": 38323,
       "kind": "video"
     },
     {
@@ -2625,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-07-14T11:31:12.000Z",
       "durationSeconds": 789,
-      "viewCount": 14380,
+      "viewCount": 14459,
       "kind": "video"
     },
     {
@@ -2644,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-04-17T17:10:29.000Z",
       "durationSeconds": 1330,
-      "viewCount": 31933,
+      "viewCount": 31937,
       "kind": "video"
     },
     {
@@ -2663,26 +3701,64 @@
       "athlete": null,
       "publishedAt": "2025-08-14T10:44:48.000Z",
       "durationSeconds": 1330,
-      "viewCount": 2119,
+      "viewCount": 2128,
       "kind": "video"
     },
     {
-      "id": "HRKYjC93dDM",
-      "videoId": "HRKYjC93dDM",
-      "title": "Episode 17 - Ogden Marathon or die trying",
-      "url": "https://www.youtube.com/watch?v=HRKYjC93dDM",
+      "id": "y5JgY0tK7TM",
+      "videoId": "y5JgY0tK7TM",
+      "title": "MIZUNO WAVE RIDER 30 | Here's My Review!",
+      "url": "https://www.youtube.com/watch?v=y5JgY0tK7TM",
       "discipline": "Distance",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
         "kind": "athlete"
       },
       "athlete": null,
-      "publishedAt": "2026-05-21T23:00:24.000Z",
-      "durationSeconds": 904,
-      "viewCount": 54633,
+      "publishedAt": "2026-06-13T15:00:38.000Z",
+      "durationSeconds": 995,
+      "viewCount": 19257,
+      "kind": "video"
+    },
+    {
+      "id": "mHzA8XRROxw",
+      "videoId": "mHzA8XRROxw",
+      "title": "5 Things To Do This Summer For An Autumn PB!",
+      "url": "https://www.youtube.com/watch?v=mHzA8XRROxw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-07T17:00:20.000Z",
+      "durationSeconds": 634,
+      "viewCount": 42062,
+      "kind": "video"
+    },
+    {
+      "id": "3cDPk_LppFo",
+      "videoId": "3cDPk_LppFo",
+      "title": "Join me one week in training camp 🏃🏼‍♀️❤️‍🔥 // vlog alica schmidt",
+      "url": "https://www.youtube.com/watch?v=3cDPk_LppFo",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Alica Schmidt",
+        "slug": "alica-schmidt",
+        "handle": "alicaschmidt4882",
+        "url": "https://www.youtube.com/@alicaschmidt4882",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-01-18T09:19:24.000Z",
+      "durationSeconds": 1417,
+      "viewCount": 56992,
       "kind": "video"
     },
     {
@@ -2720,7 +3796,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 43054,
+      "viewCount": 43068,
       "kind": "video"
     },
     {
@@ -2739,7 +3815,7 @@
       "athlete": null,
       "publishedAt": "2025-08-09T20:32:10.000Z",
       "durationSeconds": 953,
-      "viewCount": 82863,
+      "viewCount": 82885,
       "kind": "video"
     },
     {
@@ -2758,7 +3834,26 @@
       "athlete": null,
       "publishedAt": "2025-09-12T20:36:13.000Z",
       "durationSeconds": 567,
-      "viewCount": 32082,
+      "viewCount": 32088,
+      "kind": "video"
+    },
+    {
+      "id": "HRKYjC93dDM",
+      "videoId": "HRKYjC93dDM",
+      "title": "Episode 17 - Ogden Marathon or die trying",
+      "url": "https://www.youtube.com/watch?v=HRKYjC93dDM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-21T23:00:24.000Z",
+      "durationSeconds": 904,
+      "viewCount": 54660,
       "kind": "video"
     },
     {
@@ -2777,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-07-11T11:00:28.000Z",
       "durationSeconds": 876,
-      "viewCount": 19553,
+      "viewCount": 19658,
       "kind": "video"
     },
     {
@@ -2796,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-04-11T12:21:19.000Z",
       "durationSeconds": 1060,
-      "viewCount": 15053,
+      "viewCount": 15056,
       "kind": "video"
     },
     {
@@ -2815,26 +3910,45 @@
       "athlete": null,
       "publishedAt": "2025-06-06T19:14:34.000Z",
       "durationSeconds": 1754,
-      "viewCount": 3326,
+      "viewCount": 3334,
       "kind": "video"
     },
     {
-      "id": "07nlV0DXdjA",
-      "videoId": "07nlV0DXdjA",
-      "title": "EPISODE 16 - Olympic Trials or DIE Trying",
-      "url": "https://www.youtube.com/watch?v=07nlV0DXdjA",
+      "id": "r0qLCt8hjrQ",
+      "videoId": "r0qLCt8hjrQ",
+      "title": "I Raced The WORLD'S FASTEST 10k Runners! | Great Manchester Run 2026",
+      "url": "https://www.youtube.com/watch?v=r0qLCt8hjrQ",
       "discipline": "Distance",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
         "kind": "athlete"
       },
       "athlete": null,
-      "publishedAt": "2026-05-14T01:00:00.000Z",
-      "durationSeconds": 825,
-      "viewCount": 48051,
+      "publishedAt": "2026-06-07T15:00:16.000Z",
+      "durationSeconds": 1375,
+      "viewCount": 79836,
+      "kind": "video"
+    },
+    {
+      "id": "yxMlbGWKGIg",
+      "videoId": "yxMlbGWKGIg",
+      "title": "THE 10 BEST RUNNING SHOES FOR WIDE FEET IN 2026 (in every category)",
+      "url": "https://www.youtube.com/watch?v=yxMlbGWKGIg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-31T16:13:48.000Z",
+      "durationSeconds": 1116,
+      "viewCount": 71879,
       "kind": "video"
     },
     {
@@ -2872,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 27626,
+      "viewCount": 27628,
       "kind": "video"
     },
     {
@@ -2891,7 +4005,26 @@
       "athlete": null,
       "publishedAt": "2025-08-26T16:00:06.000Z",
       "durationSeconds": 626,
-      "viewCount": 74440,
+      "viewCount": 74452,
+      "kind": "video"
+    },
+    {
+      "id": "07nlV0DXdjA",
+      "videoId": "07nlV0DXdjA",
+      "title": "EPISODE 16 - Olympic Trials or DIE Trying",
+      "url": "https://www.youtube.com/watch?v=07nlV0DXdjA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Truett Hanes",
+        "slug": "truett-hanes",
+        "handle": "truetthanes",
+        "url": "https://www.youtube.com/@truetthanes",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-14T01:00:00.000Z",
+      "durationSeconds": 825,
+      "viewCount": 48060,
       "kind": "video"
     },
     {
@@ -2910,7 +4043,7 @@
       "athlete": null,
       "publishedAt": "2026-07-07T17:34:40.000Z",
       "durationSeconds": 957,
-      "viewCount": 14959,
+      "viewCount": 15020,
       "kind": "video"
     },
     {
@@ -2929,7 +4062,7 @@
       "athlete": null,
       "publishedAt": "2026-04-02T15:18:47.000Z",
       "durationSeconds": 1713,
-      "viewCount": 32883,
+      "viewCount": 32892,
       "kind": "video"
     },
     {
@@ -2948,26 +4081,26 @@
       "athlete": null,
       "publishedAt": "2025-03-02T09:35:50.000Z",
       "durationSeconds": 1120,
-      "viewCount": 2504,
+      "viewCount": 2513,
       "kind": "video"
     },
     {
-      "id": "GZAEWtm43gs",
-      "videoId": "GZAEWtm43gs",
-      "title": "London Marathon | Keep Going",
-      "url": "https://www.youtube.com/watch?v=GZAEWtm43gs",
+      "id": "b2wHZQQrUEs",
+      "videoId": "b2wHZQQrUEs",
+      "title": "If I Only Had 5 Minutes With Most Runners, I’d Change These 5 Things",
+      "url": "https://www.youtube.com/watch?v=b2wHZQQrUEs",
       "discipline": "Distance",
       "creator": {
-        "name": "Truett Hanes",
-        "slug": "truett-hanes",
-        "handle": "truetthanes",
-        "url": "https://www.youtube.com/@truetthanes",
-        "kind": "athlete"
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-05-07T00:00:32.000Z",
-      "durationSeconds": 1919,
-      "viewCount": 116727,
+      "publishedAt": "2026-05-24T16:00:41.000Z",
+      "durationSeconds": 550,
+      "viewCount": 313865,
       "kind": "video"
     },
     {
@@ -3024,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T12:23:36.000Z",
       "durationSeconds": 738,
-      "viewCount": 18819,
+      "viewCount": 18969,
       "kind": "video"
     },
     {
@@ -3043,7 +4176,26 @@
       "athlete": null,
       "publishedAt": "2025-02-17T09:54:31.000Z",
       "durationSeconds": 1078,
-      "viewCount": 7740,
+      "viewCount": 7750,
+      "kind": "video"
+    },
+    {
+      "id": "XzYXnLqgS2I",
+      "videoId": "XzYXnLqgS2I",
+      "title": "The Most Comfortable Running Shoes for Every Type of Run",
+      "url": "https://www.youtube.com/watch?v=XzYXnLqgS2I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-05-17T17:53:12.000Z",
+      "durationSeconds": 1267,
+      "viewCount": 177042,
       "kind": "video"
     },
     {
@@ -3081,7 +4233,7 @@
       "athlete": null,
       "publishedAt": "2025-05-16T21:00:04.000Z",
       "durationSeconds": 596,
-      "viewCount": 27096,
+      "viewCount": 27101,
       "kind": "video"
     }
   ]
