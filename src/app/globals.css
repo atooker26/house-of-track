@@ -729,3 +729,97 @@ button { font: inherit; cursor: pointer; }
   .subscribe { flex-direction: column; }
   .subscribe .btn { width: 100%; justify-content: center; }
 }
+
+/* ============================================================
+   COMING-SOON GATE — temporary, see docs/COMING-SOON-GATE.md
+   Everything below can be deleted once the gate is retired.
+   ============================================================ */
+
+/* The gate lives inside the normal root layout, so hide the site chrome
+   rather than restructuring the app into a second root layout. */
+body:has(.gate-page) .nav,
+body:has(.gate-page) .footer { display: none; }
+body:has(.gate-page) main { min-height: 100dvh; }
+/* No cream strip peeking out below the gate on short viewports. */
+body:has(.gate-page) { background: var(--navy-900); }
+
+.gate-page {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--navy-900);
+  padding: 48px 24px;
+}
+.gate-inner { max-width: 540px; width: 100%; text-align: center; }
+.gate-inner img { margin: 0 auto 28px; }
+.gate-page h1 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: clamp(40px, 8vw, 62px);
+  line-height: .96;
+  letter-spacing: .01em;
+  color: var(--cream);
+  margin: 0 0 22px;
+}
+.gate-lead {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--fg-on-dark-2);
+  margin: 0 auto 18px;
+  max-width: 44ch;
+}
+.gate-lead-2 { margin-bottom: 30px; }
+
+.gate-form {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  max-width: 440px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.gate-form input[type="email"] {
+  flex: 1 1 auto;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--ink);
+  background: #fff;
+  border: 1.5px solid transparent;
+  border-radius: var(--r-sm);
+  padding: 14px 16px;
+}
+.gate-form input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139,136,219,.45);
+}
+.gate-confirm {
+  font-family: var(--font-cond);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+  color: var(--cream);
+  margin: 0;
+  padding: 16px 0;
+}
+.gate-error {
+  flex: 1 0 100%;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: #F86058;
+  margin: 4px 0 0;
+}
+.gate-meanwhile {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--fg-on-dark-2);
+  margin: 40px 0 0;
+}
+.gate-meanwhile a { color: var(--cream); text-decoration: underline; text-underline-offset: 3px; }
+.gate-meanwhile a:hover { color: #fff; }
+
+@media (max-width: 480px) {
+  .gate-form { flex-direction: column; }
+  .gate-form .btn { width: 100%; justify-content: center; }
+}
