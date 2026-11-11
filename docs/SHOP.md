@@ -79,19 +79,26 @@ PGlite locks its directory: stop `next dev` before running a script against it.
 
 ## Launch checklist
 
+Status 2026-11-10: steps 4 (database) is done and the shop pages are live behind the
+coming-soon gate (`/shop` is open, checkout is off). Everything else below is open.
+
 On the **existing** House of Track client account in TEGO (already linked to the
 house-of-track Space, with its email account set up):
 
-1. **Email:** finish sending-domain verification for houseoftrack.media: add the DKIM
-   CNAMEs TEGO shows to Cloudflare DNS, then re-check in TEGO.
+1. **Email:** sending-domain verification for houseoftrack.media was started in TEGO
+   (2026-11-10) and shows 3 DKIM CNAMEs. Add them in the DNS of the Cloudflare
+   account that actually holds the zone (the registrar is Cloudflare; it is not the
+   GoHighLevel account), then re-check in TEGO.
 2. **API key:** create one with scopes `email:send` and `purchases:write` → Vercel
    `TEGO_API_KEY`.
 3. **Stripe Connect:** House of Track completes onboarding through TEGO → Vercel
    `STRIPE_CONNECTED_ACCOUNT_ID`. Use TEGO's platform key for `STRIPE_SECRET_KEY`.
-4. **Database:** Supabase project `house-of-track`. Create a least-privilege app role,
-   put its pooler URLs in Vercel, then apply the migration:
-   `POSTGRES_URL_NON_POOLING=… npm run db:migrate`. Every table has RLS on with no
-   policies (nothing is reachable through Supabase's Data API).
+4. **Database (done 2026-11-10):** Supabase project `house-of-track`, migration
+   `0000_shop` applied and recorded in `public.__drizzle_migrations`. A least-privilege
+   app role **owns** the tables: RLS is on with no policies, so only the owner can read
+   them (a non-owner role sees zero rows). Use the `aws-1-…` session/transaction
+   pooler host; `aws-0` answers "tenant not found". Both pooler URLs are in Vercel
+   production. Later migrations: `POSTGRES_URL_NON_POOLING=… npm run db:migrate`.
 5. **Stripe webhook:** on TEGO's platform account, add endpoint
    `https://www.houseoftrack.media/api/shop/webhook` with events
    `checkout.session.completed` and `checkout.session.expired` → Vercel
