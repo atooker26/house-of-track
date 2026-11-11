@@ -25,6 +25,18 @@ const GATE_PATH = "/soon";
 const BYPASS_COOKIE = "hot_preview";
 const BYPASS_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
 
+/**
+ * Sections that are live while the rest of the site stays dark. Each entry opens
+ * the path itself and everything under it — and nothing else: "/shop" opens
+ * /shop and /shop/<anything>, but not /shopping or /shop-old. Add /creatives and
+ * /gallery here when they launch.
+ */
+const OPEN_PATHS = ["/shop"] as const;
+
+function isOpenPath(pathname: string): boolean {
+  return OPEN_PATHS.some((p) => pathname === p || pathname.startsWith(`${p}/`));
+}
+
 function gateEnabled(): boolean {
   const flag = process.env.COMING_SOON;
   return flag === "1" || flag === "true";
@@ -70,6 +82,7 @@ export function proxy(request: NextRequest) {
   }
 
   if (pathname === GATE_PATH) return NextResponse.next();
+  if (isOpenPath(pathname)) return NextResponse.next();
 
   // 307, not 308 — this is temporary and must not stick in anyone's browser
   // cache once the gate comes down.

@@ -1,15 +1,17 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 
 export default function TopNav() {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
-
-  useEffect(() => { setOpen(false); }, [pathname]);
+  // The menu remembers the page it was opened on, so navigating closes it
+  // without a setState-in-effect (react-hooks/set-state-in-effect).
+  const [openOn, setOpenOn] = useState<string | null>(null);
+  const open = openOn === pathname;
+  const setOpen = (next: boolean) => setOpenOn(next ? pathname : null);
   const isLight = pathname === "/guest";
   const theme = isLight ? "light" : "dark";
 

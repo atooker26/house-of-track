@@ -7,21 +7,34 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "ingest:youtube": "node scripts/ingest-youtube.mjs"
+    "ingest:youtube": "node scripts/ingest-youtube.mjs",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:seed:dev": "tsx scripts/seed-dev.ts",
+    "test:shop": "tsx scripts/test-stock.ts"
   },
   "dependencies": {
+    "drizzle-orm": "^0.45.4",
     "next": "16.2.7",
+    "postgres": "^3.4.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "stripe": "^22.6.2",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.16",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^18.0.10",
+    "drizzle-kit": "^0.31.11",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }
