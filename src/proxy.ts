@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { createServerClient } from "@supabase/ssr";
 
 /**
  * Temporary "coming soon" gate.
@@ -42,7 +43,54 @@ function gateEnabled(): boolean {
   return flag === "1" || flag === "true";
 }
 
-export function proxy(request: NextRequest) {
+/**
+ * The admin console and its auth callback. They sit outside the coming-soon gate
+ * (staff need them while the site is dark) and are protected by login instead.
+ * Anchored like OPEN_PATHS: "/admin" and "/admin/…", never "/administrator".
+ */
+function isAdminPath(pathname: string): boolean {
+  return ["/admin", "/auth"].some((p) => pathname === p || pathname.startsWith(`${p}/`));
+}
+
+/**
+ * Refreshes the Supabase session cookie and bounces signed-out visitors to the
+ * login page. Whether a signed-in user is actually an admin is decided by
+ * getViewer() in src/lib/admin/auth.ts, not here.
+ */
+async function adminProxy(request: NextRequest): Promise<NextResponse> {
+  let response = NextResponse.next({ request });
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) return response; // the console explains what's missing
+
+  const supabase = createServerClient(url, key, {
+    cookies: {
+      getAll() {
+        return request.cookies.getAll();
+      },
+      setAll(cookiesToSet) {
+        cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value));
+        response = NextResponse.next({ request });
+        cookiesToSet.forEach(({ name, value, options }) => response.cookies.set(name, value, options));
+      },
+    },
+  });
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  const { pathname } = request.nextUrl;
+  if (pathname.startsWith("/admin") && pathname !== "/admin/login" && !user) {
+    const login = request.nextUrl.clone();
+    login.pathname = "/admin/login";
+    login.search = "";
+    return NextResponse.redirect(login);
+  }
+  return response;
+}
+
+export async function proxy(request: NextRequest) {
+  if (isAdminPath(request.nextUrl.pathname)) return adminProxy(request);
   if (!gateEnabled()) return NextResponse.next();
 
   const { pathname, searchParams } = request.nextUrl;

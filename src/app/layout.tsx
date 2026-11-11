@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Open_Sans } from "next/font/google";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
+import HideOnAdmin from "@/components/HideOnAdmin";
 import "./globals.css";
 
 const openSans = Open_Sans({
@@ -54,14 +55,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(podcastJsonLd) }}
         />
-        <TopNav />
+        <HideOnAdmin>
+          <TopNav />
+        </HideOnAdmin>
         <main>{children}</main>
-        <Footer />
-        <Script
-          src="https://www.tegomarketing.com/tego.js"
-          data-slug="house-of-track"
-          strategy="afterInteractive"
-        />
+        <HideOnAdmin>
+          <Footer />
+          {/* No analytics pixel on the admin console. */}
+          <Script
+            src="https://www.tegomarketing.com/tego.js"
+            data-slug="house-of-track"
+            strategy="afterInteractive"
+          />
+        </HideOnAdmin>
       </body>
     </html>
   );

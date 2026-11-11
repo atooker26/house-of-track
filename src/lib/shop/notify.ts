@@ -144,3 +144,75 @@ export async function notifyPaidOrder(db: Db, orderId: number): Promise<void> {
     }
   }
 }
+
+export const CARRIERS = ["USPS", "UPS", "FedEx", "DHL", "Other"] as const;
+
+/** A tracking link for the carriers Pyramid ships with; null for anything else. */
+export function trackingUrl(carrier: string | null, number: string | null): string | null {
+  if (!number) return null;
+  const n = encodeURIComponent(number.trim());
+  switch ((carrier ?? "").toLowerCase()) {
+    case "usps":
+      return `https://tools.usps.com/go/TrackConfirmAction?tLabels=${n}`;
+    case "ups":
+      return `https://www.ups.com/track?tracknum=${n}`;
+    case "fedex":
+      return `https://www.fedex.com/fedextrack/?trknbr=${n}`;
+    case "dhl":
+      return `https://www.dhl.com/us-en/home/tracking/tracking-express.html?tracking-id=${n}`;
+    default:
+      return null;
+  }
+}
+
+export function shippedEmail(v: View): { subject: string; html: string; text: string } {
+  const o = v.order;
+  const first = (o.name ?? "").split(" ")[0];
+  const addr = addressLines(v);
+  const url = trackingUrl(o.trackingCarrier, o.trackingNumber);
+  const tracking = o.trackingNumber
+    ? `<p style="margin-top:20px"><strong>Tracking</strong><br>${esc(o.trackingCarrier ?? "")} ${
+        url ? `<a href="${esc(url)}" style="color:#4540BF">${esc(o.trackingNumber)}</a>` : esc(o.trackingNumber)
+      }</p>`
+    : "";
+  const html = shell(
+    `Order ${o.number} shipped`,
+    `<p>${first ? `Good news, ${esc(first)}.` : "Good news."} Your order is on its way.</p>
+<table style="width:100%;border-collapse:collapse;font-size:15px">${v.items
+      .map(
+        (it) =>
+          `<tr><td style="padding:6px 0">${esc(it.productName)} — ${esc(it.variantLabel)}</td><td style="padding:6px 0;text-align:right">× ${it.qty}</td></tr>`,
+      )
+      .join("")}</table>
+${tracking}
+${addr.length ? `<p style="margin-top:20px"><strong>Shipping to</strong><br>${addr.map(esc).join("<br>")}</p>` : ""}
+<p style="font-size:13px;color:#555;margin-top:20px">Questions? Reply to this email.</p>`,
+  );
+  const text = [
+    `Order ${o.number} shipped.`,
+    ...v.items.map((it) => `${it.productName} — ${it.variantLabel} x ${it.qty}`),
+    o.trackingNumber ? `Tracking: ${o.trackingCarrier ?? ""} ${o.trackingNumber}${url ? ` (${url})` : ""}`.trim() : "",
+    addr.length ? `Shipping to: ${addr.join(", ")}` : "",
+  ]
+    .filter(Boolean)
+    .join("\n");
+  return { subject: `Your House of Track order ${o.number} shipped`, html, text };
+}
+
+/**
+ * The buyer's "shipped" email. Throws on failure (the admin sees it and can
+ * resend); the idempotency key includes the tracking number, so marking shipped
+ * twice with the same number never mails twice, but a corrected number does.
+ */
+export async function sendShippedEmail(db: Db, orderId: number): Promise<"sent" | "no-email" | "no-tego"> {
+  if (!tegoConfigured()) return "no-tego";
+  const v = await getOrderView(db, { orderId });
+  if (!v?.order.email) return "no-email";
+  const e = shippedEmail(v);
+  await sendEmail({
+    to: v.order.email,
+    ...e,
+    idempotencyKey: `hot-${v.order.number}-shipped-${v.order.trackingNumber ?? "none"}`,
+  });
+  return "sent";
+}

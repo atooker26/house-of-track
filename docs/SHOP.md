@@ -105,8 +105,8 @@ house-of-track Space, with its email account set up):
    `STRIPE_WEBHOOK_SECRET`. The endpoint ignores sessions from TEGO's other sites
    (anything without `metadata.site = "house-of-track"`).
 6. **Alerts:** set `ORDER_ALERT_EMAILS` (Kirk at Pyramid + House of Track).
-7. **Catalog:** insert the real drop, product, photos and stock (no admin UI yet).
-   Keep the drop `draft` until it's ready, then `live` with `starts_at` for a countdown.
+7. **Catalog:** set up the real drop, products, photos and stock in `/admin` (docs/ADMIN.md).
+   Keep the drop `draft` until it's ready, then `live` with an open time for a countdown.
 8. **Redeploy after adding env vars** (`vercel --prod`): a deploy made before a var
    exists doesn't get it. Then run one real low-value order end to end and refund it.
 
@@ -115,5 +115,5 @@ house-of-track Space, with its email account set up):
 - **Sales tax.** None is collected. House of Track is in Oregon (no sales tax) and far
   below other states' thresholds, but confirm before volume grows; Stripe Tax is the
   switch.
-- **Admin.** Orders, stock and fulfilment are SQL-only until the admin PR.
-- **Shipped emails.** Pyramid marks nothing shipped yet; the buyer gets the receipt only.
+- **Admin.** Built: `/admin`, see docs/ADMIN.md. Orders are marked shipped there, which
+  emails the buyer their tracking.
