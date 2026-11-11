@@ -15,6 +15,8 @@ const nextConfig: NextConfig = {
       // only exists for episodes listed in SPOTIFY_EP — episode 9 onward falls back
       // to the feed's own image, which 400s if this host isn't allowed.
       { protocol: "https", hostname: "d3t3ozftmdmh3i.cloudfront.net" },
+      // Shop photos uploaded from /admin (Supabase Storage, public `media` bucket).
+      { protocol: "https", hostname: "gdfnftdtnilipnbutyep.supabase.co", pathname: "/storage/v1/object/public/media/**" },
     ],
   },
 };

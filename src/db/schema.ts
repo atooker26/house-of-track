@@ -8,6 +8,7 @@ import {
   serial,
   text,
   timestamp,
+  uuid,
 } from "drizzle-orm/pg-core";
 
 /**
@@ -115,6 +116,12 @@ export const orders = pgTable(
     paymentIntentId: text("payment_intent_id"),
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
     paidAt: timestamp("paid_at", { withTimezone: true }),
+    /** Set from /admin when the order ships. Tracking is optional (a hand-delivered order has none). */
+    fulfilledAt: timestamp("fulfilled_at", { withTimezone: true }),
+    trackingCarrier: text("tracking_carrier"),
+    trackingNumber: text("tracking_number"),
+    /** Internal only: never shown to the buyer or sent anywhere. */
+    adminNote: text("admin_note").notNull().default(""),
     updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => [index("orders_status_idx").on(t.status)],
@@ -145,4 +152,17 @@ export const processedStripeEvents = pgTable("processed_stripe_events", {
   eventId: text("event_id").primaryKey(),
   type: text("type").notNull(),
   processedAt: timestamp("processed_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/**
+ * Who can use /admin. Keyed on the Supabase Auth user id (auth.users.id); a login
+ * that isn't in here is turned away. Read by the app as the table owner, and by
+ * the SQL function public.is_admin() for the storage bucket's policies (see
+ * supabase/admin.sql, which is Supabase-only and stays out of these migrations
+ * so PGlite can still run them).
+ */
+export const admins = pgTable("admins", {
+  userId: uuid("user_id").primaryKey(),
+  email: text("email").notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
