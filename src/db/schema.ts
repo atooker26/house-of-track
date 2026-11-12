@@ -166,3 +166,12 @@ export const admins = pgTable("admins", {
   email: text("email").notNull(),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
+
+/**
+ * Who gets the "New order" email. Edited in /admin/settings. When this is empty the
+ * ORDER_ALERT_EMAILS env var is the fallback, so an existing setup keeps working.
+ */
+export const orderAlertRecipients = pgTable("order_alert_recipients", {
+  email: text("email").primaryKey(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});

@@ -1,8 +1,10 @@
+import { asc } from "drizzle-orm";
 import type { Db } from "@/db";
+import { orderAlertRecipients as alertTable } from "@/db/schema";
 import { formatCents } from "./catalog";
 import { getOrderView } from "./orders";
 import { STATEMENT_DESCRIPTOR } from "./stripe";
-import { orderAlertRecipients, recordPurchase, sendEmail, tegoConfigured } from "./tego";
+import { envAlertRecipients, recordPurchase, sendEmail, tegoConfigured } from "./tego";
 
 function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -98,8 +100,14 @@ export function alertEmail(v: View): { subject: string; html: string; text: stri
   return { subject: `New House of Track order ${o.number} (${units} unit${units === 1 ? "" : "s"})`, html, text };
 }
 
+/** Who gets "New order": the list in /admin/settings, or ORDER_ALERT_EMAILS while that's empty. */
+export async function orderAlertRecipients(db: Db): Promise<string[]> {
+  const rows = await db.select({ email: alertTable.email }).from(alertTable).orderBy(asc(alertTable.createdAt));
+  return rows.length ? rows.map((r) => r.email) : envAlertRecipients();
+}
+
 /**
- * After a paid order: receipt to the buyer, an alert to ORDER_ALERT_EMAILS
+ * After a paid order: receipt to the buyer, an alert to the order-alert list (/admin/settings)
  * (Kirk at Pyramid ships it; House of Track sees it), and the sale on TEGO.
  * Each step is independent and only logs on failure.
  */
@@ -117,7 +125,7 @@ export async function notifyPaidOrder(db: Db, orderId: number): Promise<void> {
     const r = receiptEmail(v);
     steps.push(["receipt", () => sendEmail({ to: o.email!, ...r, idempotencyKey: `hot-${o.number}-receipt` })]);
   }
-  for (const to of orderAlertRecipients()) {
+  for (const to of await orderAlertRecipients(db)) {
     const a = alertEmail(v);
     steps.push([
       `alert:${to}`,

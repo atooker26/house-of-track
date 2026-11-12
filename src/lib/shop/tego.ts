@@ -89,9 +89,11 @@ export async function recordPurchase(input: {
   });
 }
 
-export function orderAlertRecipients(): string[] {
+/** ORDER_ALERT_EMAILS: the fallback list, used only while /admin/settings has none. */
+export function envAlertRecipients(): string[] {
   return (process.env.ORDER_ALERT_EMAILS ?? "")
     .split(",")
-    .map((s) => s.trim())
+    .map((s) => s.trim().toLowerCase())
     .filter((s) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s));
 }
+
