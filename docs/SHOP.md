@@ -42,7 +42,7 @@ handled once (`processed_stripe_events`). Orders are numbered `HOT-1001`, `HOT-1
 Best-effort, after the response; a failure is logged and never fails the webhook:
 
 1. Receipt to the buyer, via TEGO `POST /api/v1/email/send`.
-2. Order alert to every address in `ORDER_ALERT_EMAILS` (Pyramid ships it; House of
+2. Order alert to every address in /admin → Settings (fallback `ORDER_ALERT_EMAILS`) (Pyramid ships it; House of
    Track sees it), reply-to the buyer.
 3. The sale on the buyer's TEGO contact, via `POST /api/v1/purchases`
    (externalId `house-of-track-shop:<order number>`).
@@ -62,7 +62,7 @@ never mails twice. With no `TEGO_API_KEY`, nothing is sent and the log says so.
 | `TEGO_API_KEY` | House of Track's TEGO API key, scopes `email:send` + `purchases:write`. |
 | `TEGO_ACCOUNT_ID` | Only if the key is an admin key; an account-bound key doesn't need it. |
 | `TEGO_API_URL` | Optional, defaults to `https://www.tegomarketing.com`. |
-| `ORDER_ALERT_EMAILS` | Comma-separated: who gets "New order" emails. |
+| `ORDER_ALERT_EMAILS` | Optional fallback. Who gets "New order" emails is set in /admin → Settings; this comma-separated list is used only while that list is empty (the first add there copies it in). |
 | `SITE_URL` | Optional; Stripe return URLs. Defaults to the request's origin. |
 
 Values live in Vercel only. **This repo is public: never put a key, account id or
@@ -87,7 +87,7 @@ yet), Stripe Connect onboarding, the webhook, order alerts, the real drop, and D
 Production env vars set as of 2026-11-11: `DATABASE_URL`, `POSTGRES_URL_NON_POOLING`,
 `TEGO_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
 `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_TEGO_WIDGET_KEY`. Not set: every `STRIPE_*`
-var and `ORDER_ALERT_EMAILS`.
+var (order alerts are set in /admin → Settings).
 
 On the **existing** House of Track client account in TEGO (already linked to the
 house-of-track Space, with its email account set up):
@@ -116,7 +116,8 @@ house-of-track Space, with its email account set up):
    `checkout.session.completed` and `checkout.session.expired` → Vercel
    `STRIPE_WEBHOOK_SECRET`. The endpoint ignores sessions from TEGO's other sites
    (anything without `metadata.site = "house-of-track"`).
-6. **Alerts:** set `ORDER_ALERT_EMAILS` (Kirk at Pyramid + House of Track).
+6. **Alerts:** add who gets "New order" emails in /admin → Settings (Kirk at Pyramid +
+   House of Track), then **Send test** on each and check it isn't in spam.
 7. **Catalog:** set up the real drop, products, photos and stock in `/admin` (docs/ADMIN.md).
    Keep the drop `draft` until it's ready, then `live` with an open time for a countdown.
 8. **Redeploy after adding env vars** (`vercel --prod`): a deploy made before a var

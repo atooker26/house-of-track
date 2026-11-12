@@ -6,7 +6,8 @@
 import assert from "node:assert/strict";
 import { eq } from "drizzle-orm";
 import { connectPglite, type Db } from "../src/db";
-import { drops, orders, products, variants } from "../src/db/schema";
+import { drops, orderAlertRecipients as alertTable, orders, products, variants } from "../src/db/schema";
+import { orderAlertRecipients } from "../src/lib/shop/notify";
 import { dropPhase, getCurrentDrop } from "../src/lib/shop/catalog";
 import { attachSession, completeOrder, createPendingOrder, onceForEvent, releaseOrder, ShopError } from "../src/lib/shop/orders";
 import { applicationFeeCents, STATEMENT_DESCRIPTOR } from "../src/lib/shop/stripe";
@@ -147,6 +148,20 @@ async function main() {
     assert.equal((await getCurrentDrop(fresh))?.id, closed.drop.id);
     const live = await seed(fresh, 5, { status: "live" });
     assert.equal((await getCurrentDrop(fresh))?.id, live.drop.id);
+  });
+
+  await check("order alerts use the admin list, falling back to ORDER_ALERT_EMAILS only while it's empty", async () => {
+    const fresh = await connectPglite();
+    const prev = process.env.ORDER_ALERT_EMAILS;
+    process.env.ORDER_ALERT_EMAILS = " Kirk@Example.com, not-an-email ,dave@example.com";
+    try {
+      assert.deepEqual(await orderAlertRecipients(fresh), ["kirk@example.com", "dave@example.com"]);
+      await fresh.insert(alertTable).values({ email: "ribich@example.com" });
+      assert.deepEqual(await orderAlertRecipients(fresh), ["ribich@example.com"]);
+    } finally {
+      if (prev === undefined) delete process.env.ORDER_ALERT_EMAILS;
+      else process.env.ORDER_ALERT_EMAILS = prev;
+    }
   });
 
   console.log(`\n${passed} checks passed`);

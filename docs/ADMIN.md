@@ -13,6 +13,7 @@ the coming-soon gate, behind a login.
 | Drop | Products in the drop; settings: title, blurb, draft / live / closed, open and close times (Pacific), flat shipping. |
 | Product | Photos (upload, reorder, cover = first), sizes with SKU and stock (sold and held shown), details, delete if never ordered. |
 | Team | Admins. Add by email (they get a set-password link from TEGO), resend a link, remove. |
+| Settings | Order alerts: who gets the "New order" email (no admin login needed). Add, remove, **Send test**. Table `order_alert_recipients` (migration 0002). |
 | Account | Change your password. |
 
 The TEGO **request widget** ("Need a change?") sits bottom-right on every console page,

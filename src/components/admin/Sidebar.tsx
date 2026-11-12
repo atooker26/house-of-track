@@ -9,6 +9,7 @@ const I = {
   orders: <path d="M4 4h16v16H4z M8 9h8 M8 13h8 M8 17h5" />,
   drops: <path d="M3 7l9-4 9 4-9 4z M3 7v10l9 4 9-4V7" />,
   team: <path d="M16 11a4 4 0 1 0-8 0 M4 21a8 8 0 0 1 16 0 M12 7a4 4 0 1 0 0 8a4 4 0 1 0 0-8" />,
+  settings: <path d="M12 9a3 3 0 1 0 0 6a3 3 0 1 0 0-6 M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" />,
   account: <path d="M12 4a4 4 0 1 0 0 8a4 4 0 1 0 0-8 M4 21a8 8 0 0 1 16 0" />,
   site: <path d="M14 3h7v7 M21 3l-9 9 M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5" />,
   out: <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4 M16 17l5-5-5-5 M21 12H9" />,
@@ -27,6 +28,7 @@ const NAV = [
   { href: "/admin/orders", label: "Orders", icon: I.orders, badge: true },
   { href: "/admin/drops", label: "Drops", icon: I.drops },
   { href: "/admin/team", label: "Team", icon: I.team },
+  { href: "/admin/settings", label: "Settings", icon: I.settings },
   { href: "/admin/account", label: "Account", icon: I.account },
 ];
 
