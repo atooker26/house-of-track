@@ -79,15 +79,17 @@ PGlite locks its directory: stop `next dev` before running a script against it.
 
 ## Launch checklist
 
-Status 2026-11-11: steps 2 (TEGO API key) and 4 (database) are done, and the shop pages
-are live behind the coming-soon gate (`/shop` is open, checkout is off). The admin is live
-too (docs/ADMIN.md). Left before checkout can turn on: `STRIPE_SECRET_KEY` (not in Vercel
-yet), Stripe Connect onboarding, the webhook, order alerts, the real drop, and DKIM.
+Status 2026-11-11: steps 2 (TEGO API key), 4 (database) and 5 (Stripe webhook) are done,
+and the shop pages are live behind the coming-soon gate (`/shop` is open, checkout is off).
+The admin is live too (docs/ADMIN.md), including Settings for order alerts. Left before
+checkout can turn on: Stripe Connect onboarding (step 3), order-alert recipients (step 6),
+the real drop (step 7), one real test order (step 8), and DKIM (step 1).
 
 Production env vars set as of 2026-11-11: `DATABASE_URL`, `POSTGRES_URL_NON_POOLING`,
 `TEGO_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
-`SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_TEGO_WIDGET_KEY`. Not set: every `STRIPE_*`
-var (order alerts are set in /admin → Settings).
+`SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_TEGO_WIDGET_KEY`, `STRIPE_SECRET_KEY`,
+`STRIPE_WEBHOOK_SECRET`. Not set: `STRIPE_CONNECTED_ACCOUNT_ID` (checkout stays off until
+it is). Order alerts are set in /admin → Settings, not an env var.
 
 On the **existing** House of Track client account in TEGO (already linked to the
 house-of-track Space, with its email account set up):
@@ -104,18 +106,24 @@ house-of-track Space, with its email account set up):
    of Track client → Vercel `TEGO_API_KEY`. TEGO's create form starts with **every**
    scope selected: turn the others off, don't click the two you want.
 3. **Stripe Connect:** House of Track completes onboarding through TEGO → Vercel
-   `STRIPE_CONNECTED_ACCOUNT_ID`. Use TEGO's platform key for `STRIPE_SECRET_KEY`.
+   `STRIPE_CONNECTED_ACCOUNT_ID`. `STRIPE_SECRET_KEY` is done (2026-11-11): a live
+   standard key on TEGO's platform account named "House of Track", so it can be rolled
+   without touching the other sites. Creating a key needs the account owner's Touch ID.
 4. **Database (done 2026-11-10):** Supabase project `house-of-track`, migration
    `0000_shop` applied and recorded in `public.__drizzle_migrations`. A least-privilege
    app role **owns** the tables: RLS is on with no policies, so only the owner can read
    them (a non-owner role sees zero rows). Use the `aws-1-…` session/transaction
    pooler host; `aws-0` answers "tenant not found". Both pooler URLs are in Vercel
    production. Later migrations: `POSTGRES_URL_NON_POOLING=… npm run db:migrate`.
-5. **Stripe webhook:** on TEGO's platform account, add endpoint
+5. **Stripe webhook (done 2026-11-11):** destination `house-of-track` on TEGO's platform
+   account (Your account, Snapshot payload). Endpoint
    `https://www.houseoftrack.media/api/shop/webhook` with events
    `checkout.session.completed` and `checkout.session.expired` → Vercel
    `STRIPE_WEBHOOK_SECRET`. The endpoint ignores sessions from TEGO's other sites
-   (anything without `metadata.site = "house-of-track"`).
+   (anything without `metadata.site = "house-of-track"`). Verification goes through
+   `getStripe()`, so the endpoint needs `STRIPE_SECRET_KEY` as well as the signing
+   secret, or every event gets a 400. Live mode has no "send test event": the first real
+   delivery shows up under the destination's Event deliveries.
 6. **Alerts:** add who gets "New order" emails in /admin → Settings (Kirk at Pyramid +
    House of Track), then **Send test** on each and check it isn't in spam.
 7. **Catalog:** set up the real drop, products, photos and stock in `/admin` (docs/ADMIN.md).
