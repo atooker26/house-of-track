@@ -79,8 +79,15 @@ PGlite locks its directory: stop `next dev` before running a script against it.
 
 ## Launch checklist
 
-Status 2026-11-10: steps 4 (database) is done and the shop pages are live behind the
-coming-soon gate (`/shop` is open, checkout is off). Everything else below is open.
+Status 2026-11-11: steps 2 (TEGO API key) and 4 (database) are done, and the shop pages
+are live behind the coming-soon gate (`/shop` is open, checkout is off). The admin is live
+too (docs/ADMIN.md). Left before checkout can turn on: `STRIPE_SECRET_KEY` (not in Vercel
+yet), Stripe Connect onboarding, the webhook, order alerts, the real drop, and DKIM.
+
+Production env vars set as of 2026-11-11: `DATABASE_URL`, `POSTGRES_URL_NON_POOLING`,
+`TEGO_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
+`SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_TEGO_WIDGET_KEY`. Not set: every `STRIPE_*`
+var and `ORDER_ALERT_EMAILS`.
 
 On the **existing** House of Track client account in TEGO (already linked to the
 house-of-track Space, with its email account set up):
@@ -88,9 +95,14 @@ house-of-track Space, with its email account set up):
 1. **Email:** sending-domain verification for houseoftrack.media was started in TEGO
    (2026-11-10) and shows 3 DKIM CNAMEs. Add them in the DNS of the Cloudflare
    account that actually holds the zone (the registrar is Cloudflare; it is not the
-   GoHighLevel account), then re-check in TEGO.
-2. **API key:** create one with scopes `email:send` and `purchases:write` → Vercel
-   `TEGO_API_KEY`.
+   GoHighLevel account), then re-check in TEGO. **Blocked (2026-11-11):** the zone isn't
+   in TEGO's Cloudflare account and the domain is being recovered from the old
+   registrant. Until DKIM is in, TEGO email from hello@houseoftrack.media can land in
+   spam (admin invites included).
+2. **API key (done 2026-11-11):** "House of Track site — shop email + purchases" in TEGO
+   (Admin → API keys), scopes `email:send` + `purchases:write` only, bound to the House
+   of Track client → Vercel `TEGO_API_KEY`. TEGO's create form starts with **every**
+   scope selected: turn the others off, don't click the two you want.
 3. **Stripe Connect:** House of Track completes onboarding through TEGO → Vercel
    `STRIPE_CONNECTED_ACCOUNT_ID`. Use TEGO's platform key for `STRIPE_SECRET_KEY`.
 4. **Database (done 2026-11-10):** Supabase project `house-of-track`, migration

@@ -57,8 +57,9 @@ auth schema ("permission denied for schema auth").
 | --- | --- | --- |
 | `NEXT_PUBLIC_SUPABASE_URL` | Vercel, all envs | `https://gdfnftdtnilipnbutyep.supabase.co` (public). |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Vercel, all envs | The project's publishable key (public). |
-| `SUPABASE_SERVICE_ROLE_KEY` | Vercel prod, Sensitive | Only for adding admins and password reset. Unset = those two say "ask TEGO". |
-| `NEXT_PUBLIC_TEGO_WIDGET_KEY` | Vercel prod | Request widget key (see above). |
+| `SUPABASE_SERVICE_ROLE_KEY` | Vercel prod, Sensitive (set 2026-11-11) | Only for adding admins and password reset. Unset = those two say "ask TEGO". |
+| `NEXT_PUBLIC_TEGO_WIDGET_KEY` | Vercel prod (set 2026-11-11) | Request widget key (see above). |
+| `TEGO_API_KEY` | Vercel prod, Sensitive (set 2026-11-11) | Sends the invite, reset and shipped emails (docs/SHOP.md). |
 
 ## Local
 
