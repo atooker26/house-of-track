@@ -48,6 +48,7 @@ export default async function ShopPage() {
                   </div>
                   <div className="shop-card-body">
                     <h2 className="shop-card-name">{p.name}</h2>
+                    {p.run && drop.phase !== "upcoming" && !p.soldOut ? <p className="shop-card-left">{p.run.left} left</p> : null}
                     <p className="shop-card-price">
                       {formatCents(p.priceCents)}
                       {selling && !p.soldOut ? (

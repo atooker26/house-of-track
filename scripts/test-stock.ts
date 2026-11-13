@@ -8,7 +8,7 @@ import { eq } from "drizzle-orm";
 import { connectPglite, type Db } from "../src/db";
 import { drops, orderAlertRecipients as alertTable, orders, products, variants } from "../src/db/schema";
 import { orderAlertRecipients } from "../src/lib/shop/notify";
-import { dropPhase, getCurrentDrop } from "../src/lib/shop/catalog";
+import { dropPhase, formatShipsBy, getCurrentDrop, runOf } from "../src/lib/shop/catalog";
 import { attachSession, completeOrder, createPendingOrder, onceForEvent, releaseOrder, ShopError } from "../src/lib/shop/orders";
 import { applicationFeeCents, STATEMENT_DESCRIPTOR } from "../src/lib/shop/stripe";
 
@@ -55,6 +55,24 @@ async function main() {
   await check("statement descriptor fits Stripe's 22 chars", () => {
     assert.ok(STATEMENT_DESCRIPTOR.length <= 22, STATEMENT_DESCRIPTOR);
   });
+  await check("a limited run counts made and left across sizes, net of held units", () => {
+    assert.deepEqual(
+      runOf([
+        { stockQty: 30, sold: 10, reserved: 2 },
+        { stockQty: 20, sold: 0, reserved: 0 },
+      ]),
+      { made: 50, left: 38 },
+    );
+  });
+
+  await check("one print-to-order size means no run is shown", () => {
+    assert.equal(runOf([{ stockQty: 30, sold: 0, reserved: 0 }, { stockQty: null, sold: 0, reserved: 0 }]), null);
+  });
+
+  await check("a ship-by date reads as its calendar day in any time zone", () => {
+    assert.equal(formatShipsBy("2026-12-05"), "Dec 5");
+  });
+
   await check("application fee = 1% + 2.9% + 30¢", () => {
     assert.equal(applicationFeeCents(4400), Math.round(4400 * 0.039) + 30);
     assert.equal(applicationFeeCents(0), 0);

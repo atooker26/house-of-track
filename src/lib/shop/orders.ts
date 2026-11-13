@@ -234,5 +234,6 @@ export async function getOrderView(db: Db, where: { sessionId: string } | { orde
   const [o] = await db.select().from(orders).where(cond);
   if (!o) return null;
   const items = await db.select().from(orderItems).where(eq(orderItems.orderId, o.id));
-  return { order: o, items };
+  const [d] = await db.select({ shipsBy: drops.shipsBy }).from(drops).where(eq(drops.id, o.dropId));
+  return { order: o, items, shipsBy: d?.shipsBy ?? null };
 }

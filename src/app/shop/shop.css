@@ -88,3 +88,17 @@
   .shop-countdown-cell { min-width: 0; flex: 1; }
   .shop-countdown-n { font-size: 30px; }
 }
+
+/* Scarcity, policy and "notify me" */
+.shop-product-run { margin: 4px 0 12px; font-size: 14px; font-weight: 600; letter-spacing: 0.02em; color: var(--indigo); }
+.shop-card-left { margin: 2px 0 6px; font-size: 13px; font-weight: 600; color: var(--indigo); }
+.shop-product-policy { font-size: 13px; color: var(--fg-3); margin: 8px 0 0; }
+.notify { margin-top: 18px; }
+.notify-row { display: flex; gap: 8px; margin-top: 8px; position: relative; }
+.notify-row input[type="email"] {
+  flex: 1; min-width: 0; padding: 12px 14px; font: inherit; font-size: 15px;
+  border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface); color: var(--fg);
+}
+.notify-row input[type="email"]:focus { outline: 2px solid var(--focus); outline-offset: 1px; }
+.notify-done { margin-top: 18px; font-size: 15px; font-weight: 600; color: var(--indigo); }
+@media (max-width: 480px) { .notify-row { flex-direction: column; } }

@@ -120,6 +120,8 @@ export default async function DropPage({ params }: { params: Promise<{ id: strin
             startsAt: toPacificInput(d.startsAt),
             endsAt: toPacificInput(d.endsAt),
             shipping: (d.shippingCents / 100).toFixed(d.shippingCents % 100 ? 2 : 0),
+            shipsBy: d.shipsBy ?? "",
+            policy: d.policy,
           }}
         />
       </section>

@@ -1,6 +1,7 @@
 import { sql } from "drizzle-orm";
 import {
   check,
+  date,
   index,
   integer,
   jsonb,
@@ -36,6 +37,10 @@ export const drops = pgTable("drops", {
   endsAt: timestamp("ends_at", { withTimezone: true }),
   /** Flat US shipping per order for this drop. */
   shippingCents: integer("shipping_cents").notNull().default(0),
+  /** The day orders go out by, shown on the product page and in the receipt. Null = not promised. */
+  shipsBy: date("ships_by", { mode: "string" }),
+  /** One or two lines under Buy: returns, who ships it. Empty = nothing shown. */
+  policy: text("policy").notNull().default(""),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 

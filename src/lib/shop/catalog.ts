@@ -16,11 +16,13 @@ export type ShopVariant = Pick<VariantRow, "id" | "label" | "sku"> & {
 export type ShopProduct = Pick<ProductRow, "id" | "slug" | "name" | "description" | "priceCents" | "images"> & {
   variants: ShopVariant[];
   soldOut: boolean;
+  /** How many were made and how many are left, when every size is a limited run. Null = print to order. */
+  run: { made: number; left: number } | null;
 };
 
 export type DropPhase = "upcoming" | "open" | "ended";
 
-export type ShopDrop = Pick<DropRow, "id" | "slug" | "title" | "blurb" | "shippingCents"> & {
+export type ShopDrop = Pick<DropRow, "id" | "slug" | "title" | "blurb" | "shippingCents" | "shipsBy" | "policy"> & {
   startsAt: Date | null;
   endsAt: Date | null;
   phase: DropPhase;
@@ -38,6 +40,20 @@ export function dropPhase(d: Pick<DropRow, "status" | "startsAt" | "endsAt">, no
   if (d.endsAt && now >= d.endsAt) return "ended";
   if (d.startsAt && now < d.startsAt) return "upcoming";
   return "open";
+}
+
+/** A run is only "limited" when every size has a count: one print-to-order size makes the total meaningless. */
+export function runOf(vs: Pick<VariantRow, "stockQty" | "sold" | "reserved">[]): { made: number; left: number } | null {
+  if (vs.length === 0 || vs.some((v) => v.stockQty === null)) return null;
+  return {
+    made: vs.reduce((n, v) => n + (v.stockQty ?? 0), 0),
+    left: vs.reduce((n, v) => n + (availableOf(v) ?? 0), 0),
+  };
+}
+
+/** "2026-12-05" → "Dec 5". The date has no time zone, so it's read as a calendar day. */
+export function formatShipsBy(day: string): string {
+  return new Date(`${day}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
 }
 
 function toShopVariant(v: VariantRow): ShopVariant {
@@ -64,7 +80,8 @@ async function loadProducts(db: Db, dropId: number): Promise<ShopProduct[]> {
     )
     .orderBy(asc(variants.sort), asc(variants.id));
   return prods.map((p) => {
-    const vs = vars.filter((v) => v.productId === p.id).map(toShopVariant);
+    const rows = vars.filter((v) => v.productId === p.id);
+    const vs = rows.map(toShopVariant);
     return {
       id: p.id,
       slug: p.slug,
@@ -74,6 +91,7 @@ async function loadProducts(db: Db, dropId: number): Promise<ShopProduct[]> {
       images: p.images,
       variants: vs,
       soldOut: vs.length === 0 || vs.every((v) => v.available === 0),
+      run: runOf(rows),
     };
   });
 }
@@ -85,6 +103,8 @@ function toShopDrop(d: DropRow, prods: ShopProduct[], now: Date): ShopDrop {
     title: d.title,
     blurb: d.blurb,
     shippingCents: d.shippingCents,
+    shipsBy: d.shipsBy,
+    policy: d.policy,
     startsAt: d.startsAt,
     endsAt: d.endsAt,
     phase: dropPhase(d, now),

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { upsertContact } from "@/lib/shop/tego";
 
 const TEGO_WEBHOOK_URL = "https://www.tegomarketing.com/api/webhooks/house-of-track";
 const TEGO_WEBHOOK_SECRET = process.env.TEGO_WEBHOOK_SECRET ?? "";
@@ -10,7 +11,25 @@ const ALLOWED_FORM_TYPES = new Set([
   // Someone asking to be taken off a creator profile. Routed here rather than to a
   // mailto so it lands in the same inbox as everything else and can't be missed.
   "profile-removal",
+  // "Email me when it drops" on a product that isn't buyable yet (or sold out).
+  "drop-notify",
 ]);
+
+const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+/**
+ * The forms whose whole point is "email me", so the address becomes a TEGO email
+ * contact. The join forms (creative/athlete) don't: signing up for the roster isn't
+ * asking for marketing email.
+ */
+function contactFor(formType: string, dropSlug: string | null): { tags: string[]; consentSource: string } | null {
+  if (formType === "newsletter") return { tags: ["newsletter"], consentSource: "houseoftrack.media newsletter signup" };
+  if (formType === "drop-notify" && dropSlug) {
+    return { tags: ["shop-notify", `drop:${dropSlug}`], consentSource: `houseoftrack.media notify me: ${dropSlug}` };
+  }
+  return null;
+}
 
 export async function POST(req: NextRequest) {
   if (!TEGO_WEBHOOK_SECRET) {
@@ -33,6 +52,11 @@ export async function POST(req: NextRequest) {
   const formType = String(body.formType ?? "");
   if (!ALLOWED_FORM_TYPES.has(formType)) {
     return NextResponse.json({ error: "Invalid form type" }, { status: 400 });
+  }
+
+  const dropSlug = typeof body.dropSlug === "string" && SLUG.test(body.dropSlug) ? body.dropSlug : null;
+  if (formType === "drop-notify" && !dropSlug) {
+    return NextResponse.json({ error: "Missing drop" }, { status: 400 });
   }
 
   const res = await fetch(TEGO_WEBHOOK_URL, {
@@ -58,6 +82,7 @@ export async function POST(req: NextRequest) {
       profileSlug: body.profileSlug,
       profileName: body.profileName,
       message: body.message,
+      dropSlug,
     }),
     signal: AbortSignal.timeout(5000),
   });
@@ -65,6 +90,14 @@ export async function POST(req: NextRequest) {
   if (!res.ok) {
     console.error("TEGO webhook failed:", res.status);
     return NextResponse.json({ error: "Submission failed" }, { status: 502 });
+  }
+
+  // Best-effort: the signup is already in TEGO's inbox above, so a failure here is
+  // logged rather than shown to the person signing up.
+  const contact = contactFor(formType, dropSlug);
+  const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+  if (contact && EMAIL.test(email)) {
+    await upsertContact({ email, ...contact }).catch((err) => console.error("[join] TEGO contact failed:", err));
   }
 
   return NextResponse.json({ ok: true });
