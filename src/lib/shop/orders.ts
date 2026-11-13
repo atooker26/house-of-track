@@ -233,7 +233,14 @@ export async function getOrderView(db: Db, where: { sessionId: string } | { orde
   const cond = "orderId" in where ? eq(orders.id, where.orderId) : eq(orders.stripeSessionId, where.sessionId);
   const [o] = await db.select().from(orders).where(cond);
   if (!o) return null;
-  const items = await db.select().from(orderItems).where(eq(orderItems.orderId, o.id));
+  // The product's cover photo rides along for the emails; the line itself stays a snapshot.
+  const rows = await db
+    .select({ item: orderItems, images: products.images })
+    .from(orderItems)
+    .leftJoin(variants, eq(variants.id, orderItems.variantId))
+    .leftJoin(products, eq(products.id, variants.productId))
+    .where(eq(orderItems.orderId, o.id));
+  const items = rows.map((r) => ({ ...r.item, image: r.images?.[0] ?? null }));
   const [d] = await db.select({ shipsBy: drops.shipsBy }).from(drops).where(eq(drops.id, o.dropId));
   return { order: o, items, shipsBy: d?.shipsBy ?? null };
 }
