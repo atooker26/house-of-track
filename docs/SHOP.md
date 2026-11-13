@@ -5,7 +5,11 @@ order, no cart), stock is held while the buyer pays, and Pyramid Printing ships.
 
 - `/shop`: the current drop (newest `live`, else newest `closed`; drafts never show),
   a countdown before `starts_at`, sold-out states, and the newsletter signup.
-- `/shop/<product>`: photos, size picker, quantity (max 5), Buy now.
+- `/shop/<product>`: photos, size picker, quantity (max 5), Buy now. "Limited run of N ·
+  M left" when every size has a count. The drop's ships-by date and policy line. When it
+  can't be bought (not open, checkout off, sold out): "Email me when it drops", which
+  makes the address a TEGO contact tagged `shop-notify` + `drop:<slug>`. Shared links
+  show the product's cover photo.
 - `/shop/thanks?session_id=…`: the order (noindex).
 - `POST /api/shop/checkout`, `POST /api/shop/webhook` (Stripe).
 
@@ -37,11 +41,20 @@ minutes: `checkout.session.expired` puts the units back, `checkout.session.compl
 moves them from reserved to sold and marks the order paid. Each Stripe event id is
 handled once (`processed_stripe_events`). Orders are numbered `HOT-1001`, `HOT-1002`, …
 
+## Signups → TEGO contacts
+
+`/api/join` forwards every form to TEGO's submissions inbox. The two "email me" forms
+also become TEGO email contacts through `POST /api/v1/contacts` (the site key needs
+`contacts:write`, added 2026-11-13): the newsletter (tag `newsletter`) and drop notify
+(tags `shop-notify`, `drop:<slug>`), each with `consentSource` + `consentAt`. A drop's
+launch email in TEGO targets `drop:<slug>`. The creative/athlete join forms don't become
+email contacts: joining the roster isn't asking for marketing email.
+
 ## After payment
 
 Best-effort, after the response; a failure is logged and never fails the webhook:
 
-1. Receipt to the buyer, via TEGO `POST /api/v1/email/send`.
+1. Receipt to the buyer, via TEGO `POST /api/v1/email/send` (with the drop's ships-by date, if set).
 2. Order alert to every address in /admin → Settings (fallback `ORDER_ALERT_EMAILS`) (Pyramid ships it; House of
    Track sees it), reply-to the buyer.
 3. The sale on the buyer's TEGO contact, via `POST /api/v1/purchases`
@@ -59,7 +72,7 @@ never mails twice. With no `TEGO_API_KEY`, nothing is sent and the log says so.
 | `STRIPE_SECRET_KEY` | TEGO's platform secret key. |
 | `STRIPE_CONNECTED_ACCOUNT_ID` | House of Track's connected account (`acct_…`). Unset = checkout off. |
 | `STRIPE_WEBHOOK_SECRET` | Signing secret of the endpoint below. |
-| `TEGO_API_KEY` | House of Track's TEGO API key, scopes `email:send` + `purchases:write`. |
+| `TEGO_API_KEY` | House of Track's TEGO API key, scopes `email:send` + `purchases:write` + `contacts:write`. |
 | `TEGO_ACCOUNT_ID` | Only if the key is an admin key; an account-bound key doesn't need it. |
 | `TEGO_API_URL` | Optional, defaults to `https://www.tegomarketing.com`. |
 | `ORDER_ALERT_EMAILS` | Optional fallback. Who gets "New order" emails is set in /admin → Settings; this comma-separated list is used only while that list is empty (the first add there copies it in). |
