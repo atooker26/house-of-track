@@ -6,6 +6,9 @@
  *    the account's sending identity (houseoftrack.media, once its DKIM is in
  *    Cloudflare). Retries are deduplicated by the Idempotency-Key header, which is
  *    per order + recipient, so a re-delivered webhook never mails twice.
+ *  - POST /api/v1/contacts (scope contacts:write): newsletter and "notify me"
+ *    signups become email contacts, tagged so a drop's launch email can target them.
+ *    Upserts by email and only ADDS tags, so a repeat signup is harmless.
  *  - POST /api/v1/purchases (scope purchases:write): the sale lands on the buyer's
  *    TEGO contact. Idempotent on (source, externalId); externalId is
  *    "house-of-track-shop:<order number>".
@@ -66,6 +69,17 @@ export async function sendEmail(input: {
     // TEGO caps the key length; ours are short ("hot-HOT-1001-receipt-a@b.c" style).
     input.idempotencyKey.slice(0, 200),
   );
+}
+
+export async function upsertContact(input: { email: string; tags: string[]; consentSource: string }): Promise<void> {
+  const accountId = process.env.TEGO_ACCOUNT_ID?.trim();
+  await post("/api/v1/contacts", {
+    email: input.email,
+    tags: input.tags,
+    // Proof of opt-in for the list: where and when they asked to hear from us.
+    customFields: { consentSource: input.consentSource, consentAt: new Date().toISOString() },
+    ...(accountId ? { accountId } : {}),
+  });
 }
 
 export async function recordPurchase(input: {

@@ -1,7 +1,7 @@
 import { asc } from "drizzle-orm";
 import type { Db } from "@/db";
 import { orderAlertRecipients as alertTable } from "@/db/schema";
-import { formatCents } from "./catalog";
+import { formatCents, formatShipsBy } from "./catalog";
 import { getOrderView } from "./orders";
 import { STATEMENT_DESCRIPTOR } from "./stripe";
 import { envAlertRecipients, recordPurchase, sendEmail, tegoConfigured } from "./tego";
@@ -57,13 +57,13 @@ export function receiptEmail(v: View): { subject: string; html: string; text: st
   const addr = addressLines(v);
   const html = shell(
     `Order ${o.number} confirmed`,
-    `<p>${first ? `Thanks, ${esc(first)}.` : "Thanks."} Your order is in. We'll email you again when it ships.</p>
+    `<p>${first ? `Thanks, ${esc(first)}.` : "Thanks."} Your order is in.${v.shipsBy ? ` It ships by ${esc(formatShipsBy(v.shipsBy))}.` : ""} We'll email you again when it ships.</p>
 <table style="width:100%;border-collapse:collapse;font-size:15px">${itemsHtml(v)}${totalsHtml(v)}</table>
 ${addr.length ? `<p style="margin-top:20px"><strong>Shipping to</strong><br>${addr.map(esc).join("<br>")}</p>` : ""}
 <p style="font-size:13px;color:#555;margin-top:20px">Your card statement will read ${esc(STATEMENT_DESCRIPTOR)}. Questions? Reply to this email.</p>`,
   );
   const text = [
-    `Order ${o.number} confirmed.`,
+    `Order ${o.number} confirmed.${v.shipsBy ? ` It ships by ${formatShipsBy(v.shipsBy)}.` : ""}`,
     ...v.items.map((it) => `${it.productName} — ${it.variantLabel} x ${it.qty}: ${formatCents(it.unitPriceCents * it.qty)}`),
     `Shipping: ${o.shippingCents ? formatCents(o.shippingCents) : "Free"}`,
     `Total: ${formatCents(o.totalCents)}`,

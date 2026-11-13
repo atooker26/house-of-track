@@ -15,9 +15,11 @@ export type DropValues = {
   startsAt: string; // Pacific datetime-local
   endsAt: string;
   shipping: string; // dollars
+  shipsBy: string; // YYYY-MM-DD or ""
+  policy: string;
 };
 
-const EMPTY: DropValues = { title: "", slug: "", blurb: "", status: "draft", startsAt: "", endsAt: "", shipping: "8" };
+const EMPTY: DropValues = { title: "", slug: "", blurb: "", status: "draft", startsAt: "", endsAt: "", shipping: "8", shipsBy: "", policy: "" };
 
 export function slugify(s: string): string {
   return s
@@ -55,6 +57,8 @@ export default function DropForm({ id, initial }: { id?: number; initial?: DropV
       startsAt: pacificInputToIso(v.startsAt),
       endsAt: pacificInputToIso(v.endsAt),
       shippingCents,
+      shipsBy: v.shipsBy,
+      policy: v.policy,
     };
     start(async () => {
       if (id) {
@@ -133,6 +137,21 @@ export default function DropForm({ id, initial }: { id?: number; initial?: DropV
           </div>
           <span className="hint">Flat rate, whatever&rsquo;s in the order. 0 = free.</span>
         </div>
+        <div className="adm-field">
+          <label htmlFor="d-shipsby">Ships by</label>
+          <input className="adm-input" id="d-shipsby" type="date" value={v.shipsBy} onChange={(e) => set("shipsBy", e.target.value)} />
+          <span className="hint">Shown on the product page and in the receipt. Blank = no date promised.</span>
+        </div>
+      </div>
+      <div className="adm-field">
+        <label htmlFor="d-policy">Policy line</label>
+        <textarea
+          id="d-policy"
+          value={v.policy}
+          maxLength={500}
+          onChange={(e) => set("policy", e.target.value)}
+          placeholder="Returns and exchanges, who ships it. Shown under Buy on every product in this drop."
+        />
       </div>
       <div className="adm-actions">
         <button className="adm-btn primary" type="submit" disabled={pending}>

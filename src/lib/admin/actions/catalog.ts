@@ -63,6 +63,18 @@ const dropSchema = z
     startsAt: optionalDate,
     endsAt: optionalDate,
     shippingCents: cents,
+    shipsBy: z
+      .string()
+      .trim()
+      .transform((v, ctx) => {
+        if (!v) return null;
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(v) || Number.isNaN(new Date(`${v}T00:00:00Z`).getTime())) {
+          ctx.addIssue({ code: "custom", message: "That ship-by date isn't valid" });
+          return z.NEVER;
+        }
+        return v;
+      }),
+    policy: z.string().trim().max(500, "Keep the policy line under 500 characters"),
   })
   .refine((d) => !(d.startsAt && d.endsAt && d.endsAt <= d.startsAt), {
     message: "The drop has to end after it starts",
