@@ -92,8 +92,10 @@ PGlite locks its directory: stop `next dev` before running a script against it.
 
 ## Launch checklist
 
-Status 2026-11-11: steps 2 (TEGO API key), 4 (database) and 5 (Stripe webhook) are done,
-and the shop pages are live behind the coming-soon gate (`/shop` is open, checkout is off).
+Status 2026-11-13: the coming-soon gate is down and the whole site is public. Steps 2
+(TEGO API key), 4 (database) and 5 (Stripe webhook) are done; the shop pages are live with
+checkout off. A test drop ("TEST Drop 01 — Hat") sits in Draft: delete or replace it when
+the real drop is set up.
 The admin is live too (docs/ADMIN.md), including Settings for order alerts. Left before
 checkout can turn on: Stripe Connect onboarding (step 3), order-alert recipients (step 6),
 the real drop (step 7), one real test order (step 8), and DKIM (step 1).
@@ -114,8 +116,15 @@ house-of-track Space, with its email account set up):
    in TEGO's Cloudflare account and the domain is being recovered from the old
    registrant. Until DKIM is in, TEGO email from hello@houseoftrack.media can land in
    spam (admin invites included).
+   **Workaround (2026-11-13):** SES refused hello@houseoftrack.media outright ("Email
+   address is not verified"), so every site email (invites, resets, receipts, alerts,
+   shipped) was failing. The TEGO email account now sends from
+   **houseoftrack@inbox.tegomarketing.com**, which is on a verified TEGO domain and
+   receives into TEGO Conversations. Switch it back to hello@houseoftrack.media once the
+   domain is recovered and its DKIM verifies. Hold the drop launch email until then.
 2. **API key (done 2026-11-11):** "House of Track site — shop email + purchases" in TEGO
-   (Admin → API keys), scopes `email:send` + `purchases:write` only, bound to the House
+   (Admin → API keys), scopes `email:send` + `purchases:write` (+ `contacts:write` since
+   2026-11-13), bound to the House
    of Track client → Vercel `TEGO_API_KEY`. TEGO's create form starts with **every**
    scope selected: turn the others off, don't click the two you want.
 3. **Stripe Connect:** House of Track completes onboarding through TEGO → Vercel
