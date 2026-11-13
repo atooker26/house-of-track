@@ -4,6 +4,10 @@ A temporary email-capture holding page that stands in front of the whole site
 while the marketplace backend gets built. The real site stays built and
 deployed — it just isn't reachable from the outside.
 
+> **Status 2026-11-13: the gate is OFF.** `COMING_SOON` was removed from Vercel production
+> and the site redeployed; every page is public. The runbook below still applies if it
+> ever needs to go back up.
+
 ## Turning it on and off
 
 | | |
