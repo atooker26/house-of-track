@@ -78,9 +78,9 @@ function episodeImage(
   feedImage: string | undefined,
   n: number
 ): string {
-  // Skip the generic podcast logo — it means no episode-specific art was uploaded
-  if (itemThumb && itemThumb !== feedImage) return itemThumb;
-  return coverFor(n);
+  // An episode with no art of its own carries the show cover. Show that rather than the
+  // generated "EP n" tile, which reads as a missing image (Brannon Kidder, ep 9).
+  return itemThumb || feedImage || coverFor(n);
 }
 
 interface RssItem {

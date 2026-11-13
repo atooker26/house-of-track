@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Links to the old site still point at /home. Permanent, so search engines
+  // move the old URL's standing onto the real home page.
+  async redirects() {
+    return [{ source: "/home", destination: "/", permanent: true }];
+  },
   images: {
     remotePatterns: [
       { hostname: "i.scdn.co" },
