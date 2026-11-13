@@ -129,7 +129,7 @@ export default function DropForm({ id, initial }: { id?: number; initial?: DropV
           <label htmlFor="d-ship">Shipping per order (US)</label>
           <div className="adm-prefix">
             <span>$</span>
-            <input className="adm-input" id="d-ship" inputMode="decimal" value={v.shipping} onChange={(e) => set("shipping", e.target.value)} />
+            <input className="adm-input" id="d-ship" inputMode="decimal" value={v.shipping} onFocus={(e) => e.currentTarget.select()} onChange={(e) => set("shipping", e.target.value)} />
           </div>
           <span className="hint">Flat rate, whatever&rsquo;s in the order. 0 = free.</span>
         </div>
