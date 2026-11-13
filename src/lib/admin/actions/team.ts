@@ -8,6 +8,7 @@ import { getDb } from "@/db";
 import { admins } from "@/db/schema";
 import { adminOrError, NOT_ALLOWED, type ActionResult } from "@/lib/admin/auth";
 import { createServiceClient } from "@/lib/supabase/service";
+import { EMAIL_COLORS, emailButton, emailLayout } from "@/lib/email/layout";
 import { sendEmail, tegoConfigured } from "@/lib/shop/tego";
 
 async function siteOrigin(): Promise<string> {
@@ -19,10 +20,6 @@ async function siteOrigin(): Promise<string> {
   return `${proto}://${host}`;
 }
 
-function esc(s: string): string {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-}
-
 function linkEmail(kind: "invite" | "reset", url: string) {
   const invite = kind === "invite";
   const title = invite ? "You're an admin" : "Reset your password";
@@ -30,17 +27,16 @@ function linkEmail(kind: "invite" | "reset", url: string) {
     ? "You've been added to the House of Track shop admin. Set a password to sign in."
     : "Someone asked to reset the password for the House of Track shop admin.";
   const button = invite ? "Set your password" : "Set a new password";
-  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"></head>
-<body style="margin:0;background:#EDE9D8;font-family:Helvetica,Arial,sans-serif;color:#2B2928">
-<div style="max-width:520px;margin:0 auto;padding:32px 24px">
-<p style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px">House of Track</p>
-<h1 style="font-size:26px;text-transform:uppercase;margin:0 0 18px">${title}</h1>
-<p style="font-size:15px;line-height:1.5">${lead}</p>
-<p style="margin:24px 0"><a href="${esc(url)}" style="display:inline-block;background:#4540BF;color:#fff;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px">${button}</a></p>
-<p style="font-size:13px;color:#555;line-height:1.5">The link works once and expires in an hour.${
+  const note = `The link works once and expires in an hour.${
     invite ? "" : " If you didn't ask for this, ignore this email; your password hasn't changed."
-  }</p>
-</div></body></html>`;
+  }`;
+  const html = emailLayout({
+    title,
+    preheader: lead,
+    body: `<p style="margin:0">${lead}</p>
+${emailButton(button, url)}
+<p style="margin:0;font-size:13px;color:${EMAIL_COLORS.muted}">${note}</p>`,
+  });
   const text = `${lead}\n\n${button}: ${url}\n\nThe link works once and expires in an hour.`;
   return { subject: invite ? "Your House of Track admin login" : "Reset your House of Track admin password", html, text };
 }

@@ -1,25 +1,40 @@
 import { asc } from "drizzle-orm";
 import type { Db } from "@/db";
 import { orderAlertRecipients as alertTable } from "@/db/schema";
+import { absoluteUrl, EMAIL_COLORS, emailButton, emailLayout, esc } from "@/lib/email/layout";
 import { formatCents, formatShipsBy } from "./catalog";
 import { getOrderView } from "./orders";
 import { STATEMENT_DESCRIPTOR } from "./stripe";
 import { envAlertRecipients, recordPurchase, sendEmail, tegoConfigured } from "./tego";
 
-function esc(s: string): string {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-}
 
 type View = NonNullable<Awaited<ReturnType<typeof getOrderView>>>;
 
-function itemsHtml(v: View): string {
+const { muted, rule } = EMAIL_COLORS;
+
+/** One line per item: photo, name and size, and the right-hand column (price or quantity). */
+function itemRows(v: View, right: (it: View["items"][number]) => string, withSku = false): string {
   return v.items
-    .map(
-      (it) =>
-        `<tr><td style="padding:6px 0">${esc(it.productName)} — ${esc(it.variantLabel)} × ${it.qty}</td>` +
-        `<td style="padding:6px 0;text-align:right">${formatCents(it.unitPriceCents * it.qty)}</td></tr>`,
-    )
+    .map((it) => {
+      const photo = it.image
+        ? `<img src="${esc(absoluteUrl(it.image))}" width="64" height="64" alt="${esc(it.productName)}" style="display:block;width:64px;height:64px;object-fit:cover;border-radius:8px;border:0">`
+        : "";
+      const sku = withSku ? `<br><span style="font-size:12px;color:${muted}">SKU ${esc(it.sku)}</span>` : "";
+      return `<tr>
+<td width="76" style="padding:10px 12px 10px 0;vertical-align:middle">${photo}</td>
+<td style="padding:10px 0;vertical-align:middle"><strong>${esc(it.productName)}</strong><br><span style="color:${muted}">${esc(it.variantLabel)} · Qty ${it.qty}</span>${sku}</td>
+<td style="padding:10px 0;vertical-align:middle;text-align:right;white-space:nowrap">${right(it)}</td>
+</tr>`;
+    })
     .join("");
+}
+
+function table(rows: string): string {
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;margin:8px 0 0">${rows}</table>`;
+}
+
+function block(label: string, lines: string[]): string {
+  return `<p style="margin:20px 0 0"><strong>${esc(label)}</strong><br>${lines.map(esc).join("<br>")}</p>`;
 }
 
 function addressLines(v: View): string[] {
@@ -29,39 +44,36 @@ function addressLines(v: View): string[] {
     a.name ?? v.order.name ?? "",
     a.line1 ?? "",
     a.line2 ?? "",
-    [a.city, a.state, a.postalCode].filter(Boolean).join(", "),
+    [[a.city, a.state].filter(Boolean).join(", "), a.postalCode].filter(Boolean).join(" "),
     a.country && a.country !== "US" ? a.country : "",
   ].filter((l) => l.trim().length > 0);
 }
 
-function totalsHtml(v: View): string {
+function totalsRows(v: View): string {
   const o = v.order;
-  return `
-    <tr><td style="padding:6px 0;border-top:1px solid #ddd">Shipping</td><td style="padding:6px 0;border-top:1px solid #ddd;text-align:right">${o.shippingCents ? formatCents(o.shippingCents) : "Free"}</td></tr>
-    <tr><td style="padding:6px 0;font-weight:700">Total</td><td style="padding:6px 0;text-align:right;font-weight:700">${formatCents(o.totalCents)}</td></tr>`;
+  const line = (label: string, value: string, bold = false) =>
+    `<tr><td colspan="2" style="padding:8px 0;border-top:1px solid ${rule}${bold ? ";font-weight:700" : ""}">${label}</td><td style="padding:8px 0;border-top:1px solid ${rule};text-align:right${bold ? ";font-weight:700" : ""}">${value}</td></tr>`;
+  return (
+    line("Subtotal", formatCents(o.subtotalCents)) +
+    line("Shipping", o.shippingCents ? formatCents(o.shippingCents) : "Free") +
+    line("Total", formatCents(o.totalCents), true)
+  );
 }
 
-function shell(title: string, body: string): string {
-  return `<!DOCTYPE html><html><head><meta charset="utf-8"></head>
-<body style="margin:0;background:#EDE9D8;font-family:Helvetica,Arial,sans-serif;color:#2B2928">
-<div style="max-width:560px;margin:0 auto;padding:32px 24px">
-<p style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px">House of Track</p>
-<h1 style="font-size:26px;text-transform:uppercase;margin:0 0 18px">${esc(title)}</h1>
-${body}
-</div></body></html>`;
-}
 
 export function receiptEmail(v: View): { subject: string; html: string; text: string } {
   const o = v.order;
   const first = (o.name ?? "").split(" ")[0];
   const addr = addressLines(v);
-  const html = shell(
-    `Order ${o.number} confirmed`,
-    `<p>${first ? `Thanks, ${esc(first)}.` : "Thanks."} Your order is in.${v.shipsBy ? ` It ships by ${esc(formatShipsBy(v.shipsBy))}.` : ""} We'll email you again when it ships.</p>
-<table style="width:100%;border-collapse:collapse;font-size:15px">${itemsHtml(v)}${totalsHtml(v)}</table>
-${addr.length ? `<p style="margin-top:20px"><strong>Shipping to</strong><br>${addr.map(esc).join("<br>")}</p>` : ""}
-<p style="font-size:13px;color:#555;margin-top:20px">Your card statement will read ${esc(STATEMENT_DESCRIPTOR)}. Questions? Reply to this email.</p>`,
-  );
+  const ships = v.shipsBy ? ` It ships by ${formatShipsBy(v.shipsBy)}.` : "";
+  const html = emailLayout({
+    title: `Order ${o.number} confirmed`,
+    preheader: `Thanks for your order.${ships} Here's your receipt.`,
+    body: `<p style="margin:0 0 8px">${first ? `Thanks, ${esc(first)}.` : "Thanks."} Your order is in.${esc(ships)} We'll email you again when it ships.</p>
+${table(itemRows(v, (it) => formatCents(it.unitPriceCents * it.qty)) + totalsRows(v))}
+${addr.length ? block("Shipping to", addr) : ""}
+<p style="margin:24px 0 0;font-size:13px;color:${muted}">Your card statement will read ${esc(STATEMENT_DESCRIPTOR)}. Questions? Just reply to this email.</p>`,
+  });
   const text = [
     `Order ${o.number} confirmed.${v.shipsBy ? ` It ships by ${formatShipsBy(v.shipsBy)}.` : ""}`,
     ...v.items.map((it) => `${it.productName} — ${it.variantLabel} x ${it.qty}: ${formatCents(it.unitPriceCents * it.qty)}`),
@@ -79,18 +91,15 @@ export function alertEmail(v: View): { subject: string; html: string; text: stri
   const o = v.order;
   const addr = addressLines(v);
   const units = v.items.reduce((n, it) => n + it.qty, 0);
-  const html = shell(
-    `New order ${o.number}`,
-    `<p>Paid ${formatCents(o.totalCents)}. Ship this one.</p>
-<table style="width:100%;border-collapse:collapse;font-size:15px">${v.items
-      .map(
-        (it) =>
-          `<tr><td style="padding:6px 0">${esc(it.productName)} — ${esc(it.variantLabel)}<br><span style="font-size:12px;color:#555">SKU ${esc(it.sku)}</span></td><td style="padding:6px 0;text-align:right">× ${it.qty}</td></tr>`,
-      )
-      .join("")}</table>
-<p style="margin-top:20px"><strong>Ship to</strong><br>${addr.length ? addr.map(esc).join("<br>") : "No address on the order"}</p>
-<p><strong>Buyer</strong><br>${esc(o.name ?? "")}${o.email ? `<br>${esc(o.email)}` : ""}</p>`,
-  );
+  const html = emailLayout({
+    title: `New order ${o.number}`,
+    preheader: `Paid ${formatCents(o.totalCents)}, ${units} unit${units === 1 ? "" : "s"}. Ship this one.`,
+    body: `<p style="margin:0 0 8px">Paid <strong>${formatCents(o.totalCents)}</strong>. Ship this one.</p>
+${table(itemRows(v, (it) => `× ${it.qty}`, true))}
+${block("Ship to", addr.length ? addr : ["No address on the order"])}
+${block("Buyer", [o.name ?? "", o.email ?? ""].filter(Boolean))}
+<p style="margin:24px 0 0;font-size:13px;color:${muted}">Reply to this email to reach the buyer. Mark it shipped in the shop admin to email them their tracking.</p>`,
+  });
   const text = [
     `New order ${o.number}: ${units} unit(s), paid ${formatCents(o.totalCents)}.`,
     ...v.items.map((it) => `${it.productName} — ${it.variantLabel} (SKU ${it.sku}) x ${it.qty}`),
@@ -179,23 +188,17 @@ export function shippedEmail(v: View): { subject: string; html: string; text: st
   const addr = addressLines(v);
   const url = trackingUrl(o.trackingCarrier, o.trackingNumber);
   const tracking = o.trackingNumber
-    ? `<p style="margin-top:20px"><strong>Tracking</strong><br>${esc(o.trackingCarrier ?? "")} ${
-        url ? `<a href="${esc(url)}" style="color:#4540BF">${esc(o.trackingNumber)}</a>` : esc(o.trackingNumber)
-      }</p>`
+    ? `<p style="margin:20px 0 0"><strong>Tracking</strong><br>${esc(o.trackingCarrier ?? "")} ${esc(o.trackingNumber)}</p>${url ? emailButton("Track your package", url) : ""}`
     : "";
-  const html = shell(
-    `Order ${o.number} shipped`,
-    `<p>${first ? `Good news, ${esc(first)}.` : "Good news."} Your order is on its way.</p>
-<table style="width:100%;border-collapse:collapse;font-size:15px">${v.items
-      .map(
-        (it) =>
-          `<tr><td style="padding:6px 0">${esc(it.productName)} — ${esc(it.variantLabel)}</td><td style="padding:6px 0;text-align:right">× ${it.qty}</td></tr>`,
-      )
-      .join("")}</table>
+  const html = emailLayout({
+    title: `Order ${o.number} shipped`,
+    preheader: `Your House of Track order is on its way.`,
+    body: `<p style="margin:0 0 8px">${first ? `Good news, ${esc(first)}.` : "Good news."} Your order is on its way.</p>
+${table(itemRows(v, (it) => `× ${it.qty}`))}
 ${tracking}
-${addr.length ? `<p style="margin-top:20px"><strong>Shipping to</strong><br>${addr.map(esc).join("<br>")}</p>` : ""}
-<p style="font-size:13px;color:#555;margin-top:20px">Questions? Reply to this email.</p>`,
-  );
+${addr.length ? block("Shipping to", addr) : ""}
+<p style="margin:24px 0 0;font-size:13px;color:${muted}">Questions? Just reply to this email.</p>`,
+  });
   const text = [
     `Order ${o.number} shipped.`,
     ...v.items.map((it) => `${it.productName} — ${it.variantLabel} x ${it.qty}`),
