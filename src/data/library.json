@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T13:16:12.818Z",
+  "generatedAt": "2026-11-15T13:44:32.012Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -42,7 +42,7 @@
       "description": "Just running around the world. ",
       "avatar": "https://yt3.ggpht.com/PHy-OUtm6Sznye8_V-XEDcXooiDP-IS391OqG8MsEH_dNfQ8pBSwy6DppZQR9HQDOgbsnXIfUA=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 917000,
-      "videoCount": 739,
+      "videoCount": 740,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -224,7 +224,7 @@
       "description": "Welcome to the life of an elite runner. Through all the highs and lows of running, I have kept coming back to the sport because I love it so much. This channel is my way of sharing that passion with the world and providing inspiration for working through tough workouts, injuries, mental health struggles, and anything else life throws our way. \n\nAbout me: Hi! I'm Allie O, a runner from Alaska who l",
       "avatar": "https://yt3.ggpht.com/lzNU5OJHIWWXNoEblw-oKWGZ23jr2OVMNEeN0p7pilSjLWZjk0rr91nsynjPZGZ7KaX7RpfDPJM=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 142000,
-      "videoCount": 789,
+      "videoCount": 790,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -308,7 +308,7 @@
       "description": "Mile World Record Holder\nWorld Champion & Olympic Medalist",
       "avatar": "https://yt3.ggpht.com/k0VaGSjJwQfANf-bwiWh386WDHqjgrZZ0kM91wVaJTFQJrC9FCUyQIlaB4AQdKmbfd6UYfIc0A=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 32800,
-      "videoCount": 153,
+      "videoCount": 154,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -377,7 +377,7 @@
       "url": "https://www.youtube.com/@joe_klecker",
       "description": "",
       "avatar": "https://yt3.ggpht.com/AUduKpkuG1yqYpKHH3V_0t6x-J2leWP-GcdQlsl5xD73eW1kv_OL3CtUgAV97McQoVHQ8q-AWw=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 2240,
+      "subscriberCount": 2260,
       "videoCount": 5,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -399,6 +399,44 @@
   ],
   "items": [
     {
+      "id": "Xu6iBQh9asg",
+      "videoId": "Xu6iBQh9asg",
+      "title": "Back with the Beasts | Hills, Gym & Golf | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=Xu6iBQh9asg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-14T21:30:10.000Z",
+      "durationSeconds": 513,
+      "viewCount": 6782,
+      "kind": "video"
+    },
+    {
+      "id": "t1y2VSVsCH0",
+      "videoId": "t1y2VSVsCH0",
+      "title": "I Might Not Make It to My Marathon Debut",
+      "url": "https://www.youtube.com/watch?v=t1y2VSVsCH0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-14T19:00:35.000Z",
+      "durationSeconds": 894,
+      "viewCount": 61653,
+      "kind": "video"
+    },
+    {
       "id": "ELpwRqMOd-M",
       "videoId": "ELpwRqMOd-M",
       "title": "Is Norwegian Singles Method Boring - NSM Week 2",
@@ -414,7 +452,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T12:00:09.000Z",
       "durationSeconds": 1293,
-      "viewCount": 653,
+      "viewCount": 19338,
       "kind": "video"
     },
     {
@@ -433,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 49595,
+      "viewCount": 59086,
       "kind": "video"
     },
     {
@@ -452,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 212987,
+      "viewCount": 249312,
       "kind": "video"
     },
     {
@@ -471,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:00:07.000Z",
       "durationSeconds": 605,
-      "viewCount": 257692,
+      "viewCount": 358673,
       "kind": "video"
     },
     {
@@ -490,26 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 24035,
-      "kind": "video"
-    },
-    {
-      "id": "hesYlSovwUA",
-      "videoId": "hesYlSovwUA",
-      "title": "Marathon Training Was Going Great... Until It Wasn't",
-      "url": "https://www.youtube.com/watch?v=hesYlSovwUA",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-08T20:00:29.000Z",
-      "durationSeconds": 1057,
-      "viewCount": 120930,
+      "viewCount": 26458,
       "kind": "video"
     },
     {
@@ -528,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 63748,
+      "viewCount": 65625,
       "kind": "video"
     },
     {
@@ -547,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 32113,
+      "viewCount": 33925,
       "kind": "video"
     },
     {
@@ -566,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 316471,
+      "viewCount": 337715,
       "kind": "video"
     },
     {
@@ -585,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 2982,
+      "viewCount": 3021,
       "kind": "video"
     },
     {
@@ -604,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 8683,
+      "viewCount": 8824,
       "kind": "video"
     },
     {
@@ -623,26 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 34582,
-      "kind": "video"
-    },
-    {
-      "id": "RIDwHY6oqBw",
-      "videoId": "RIDwHY6oqBw",
-      "title": "Everything I Eat 48 Hours Before Becoming World Champion | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=RIDwHY6oqBw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-01T22:00:13.000Z",
-      "durationSeconds": 345,
-      "viewCount": 89107,
+      "viewCount": 34887,
       "kind": "video"
     },
     {
@@ -661,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 93232,
+      "viewCount": 94524,
       "kind": "video"
     },
     {
@@ -680,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7133,
+      "viewCount": 7140,
       "kind": "video"
     },
     {
@@ -699,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 59800,
+      "viewCount": 59985,
       "kind": "video"
     },
     {
@@ -718,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 64966,
+      "viewCount": 65119,
       "kind": "video"
     },
     {
@@ -737,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33417,
+      "viewCount": 33445,
       "kind": "video"
     },
     {
@@ -756,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 488298,
+      "viewCount": 491826,
       "kind": "video"
     },
     {
@@ -775,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T19:51:21.000Z",
       "durationSeconds": 866,
-      "viewCount": 30242,
+      "viewCount": 30316,
       "kind": "video"
     },
     {
@@ -794,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 179148,
+      "viewCount": 180383,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 25659,
+      "viewCount": 25698,
       "kind": "video"
     },
     {
@@ -832,7 +832,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3489,
+      "viewCount": 3492,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20221,
+      "viewCount": 20239,
       "kind": "video"
     },
     {
@@ -889,7 +889,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 124085,
+      "viewCount": 124191,
       "kind": "video"
     },
     {
@@ -908,7 +908,45 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 709502,
+      "viewCount": 710517,
+      "kind": "video"
+    },
+    {
+      "id": "RIDwHY6oqBw",
+      "videoId": "RIDwHY6oqBw",
+      "title": "Everything I Eat 48 Hours Before Becoming World Champion | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=RIDwHY6oqBw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-01T22:00:13.000Z",
+      "durationSeconds": 345,
+      "viewCount": 90076,
+      "kind": "video"
+    },
+    {
+      "id": "hesYlSovwUA",
+      "videoId": "hesYlSovwUA",
+      "title": "Marathon Training Was Going Great... Until It Wasn't",
+      "url": "https://www.youtube.com/watch?v=hesYlSovwUA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-08T20:00:29.000Z",
+      "durationSeconds": 1057,
+      "viewCount": 124711,
       "kind": "video"
     },
     {
@@ -927,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:54:04.000Z",
       "durationSeconds": 941,
-      "viewCount": 48010,
+      "viewCount": 62121,
       "kind": "video"
     },
     {
@@ -946,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 125772,
+      "viewCount": 126335,
       "kind": "video"
     },
     {
@@ -965,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 183734,
+      "viewCount": 183989,
       "kind": "video"
     },
     {
@@ -984,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T17:00:31.000Z",
       "durationSeconds": 1231,
-      "viewCount": 138559,
+      "viewCount": 144641,
       "kind": "video"
     },
     {
@@ -1003,26 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 20859,
-      "kind": "video"
-    },
-    {
-      "id": "FZFCYEX0pno",
-      "videoId": "FZFCYEX0pno",
-      "title": "What Actually Transformed My Half Marathon in Just 9 Months",
-      "url": "https://www.youtube.com/watch?v=FZFCYEX0pno",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-02T19:00:03.000Z",
-      "durationSeconds": 882,
-      "viewCount": 100457,
+      "viewCount": 20975,
       "kind": "video"
     },
     {
@@ -1041,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 64739,
+      "viewCount": 65511,
       "kind": "video"
     },
     {
@@ -1060,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 65340,
+      "viewCount": 65480,
       "kind": "video"
     },
     {
@@ -1079,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 97229,
+      "viewCount": 97597,
       "kind": "video"
     },
     {
@@ -1098,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15208,
+      "viewCount": 15265,
       "kind": "video"
     },
     {
@@ -1117,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 11789,
+      "viewCount": 11852,
       "kind": "video"
     },
     {
@@ -1136,26 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 32265,
-      "kind": "video"
-    },
-    {
-      "id": "mSPD1yPvHcM",
-      "videoId": "mSPD1yPvHcM",
-      "title": "The Ultimate World Champion | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=mSPD1yPvHcM",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-11T20:45:11.000Z",
-      "durationSeconds": 747,
-      "viewCount": 85283,
+      "viewCount": 32299,
       "kind": "video"
     },
     {
@@ -1174,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 243721,
+      "viewCount": 245218,
       "kind": "video"
     },
     {
@@ -1193,7 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6191,
+      "viewCount": 6193,
       "kind": "video"
     },
     {
@@ -1212,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 72788,
+      "viewCount": 72864,
       "kind": "video"
     },
     {
@@ -1231,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 318586,
+      "viewCount": 319935,
       "kind": "video"
     },
     {
@@ -1250,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21179,
+      "viewCount": 21184,
       "kind": "video"
     },
     {
@@ -1269,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37308,
+      "viewCount": 37394,
       "kind": "video"
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-09-21T18:00:26.000Z",
       "durationSeconds": 593,
-      "viewCount": 64105,
+      "viewCount": 64188,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22517,
+      "viewCount": 22545,
       "kind": "video"
     },
     {
@@ -1326,7 +1326,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46059,
+      "viewCount": 46074,
       "kind": "video"
     },
     {
@@ -1345,7 +1345,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 10998,
+      "viewCount": 11003,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47363,
+      "viewCount": 47387,
       "kind": "video"
     },
     {
@@ -1402,7 +1402,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 122478,
+      "viewCount": 122644,
       "kind": "video"
     },
     {
@@ -1421,7 +1421,45 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 327033,
+      "viewCount": 327353,
+      "kind": "video"
+    },
+    {
+      "id": "mSPD1yPvHcM",
+      "videoId": "mSPD1yPvHcM",
+      "title": "The Ultimate World Champion | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=mSPD1yPvHcM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-11T20:45:11.000Z",
+      "durationSeconds": 747,
+      "viewCount": 85423,
+      "kind": "video"
+    },
+    {
+      "id": "FZFCYEX0pno",
+      "videoId": "FZFCYEX0pno",
+      "title": "What Actually Transformed My Half Marathon in Just 9 Months",
+      "url": "https://www.youtube.com/watch?v=FZFCYEX0pno",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-02T19:00:03.000Z",
+      "durationSeconds": 882,
+      "viewCount": 101196,
       "kind": "video"
     },
     {
@@ -1440,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:08:11.000Z",
       "durationSeconds": 1760,
-      "viewCount": 41708,
+      "viewCount": 44324,
       "kind": "video"
     },
     {
@@ -1459,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 252600,
+      "viewCount": 252909,
       "kind": "video"
     },
     {
@@ -1478,7 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 149908,
+      "viewCount": 150155,
       "kind": "video"
     },
     {
@@ -1497,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T17:00:21.000Z",
       "durationSeconds": 792,
-      "viewCount": 199901,
+      "viewCount": 201369,
       "kind": "video"
     },
     {
@@ -1516,26 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 23702,
-      "kind": "video"
-    },
-    {
-      "id": "s0DUuiTMmOQ",
-      "videoId": "s0DUuiTMmOQ",
-      "title": "The Breakthrough I’ve Been Working For | Valencia Half Marathon",
-      "url": "https://www.youtube.com/watch?v=s0DUuiTMmOQ",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-28T18:00:06.000Z",
-      "durationSeconds": 788,
-      "viewCount": 149635,
+      "viewCount": 23774,
       "kind": "video"
     },
     {
@@ -1554,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 95520,
+      "viewCount": 95642,
       "kind": "video"
     },
     {
@@ -1573,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 43198,
+      "viewCount": 43280,
       "kind": "video"
     },
     {
@@ -1592,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 181012,
+      "viewCount": 182049,
       "kind": "video"
     },
     {
@@ -1611,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 9930,
+      "viewCount": 9940,
       "kind": "video"
     },
     {
@@ -1630,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11646,
+      "viewCount": 11661,
       "kind": "video"
     },
     {
@@ -1649,26 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 43470,
-      "kind": "video"
-    },
-    {
-      "id": "uTiODubaJ5c",
-      "videoId": "uTiODubaJ5c",
-      "title": "Insane 1K Time Trial Before Budapest | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=uTiODubaJ5c",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-25T22:30:06.000Z",
-      "durationSeconds": 309,
-      "viewCount": 787515,
+      "viewCount": 43531,
       "kind": "video"
     },
     {
@@ -1687,7 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 148307,
+      "viewCount": 148528,
       "kind": "video"
     },
     {
@@ -1706,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T21:39:04.000Z",
       "durationSeconds": 1161,
-      "viewCount": 5369,
+      "viewCount": 5370,
       "kind": "video"
     },
     {
@@ -1725,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 58892,
+      "viewCount": 58921,
       "kind": "video"
     },
     {
@@ -1744,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 71806,
+      "viewCount": 71911,
       "kind": "video"
     },
     {
@@ -1763,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 45859,
+      "viewCount": 45931,
       "kind": "video"
     },
     {
@@ -1782,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 35530,
+      "viewCount": 35603,
       "kind": "video"
     },
     {
@@ -1801,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60293,
+      "viewCount": 60315,
       "kind": "video"
     },
     {
@@ -1820,7 +1820,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 40982,
+      "viewCount": 40993,
       "kind": "video"
     },
     {
@@ -1839,7 +1839,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5406,
+      "viewCount": 5408,
       "kind": "video"
     },
     {
@@ -1877,7 +1877,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29023,
+      "viewCount": 29029,
       "kind": "video"
     },
     {
@@ -1896,7 +1896,45 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 259935,
+      "viewCount": 260142,
+      "kind": "video"
+    },
+    {
+      "id": "uTiODubaJ5c",
+      "videoId": "uTiODubaJ5c",
+      "title": "Insane 1K Time Trial Before Budapest | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=uTiODubaJ5c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-25T22:30:06.000Z",
+      "durationSeconds": 309,
+      "viewCount": 789387,
+      "kind": "video"
+    },
+    {
+      "id": "s0DUuiTMmOQ",
+      "videoId": "s0DUuiTMmOQ",
+      "title": "The Breakthrough I’ve Been Working For | Valencia Half Marathon",
+      "url": "https://www.youtube.com/watch?v=s0DUuiTMmOQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-28T18:00:06.000Z",
+      "durationSeconds": 788,
+      "viewCount": 149919,
       "kind": "video"
     },
     {
@@ -1915,7 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T12:30:34.000Z",
       "durationSeconds": 848,
-      "viewCount": 19857,
+      "viewCount": 19993,
       "kind": "video"
     },
     {
@@ -1934,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 116668,
+      "viewCount": 116749,
       "kind": "video"
     },
     {
@@ -1953,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 199700,
+      "viewCount": 199781,
       "kind": "video"
     },
     {
@@ -1972,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T17:00:22.000Z",
       "durationSeconds": 891,
-      "viewCount": 154601,
+      "viewCount": 155847,
       "kind": "video"
     },
     {
@@ -1991,26 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10704,
-      "kind": "video"
-    },
-    {
-      "id": "dxHrjKB_Pbk",
-      "videoId": "dxHrjKB_Pbk",
-      "title": "My First Test of the Marathon Build | Valencia Half Marathon",
-      "url": "https://www.youtube.com/watch?v=dxHrjKB_Pbk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-23T18:00:23.000Z",
-      "durationSeconds": 954,
-      "viewCount": 128409,
+      "viewCount": 10723,
       "kind": "video"
     },
     {
@@ -2029,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 73095,
+      "viewCount": 73428,
       "kind": "video"
     },
     {
@@ -2048,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 77616,
+      "viewCount": 77682,
       "kind": "video"
     },
     {
@@ -2067,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 247399,
+      "viewCount": 247829,
       "kind": "video"
     },
     {
@@ -2086,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15434,
+      "viewCount": 15439,
       "kind": "video"
     },
     {
@@ -2105,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15390,
+      "viewCount": 15399,
       "kind": "video"
     },
     {
@@ -2124,26 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 28867,
-      "kind": "video"
-    },
-    {
-      "id": "BcB_whs3GZc",
-      "videoId": "BcB_whs3GZc",
-      "title": "Racing at Home After Becoming the Mile World Record Holder | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=BcB_whs3GZc",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-30T21:45:06.000Z",
-      "durationSeconds": 739,
-      "viewCount": 113120,
+      "viewCount": 28881,
       "kind": "video"
     },
     {
@@ -2162,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 18390,
+      "viewCount": 18576,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6899,
+      "viewCount": 6900,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91035,
+      "viewCount": 91067,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 45824,
+      "viewCount": 45842,
       "kind": "video"
     },
     {
@@ -2238,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 25795,
+      "viewCount": 25888,
       "kind": "video"
     },
     {
@@ -2257,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 30443,
+      "viewCount": 30566,
       "kind": "video"
     },
     {
@@ -2276,7 +2276,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14758,
+      "viewCount": 14759,
       "kind": "video"
     },
     {
@@ -2295,7 +2295,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 43841,
+      "viewCount": 43847,
       "kind": "video"
     },
     {
@@ -2352,7 +2352,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18748,
+      "viewCount": 18749,
       "kind": "video"
     },
     {
@@ -2371,7 +2371,45 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 119632,
+      "viewCount": 119676,
+      "kind": "video"
+    },
+    {
+      "id": "BcB_whs3GZc",
+      "videoId": "BcB_whs3GZc",
+      "title": "Racing at Home After Becoming the Mile World Record Holder | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=BcB_whs3GZc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-30T21:45:06.000Z",
+      "durationSeconds": 739,
+      "viewCount": 113222,
+      "kind": "video"
+    },
+    {
+      "id": "dxHrjKB_Pbk",
+      "videoId": "dxHrjKB_Pbk",
+      "title": "My First Test of the Marathon Build | Valencia Half Marathon",
+      "url": "https://www.youtube.com/watch?v=dxHrjKB_Pbk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-23T18:00:23.000Z",
+      "durationSeconds": 954,
+      "viewCount": 128533,
       "kind": "video"
     },
     {
@@ -2390,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T12:30:33.000Z",
       "durationSeconds": 743,
-      "viewCount": 21794,
+      "viewCount": 21954,
       "kind": "video"
     },
     {
@@ -2409,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 102377,
+      "viewCount": 102465,
       "kind": "video"
     },
     {
@@ -2428,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 134694,
+      "viewCount": 134888,
       "kind": "video"
     },
     {
@@ -2447,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T17:00:10.000Z",
       "durationSeconds": 892,
-      "viewCount": 148279,
+      "viewCount": 149620,
       "kind": "video"
     },
     {
@@ -2466,26 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12223,
-      "kind": "video"
-    },
-    {
-      "id": "aIINT-FaO4w",
-      "videoId": "aIINT-FaO4w",
-      "title": "Chasing an Olympic Trials Qualifier in My First Marathon | Week of Workouts",
-      "url": "https://www.youtube.com/watch?v=aIINT-FaO4w",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-17T19:51:09.000Z",
-      "durationSeconds": 1268,
-      "viewCount": 113373,
+      "viewCount": 12251,
       "kind": "video"
     },
     {
@@ -2504,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 237558,
+      "viewCount": 238862,
       "kind": "video"
     },
     {
@@ -2523,7 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 48496,
+      "viewCount": 48535,
       "kind": "video"
     },
     {
@@ -2542,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T06:48:09.000Z",
       "durationSeconds": 1425,
-      "viewCount": 8454,
+      "viewCount": 8457,
       "kind": "video"
     },
     {
@@ -2561,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8817,
+      "viewCount": 8818,
       "kind": "video"
     },
     {
@@ -2580,26 +2599,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24151,
-      "kind": "video"
-    },
-    {
-      "id": "3zuEfhK7Y1I",
-      "videoId": "3zuEfhK7Y1I",
-      "title": "PROJECT 222: I Broke the Mile World Record | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=3zuEfhK7Y1I",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-14T15:00:06.000Z",
-      "durationSeconds": 1175,
-      "viewCount": 521882,
+      "viewCount": 24168,
       "kind": "video"
     },
     {
@@ -2618,7 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 89818,
+      "viewCount": 89920,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:51:38.000Z",
       "durationSeconds": 526,
-      "viewCount": 5991,
+      "viewCount": 5992,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 65789,
+      "viewCount": 65832,
       "kind": "video"
     },
     {
@@ -2675,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34699,
+      "viewCount": 34716,
       "kind": "video"
     },
     {
@@ -2694,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7862,
+      "viewCount": 7867,
       "kind": "video"
     },
     {
@@ -2713,7 +2713,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 29723,
+      "viewCount": 29801,
       "kind": "video"
     },
     {
@@ -2732,7 +2732,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27639,
+      "viewCount": 27642,
       "kind": "video"
     },
     {
@@ -2751,7 +2751,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34631,
+      "viewCount": 34642,
       "kind": "video"
     },
     {
@@ -2770,7 +2770,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:35:39.000Z",
       "durationSeconds": 348,
-      "viewCount": 1444,
+      "viewCount": 1445,
       "kind": "video"
     },
     {
@@ -2808,7 +2808,45 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 302350,
+      "viewCount": 302764,
+      "kind": "video"
+    },
+    {
+      "id": "3zuEfhK7Y1I",
+      "videoId": "3zuEfhK7Y1I",
+      "title": "PROJECT 222: I Broke the Mile World Record | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=3zuEfhK7Y1I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-14T15:00:06.000Z",
+      "durationSeconds": 1175,
+      "viewCount": 523782,
+      "kind": "video"
+    },
+    {
+      "id": "aIINT-FaO4w",
+      "videoId": "aIINT-FaO4w",
+      "title": "Chasing an Olympic Trials Qualifier in My First Marathon | Week of Workouts",
+      "url": "https://www.youtube.com/watch?v=aIINT-FaO4w",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Allie Ostrander",
+        "slug": "allie-ostrander",
+        "handle": "allie_ostrander",
+        "url": "https://www.youtube.com/@allie_ostrander",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-17T19:51:09.000Z",
+      "durationSeconds": 1268,
+      "viewCount": 113541,
       "kind": "video"
     },
     {
@@ -2827,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T13:00:27.000Z",
       "durationSeconds": 652,
-      "viewCount": 23647,
+      "viewCount": 23786,
       "kind": "video"
     },
     {
@@ -2846,7 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163088,
+      "viewCount": 163142,
       "kind": "video"
     },
     {
@@ -2865,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 132040,
+      "viewCount": 132122,
       "kind": "video"
     },
     {
@@ -2884,26 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:10:30.000Z",
       "durationSeconds": 1134,
-      "viewCount": 110776,
-      "kind": "video"
-    },
-    {
-      "id": "yIIKqQWsu0U",
-      "videoId": "yIIKqQWsu0U",
-      "title": "A Brutal Day Training for My First Marathon",
-      "url": "https://www.youtube.com/watch?v=yIIKqQWsu0U",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-11T21:19:22.000Z",
-      "durationSeconds": 980,
-      "viewCount": 113471,
+      "viewCount": 111138,
       "kind": "video"
     },
     {
@@ -2922,7 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68105,
+      "viewCount": 68141,
       "kind": "video"
     },
     {
@@ -2941,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 36942,
+      "viewCount": 36967,
       "kind": "video"
     },
     {
@@ -2960,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6442,
+      "viewCount": 6443,
       "kind": "video"
     },
     {
@@ -2979,26 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-08-10T15:00:30.000Z",
       "durationSeconds": 1108,
-      "viewCount": 19853,
-      "kind": "video"
-    },
-    {
-      "id": "iyA0KlP4jxY",
-      "videoId": "iyA0KlP4jxY",
-      "title": "PROJECT 222 | World Record Time Trial | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=iyA0KlP4jxY",
-      "discipline": "Sprints",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-17T20:00:25.000Z",
-      "durationSeconds": 262,
-      "viewCount": 186742,
+      "viewCount": 19856,
       "kind": "video"
     },
     {
@@ -3017,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 75408,
+      "viewCount": 75629,
       "kind": "video"
     },
     {
@@ -3055,7 +3055,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 73566,
+      "viewCount": 73601,
       "kind": "video"
     },
     {
@@ -3074,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44601,
+      "viewCount": 44618,
       "kind": "video"
     },
     {
@@ -3112,7 +3112,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 39585,
+      "viewCount": 39622,
       "kind": "video"
     },
     {
@@ -3131,7 +3131,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22663,
+      "viewCount": 22669,
       "kind": "video"
     },
     {
@@ -3150,7 +3150,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23779,
+      "viewCount": 23782,
       "kind": "video"
     },
     {
@@ -3207,7 +3207,26 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2163437,
+      "viewCount": 2166420,
+      "kind": "video"
+    },
+    {
+      "id": "iyA0KlP4jxY",
+      "videoId": "iyA0KlP4jxY",
+      "title": "PROJECT 222 | World Record Time Trial | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=iyA0KlP4jxY",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-17T20:00:25.000Z",
+      "durationSeconds": 262,
+      "viewCount": 187522,
       "kind": "video"
     },
     {
@@ -3226,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T21:51:47.000Z",
       "durationSeconds": 2410,
-      "viewCount": 39907,
+      "viewCount": 40108,
       "kind": "video"
     },
     {
@@ -3245,7 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93392,
+      "viewCount": 93456,
       "kind": "video"
     },
     {
@@ -3264,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T16:30:31.000Z",
       "durationSeconds": 587,
-      "viewCount": 165256,
+      "viewCount": 166056,
       "kind": "video"
     },
     {
@@ -3283,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37314,
+      "viewCount": 37322,
       "kind": "video"
     },
     {
@@ -3302,7 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35475,
+      "viewCount": 35505,
       "kind": "video"
     },
     {
@@ -3321,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8680,
+      "viewCount": 8694,
       "kind": "video"
     },
     {
@@ -3340,26 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T19:00:22.000Z",
       "durationSeconds": 644,
-      "viewCount": 10467,
-      "kind": "video"
-    },
-    {
-      "id": "BmbTpynkpnM",
-      "videoId": "BmbTpynkpnM",
-      "title": "PROJECT 222 | World Record Time Trial and Ticket Giveaway",
-      "url": "https://www.youtube.com/watch?v=BmbTpynkpnM",
-      "discipline": "Sprints",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-12T21:30:06.000Z",
-      "durationSeconds": 273,
-      "viewCount": 34187,
+      "viewCount": 10468,
       "kind": "video"
     },
     {
@@ -3378,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6930,
+      "viewCount": 6932,
       "kind": "video"
     },
     {
@@ -3397,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60098,
+      "viewCount": 60143,
       "kind": "video"
     },
     {
@@ -3416,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47186,
+      "viewCount": 47198,
       "kind": "video"
     },
     {
@@ -3435,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 11178,
+      "viewCount": 11179,
       "kind": "video"
     },
     {
@@ -3454,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 41274,
+      "viewCount": 41384,
       "kind": "video"
     },
     {
@@ -3473,7 +3473,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23195,
+      "viewCount": 23207,
       "kind": "video"
     },
     {
@@ -3492,7 +3492,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 43144,
+      "viewCount": 43165,
       "kind": "video"
     },
     {
@@ -3511,7 +3511,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:20:10.000Z",
       "durationSeconds": 1017,
-      "viewCount": 9563,
+      "viewCount": 9564,
       "kind": "video"
     },
     {
@@ -3534,6 +3534,25 @@
       "kind": "video"
     },
     {
+      "id": "BmbTpynkpnM",
+      "videoId": "BmbTpynkpnM",
+      "title": "PROJECT 222 | World Record Time Trial and Ticket Giveaway",
+      "url": "https://www.youtube.com/watch?v=BmbTpynkpnM",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-12T21:30:06.000Z",
+      "durationSeconds": 273,
+      "viewCount": 34213,
+      "kind": "video"
+    },
+    {
       "id": "bKQZZr12zrI",
       "videoId": "bKQZZr12zrI",
       "title": "Puma Deviate Pure After 100 Miles",
@@ -3549,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T11:36:31.000Z",
       "durationSeconds": 693,
-      "viewCount": 106307,
+      "viewCount": 107433,
       "kind": "video"
     },
     {
@@ -3568,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 47968,
+      "viewCount": 47995,
       "kind": "video"
     },
     {
@@ -3587,7 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:00.000Z",
       "durationSeconds": 1162,
-      "viewCount": 334764,
+      "viewCount": 339190,
       "kind": "video"
     },
     {
@@ -3606,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62122,
+      "viewCount": 62137,
       "kind": "video"
     },
     {
@@ -3625,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28423,
+      "viewCount": 28457,
       "kind": "video"
     },
     {
@@ -3644,26 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5974,
-      "kind": "video"
-    },
-    {
-      "id": "yWjSTBjH05I",
-      "videoId": "yWjSTBjH05I",
-      "title": "PROJECT 222: How to Improve Tempos without Running | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=yWjSTBjH05I",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-05T18:15:06.000Z",
-      "durationSeconds": 422,
-      "viewCount": 74686,
+      "viewCount": 5975,
       "kind": "video"
     },
     {
@@ -3682,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T15:04:10.000Z",
       "durationSeconds": 377,
-      "viewCount": 12323,
+      "viewCount": 12324,
       "kind": "video"
     },
     {
@@ -3701,7 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78057,
+      "viewCount": 78106,
       "kind": "video"
     },
     {
@@ -3720,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51191,
+      "viewCount": 51224,
       "kind": "video"
     },
     {
@@ -3739,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 26930,
+      "viewCount": 26992,
       "kind": "video"
     },
     {
@@ -3758,7 +3758,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24818,
+      "viewCount": 24826,
       "kind": "video"
     },
     {
@@ -3777,7 +3777,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 31582,
+      "viewCount": 31603,
       "kind": "video"
     },
     {
@@ -3796,7 +3796,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:12:22.000Z",
       "durationSeconds": 897,
-      "viewCount": 9266,
+      "viewCount": 9269,
       "kind": "video"
     },
     {
@@ -3819,6 +3819,25 @@
       "kind": "video"
     },
     {
+      "id": "yWjSTBjH05I",
+      "videoId": "yWjSTBjH05I",
+      "title": "PROJECT 222: How to Improve Tempos without Running | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=yWjSTBjH05I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-05T18:15:06.000Z",
+      "durationSeconds": 422,
+      "viewCount": 74788,
+      "kind": "video"
+    },
+    {
       "id": "D9G5jljZ9Gk",
       "videoId": "D9G5jljZ9Gk",
       "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
@@ -3834,7 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T16:16:52.000Z",
       "durationSeconds": 776,
-      "viewCount": 23588,
+      "viewCount": 23619,
       "kind": "video"
     },
     {
@@ -3853,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52368,
+      "viewCount": 52417,
       "kind": "video"
     },
     {
@@ -3872,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T16:54:40.000Z",
       "durationSeconds": 596,
-      "viewCount": 184548,
+      "viewCount": 185468,
       "kind": "video"
     },
     {
@@ -3891,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 156361,
+      "viewCount": 156961,
       "kind": "video"
     },
     {
@@ -3910,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-05-03T11:11:31.000Z",
       "durationSeconds": 2142,
-      "viewCount": 57250,
+      "viewCount": 57290,
       "kind": "video"
     },
     {
@@ -3929,26 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11536,
-      "kind": "video"
-    },
-    {
-      "id": "ePBNcAdWvS0",
-      "videoId": "ePBNcAdWvS0",
-      "title": "PROJECT 222 | My Toughest Workout | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=ePBNcAdWvS0",
-      "discipline": "Sprints",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-06-28T18:00:06.000Z",
-      "durationSeconds": 812,
-      "viewCount": 75498,
+      "viewCount": 11542,
       "kind": "video"
     },
     {
@@ -3967,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T21:53:29.000Z",
       "durationSeconds": 1762,
-      "viewCount": 2995,
+      "viewCount": 2996,
       "kind": "video"
     },
     {
@@ -3986,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93394,
+      "viewCount": 93427,
       "kind": "video"
     },
     {
@@ -4005,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26640,
+      "viewCount": 26652,
       "kind": "video"
     },
     {
@@ -4024,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16505,
+      "viewCount": 16524,
       "kind": "video"
     },
     {
@@ -4043,7 +4043,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21865,
+      "viewCount": 21872,
       "kind": "video"
     },
     {
@@ -4062,7 +4062,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 41391,
+      "viewCount": 41418,
       "kind": "video"
     },
     {
@@ -4085,6 +4085,25 @@
       "kind": "video"
     },
     {
+      "id": "ePBNcAdWvS0",
+      "videoId": "ePBNcAdWvS0",
+      "title": "PROJECT 222 | My Toughest Workout | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=ePBNcAdWvS0",
+      "discipline": "Sprints",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-28T18:00:06.000Z",
+      "durationSeconds": 812,
+      "viewCount": 75675,
+      "kind": "video"
+    },
+    {
       "id": "JzB-HSI_E1s",
       "videoId": "JzB-HSI_E1s",
       "title": "On Lighstpray Cloudboom Strike 2",
@@ -4100,7 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T12:00:08.000Z",
       "durationSeconds": 973,
-      "viewCount": 48065,
+      "viewCount": 48228,
       "kind": "video"
     },
     {
@@ -4119,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48372,
+      "viewCount": 48422,
       "kind": "video"
     },
     {
@@ -4138,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T16:00:23.000Z",
       "durationSeconds": 857,
-      "viewCount": 486053,
+      "viewCount": 487211,
       "kind": "video"
     },
     {
@@ -4157,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T15:00:14.000Z",
       "durationSeconds": 1136,
-      "viewCount": 56881,
+      "viewCount": 56888,
       "kind": "video"
     },
     {
@@ -4176,26 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-04-11T14:04:37.000Z",
       "durationSeconds": 791,
-      "viewCount": 4783,
-      "kind": "video"
-    },
-    {
-      "id": "RMD3zYq8PoU",
-      "videoId": "RMD3zYq8PoU",
-      "title": "PROJECT 222 | Last Race Before the WR Attempt | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=RMD3zYq8PoU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-06-21T18:00:06.000Z",
-      "durationSeconds": 567,
-      "viewCount": 42250,
+      "viewCount": 4787,
       "kind": "video"
     },
     {
@@ -4233,7 +4233,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109165,
+      "viewCount": 109224,
       "kind": "video"
     },
     {
@@ -4252,7 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 32793,
+      "viewCount": 32806,
       "kind": "video"
     },
     {
@@ -4271,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 43792,
+      "viewCount": 43975,
       "kind": "video"
     },
     {
@@ -4290,7 +4290,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45394,
+      "viewCount": 45420,
       "kind": "video"
     },
     {
@@ -4309,7 +4309,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23690,
+      "viewCount": 23694,
       "kind": "video"
     },
     {
@@ -4332,6 +4332,25 @@
       "kind": "video"
     },
     {
+      "id": "RMD3zYq8PoU",
+      "videoId": "RMD3zYq8PoU",
+      "title": "PROJECT 222 | Last Race Before the WR Attempt | Josh Kerr",
+      "url": "https://www.youtube.com/watch?v=RMD3zYq8PoU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Josh Kerr",
+        "slug": "josh-kerr",
+        "handle": null,
+        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-21T18:00:06.000Z",
+      "durationSeconds": 567,
+      "viewCount": 42325,
+      "kind": "video"
+    },
+    {
       "id": "CHiBwZy3pro",
       "videoId": "CHiBwZy3pro",
       "title": "Twin Cities Marathon 2026 - A Runner's Weekend",
@@ -4347,7 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-10-21T12:00:30.000Z",
       "durationSeconds": 1971,
-      "viewCount": 38045,
+      "viewCount": 38166,
       "kind": "video"
     },
     {
@@ -4366,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57111,
+      "viewCount": 57148,
       "kind": "video"
     },
     {
@@ -4385,7 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T13:15:51.000Z",
       "durationSeconds": 937,
-      "viewCount": 432530,
+      "viewCount": 433270,
       "kind": "video"
     },
     {
@@ -4404,26 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T15:38:34.000Z",
       "durationSeconds": 882,
-      "viewCount": 6819,
-      "kind": "video"
-    },
-    {
-      "id": "44d4Yo0xhFM",
-      "videoId": "44d4Yo0xhFM",
-      "title": "PROJECT 222 | INSANE 4x800m at WORLD RECORD Pace | Josh Kerr",
-      "url": "https://www.youtube.com/watch?v=44d4Yo0xhFM",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Josh Kerr",
-        "slug": "josh-kerr",
-        "handle": null,
-        "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-06-14T18:00:06.000Z",
-      "durationSeconds": 716,
-      "viewCount": 114304,
+      "viewCount": 6824,
       "kind": "video"
     },
     {
@@ -4442,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60733,
+      "viewCount": 60740,
       "kind": "video"
     },
     {
@@ -4461,7 +4461,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32313,
+      "viewCount": 32321,
       "kind": "video"
     },
     {
@@ -4480,7 +4480,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14209,
+      "viewCount": 14244,
       "kind": "video"
     },
     {
@@ -4499,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 27992,
+      "viewCount": 27994,
       "kind": "video"
     },
     {
@@ -4518,7 +4518,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 32807,
+      "viewCount": 32818,
       "kind": "video"
     },
     {
@@ -4556,7 +4556,7 @@
       "athlete": null,
       "publishedAt": "2026-10-19T12:00:22.000Z",
       "durationSeconds": 960,
-      "viewCount": 102908,
+      "viewCount": 103389,
       "kind": "video"
     },
     {
@@ -4575,7 +4575,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T16:00:15.000Z",
       "durationSeconds": 851,
-      "viewCount": 191985,
+      "viewCount": 192304,
       "kind": "video"
     },
     {
@@ -4594,7 +4594,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 66932,
+      "viewCount": 66940,
       "kind": "video"
     },
     {
@@ -4613,7 +4613,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T15:03:48.000Z",
       "durationSeconds": 1470,
-      "viewCount": 42053,
+      "viewCount": 42069,
       "kind": "video"
     },
     {
@@ -4632,7 +4632,7 @@
       "athlete": null,
       "publishedAt": "2026-02-18T16:33:28.000Z",
       "durationSeconds": 1037,
-      "viewCount": 15675,
+      "viewCount": 15689,
       "kind": "video"
     },
     {
@@ -4651,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19245,
+      "viewCount": 19246,
       "kind": "video"
     },
     {
