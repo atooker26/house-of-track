@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:45:22.436Z",
+  "generatedAt": "2026-11-18T15:26:19.648Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -98,7 +98,7 @@
       "description": "Pro Distance Running Tips and Advice from 2:16 Marathoner (16th place at Boston Marathon), 2-time US Olympic Marathon Trials Qualifier and Mountain-Ultra-Trail runner Sage Canaday. Best running form tips and run technique videos on Youtube as well as nutrition for runners, marathon and half marathon training advice as well as trail running, strength training, long runs, 5k training, ultramarathons",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_nkZOYCRFSvUO-YsygJG6GUFac3XAAJM12iHul63_YVTg=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 253000,
-      "videoCount": 1449,
+      "videoCount": 1451,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -154,7 +154,7 @@
       "description": "Trail runner & filmmaker, based in Vancouver, Canada.\n\nSubscribe to my newsletter or get in touch: http://jeffpelletier.com\n",
       "avatar": "https://yt3.ggpht.com/YLRllcd7Q0iPYDIkJjXGEiOiJStz4KK7iepwcfTVK0yveHKqFSaLVzTvvZ0anO-SeUlXs1jNCIE=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 175000,
-      "videoCount": 213,
+      "videoCount": 214,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -224,7 +224,7 @@
       "description": "Welcome to the life of an elite runner. Through all the highs and lows of running, I have kept coming back to the sport because I love it so much. This channel is my way of sharing that passion with the world and providing inspiration for working through tough workouts, injuries, mental health struggles, and anything else life throws our way. \n\nAbout me: Hi! I'm Allie O, a runner from Alaska who l",
       "avatar": "https://yt3.ggpht.com/lzNU5OJHIWWXNoEblw-oKWGZ23jr2OVMNEeN0p7pilSjLWZjk0rr91nsynjPZGZ7KaX7RpfDPJM=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 142000,
-      "videoCount": 792,
+      "videoCount": 793,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -265,7 +265,7 @@
       "url": "https://www.youtube.com/@woah_max",
       "description": "",
       "avatar": "https://yt3.ggpht.com/XXJGUOqS8MJ9UBFNIWBVNv6nZ6QgUproa2h0tFOBfALbaBF2KGID5u8QHcqfbit8l3CW5t4rrg=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 72500,
+      "subscriberCount": 72600,
       "videoCount": 18,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -336,7 +336,7 @@
       "description": "2024 Canadian Olympian, Husband, Father, Believer, and Marathoner for Puma 🐾🇨🇦\nDocumenting the process and my story of being a professional runner. \n\n\nhttps://www.letstango.run\n\n",
       "avatar": "https://yt3.ggpht.com/EgVeUSQtdU4ScAIpImLeChSkBSyP5Avcib6p7lzYjSjsyid3PqGzBSYD90bs-TqTitbQ3I3cwLQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 19400,
-      "videoCount": 136,
+      "videoCount": 137,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -377,7 +377,7 @@
       "url": "https://www.youtube.com/@joe_klecker",
       "description": "",
       "avatar": "https://yt3.ggpht.com/AUduKpkuG1yqYpKHH3V_0t6x-J2leWP-GcdQlsl5xD73eW1kv_OL3CtUgAV97McQoVHQ8q-AWw=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 2290,
+      "subscriberCount": 2300,
       "videoCount": 5,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -399,6 +399,25 @@
   ],
   "items": [
     {
+      "id": "8uffvDP8jGQ",
+      "videoId": "8uffvDP8jGQ",
+      "title": "We Ran the Most Beautiful Marathon in the World (Jungfrau)",
+      "url": "https://www.youtube.com/watch?v=8uffvDP8jGQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-17T18:16:33.000Z",
+      "durationSeconds": 1903,
+      "viewCount": 46172,
+      "kind": "video"
+    },
+    {
       "id": "6Z5Jo1D-pGI",
       "videoId": "6Z5Jo1D-pGI",
       "title": "adidas adios pro evo 3",
@@ -414,7 +433,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T16:53:37.000Z",
       "durationSeconds": 1113,
-      "viewCount": 44556,
+      "viewCount": 58437,
       "kind": "video"
     },
     {
@@ -433,7 +452,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 1969,
+      "viewCount": 2237,
       "kind": "video"
     },
     {
@@ -452,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 32051,
+      "viewCount": 41280,
       "kind": "video"
     },
     {
@@ -471,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T17:00:04.000Z",
       "durationSeconds": 924,
-      "viewCount": 114406,
+      "viewCount": 128820,
       "kind": "video"
     },
     {
@@ -490,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T16:00:20.000Z",
       "durationSeconds": 1205,
-      "viewCount": 36238,
+      "viewCount": 40409,
       "kind": "video"
     },
     {
@@ -509,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T14:00:29.000Z",
       "durationSeconds": 952,
-      "viewCount": 27910,
+      "viewCount": 32868,
       "kind": "video"
     },
     {
@@ -528,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 16316,
+      "viewCount": 18347,
       "kind": "video"
     },
     {
@@ -547,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 98465,
+      "viewCount": 104285,
       "kind": "video"
     },
     {
@@ -566,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 71164,
+      "viewCount": 75316,
       "kind": "video"
     },
     {
@@ -585,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 295794,
+      "viewCount": 307467,
       "kind": "video"
     },
     {
@@ -604,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 30784,
+      "viewCount": 31999,
       "kind": "video"
     },
     {
@@ -623,7 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 379280,
+      "viewCount": 396678,
       "kind": "video"
     },
     {
@@ -642,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 3093,
+      "viewCount": 3111,
       "kind": "video"
     },
     {
@@ -661,26 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9011,
-      "kind": "video"
-    },
-    {
-      "id": "2jafQBtOxFA",
-      "videoId": "2jafQBtOxFA",
-      "title": "Running Hut-to-Hut on the Alta Via 1",
-      "url": "https://www.youtube.com/watch?v=2jafQBtOxFA",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Jeff Pelletier",
-        "slug": "jeff-pelletier",
-        "handle": "jeffpelletier",
-        "url": "https://www.youtube.com/@jeffpelletier",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-26T19:53:20.000Z",
-      "durationSeconds": 3650,
-      "viewCount": 96525,
+      "viewCount": 9068,
       "kind": "video"
     },
     {
@@ -699,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 60348,
+      "viewCount": 60555,
       "kind": "video"
     },
     {
@@ -718,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 65447,
+      "viewCount": 65609,
       "kind": "video"
     },
     {
@@ -737,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33499,
+      "viewCount": 33520,
       "kind": "video"
     },
     {
@@ -756,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 497681,
+      "viewCount": 499939,
       "kind": "video"
     },
     {
@@ -775,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T19:51:21.000Z",
       "durationSeconds": 866,
-      "viewCount": 30470,
+      "viewCount": 30526,
       "kind": "video"
     },
     {
@@ -794,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 182858,
+      "viewCount": 183968,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 25792,
+      "viewCount": 25848,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20253,
+      "viewCount": 20259,
       "kind": "video"
     },
     {
@@ -889,7 +889,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 124478,
+      "viewCount": 124615,
       "kind": "video"
     },
     {
@@ -908,7 +908,26 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 712633,
+      "viewCount": 713669,
+      "kind": "video"
+    },
+    {
+      "id": "2jafQBtOxFA",
+      "videoId": "2jafQBtOxFA",
+      "title": "Running Hut-to-Hut on the Alta Via 1",
+      "url": "https://www.youtube.com/watch?v=2jafQBtOxFA",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-26T19:53:20.000Z",
+      "durationSeconds": 3650,
+      "viewCount": 97554,
       "kind": "video"
     },
     {
@@ -927,7 +946,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T12:00:09.000Z",
       "durationSeconds": 1293,
-      "viewCount": 27507,
+      "viewCount": 29265,
       "kind": "video"
     },
     {
@@ -946,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7165,
+      "viewCount": 7166,
       "kind": "video"
     },
     {
@@ -965,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 36025,
+      "viewCount": 36958,
       "kind": "video"
     },
     {
@@ -984,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:00:07.000Z",
       "durationSeconds": 605,
-      "viewCount": 513677,
+      "viewCount": 567189,
       "kind": "video"
     },
     {
@@ -1003,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 67478,
+      "viewCount": 67840,
       "kind": "video"
     },
     {
@@ -1022,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 36116,
+      "viewCount": 36466,
       "kind": "video"
     },
     {
@@ -1041,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 91397,
+      "viewCount": 91743,
       "kind": "video"
     },
     {
@@ -1060,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 128209,
+      "viewCount": 129296,
       "kind": "video"
     },
     {
@@ -1079,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 127410,
+      "viewCount": 127844,
       "kind": "video"
     },
     {
@@ -1098,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 184499,
+      "viewCount": 184705,
       "kind": "video"
     },
     {
@@ -1117,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21121,
+      "viewCount": 21185,
       "kind": "video"
     },
     {
@@ -1136,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 98409,
+      "viewCount": 98871,
       "kind": "video"
     },
     {
@@ -1155,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15398,
+      "viewCount": 15443,
       "kind": "video"
     },
     {
@@ -1174,26 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 11942,
-      "kind": "video"
-    },
-    {
-      "id": "I2jvBcGSmVA",
-      "videoId": "I2jvBcGSmVA",
-      "title": "Running Switzerland's Most Notorious Ridge (Hardergrat)",
-      "url": "https://www.youtube.com/watch?v=I2jvBcGSmVA",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Jeff Pelletier",
-        "slug": "jeff-pelletier",
-        "handle": "jeffpelletier",
-        "url": "https://www.youtube.com/@jeffpelletier",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-12T02:46:42.000Z",
-      "durationSeconds": 1622,
-      "viewCount": 247334,
+      "viewCount": 11979,
       "kind": "video"
     },
     {
@@ -1212,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73003,
+      "viewCount": 73054,
       "kind": "video"
     },
     {
@@ -1231,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 322742,
+      "viewCount": 324005,
       "kind": "video"
     },
     {
@@ -1250,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21199,
+      "viewCount": 21206,
       "kind": "video"
     },
     {
@@ -1269,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37520,
+      "viewCount": 37584,
       "kind": "video"
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22596,
+      "viewCount": 22618,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46091,
+      "viewCount": 46106,
       "kind": "video"
     },
     {
@@ -1326,7 +1326,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 11005,
+      "viewCount": 11008,
       "kind": "video"
     },
     {
@@ -1364,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47431,
+      "viewCount": 47442,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 122952,
+      "viewCount": 123079,
       "kind": "video"
     },
     {
@@ -1402,7 +1402,26 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 328091,
+      "viewCount": 328466,
+      "kind": "video"
+    },
+    {
+      "id": "I2jvBcGSmVA",
+      "videoId": "I2jvBcGSmVA",
+      "title": "Running Switzerland's Most Notorious Ridge (Hardergrat)",
+      "url": "https://www.youtube.com/watch?v=I2jvBcGSmVA",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-12T02:46:42.000Z",
+      "durationSeconds": 1622,
+      "viewCount": 248664,
       "kind": "video"
     },
     {
@@ -1421,7 +1440,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:54:04.000Z",
       "durationSeconds": 941,
-      "viewCount": 99258,
+      "viewCount": 117528,
       "kind": "video"
     },
     {
@@ -1440,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6202,
+      "viewCount": 6204,
       "kind": "video"
     },
     {
@@ -1459,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 65897,
+      "viewCount": 66110,
       "kind": "video"
     },
     {
@@ -1478,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T17:00:31.000Z",
       "durationSeconds": 1231,
-      "viewCount": 152600,
+      "viewCount": 155513,
       "kind": "video"
     },
     {
@@ -1497,7 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 66791,
+      "viewCount": 67361,
       "kind": "video"
     },
     {
@@ -1516,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 32511,
+      "viewCount": 32599,
       "kind": "video"
     },
     {
@@ -1535,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 85775,
+      "viewCount": 85916,
       "kind": "video"
     },
     {
@@ -1554,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T19:00:03.000Z",
       "durationSeconds": 882,
-      "viewCount": 102151,
+      "viewCount": 102530,
       "kind": "video"
     },
     {
@@ -1573,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 253504,
+      "viewCount": 253792,
       "kind": "video"
     },
     {
@@ -1592,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 150625,
+      "viewCount": 150807,
       "kind": "video"
     },
     {
@@ -1611,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 23861,
+      "viewCount": 23888,
       "kind": "video"
     },
     {
@@ -1630,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 184504,
+      "viewCount": 185703,
       "kind": "video"
     },
     {
@@ -1649,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 9960,
+      "viewCount": 9970,
       "kind": "video"
     },
     {
@@ -1668,26 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11694,
-      "kind": "video"
-    },
-    {
-      "id": "q_OiFrE04IU",
-      "videoId": "q_OiFrE04IU",
-      "title": "Running Hut-to-Hut Through the Swiss Alps",
-      "url": "https://www.youtube.com/watch?v=q_OiFrE04IU",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Jeff Pelletier",
-        "slug": "jeff-pelletier",
-        "handle": "jeffpelletier",
-        "url": "https://www.youtube.com/@jeffpelletier",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-13T19:14:55.000Z",
-      "durationSeconds": 3717,
-      "viewCount": 148947,
+      "viewCount": 11710,
       "kind": "video"
     },
     {
@@ -1706,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59011,
+      "viewCount": 59035,
       "kind": "video"
     },
     {
@@ -1725,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 72101,
+      "viewCount": 72181,
       "kind": "video"
     },
     {
@@ -1744,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46053,
+      "viewCount": 46094,
       "kind": "video"
     },
     {
@@ -1763,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 35749,
+      "viewCount": 35820,
       "kind": "video"
     },
     {
@@ -1782,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60381,
+      "viewCount": 60426,
       "kind": "video"
     },
     {
@@ -1801,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 41019,
+      "viewCount": 41049,
       "kind": "video"
     },
     {
@@ -1820,7 +1820,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5409,
+      "viewCount": 5410,
       "kind": "video"
     },
     {
@@ -1858,7 +1858,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29038,
+      "viewCount": 29039,
       "kind": "video"
     },
     {
@@ -1877,7 +1877,26 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 260766,
+      "viewCount": 261156,
+      "kind": "video"
+    },
+    {
+      "id": "q_OiFrE04IU",
+      "videoId": "q_OiFrE04IU",
+      "title": "Running Hut-to-Hut Through the Swiss Alps",
+      "url": "https://www.youtube.com/watch?v=q_OiFrE04IU",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-13T19:14:55.000Z",
+      "durationSeconds": 3717,
+      "viewCount": 149183,
       "kind": "video"
     },
     {
@@ -1896,7 +1915,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:08:11.000Z",
       "durationSeconds": 1760,
-      "viewCount": 47422,
+      "viewCount": 48219,
       "kind": "video"
     },
     {
@@ -1915,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T21:39:04.000Z",
       "durationSeconds": 1161,
-      "viewCount": 5375,
+      "viewCount": 5379,
       "kind": "video"
     },
     {
@@ -1934,7 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 43510,
+      "viewCount": 43600,
       "kind": "video"
     },
     {
@@ -1953,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T17:00:21.000Z",
       "durationSeconds": 792,
-      "viewCount": 204187,
+      "viewCount": 205290,
       "kind": "video"
     },
     {
@@ -1972,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 95886,
+      "viewCount": 95970,
       "kind": "video"
     },
     {
@@ -1991,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 43736,
+      "viewCount": 43832,
       "kind": "video"
     },
     {
@@ -2010,7 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 793488,
+      "viewCount": 795887,
       "kind": "video"
     },
     {
@@ -2029,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T18:00:06.000Z",
       "durationSeconds": 788,
-      "viewCount": 150372,
+      "viewCount": 150576,
       "kind": "video"
     },
     {
@@ -2048,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 116887,
+      "viewCount": 116940,
       "kind": "video"
     },
     {
@@ -2067,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 199951,
+      "viewCount": 199991,
       "kind": "video"
     },
     {
@@ -2086,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10751,
+      "viewCount": 10762,
       "kind": "video"
     },
     {
@@ -2105,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 248726,
+      "viewCount": 249172,
       "kind": "video"
     },
     {
@@ -2124,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15456,
+      "viewCount": 15461,
       "kind": "video"
     },
     {
@@ -2143,26 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15425,
-      "kind": "video"
-    },
-    {
-      "id": "-AZ1eEl0c90",
-      "videoId": "-AZ1eEl0c90",
-      "title": "The Truth About Headlamps",
-      "url": "https://www.youtube.com/watch?v=-AZ1eEl0c90",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Jeff Pelletier",
-        "slug": "jeff-pelletier",
-        "handle": "jeffpelletier",
-        "url": "https://www.youtube.com/@jeffpelletier",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-28T16:01:07.000Z",
-      "durationSeconds": 364,
-      "viewCount": 19131,
+      "viewCount": 15431,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91167,
+      "viewCount": 91223,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 45887,
+      "viewCount": 45910,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26041,
+      "viewCount": 26140,
       "kind": "video"
     },
     {
@@ -2238,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 30833,
+      "viewCount": 30941,
       "kind": "video"
     },
     {
@@ -2257,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14765,
+      "viewCount": 14769,
       "kind": "video"
     },
     {
@@ -2276,7 +2276,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 43858,
+      "viewCount": 43869,
       "kind": "video"
     },
     {
@@ -2352,7 +2352,26 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 119818,
+      "viewCount": 119890,
+      "kind": "video"
+    },
+    {
+      "id": "-AZ1eEl0c90",
+      "videoId": "-AZ1eEl0c90",
+      "title": "The Truth About Headlamps",
+      "url": "https://www.youtube.com/watch?v=-AZ1eEl0c90",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-28T16:01:07.000Z",
+      "durationSeconds": 364,
+      "viewCount": 19415,
       "kind": "video"
     },
     {
@@ -2371,7 +2390,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T12:30:34.000Z",
       "durationSeconds": 848,
-      "viewCount": 20351,
+      "viewCount": 20477,
       "kind": "video"
     },
     {
@@ -2390,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6907,
+      "viewCount": 6912,
       "kind": "video"
     },
     {
@@ -2409,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 77889,
+      "viewCount": 77981,
       "kind": "video"
     },
     {
@@ -2428,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T17:00:22.000Z",
       "durationSeconds": 891,
-      "viewCount": 157337,
+      "viewCount": 157814,
       "kind": "video"
     },
     {
@@ -2447,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 74213,
+      "viewCount": 74613,
       "kind": "video"
     },
     {
@@ -2466,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 28935,
+      "viewCount": 28960,
       "kind": "video"
     },
     {
@@ -2485,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 113520,
+      "viewCount": 113653,
       "kind": "video"
     },
     {
@@ -2504,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T18:00:23.000Z",
       "durationSeconds": 954,
-      "viewCount": 128776,
+      "viewCount": 128884,
       "kind": "video"
     },
     {
@@ -2523,7 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 102600,
+      "viewCount": 102658,
       "kind": "video"
     },
     {
@@ -2542,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 135226,
+      "viewCount": 135383,
       "kind": "video"
     },
     {
@@ -2561,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12274,
+      "viewCount": 12291,
       "kind": "video"
     },
     {
@@ -2599,26 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8827,
-      "kind": "video"
-    },
-    {
-      "id": "nis9yS6oxJk",
-      "videoId": "nis9yS6oxJk",
-      "title": "Inside the Fastest Western States 100 Ever",
-      "url": "https://www.youtube.com/watch?v=nis9yS6oxJk",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Jeff Pelletier",
-        "slug": "jeff-pelletier",
-        "handle": "jeffpelletier",
-        "url": "https://www.youtube.com/@jeffpelletier",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-18T15:45:00.000Z",
-      "durationSeconds": 3212,
-      "viewCount": 90173,
+      "viewCount": 8830,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 65942,
+      "viewCount": 65989,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34751,
+      "viewCount": 34760,
       "kind": "video"
     },
     {
@@ -2675,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7876,
+      "viewCount": 7884,
       "kind": "video"
     },
     {
@@ -2694,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 29938,
+      "viewCount": 29989,
       "kind": "video"
     },
     {
@@ -2713,7 +2713,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27663,
+      "viewCount": 27673,
       "kind": "video"
     },
     {
@@ -2732,7 +2732,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34671,
+      "viewCount": 34677,
       "kind": "video"
     },
     {
@@ -2751,7 +2751,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:35:39.000Z",
       "durationSeconds": 348,
-      "viewCount": 1447,
+      "viewCount": 1449,
       "kind": "video"
     },
     {
@@ -2789,7 +2789,26 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 303564,
+      "viewCount": 303914,
+      "kind": "video"
+    },
+    {
+      "id": "nis9yS6oxJk",
+      "videoId": "nis9yS6oxJk",
+      "title": "Inside the Fastest Western States 100 Ever",
+      "url": "https://www.youtube.com/watch?v=nis9yS6oxJk",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-18T15:45:00.000Z",
+      "durationSeconds": 3212,
+      "viewCount": 90324,
       "kind": "video"
     },
     {
@@ -2808,7 +2827,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T12:30:33.000Z",
       "durationSeconds": 743,
-      "viewCount": 22152,
+      "viewCount": 22246,
       "kind": "video"
     },
     {
@@ -2827,7 +2846,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:51:38.000Z",
       "durationSeconds": 526,
-      "viewCount": 5993,
+      "viewCount": 5994,
       "kind": "video"
     },
     {
@@ -2846,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 48685,
+      "viewCount": 48751,
       "kind": "video"
     },
     {
@@ -2865,7 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T17:00:10.000Z",
       "durationSeconds": 892,
-      "viewCount": 152128,
+      "viewCount": 153129,
       "kind": "video"
     },
     {
@@ -2884,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 241694,
+      "viewCount": 242990,
       "kind": "video"
     },
     {
@@ -2903,7 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24245,
+      "viewCount": 24271,
       "kind": "video"
     },
     {
@@ -2922,26 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 526786,
-      "kind": "video"
-    },
-    {
-      "id": "aIINT-FaO4w",
-      "videoId": "aIINT-FaO4w",
-      "title": "Chasing an Olympic Trials Qualifier in My First Marathon | Week of Workouts",
-      "url": "https://www.youtube.com/watch?v=aIINT-FaO4w",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-17T19:51:09.000Z",
-      "durationSeconds": 1268,
-      "viewCount": 113798,
+      "viewCount": 528015,
       "kind": "video"
     },
     {
@@ -2960,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163224,
+      "viewCount": 163241,
       "kind": "video"
     },
     {
@@ -2979,26 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 132364,
-      "kind": "video"
-    },
-    {
-      "id": "GXlg4dcWwks",
-      "videoId": "GXlg4dcWwks",
-      "title": "I tried a bigger Red Light Therapy Panel! ft. BestQool For Health, Vanity and Fitness!",
-      "url": "https://www.youtube.com/watch?v=GXlg4dcWwks",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Sage Canaday",
-        "slug": "sage-canaday",
-        "handle": "Vo2maxProductions",
-        "url": "https://www.youtube.com/@Vo2maxProductions",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-19T06:08:34.000Z",
-      "durationSeconds": 479,
-      "viewCount": 4607,
+      "viewCount": 132482,
       "kind": "video"
     },
     {
@@ -3017,26 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6444,
-      "kind": "video"
-    },
-    {
-      "id": "qxRQxIYAreM",
-      "videoId": "qxRQxIYAreM",
-      "title": "10 Essentials for Trail Running (in 2026)",
-      "url": "https://www.youtube.com/watch?v=qxRQxIYAreM",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Jeff Pelletier",
-        "slug": "jeff-pelletier",
-        "handle": "jeffpelletier",
-        "url": "https://www.youtube.com/@jeffpelletier",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-13T16:00:25.000Z",
-      "durationSeconds": 746,
-      "viewCount": 76206,
+      "viewCount": 6445,
       "kind": "video"
     },
     {
@@ -3055,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 73680,
+      "viewCount": 73726,
       "kind": "video"
     },
     {
@@ -3074,7 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44641,
+      "viewCount": 44652,
       "kind": "video"
     },
     {
@@ -3093,7 +3055,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8955,
+      "viewCount": 8957,
       "kind": "video"
     },
     {
@@ -3112,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 39700,
+      "viewCount": 39739,
       "kind": "video"
     },
     {
@@ -3131,7 +3093,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22675,
+      "viewCount": 22679,
       "kind": "video"
     },
     {
@@ -3150,7 +3112,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23793,
+      "viewCount": 23797,
       "kind": "video"
     },
     {
@@ -3207,7 +3169,26 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2173490,
+      "viewCount": 2176427,
+      "kind": "video"
+    },
+    {
+      "id": "qxRQxIYAreM",
+      "videoId": "qxRQxIYAreM",
+      "title": "10 Essentials for Trail Running (in 2026)",
+      "url": "https://www.youtube.com/watch?v=qxRQxIYAreM",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Jeff Pelletier",
+        "slug": "jeff-pelletier",
+        "handle": "jeffpelletier",
+        "url": "https://www.youtube.com/@jeffpelletier",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-13T16:00:25.000Z",
+      "durationSeconds": 746,
+      "viewCount": 76570,
       "kind": "video"
     },
     {
@@ -3226,7 +3207,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T13:00:27.000Z",
       "durationSeconds": 652,
-      "viewCount": 24007,
+      "viewCount": 24092,
       "kind": "video"
     },
     {
@@ -3264,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37071,
+      "viewCount": 37111,
       "kind": "video"
     },
     {
@@ -3283,7 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:10:30.000Z",
       "durationSeconds": 1134,
-      "viewCount": 111893,
+      "viewCount": 112260,
       "kind": "video"
     },
     {
@@ -3302,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68242,
+      "viewCount": 68265,
       "kind": "video"
     },
     {
@@ -3321,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2026-08-10T15:00:30.000Z",
       "durationSeconds": 1108,
-      "viewCount": 19888,
+      "viewCount": 19904,
       "kind": "video"
     },
     {
@@ -3340,7 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 189218,
+      "viewCount": 190043,
       "kind": "video"
     },
     {
@@ -3359,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93558,
+      "viewCount": 93589,
       "kind": "video"
     },
     {
@@ -3378,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8716,
+      "viewCount": 8724,
       "kind": "video"
     },
     {
@@ -3397,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60190,
+      "viewCount": 60215,
       "kind": "video"
     },
     {
@@ -3416,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47227,
+      "viewCount": 47240,
       "kind": "video"
     },
     {
@@ -3435,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 11183,
+      "viewCount": 11186,
       "kind": "video"
     },
     {
@@ -3454,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 41650,
+      "viewCount": 41786,
       "kind": "video"
     },
     {
@@ -3473,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23217,
+      "viewCount": 23220,
       "kind": "video"
     },
     {
@@ -3492,7 +3473,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 43216,
+      "viewCount": 43293,
       "kind": "video"
     },
     {
@@ -3549,7 +3530,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T21:51:47.000Z",
       "durationSeconds": 2410,
-      "viewCount": 40480,
+      "viewCount": 40650,
       "kind": "video"
     },
     {
@@ -3568,7 +3549,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6934,
+      "viewCount": 6937,
       "kind": "video"
     },
     {
@@ -3587,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35585,
+      "viewCount": 35614,
       "kind": "video"
     },
     {
@@ -3606,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T16:30:31.000Z",
       "durationSeconds": 587,
-      "viewCount": 168114,
+      "viewCount": 168635,
       "kind": "video"
     },
     {
@@ -3625,26 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37380,
-      "kind": "video"
-    },
-    {
-      "id": "BXhLrEiFVes",
-      "videoId": "BXhLrEiFVes",
-      "title": "New Partner, New Data: Getting Every Marker Tested Before My Next Marathon Block",
-      "url": "https://www.youtube.com/watch?v=BXhLrEiFVes",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-21T19:00:22.000Z",
-      "durationSeconds": 644,
-      "viewCount": 10493,
+      "viewCount": 37401,
       "kind": "video"
     },
     {
@@ -3663,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34288,
+      "viewCount": 34315,
       "kind": "video"
     },
     {
@@ -3682,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48050,
+      "viewCount": 48089,
       "kind": "video"
     },
     {
@@ -3701,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5980,
+      "viewCount": 5989,
       "kind": "video"
     },
     {
@@ -3720,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78178,
+      "viewCount": 78217,
       "kind": "video"
     },
     {
@@ -3739,7 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51283,
+      "viewCount": 51319,
       "kind": "video"
     },
     {
@@ -3758,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 27121,
+      "viewCount": 27185,
       "kind": "video"
     },
     {
@@ -3777,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24835,
+      "viewCount": 24839,
       "kind": "video"
     },
     {
@@ -3796,7 +3758,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 31636,
+      "viewCount": 31684,
       "kind": "video"
     },
     {
@@ -3815,7 +3777,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:12:22.000Z",
       "durationSeconds": 897,
-      "viewCount": 9271,
+      "viewCount": 9273,
       "kind": "video"
     },
     {
@@ -3853,7 +3815,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T11:36:31.000Z",
       "durationSeconds": 693,
-      "viewCount": 110094,
+      "viewCount": 110947,
       "kind": "video"
     },
     {
@@ -3872,7 +3834,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T15:04:10.000Z",
       "durationSeconds": 377,
-      "viewCount": 12326,
+      "viewCount": 12327,
       "kind": "video"
     },
     {
@@ -3891,7 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28552,
+      "viewCount": 28605,
       "kind": "video"
     },
     {
@@ -3910,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:00.000Z",
       "durationSeconds": 1162,
-      "viewCount": 349155,
+      "viewCount": 352940,
       "kind": "video"
     },
     {
@@ -3929,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62184,
+      "viewCount": 62200,
       "kind": "video"
     },
     {
@@ -3948,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 74970,
+      "viewCount": 75041,
       "kind": "video"
     },
     {
@@ -3967,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52509,
+      "viewCount": 52534,
       "kind": "video"
     },
     {
@@ -3986,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11556,
+      "viewCount": 11562,
       "kind": "video"
     },
     {
@@ -4005,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93485,
+      "viewCount": 93506,
       "kind": "video"
     },
     {
@@ -4024,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26674,
+      "viewCount": 26680,
       "kind": "video"
     },
     {
@@ -4043,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16580,
+      "viewCount": 16591,
       "kind": "video"
     },
     {
@@ -4062,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21881,
+      "viewCount": 21887,
       "kind": "video"
     },
     {
@@ -4081,7 +4043,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 41574,
+      "viewCount": 42585,
       "kind": "video"
     },
     {
@@ -4119,7 +4081,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T16:16:52.000Z",
       "durationSeconds": 776,
-      "viewCount": 23669,
+      "viewCount": 23690,
       "kind": "video"
     },
     {
@@ -4157,7 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-05-03T11:11:31.000Z",
       "durationSeconds": 2142,
-      "viewCount": 57407,
+      "viewCount": 57483,
       "kind": "video"
     },
     {
@@ -4176,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T16:54:40.000Z",
       "durationSeconds": 596,
-      "viewCount": 188179,
+      "viewCount": 189308,
       "kind": "video"
     },
     {
@@ -4195,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 157606,
+      "viewCount": 157777,
       "kind": "video"
     },
     {
@@ -4214,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 75980,
+      "viewCount": 76136,
       "kind": "video"
     },
     {
@@ -4233,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48498,
+      "viewCount": 48527,
       "kind": "video"
     },
     {
@@ -4271,7 +4233,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109301,
+      "viewCount": 109323,
       "kind": "video"
     },
     {
@@ -4290,7 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 32876,
+      "viewCount": 32901,
       "kind": "video"
     },
     {
@@ -4309,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 44241,
+      "viewCount": 44312,
       "kind": "video"
     },
     {
@@ -4328,7 +4290,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45453,
+      "viewCount": 45461,
       "kind": "video"
     },
     {
@@ -4347,7 +4309,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23714,
+      "viewCount": 23719,
       "kind": "video"
     },
     {
@@ -4366,7 +4328,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T21:55:10.000Z",
       "durationSeconds": 188,
-      "viewCount": 873,
+      "viewCount": 875,
       "kind": "video"
     },
     {
@@ -4385,7 +4347,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T12:00:08.000Z",
       "durationSeconds": 973,
-      "viewCount": 48623,
+      "viewCount": 48792,
       "kind": "video"
     },
     {
@@ -4404,7 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T23:18:02.000Z",
       "durationSeconds": 1047,
-      "viewCount": 3703,
+      "viewCount": 3704,
       "kind": "video"
     },
     {
@@ -4423,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T16:00:23.000Z",
       "durationSeconds": 857,
-      "viewCount": 489072,
+      "viewCount": 489918,
       "kind": "video"
     },
     {
@@ -4442,7 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42446,
+      "viewCount": 42496,
       "kind": "video"
     },
     {
@@ -4461,7 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57243,
+      "viewCount": 57279,
       "kind": "video"
     },
     {
@@ -4480,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T15:38:34.000Z",
       "durationSeconds": 882,
-      "viewCount": 6827,
+      "viewCount": 6829,
       "kind": "video"
     },
     {
@@ -4499,7 +4461,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60746,
+      "viewCount": 60749,
       "kind": "video"
     },
     {
@@ -4518,7 +4480,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32357,
+      "viewCount": 32383,
       "kind": "video"
     },
     {
@@ -4537,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14322,
+      "viewCount": 14348,
       "kind": "video"
     },
     {
@@ -4556,7 +4518,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 28003,
+      "viewCount": 28008,
       "kind": "video"
     },
     {
@@ -4575,7 +4537,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 32836,
+      "viewCount": 32866,
       "kind": "video"
     },
     {
@@ -4613,7 +4575,7 @@
       "athlete": null,
       "publishedAt": "2026-10-21T12:00:30.000Z",
       "durationSeconds": 1971,
-      "viewCount": 38326,
+      "viewCount": 38414,
       "kind": "video"
     },
     {
@@ -4632,7 +4594,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T13:15:51.000Z",
       "durationSeconds": 937,
-      "viewCount": 435374,
+      "viewCount": 436308,
       "kind": "video"
     },
     {
@@ -4651,7 +4613,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 66957,
+      "viewCount": 66967,
       "kind": "video"
     },
     {
@@ -4670,7 +4632,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T15:03:48.000Z",
       "durationSeconds": 1470,
-      "viewCount": 42088,
+      "viewCount": 42095,
       "kind": "video"
     },
     {
@@ -4689,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2026-02-18T16:33:28.000Z",
       "durationSeconds": 1037,
-      "viewCount": 15756,
+      "viewCount": 15768,
       "kind": "video"
     },
     {
@@ -4727,7 +4689,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T21:34:44.000Z",
       "durationSeconds": 289,
-      "viewCount": 10546,
+      "viewCount": 10548,
       "kind": "video"
     }
   ]
