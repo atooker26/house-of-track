@@ -823,3 +823,29 @@ body:has(.gate-page) { background: var(--navy-900); }
   .gate-form { flex-direction: column; }
   .gate-form .btn { width: 100%; justify-content: center; }
 }
+
+/* ============================================================
+   COACH SURVEY (/survey)
+   ============================================================ */
+.survey-wrap { max-width: 720px; }
+.survey-wrap h1 { font-family: var(--font-display); text-transform: uppercase; font-size: 56px; line-height: .96; margin: 16px 0 18px; }
+.survey-lede { font-family: var(--font-body); font-size: 17px; color: var(--fg-2); max-width: 52ch; margin: 0 0 28px; }
+.survey-h { font-family: var(--font-cond); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; font-size: var(--t-h3); line-height: 1.1; margin: 0 0 var(--s-3); }
+.survey-q { border: 0; padding: 0; margin: 0 0 28px; min-width: 0; }
+.survey-q legend { display: flex; gap: 12px; align-items: baseline; font-family: var(--font-cond); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; font-size: 18px; line-height: 1.2; color: var(--ink); margin-bottom: 12px; padding: 0; }
+.survey-num { flex: 0 0 auto; width: 26px; height: 26px; border-radius: 6px; background: var(--navy-700); color: var(--cream); display: inline-flex; align-items: center; justify-content: center; font-size: 14px; }
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choice { position: relative; cursor: pointer; font-family: var(--font-body); font-size: 15px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--fg); transition: border-color .15s, background .15s; }
+.choice input { position: absolute; opacity: 0; pointer-events: none; }
+.choice:hover { border-color: var(--indigo); }
+.choice:focus-within { box-shadow: 0 0 0 3px rgba(69,64,191,.2); }
+.choice.is-on { background: var(--indigo); border-color: var(--indigo); color: #fff; }
+.survey-about { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 4px; }
+.survey-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+.survey-optin { display: flex; gap: 10px; align-items: flex-start; font-family: var(--font-body); font-size: 14px; color: var(--fg-2); margin: 4px 0 22px; cursor: pointer; }
+.survey-optin input { margin-top: 3px; }
+@media (max-width: 640px) {
+  .survey-wrap h1 { font-size: 40px; }
+  .survey-grid { grid-template-columns: 1fr; }
+  .formcard { padding: 22px; }
+}
