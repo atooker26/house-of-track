@@ -46,3 +46,17 @@ export function initials(name: string): string {
     .join("")
     .slice(0, 2);
 }
+
+/** House of Track's social channels (YouTube is already in PLATFORMS). */
+export const SOCIALS = [
+  { id: "instagram", label: "Instagram", url: "https://www.instagram.com/houseoftrack.hot/" },
+  { id: "bluesky", label: "Bluesky", url: "https://bsky.app/profile/houseoftrack.bsky.social" },
+] as const;
+
+/** Join the Network: each choice is a TEGO contact tag, i.e. one of the three lists. */
+export const NETWORK_ROLES = [
+  { id: "creative", label: "I'm a Creative", sub: "Photo, film, design, writing" },
+  { id: "athlete", label: "I'm an Athlete", sub: "Any level, any event" },
+  { id: "fan", label: "I'm a Fan", sub: "Episodes, drops, news" },
+] as const;
+export type NetworkRole = (typeof NETWORK_ROLES)[number]["id"];

@@ -80,7 +80,7 @@ export async function sendEmail(input: {
 export async function upsertContact(
   input:
     // Opt-in signups: proof of consent is stamped here.
-    | { email: string; tags: string[]; consentSource: string }
+    | { email: string; tags: string[]; consentSource: string; firstName?: string; lastName?: string }
     // Anything else (survey responses): the caller supplies its own fields,
     // and consent only if the person actually gave it.
     | { email: string; tags: string[]; firstName?: string; lastName?: string; customFields: Record<string, string> },
@@ -90,15 +90,16 @@ export async function upsertContact(
     "consentSource" in input
       ? // Proof of opt-in for the list: where and when they asked to hear from us.
         { customFields: { consentSource: input.consentSource, consentAt: new Date().toISOString() } }
-      : {
-          customFields: input.customFields,
-          ...(input.firstName ? { firstName: input.firstName } : {}),
-          ...(input.lastName ? { lastName: input.lastName } : {}),
-        };
+      : { customFields: input.customFields };
+  const names = {
+    ...(input.firstName ? { firstName: input.firstName } : {}),
+    ...(input.lastName ? { lastName: input.lastName } : {}),
+  };
   await post("/api/v1/contacts", {
     email: input.email,
     tags: input.tags,
     ...fields,
+    ...names,
     ...(accountId ? { accountId } : {}),
   });
 }

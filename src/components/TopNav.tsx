@@ -16,10 +16,10 @@ export default function TopNav() {
   const theme = isLight ? "light" : "dark";
 
   const links = [
-    { href: "/", label: "The Show" },
-    { href: "/hub", label: "Hub" },
-    { href: "/episodes", label: "Episodes" },
-    { href: "/team", label: "Team" },
+    { href: "/", label: "Home" },
+    { href: "/episodes", label: "Podcast" },
+    { href: "/shop", label: "Shop" },
+    { href: "/about", label: "About" },
   ];
 
   return (
@@ -51,9 +51,9 @@ export default function TopNav() {
             {label}
           </Link>
         ))}
-        <Link href="/guest" className={`btn btn-${isLight ? "primary" : "cream"}`} onClick={() => setOpen(false)}>
-          <Icon name="mic" size={16} />
-          Be a Guest
+        <Link href="/#join" className={`btn btn-${isLight ? "primary" : "cream"}`} onClick={() => setOpen(false)}>
+          <Icon name="users" size={16} />
+          Join the Network
         </Link>
       </div>
     </nav>
