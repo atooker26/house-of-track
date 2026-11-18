@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { upsertContact } from "@/lib/shop/tego";
+import { recordSurveyLead, upsertContact } from "@/lib/shop/tego";
+import { COACH_ROLES, OTHER, PROGRAMS, SURVEY_QUESTIONS, SURVEY_SLUG, expectedCloseFor } from "@/lib/survey";
 
 const TEGO_WEBHOOK_URL = "https://www.tegomarketing.com/api/webhooks/house-of-track";
 const TEGO_WEBHOOK_SECRET = process.env.TEGO_WEBHOOK_SECRET ?? "";
@@ -13,6 +14,9 @@ const ALLOWED_FORM_TYPES = new Set([
   "profile-removal",
   // "Email me when it drops" on a product that isn't buyable yet (or sold out).
   "drop-notify",
+  // The coach uniform survey at /survey. Every response becomes a TEGO contact
+  // (that's the point: coaches as leads), marketing opt-in only if they ticked it.
+  "coach-survey",
 ]);
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -59,6 +63,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing drop" }, { status: 400 });
   }
 
+  const survey = formType === "coach-survey" ? readSurvey(body) : null;
+  if (formType === "coach-survey" && !survey) {
+    return NextResponse.json({ error: "Incomplete survey" }, { status: 400 });
+  }
+
   const res = await fetch(TEGO_WEBHOOK_URL, {
     method: "POST",
     headers: {
@@ -83,6 +92,8 @@ export async function POST(req: NextRequest) {
       profileName: body.profileName,
       message: body.message,
       dropSlug,
+      // coach survey: the answers and who gave them, flat so the Space submission reads cleanly
+      ...(survey ? { survey: SURVEY_SLUG, ...survey.fields } : {}),
     }),
     signal: AbortSignal.timeout(5000),
   });
@@ -94,11 +105,96 @@ export async function POST(req: NextRequest) {
 
   // Best-effort: the signup is already in TEGO's inbox above, so a failure here is
   // logged rather than shown to the person signing up.
-  const contact = contactFor(formType, dropSlug);
   const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+  if (survey) {
+    // Email contact first (answers as fields, opt-in), then the CRM lead on the
+    // "Coach uniforms" pipeline. Best-effort: the response is already in TEGO's
+    // Space submissions above, so a failure is logged, not shown to the coach.
+    await upsertContact(survey.contact).catch((err) => console.error("[join] TEGO survey contact failed:", err));
+    await recordSurveyLead(survey.lead).catch((err) => console.error("[join] TEGO survey lead failed:", err));
+    return NextResponse.json({ ok: true });
+  }
+
+  const contact = contactFor(formType, dropSlug);
   if (contact && EMAIL.test(email)) {
     await upsertContact({ email, ...contact }).catch((err) => console.error("[join] TEGO contact failed:", err));
   }
 
   return NextResponse.json({ ok: true });
+}
+
+const str = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max) : "");
+
+/**
+ * Validate a coach survey response. Answers must be one of the form's own options
+ * (so results group cleanly); name, email, school and state are required.
+ * Returns null when anything required is missing or off-list.
+ */
+function readSurvey(body: Record<string, unknown>) {
+  const answers: Record<string, string> = {};
+  for (const q of SURVEY_QUESTIONS) {
+    const a = str(body[q.key], 100);
+    const allowed = q.other ? [...q.options, OTHER] : q.options;
+    if (!allowed.includes(a)) return null;
+    answers[q.key] = a;
+  }
+  const limitingFactorOther = answers.limitingFactor === OTHER ? str(body.limitingFactorOther, 300) : "";
+
+  const name = str(body.name, 120);
+  const email = str(body.email, 200).toLowerCase();
+  const school = str(body.school, 160);
+  const state = str(body.state, 30);
+  if (!name || !EMAIL.test(email) || !school || !state) return null;
+
+  const coachRole = (COACH_ROLES as readonly string[]).includes(str(body.coachRole, 40)) ? str(body.coachRole, 40) : "";
+  const program = (PROGRAMS as readonly string[]).includes(str(body.program, 40)) ? str(body.program, 40) : "";
+  const optIn = body.optIn === true;
+
+  const [firstName, ...rest] = name.split(/\s+/);
+  const submittedAt = new Date().toISOString();
+
+  // Custom-field keys are prefixed so a later survey can't collide with this one.
+  const answerFields = {
+    uniformLastPurchase: answers.lastPurchase,
+    uniformLimitingFactor: answers.limitingFactor,
+    ...(limitingFactorOther ? { uniformLimitingFactorOther: limitingFactorOther } : {}),
+    uniformNextOrder: answers.nextOrder,
+  };
+  const about = {
+    school,
+    state,
+    ...(coachRole ? { coachRole } : {}),
+    ...(program ? { program } : {}),
+  };
+
+  const notes = [
+    `Coach uniform survey, ${submittedAt.slice(0, 10)}`,
+    `Last bought uniforms: ${answers.lastPurchase}`,
+    `Biggest limiting factor: ${answers.limitingFactor}${limitingFactorOther ? ` (${limitingFactorOther})` : ""}`,
+    `Next order: ${answers.nextOrder}`,
+    [coachRole, program].filter(Boolean).join(", "),
+    optIn ? "Opted in to House of Track email." : "Did not opt in to marketing email.",
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+  const tags = ["coach", "coach-survey", `survey:${SURVEY_SLUG}`];
+
+  return {
+    fields: { name, email, ...about, ...answerFields, optIn },
+    lead: { email, name, school, state, coachRole, tags, expectedCloseAt: expectedCloseFor(answers.nextOrder), notes },
+    contact: {
+      email,
+      firstName,
+      lastName: rest.join(" ") || undefined,
+      tags: [...tags, ...(optIn ? ["newsletter"] : [])],
+      customFields: {
+        ...about,
+        ...answerFields,
+        surveySubmittedAt: submittedAt,
+        // Proof of opt-in, same shape as the newsletter form — only when they ticked it.
+        ...(optIn ? { consentSource: "houseoftrack.media coach survey opt-in", consentAt: submittedAt } : {}),
+      },
+    },
+  };
 }
