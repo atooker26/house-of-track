@@ -17,7 +17,11 @@ const ALLOWED_FORM_TYPES = new Set([
   // The coach uniform survey at /survey. Every response becomes a TEGO contact
   // (that's the point: coaches as leads), marketing opt-in only if they ticked it.
   "coach-survey",
+  // Homepage "Join the Network": any of creative / athlete / fan, each a TEGO list (tag).
+  "network-join",
 ]);
+
+const NETWORK_ROLE_IDS = new Set(["creative", "athlete", "fan"]);
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -27,7 +31,14 @@ const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
  * contact. The join forms (creative/athlete) don't: signing up for the roster isn't
  * asking for marketing email.
  */
-function contactFor(formType: string, dropSlug: string | null): { tags: string[]; consentSource: string } | null {
+function contactFor(
+  formType: string,
+  dropSlug: string | null,
+  roles: string[],
+): { tags: string[]; consentSource: string } | null {
+  if (formType === "network-join" && roles.length > 0) {
+    return { tags: ["network", ...roles], consentSource: `houseoftrack.media join the network: ${roles.join(", ")}` };
+  }
   if (formType === "newsletter") return { tags: ["newsletter"], consentSource: "houseoftrack.media newsletter signup" };
   if (formType === "drop-notify" && dropSlug) {
     return { tags: ["shop-notify", `drop:${dropSlug}`], consentSource: `houseoftrack.media notify me: ${dropSlug}` };
@@ -63,6 +74,13 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing drop" }, { status: 400 });
   }
 
+  const roles = Array.isArray(body.roles)
+    ? [...new Set(body.roles.filter((r): r is string => typeof r === "string" && NETWORK_ROLE_IDS.has(r)))]
+    : [];
+  if (formType === "network-join" && roles.length === 0) {
+    return NextResponse.json({ error: "Pick at least one" }, { status: 400 });
+  }
+
   const survey = formType === "coach-survey" ? readSurvey(body) : null;
   if (formType === "coach-survey" && !survey) {
     return NextResponse.json({ error: "Incomplete survey" }, { status: 400 });
@@ -92,6 +110,7 @@ export async function POST(req: NextRequest) {
       profileName: body.profileName,
       message: body.message,
       dropSlug,
+      ...(formType === "network-join" ? { roles: roles.join(", ") } : {}),
       // coach survey: the answers and who gave them, flat so the Space submission reads cleanly
       ...(survey ? { survey: SURVEY_SLUG, ...survey.fields } : {}),
     }),
@@ -115,9 +134,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true });
   }
 
-  const contact = contactFor(formType, dropSlug);
+  const contact = contactFor(formType, dropSlug, roles);
   if (contact && EMAIL.test(email)) {
-    await upsertContact({ email, ...contact }).catch((err) => console.error("[join] TEGO contact failed:", err));
+    const [firstName, ...rest] = (typeof body.name === "string" ? body.name.trim().slice(0, 120) : "").split(/\s+/);
+    await upsertContact({ email, ...contact, firstName: firstName || undefined, lastName: rest.join(" ") || undefined }).catch((err) => console.error("[join] TEGO contact failed:", err));
   }
 
   return NextResponse.json({ ok: true });

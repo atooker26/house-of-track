@@ -4,7 +4,11 @@ const nextConfig: NextConfig = {
   // Links to the old site still point at /home. Permanent, so search engines
   // move the old URL's standing onto the real home page.
   async redirects() {
-    return [{ source: "/home", destination: "/", permanent: true }];
+    return [
+      { source: "/home", destination: "/", permanent: true },
+      // The team page became About (11/18, four-page site).
+      { source: "/team", destination: "/about", permanent: true },
+    ];
   },
   images: {
     remotePatterns: [

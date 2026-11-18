@@ -14,9 +14,10 @@ export default function Footer() {
         </div>
         <div>
           <h5>Explore</h5>
-          <Link href="/">The Show</Link>
-          <Link href="/episodes">Episodes</Link>
-          <Link href="/team">Team</Link>
+          <Link href="/">Home</Link>
+          <Link href="/episodes">Podcast</Link>
+          <Link href="/shop">Shop</Link>
+          <Link href="/about">About</Link>
           <Link href="/guest">Be a Guest</Link>
         </div>
         <div>

@@ -3,11 +3,11 @@ import Link from "next/link";
 import Icon from "@/components/Icon";
 
 export const metadata = {
-  title: "Team — House of Track",
+  title: "About — House of Track",
   description: "The people behind House of Track.",
 };
 
-export default function TeamPage() {
+export default function AboutPage() {
   return (
     <div>
       <section className="team-hero grain">
