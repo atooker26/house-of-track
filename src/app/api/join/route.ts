@@ -170,6 +170,7 @@ function readSurvey(body: Record<string, unknown>) {
     }
   }
   const limitingFactorOther = picks.limitingFactor?.includes(OTHER) ? str(body.limitingFactorOther, 300) : "";
+  const comments = str(body.comments, 2000);
 
   const name = str(body.name, 120);
   const email = str(body.email, 200).toLowerCase();
@@ -190,6 +191,7 @@ function readSurvey(body: Record<string, unknown>) {
     uniformLimitingFactor: answers.limitingFactor,
     ...(limitingFactorOther ? { uniformLimitingFactorOther: limitingFactorOther } : {}),
     uniformNextOrder: answers.nextOrder,
+    ...(comments ? { uniformComments: comments } : {}),
   };
   const about = {
     school,
@@ -203,6 +205,7 @@ function readSurvey(body: Record<string, unknown>) {
     `Last bought uniforms: ${answers.lastPurchase}`,
     `Holding them back: ${answers.limitingFactor}${limitingFactorOther ? ` (${limitingFactorOther})` : ""}`,
     `Next order: ${answers.nextOrder}`,
+    comments ? `Comments: ${comments}` : "",
     [coachRole, program].filter(Boolean).join(", "),
     optIn ? "Open to being contacted about team kit offers." : "Did not opt in to future contact.",
   ]

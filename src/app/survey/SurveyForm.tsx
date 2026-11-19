@@ -45,6 +45,7 @@ export default function SurveyForm() {
           formType: "coach-survey",
           ...answers,
           limitingFactorOther: has(answers.limitingFactor, OTHER) ? val("limitingFactorOther") : "",
+          comments: val("comments"),
           name: val("name"),
           email: val("email"),
           school: val("school"),
@@ -113,6 +114,13 @@ export default function SurveyForm() {
             )}
           </fieldset>
         ))}
+
+        <div className="field" style={{ marginBottom: 28 }}>
+          <label htmlFor="comments">
+            Additional comments or frustrations with this process <span className="survey-hint">Completely optional</span>
+          </label>
+          <textarea id="comments" name="comments" rows={4} maxLength={2000} placeholder="Anything else we should know?" />
+        </div>
 
         <div className="survey-about">
           <p className="eyebrow" style={{ margin: "0 0 14px" }}>About you</p>
