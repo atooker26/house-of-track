@@ -16,6 +16,8 @@ export type SurveyQuestion = {
   options: readonly string[];
   /** Offer a free-text "Other". */
   other?: boolean;
+  /** Pick any that apply (stored joined with "; " and as one tag per pick). */
+  multi?: boolean;
 };
 
 export const SURVEY_QUESTIONS: readonly SurveyQuestion[] = [
@@ -26,7 +28,7 @@ export const SURVEY_QUESTIONS: readonly SurveyQuestion[] = [
   },
   {
     key: "limitingFactor",
-    label: "What's the biggest thing holding you back from buying new uniforms?",
+    label: "What holds you back from buying new uniforms?",
     options: [
       "Budget / cost",
       "Minimum order sizes",
@@ -37,6 +39,7 @@ export const SURVEY_QUESTIONS: readonly SurveyQuestion[] = [
       "Current uniforms still work",
     ],
     other: true,
+    multi: true,
   },
   {
     key: "nextOrder",
@@ -49,6 +52,13 @@ export const COACH_ROLES = ["Head coach", "Assistant coach", "Athletic director"
 export const PROGRAMS = ["Track & field", "Cross country", "Both"] as const;
 
 export const OTHER = "Other";
+
+export const OPT_IN_LABEL = "I'd be interested in being contacted in the future for team kit offers.";
+
+/** "Budget / cost" → "budget-cost", for one TEGO tag per limiting factor. */
+export function answerSlug(answer: string): string {
+  return answer.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
 
 /** "When's your next order?" as a rough expected close date for the CRM deal. */
 export function expectedCloseFor(nextOrder: string, now = new Date()): Date | null {

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { recordSurveyLead, upsertContact } from "@/lib/shop/tego";
-import { COACH_ROLES, OTHER, PROGRAMS, SURVEY_QUESTIONS, SURVEY_SLUG, expectedCloseFor } from "@/lib/survey";
+import { COACH_ROLES, OPT_IN_LABEL, OTHER, PROGRAMS, SURVEY_QUESTIONS, SURVEY_SLUG, answerSlug, expectedCloseFor } from "@/lib/survey";
 
 const TEGO_WEBHOOK_URL = "https://www.tegomarketing.com/api/webhooks/house-of-track";
 const TEGO_WEBHOOK_SECRET = process.env.TEGO_WEBHOOK_SECRET ?? "";
@@ -151,14 +151,25 @@ const str = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice
  * Returns null when anything required is missing or off-list.
  */
 function readSurvey(body: Record<string, unknown>) {
+  // Single-choice answers as one string; pick-any answers as a de-duplicated list.
   const answers: Record<string, string> = {};
+  const picks: Record<string, string[]> = {};
   for (const q of SURVEY_QUESTIONS) {
-    const a = str(body[q.key], 100);
-    const allowed = q.other ? [...q.options, OTHER] : q.options;
-    if (!allowed.includes(a)) return null;
-    answers[q.key] = a;
+    const allowed: readonly string[] = q.other ? [...q.options, OTHER] : q.options;
+    if (q.multi) {
+      const raw = Array.isArray(body[q.key]) ? (body[q.key] as unknown[]) : [];
+      const list = [...new Set(raw.map((v) => str(v, 100)))];
+      if (list.length === 0 || list.some((a) => !allowed.includes(a))) return null;
+      // Keep the form's own order so "A; B" and "B; A" read the same.
+      picks[q.key] = allowed.filter((o) => list.includes(o));
+      answers[q.key] = picks[q.key].join("; ");
+    } else {
+      const a = str(body[q.key], 100);
+      if (!allowed.includes(a)) return null;
+      answers[q.key] = a;
+    }
   }
-  const limitingFactorOther = answers.limitingFactor === OTHER ? str(body.limitingFactorOther, 300) : "";
+  const limitingFactorOther = picks.limitingFactor?.includes(OTHER) ? str(body.limitingFactorOther, 300) : "";
 
   const name = str(body.name, 120);
   const email = str(body.email, 200).toLowerCase();
@@ -190,15 +201,21 @@ function readSurvey(body: Record<string, unknown>) {
   const notes = [
     `Coach uniform survey, ${submittedAt.slice(0, 10)}`,
     `Last bought uniforms: ${answers.lastPurchase}`,
-    `Biggest limiting factor: ${answers.limitingFactor}${limitingFactorOther ? ` (${limitingFactorOther})` : ""}`,
+    `Holding them back: ${answers.limitingFactor}${limitingFactorOther ? ` (${limitingFactorOther})` : ""}`,
     `Next order: ${answers.nextOrder}`,
     [coachRole, program].filter(Boolean).join(", "),
-    optIn ? "Opted in to House of Track email." : "Did not opt in to marketing email.",
+    optIn ? "Open to being contacted about team kit offers." : "Did not opt in to future contact.",
   ]
     .filter(Boolean)
     .join("\n");
 
-  const tags = ["coach", "coach-survey", `survey:${SURVEY_SLUG}`];
+  // One tag per limiting factor (limit:budget-cost …), so TEGO can count each reason.
+  const tags = [
+    "coach",
+    "coach-survey",
+    `survey:${SURVEY_SLUG}`,
+    ...(picks.limitingFactor ?? []).map((a) => `limit:${answerSlug(a)}`),
+  ];
 
   return {
     fields: { name, email, ...about, ...answerFields, optIn },
@@ -207,13 +224,14 @@ function readSurvey(body: Record<string, unknown>) {
       email,
       firstName,
       lastName: rest.join(" ") || undefined,
-      tags: [...tags, ...(optIn ? ["newsletter"] : [])],
+      // Opt-in is specific to team kit offers (David R, 11/18), not the newsletter.
+      tags: [...tags, ...(optIn ? ["team-kit-offers"] : [])],
       customFields: {
         ...about,
         ...answerFields,
         surveySubmittedAt: submittedAt,
         // Proof of opt-in, same shape as the newsletter form — only when they ticked it.
-        ...(optIn ? { consentSource: "houseoftrack.media coach survey opt-in", consentAt: submittedAt } : {}),
+        ...(optIn ? { consentSource: `houseoftrack.media coach survey: ${OPT_IN_LABEL}`, consentAt: submittedAt } : {}),
       },
     },
   };

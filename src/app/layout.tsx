@@ -55,12 +55,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(podcastJsonLd) }}
         />
-        <HideOnAdmin>
+        <HideOnAdmin standalone>
           <TopNav />
         </HideOnAdmin>
         <main>{children}</main>
-        <HideOnAdmin>
+        <HideOnAdmin standalone>
           <Footer />
+        </HideOnAdmin>
+        <HideOnAdmin>
           {/* No analytics pixel on the admin console. */}
           <Script
             src="https://www.tegomarketing.com/tego.js"

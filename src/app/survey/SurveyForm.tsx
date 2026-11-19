@@ -2,9 +2,13 @@
 
 import { useState } from "react";
 import Icon from "@/components/Icon";
-import { COACH_ROLES, OTHER, PROGRAMS, SURVEY_QUESTIONS } from "@/lib/survey";
+import { COACH_ROLES, OPT_IN_LABEL, OTHER, PROGRAMS, SURVEY_QUESTIONS } from "@/lib/survey";
 
-type Answers = Record<string, string>;
+/** One answer for single-choice questions, a list for pick-any ones. */
+type Answers = Record<string, string | string[]>;
+
+const has = (a: string | string[] | undefined, opt: string) => (Array.isArray(a) ? a.includes(opt) : a === opt);
+const answered = (a: string | string[] | undefined) => (Array.isArray(a) ? a.length > 0 : Boolean(a));
 
 export default function SurveyForm() {
   const [answers, setAnswers] = useState<Answers>({});
@@ -12,15 +16,19 @@ export default function SurveyForm() {
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
-  function pick(key: string, value: string) {
-    setAnswers((a) => ({ ...a, [key]: value }));
+  function pick(key: string, value: string, multi: boolean) {
+    setAnswers((a) => {
+      if (!multi) return { ...a, [key]: value };
+      const cur = Array.isArray(a[key]) ? (a[key] as string[]) : [];
+      return { ...a, [key]: cur.includes(value) ? cur.filter((v) => v !== value) : [...cur, value] };
+    });
   }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError("");
 
-    const missing = SURVEY_QUESTIONS.find((q) => !answers[q.key]);
+    const missing = SURVEY_QUESTIONS.find((q) => !answered(answers[q.key]));
     if (missing) {
       setError(`Pick an answer for: ${missing.label}`);
       return;
@@ -36,7 +44,7 @@ export default function SurveyForm() {
         body: JSON.stringify({
           formType: "coach-survey",
           ...answers,
-          limitingFactorOther: answers.limitingFactor === OTHER ? val("limitingFactorOther") : "",
+          limitingFactorOther: has(answers.limitingFactor, OTHER) ? val("limitingFactorOther") : "",
           name: val("name"),
           email: val("email"),
           school: val("school"),
@@ -78,23 +86,26 @@ export default function SurveyForm() {
           <fieldset key={q.key} className="survey-q">
             <legend>
               <span className="survey-num">{i + 1}</span>
-              {q.label}
+              <span>
+                {q.label}
+                {q.multi ? <span className="survey-hint">Pick any that apply</span> : null}
+              </span>
             </legend>
-            <div className="choices" role="radiogroup">
+            <div className="choices" role={q.multi ? "group" : "radiogroup"}>
               {[...q.options, ...(q.other ? [OTHER] : [])].map((opt) => (
-                <label key={opt} className={`choice${answers[q.key] === opt ? " is-on" : ""}`}>
+                <label key={opt} className={`choice${has(answers[q.key], opt) ? " is-on" : ""}`}>
                   <input
-                    type="radio"
+                    type={q.multi ? "checkbox" : "radio"}
                     name={q.key}
                     value={opt}
-                    checked={answers[q.key] === opt}
-                    onChange={() => pick(q.key, opt)}
+                    checked={has(answers[q.key], opt)}
+                    onChange={() => pick(q.key, opt, Boolean(q.multi))}
                   />
                   {opt}
                 </label>
               ))}
             </div>
-            {q.other && answers[q.key] === OTHER && (
+            {q.other && has(answers[q.key], OTHER) && (
               <div className="field" style={{ marginTop: 12, marginBottom: 0 }}>
                 <label htmlFor={`${q.key}Other`}>Tell us more</label>
                 <input id={`${q.key}Other`} name={`${q.key}Other`} maxLength={300} placeholder="What gets in the way?" />
@@ -143,7 +154,7 @@ export default function SurveyForm() {
           </div>
           <label className="survey-optin">
             <input name="optIn" type="checkbox" />
-            Send me House of Track news, including team kit offers.
+            {OPT_IN_LABEL}
           </label>
         </div>
 

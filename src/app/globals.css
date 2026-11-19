@@ -909,3 +909,4 @@ body:has(.gate-page) { background: var(--navy-900); }
   .connect-primary { grid-column: span 1; }
   .connect-grid { grid-template-columns: 1fr 1fr; }
 }
+.survey-hint { display: block; font-family: var(--font-body); font-weight: 400; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--fg-2); margin-top: 4px; }
