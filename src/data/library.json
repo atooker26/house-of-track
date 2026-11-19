@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:26:19.648Z",
+  "generatedAt": "2026-11-19T15:31:59.336Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -111,8 +111,8 @@
       "url": "https://www.youtube.com/@kofuzi",
       "description": "non elite runner who reviews shoes\n",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_m3XwPwWSYZpWcrJ7xUZi4hj33WfMTkwsL4rDZL0C-MwQ=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 243000,
-      "videoCount": 3501,
+      "subscriberCount": 244000,
+      "videoCount": 3502,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -125,7 +125,7 @@
       "url": "https://www.youtube.com/@philybowden",
       "description": "I'm making videos about my journey as a professional marathon runner, with my partner in crime and partner in life, otherwise known as @DanielMoves\n\nI keep it 100% real on here, what you see is what you get, and I'm here to take you on the ride wherever it takes me: highs, lows and parts not mentionable at the dinner table all included.\n\n@lululemon Athlete\n\nLOVE THE GRIND!\n",
       "avatar": "https://yt3.ggpht.com/2DbXzcidcP1Edmz9hxFCSN8eXOwI51hSYMrY31i-RErhXKqOTASWMOIijVEsRgpJhIO8VMWA=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 229000,
+      "subscriberCount": 230000,
       "videoCount": 409,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -307,7 +307,7 @@
       "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
       "description": "Mile World Record Holder\nWorld Champion & Olympic Medalist",
       "avatar": "https://yt3.ggpht.com/k0VaGSjJwQfANf-bwiWh386WDHqjgrZZ0kM91wVaJTFQJrC9FCUyQIlaB4AQdKmbfd6UYfIc0A=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 32900,
+      "subscriberCount": 33000,
       "videoCount": 154,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -335,7 +335,7 @@
       "url": "https://www.youtube.com/@LinkletterRory",
       "description": "2024 Canadian Olympian, Husband, Father, Believer, and Marathoner for Puma 🐾🇨🇦\nDocumenting the process and my story of being a professional runner. \n\n\nhttps://www.letstango.run\n\n",
       "avatar": "https://yt3.ggpht.com/EgVeUSQtdU4ScAIpImLeChSkBSyP5Avcib6p7lzYjSjsyid3PqGzBSYD90bs-TqTitbQ3I3cwLQ=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 19400,
+      "subscriberCount": 19500,
       "videoCount": 137,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -399,6 +399,25 @@
   ],
   "items": [
     {
+      "id": "qliKlXe7wE4",
+      "videoId": "qliKlXe7wE4",
+      "title": "my first race on norwegian singles method - NSM W3",
+      "url": "https://www.youtube.com/watch?v=qliKlXe7wE4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-18T15:49:47.000Z",
+      "durationSeconds": 1388,
+      "viewCount": 20813,
+      "kind": "video"
+    },
+    {
       "id": "8uffvDP8jGQ",
       "videoId": "8uffvDP8jGQ",
       "title": "We Ran the Most Beautiful Marathon in the World (Jungfrau)",
@@ -414,26 +433,7 @@
       "athlete": null,
       "publishedAt": "2026-11-17T18:16:33.000Z",
       "durationSeconds": 1903,
-      "viewCount": 46172,
-      "kind": "video"
-    },
-    {
-      "id": "6Z5Jo1D-pGI",
-      "videoId": "6Z5Jo1D-pGI",
-      "title": "adidas adios pro evo 3",
-      "url": "https://www.youtube.com/watch?v=6Z5Jo1D-pGI",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-16T16:53:37.000Z",
-      "durationSeconds": 1113,
-      "viewCount": 58437,
+      "viewCount": 90758,
       "kind": "video"
     },
     {
@@ -452,7 +452,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 2237,
+      "viewCount": 2370,
       "kind": "video"
     },
     {
@@ -471,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 41280,
+      "viewCount": 46967,
       "kind": "video"
     },
     {
@@ -490,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T17:00:04.000Z",
       "durationSeconds": 924,
-      "viewCount": 128820,
+      "viewCount": 138973,
       "kind": "video"
     },
     {
@@ -509,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T16:00:20.000Z",
       "durationSeconds": 1205,
-      "viewCount": 40409,
+      "viewCount": 42847,
       "kind": "video"
     },
     {
@@ -528,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T14:00:29.000Z",
       "durationSeconds": 952,
-      "viewCount": 32868,
+      "viewCount": 36397,
       "kind": "video"
     },
     {
@@ -547,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 18347,
+      "viewCount": 20188,
       "kind": "video"
     },
     {
@@ -566,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 104285,
+      "viewCount": 108617,
       "kind": "video"
     },
     {
@@ -585,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 75316,
+      "viewCount": 78515,
       "kind": "video"
     },
     {
@@ -604,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 307467,
+      "viewCount": 315732,
       "kind": "video"
     },
     {
@@ -623,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 31999,
+      "viewCount": 32805,
       "kind": "video"
     },
     {
@@ -642,7 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 396678,
+      "viewCount": 415656,
       "kind": "video"
     },
     {
@@ -661,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 3111,
+      "viewCount": 3142,
       "kind": "video"
     },
     {
@@ -680,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9068,
+      "viewCount": 9130,
       "kind": "video"
     },
     {
@@ -699,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 60555,
+      "viewCount": 60695,
       "kind": "video"
     },
     {
@@ -718,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 65609,
+      "viewCount": 65764,
       "kind": "video"
     },
     {
@@ -737,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33520,
+      "viewCount": 33556,
       "kind": "video"
     },
     {
@@ -756,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 499939,
+      "viewCount": 502097,
       "kind": "video"
     },
     {
@@ -775,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T19:51:21.000Z",
       "durationSeconds": 866,
-      "viewCount": 30526,
+      "viewCount": 30592,
       "kind": "video"
     },
     {
@@ -794,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 183968,
+      "viewCount": 184929,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 25848,
+      "viewCount": 25924,
       "kind": "video"
     },
     {
@@ -832,7 +832,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3493,
+      "viewCount": 3494,
       "kind": "video"
     },
     {
@@ -851,7 +851,7 @@
       "athlete": null,
       "publishedAt": "2026-05-03T14:01:03.000Z",
       "durationSeconds": 3650,
-      "viewCount": 19,
+      "viewCount": 20,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20259,
+      "viewCount": 20266,
       "kind": "video"
     },
     {
@@ -889,7 +889,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 124615,
+      "viewCount": 124750,
       "kind": "video"
     },
     {
@@ -908,7 +908,26 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 713669,
+      "viewCount": 714657,
+      "kind": "video"
+    },
+    {
+      "id": "6Z5Jo1D-pGI",
+      "videoId": "6Z5Jo1D-pGI",
+      "title": "adidas adios pro evo 3",
+      "url": "https://www.youtube.com/watch?v=6Z5Jo1D-pGI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-16T16:53:37.000Z",
+      "durationSeconds": 1113,
+      "viewCount": 62689,
       "kind": "video"
     },
     {
@@ -927,26 +946,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 97554,
-      "kind": "video"
-    },
-    {
-      "id": "ELpwRqMOd-M",
-      "videoId": "ELpwRqMOd-M",
-      "title": "Is Norwegian Singles Method Boring - NSM Week 2",
-      "url": "https://www.youtube.com/watch?v=ELpwRqMOd-M",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-14T12:00:09.000Z",
-      "durationSeconds": 1293,
-      "viewCount": 29265,
+      "viewCount": 98469,
       "kind": "video"
     },
     {
@@ -965,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7166,
+      "viewCount": 7172,
       "kind": "video"
     },
     {
@@ -984,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 36958,
+      "viewCount": 37614,
       "kind": "video"
     },
     {
@@ -1003,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:00:07.000Z",
       "durationSeconds": 605,
-      "viewCount": 567189,
+      "viewCount": 603289,
       "kind": "video"
     },
     {
@@ -1022,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 67840,
+      "viewCount": 68343,
       "kind": "video"
     },
     {
@@ -1041,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 36466,
+      "viewCount": 36836,
       "kind": "video"
     },
     {
@@ -1060,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 91743,
+      "viewCount": 91964,
       "kind": "video"
     },
     {
@@ -1079,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 129296,
+      "viewCount": 130130,
       "kind": "video"
     },
     {
@@ -1098,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 127844,
+      "viewCount": 128173,
       "kind": "video"
     },
     {
@@ -1117,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 184705,
+      "viewCount": 184832,
       "kind": "video"
     },
     {
@@ -1136,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21185,
+      "viewCount": 21238,
       "kind": "video"
     },
     {
@@ -1155,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 98871,
+      "viewCount": 99369,
       "kind": "video"
     },
     {
@@ -1174,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15443,
+      "viewCount": 15482,
       "kind": "video"
     },
     {
@@ -1193,7 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 11979,
+      "viewCount": 12027,
       "kind": "video"
     },
     {
@@ -1212,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73054,
+      "viewCount": 73127,
       "kind": "video"
     },
     {
@@ -1231,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 324005,
+      "viewCount": 325381,
       "kind": "video"
     },
     {
@@ -1250,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21206,
+      "viewCount": 21213,
       "kind": "video"
     },
     {
@@ -1269,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37584,
+      "viewCount": 37642,
       "kind": "video"
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22618,
+      "viewCount": 22640,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46106,
+      "viewCount": 46128,
       "kind": "video"
     },
     {
@@ -1326,7 +1326,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 11008,
+      "viewCount": 11011,
       "kind": "video"
     },
     {
@@ -1364,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47442,
+      "viewCount": 47464,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 123079,
+      "viewCount": 123223,
       "kind": "video"
     },
     {
@@ -1402,7 +1402,26 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 328466,
+      "viewCount": 328964,
+      "kind": "video"
+    },
+    {
+      "id": "ELpwRqMOd-M",
+      "videoId": "ELpwRqMOd-M",
+      "title": "Is Norwegian Singles Method Boring - NSM Week 2",
+      "url": "https://www.youtube.com/watch?v=ELpwRqMOd-M",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-14T12:00:09.000Z",
+      "durationSeconds": 1293,
+      "viewCount": 30357,
       "kind": "video"
     },
     {
@@ -1421,26 +1440,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 248664,
-      "kind": "video"
-    },
-    {
-      "id": "2tffR_bGyiU",
-      "videoId": "2tffR_bGyiU",
-      "title": "Puma Fast RB2",
-      "url": "https://www.youtube.com/watch?v=2tffR_bGyiU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-12T17:54:04.000Z",
-      "durationSeconds": 941,
-      "viewCount": 117528,
+      "viewCount": 250470,
       "kind": "video"
     },
     {
@@ -1459,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6204,
+      "viewCount": 6208,
       "kind": "video"
     },
     {
@@ -1478,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 66110,
+      "viewCount": 66294,
       "kind": "video"
     },
     {
@@ -1497,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T17:00:31.000Z",
       "durationSeconds": 1231,
-      "viewCount": 155513,
+      "viewCount": 158549,
       "kind": "video"
     },
     {
@@ -1516,7 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 67361,
+      "viewCount": 68185,
       "kind": "video"
     },
     {
@@ -1535,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 32599,
+      "viewCount": 32731,
       "kind": "video"
     },
     {
@@ -1554,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 85916,
+      "viewCount": 86105,
       "kind": "video"
     },
     {
@@ -1573,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T19:00:03.000Z",
       "durationSeconds": 882,
-      "viewCount": 102530,
+      "viewCount": 102869,
       "kind": "video"
     },
     {
@@ -1592,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 253792,
+      "viewCount": 254056,
       "kind": "video"
     },
     {
@@ -1611,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 150807,
+      "viewCount": 151027,
       "kind": "video"
     },
     {
@@ -1630,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 23888,
+      "viewCount": 23916,
       "kind": "video"
     },
     {
@@ -1649,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 185703,
+      "viewCount": 186831,
       "kind": "video"
     },
     {
@@ -1668,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 9970,
+      "viewCount": 9976,
       "kind": "video"
     },
     {
@@ -1687,7 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11710,
+      "viewCount": 11724,
       "kind": "video"
     },
     {
@@ -1706,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59035,
+      "viewCount": 59072,
       "kind": "video"
     },
     {
@@ -1725,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 72181,
+      "viewCount": 72282,
       "kind": "video"
     },
     {
@@ -1744,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46094,
+      "viewCount": 46165,
       "kind": "video"
     },
     {
@@ -1763,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 35820,
+      "viewCount": 35884,
       "kind": "video"
     },
     {
@@ -1782,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60426,
+      "viewCount": 60457,
       "kind": "video"
     },
     {
@@ -1801,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 41049,
+      "viewCount": 41072,
       "kind": "video"
     },
     {
@@ -1820,7 +1820,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5410,
+      "viewCount": 5411,
       "kind": "video"
     },
     {
@@ -1839,7 +1839,7 @@
       "athlete": null,
       "publishedAt": "2026-04-12T14:00:12.000Z",
       "durationSeconds": 3460,
-      "viewCount": 46,
+      "viewCount": 47,
       "kind": "video"
     },
     {
@@ -1858,7 +1858,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29039,
+      "viewCount": 29041,
       "kind": "video"
     },
     {
@@ -1877,7 +1877,26 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 261156,
+      "viewCount": 261469,
+      "kind": "video"
+    },
+    {
+      "id": "2tffR_bGyiU",
+      "videoId": "2tffR_bGyiU",
+      "title": "Puma Fast RB2",
+      "url": "https://www.youtube.com/watch?v=2tffR_bGyiU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-12T17:54:04.000Z",
+      "durationSeconds": 941,
+      "viewCount": 130528,
       "kind": "video"
     },
     {
@@ -1896,26 +1915,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 149183,
-      "kind": "video"
-    },
-    {
-      "id": "JZA0_uPxYYU",
-      "videoId": "JZA0_uPxYYU",
-      "title": "Norwegian Singles Method, Week 1",
-      "url": "https://www.youtube.com/watch?v=JZA0_uPxYYU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-10T13:08:11.000Z",
-      "durationSeconds": 1760,
-      "viewCount": 48219,
+      "viewCount": 149433,
       "kind": "video"
     },
     {
@@ -1953,7 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 43600,
+      "viewCount": 43671,
       "kind": "video"
     },
     {
@@ -1972,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T17:00:21.000Z",
       "durationSeconds": 792,
-      "viewCount": 205290,
+      "viewCount": 206283,
       "kind": "video"
     },
     {
@@ -1991,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 95970,
+      "viewCount": 96023,
       "kind": "video"
     },
     {
@@ -2010,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 43832,
+      "viewCount": 43934,
       "kind": "video"
     },
     {
@@ -2029,7 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 795887,
+      "viewCount": 798898,
       "kind": "video"
     },
     {
@@ -2048,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T18:00:06.000Z",
       "durationSeconds": 788,
-      "viewCount": 150576,
+      "viewCount": 150780,
       "kind": "video"
     },
     {
@@ -2067,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 116940,
+      "viewCount": 117022,
       "kind": "video"
     },
     {
@@ -2086,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 199991,
+      "viewCount": 200041,
       "kind": "video"
     },
     {
@@ -2105,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10762,
+      "viewCount": 10768,
       "kind": "video"
     },
     {
@@ -2124,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 249172,
+      "viewCount": 249476,
       "kind": "video"
     },
     {
@@ -2143,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15461,
+      "viewCount": 15468,
       "kind": "video"
     },
     {
@@ -2162,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15431,
+      "viewCount": 15438,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91223,
+      "viewCount": 91270,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 45910,
+      "viewCount": 45937,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26140,
+      "viewCount": 26210,
       "kind": "video"
     },
     {
@@ -2238,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 30941,
+      "viewCount": 31065,
       "kind": "video"
     },
     {
@@ -2257,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14769,
+      "viewCount": 14772,
       "kind": "video"
     },
     {
@@ -2276,7 +2276,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 43869,
+      "viewCount": 43885,
       "kind": "video"
     },
     {
@@ -2352,7 +2352,26 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 119890,
+      "viewCount": 119952,
+      "kind": "video"
+    },
+    {
+      "id": "JZA0_uPxYYU",
+      "videoId": "JZA0_uPxYYU",
+      "title": "Norwegian Singles Method, Week 1",
+      "url": "https://www.youtube.com/watch?v=JZA0_uPxYYU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-10T13:08:11.000Z",
+      "durationSeconds": 1760,
+      "viewCount": 49046,
       "kind": "video"
     },
     {
@@ -2371,26 +2390,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 19415,
-      "kind": "video"
-    },
-    {
-      "id": "j6QjJogSyrw",
-      "videoId": "j6QjJogSyrw",
-      "title": "Diadora Corsa",
-      "url": "https://www.youtube.com/watch?v=j6QjJogSyrw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-06T12:30:34.000Z",
-      "durationSeconds": 848,
-      "viewCount": 20477,
+      "viewCount": 19648,
       "kind": "video"
     },
     {
@@ -2409,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6912,
+      "viewCount": 6919,
       "kind": "video"
     },
     {
@@ -2428,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 77981,
+      "viewCount": 78069,
       "kind": "video"
     },
     {
@@ -2447,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T17:00:22.000Z",
       "durationSeconds": 891,
-      "viewCount": 157814,
+      "viewCount": 158287,
       "kind": "video"
     },
     {
@@ -2466,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 74613,
+      "viewCount": 74885,
       "kind": "video"
     },
     {
@@ -2485,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 28960,
+      "viewCount": 28980,
       "kind": "video"
     },
     {
@@ -2504,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 113653,
+      "viewCount": 113763,
       "kind": "video"
     },
     {
@@ -2523,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T18:00:23.000Z",
       "durationSeconds": 954,
-      "viewCount": 128884,
+      "viewCount": 128984,
       "kind": "video"
     },
     {
@@ -2542,7 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 102658,
+      "viewCount": 102726,
       "kind": "video"
     },
     {
@@ -2561,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 135383,
+      "viewCount": 135526,
       "kind": "video"
     },
     {
@@ -2580,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12291,
+      "viewCount": 12302,
       "kind": "video"
     },
     {
@@ -2618,7 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8830,
+      "viewCount": 8831,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 65989,
+      "viewCount": 66028,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34760,
+      "viewCount": 34775,
       "kind": "video"
     },
     {
@@ -2675,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7884,
+      "viewCount": 7889,
       "kind": "video"
     },
     {
@@ -2694,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 29989,
+      "viewCount": 30037,
       "kind": "video"
     },
     {
@@ -2713,7 +2713,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27673,
+      "viewCount": 27680,
       "kind": "video"
     },
     {
@@ -2732,7 +2732,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34677,
+      "viewCount": 34693,
       "kind": "video"
     },
     {
@@ -2789,7 +2789,26 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 303914,
+      "viewCount": 304217,
+      "kind": "video"
+    },
+    {
+      "id": "j6QjJogSyrw",
+      "videoId": "j6QjJogSyrw",
+      "title": "Diadora Corsa",
+      "url": "https://www.youtube.com/watch?v=j6QjJogSyrw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-06T12:30:34.000Z",
+      "durationSeconds": 848,
+      "viewCount": 20615,
       "kind": "video"
     },
     {
@@ -2808,26 +2827,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 90324,
-      "kind": "video"
-    },
-    {
-      "id": "YhvbEiM6MS0",
-      "videoId": "YhvbEiM6MS0",
-      "title": "a week of recovery runs",
-      "url": "https://www.youtube.com/watch?v=YhvbEiM6MS0",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-04T12:30:33.000Z",
-      "durationSeconds": 743,
-      "viewCount": 22246,
+      "viewCount": 90526,
       "kind": "video"
     },
     {
@@ -2865,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 48751,
+      "viewCount": 48834,
       "kind": "video"
     },
     {
@@ -2884,7 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T17:00:10.000Z",
       "durationSeconds": 892,
-      "viewCount": 153129,
+      "viewCount": 154215,
       "kind": "video"
     },
     {
@@ -2903,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 242990,
+      "viewCount": 244432,
       "kind": "video"
     },
     {
@@ -2922,7 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24271,
+      "viewCount": 24280,
       "kind": "video"
     },
     {
@@ -2941,7 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 528015,
+      "viewCount": 529306,
       "kind": "video"
     },
     {
@@ -2960,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163241,
+      "viewCount": 163277,
       "kind": "video"
     },
     {
@@ -2979,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 132482,
+      "viewCount": 132580,
       "kind": "video"
     },
     {
@@ -2998,7 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6445,
+      "viewCount": 6450,
       "kind": "video"
     },
     {
@@ -3017,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 73726,
+      "viewCount": 73763,
       "kind": "video"
     },
     {
@@ -3036,7 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44652,
+      "viewCount": 44657,
       "kind": "video"
     },
     {
@@ -3055,7 +3055,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8957,
+      "viewCount": 8958,
       "kind": "video"
     },
     {
@@ -3074,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 39739,
+      "viewCount": 39775,
       "kind": "video"
     },
     {
@@ -3093,7 +3093,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22679,
+      "viewCount": 22680,
       "kind": "video"
     },
     {
@@ -3112,7 +3112,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23797,
+      "viewCount": 23803,
       "kind": "video"
     },
     {
@@ -3169,7 +3169,26 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2176427,
+      "viewCount": 2179291,
+      "kind": "video"
+    },
+    {
+      "id": "YhvbEiM6MS0",
+      "videoId": "YhvbEiM6MS0",
+      "title": "a week of recovery runs",
+      "url": "https://www.youtube.com/watch?v=YhvbEiM6MS0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-04T12:30:33.000Z",
+      "durationSeconds": 743,
+      "viewCount": 22319,
       "kind": "video"
     },
     {
@@ -3188,26 +3207,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 76570,
-      "kind": "video"
-    },
-    {
-      "id": "Kp7DuRMY6fk",
-      "videoId": "Kp7DuRMY6fk",
-      "title": "Skechers Aero Elite",
-      "url": "https://www.youtube.com/watch?v=Kp7DuRMY6fk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-02T13:00:27.000Z",
-      "durationSeconds": 652,
-      "viewCount": 24092,
+      "viewCount": 76858,
       "kind": "video"
     },
     {
@@ -3245,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37111,
+      "viewCount": 37167,
       "kind": "video"
     },
     {
@@ -3264,7 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:10:30.000Z",
       "durationSeconds": 1134,
-      "viewCount": 112260,
+      "viewCount": 112620,
       "kind": "video"
     },
     {
@@ -3283,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68265,
+      "viewCount": 68292,
       "kind": "video"
     },
     {
@@ -3302,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2026-08-10T15:00:30.000Z",
       "durationSeconds": 1108,
-      "viewCount": 19904,
+      "viewCount": 19909,
       "kind": "video"
     },
     {
@@ -3321,7 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 190043,
+      "viewCount": 190930,
       "kind": "video"
     },
     {
@@ -3340,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93589,
+      "viewCount": 93627,
       "kind": "video"
     },
     {
@@ -3359,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8724,
+      "viewCount": 8733,
       "kind": "video"
     },
     {
@@ -3378,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60215,
+      "viewCount": 60232,
       "kind": "video"
     },
     {
@@ -3397,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47240,
+      "viewCount": 47262,
       "kind": "video"
     },
     {
@@ -3416,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 11186,
+      "viewCount": 11189,
       "kind": "video"
     },
     {
@@ -3435,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 41786,
+      "viewCount": 41887,
       "kind": "video"
     },
     {
@@ -3454,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23220,
+      "viewCount": 23224,
       "kind": "video"
     },
     {
@@ -3473,7 +3473,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 43293,
+      "viewCount": 43456,
       "kind": "video"
     },
     {
@@ -3515,10 +3515,10 @@
       "kind": "video"
     },
     {
-      "id": "2HiUszlg2nE",
-      "videoId": "2HiUszlg2nE",
-      "title": "2026 Chicago Marathon",
-      "url": "https://www.youtube.com/watch?v=2HiUszlg2nE",
+      "id": "Kp7DuRMY6fk",
+      "videoId": "Kp7DuRMY6fk",
+      "title": "Skechers Aero Elite",
+      "url": "https://www.youtube.com/watch?v=Kp7DuRMY6fk",
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
@@ -3528,9 +3528,9 @@
         "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-10-30T21:51:47.000Z",
-      "durationSeconds": 2410,
-      "viewCount": 40650,
+      "publishedAt": "2026-11-02T13:00:27.000Z",
+      "durationSeconds": 652,
+      "viewCount": 24174,
       "kind": "video"
     },
     {
@@ -3549,7 +3549,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6937,
+      "viewCount": 6938,
       "kind": "video"
     },
     {
@@ -3568,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35614,
+      "viewCount": 35645,
       "kind": "video"
     },
     {
@@ -3587,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T16:30:31.000Z",
       "durationSeconds": 587,
-      "viewCount": 168635,
+      "viewCount": 169407,
       "kind": "video"
     },
     {
@@ -3606,7 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37401,
+      "viewCount": 37416,
       "kind": "video"
     },
     {
@@ -3625,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34315,
+      "viewCount": 34344,
       "kind": "video"
     },
     {
@@ -3644,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48089,
+      "viewCount": 48132,
       "kind": "video"
     },
     {
@@ -3663,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5989,
+      "viewCount": 5992,
       "kind": "video"
     },
     {
@@ -3682,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78217,
+      "viewCount": 78262,
       "kind": "video"
     },
     {
@@ -3701,7 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51319,
+      "viewCount": 51363,
       "kind": "video"
     },
     {
@@ -3720,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 27185,
+      "viewCount": 27227,
       "kind": "video"
     },
     {
@@ -3739,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24839,
+      "viewCount": 24841,
       "kind": "video"
     },
     {
@@ -3758,7 +3758,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 31684,
+      "viewCount": 31761,
       "kind": "video"
     },
     {
@@ -3800,11 +3800,11 @@
       "kind": "video"
     },
     {
-      "id": "bKQZZr12zrI",
-      "videoId": "bKQZZr12zrI",
-      "title": "Puma Deviate Pure After 100 Miles",
-      "url": "https://www.youtube.com/watch?v=bKQZZr12zrI",
-      "discipline": "Trail",
+      "id": "2HiUszlg2nE",
+      "videoId": "2HiUszlg2nE",
+      "title": "2026 Chicago Marathon",
+      "url": "https://www.youtube.com/watch?v=2HiUszlg2nE",
+      "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
         "slug": "kofuzi",
@@ -3813,9 +3813,9 @@
         "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-10-28T11:36:31.000Z",
-      "durationSeconds": 693,
-      "viewCount": 110947,
+      "publishedAt": "2026-10-30T21:51:47.000Z",
+      "durationSeconds": 2410,
+      "viewCount": 40790,
       "kind": "video"
     },
     {
@@ -3853,7 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28605,
+      "viewCount": 28636,
       "kind": "video"
     },
     {
@@ -3872,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:00.000Z",
       "durationSeconds": 1162,
-      "viewCount": 352940,
+      "viewCount": 356526,
       "kind": "video"
     },
     {
@@ -3891,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62200,
+      "viewCount": 62210,
       "kind": "video"
     },
     {
@@ -3910,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 75041,
+      "viewCount": 75147,
       "kind": "video"
     },
     {
@@ -3929,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52534,
+      "viewCount": 52557,
       "kind": "video"
     },
     {
@@ -3948,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11562,
+      "viewCount": 11566,
       "kind": "video"
     },
     {
@@ -3967,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93506,
+      "viewCount": 93536,
       "kind": "video"
     },
     {
@@ -3986,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26680,
+      "viewCount": 26693,
       "kind": "video"
     },
     {
@@ -4005,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16591,
+      "viewCount": 16602,
       "kind": "video"
     },
     {
@@ -4024,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21887,
+      "viewCount": 21888,
       "kind": "video"
     },
     {
@@ -4043,7 +4043,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 42585,
+      "viewCount": 44688,
       "kind": "video"
     },
     {
@@ -4062,15 +4062,15 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:04:55.000Z",
       "durationSeconds": 185,
-      "viewCount": 2093,
+      "viewCount": 2094,
       "kind": "video"
     },
     {
-      "id": "D9G5jljZ9Gk",
-      "videoId": "D9G5jljZ9Gk",
-      "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
-      "url": "https://www.youtube.com/watch?v=D9G5jljZ9Gk",
-      "discipline": "Distance",
+      "id": "bKQZZr12zrI",
+      "videoId": "bKQZZr12zrI",
+      "title": "Puma Deviate Pure After 100 Miles",
+      "url": "https://www.youtube.com/watch?v=bKQZZr12zrI",
+      "discipline": "Trail",
       "creator": {
         "name": "kofuzi",
         "slug": "kofuzi",
@@ -4079,9 +4079,9 @@
         "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-10-26T16:16:52.000Z",
-      "durationSeconds": 776,
-      "viewCount": 23690,
+      "publishedAt": "2026-10-28T11:36:31.000Z",
+      "durationSeconds": 693,
+      "viewCount": 111630,
       "kind": "video"
     },
     {
@@ -4119,7 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-05-03T11:11:31.000Z",
       "durationSeconds": 2142,
-      "viewCount": 57483,
+      "viewCount": 57559,
       "kind": "video"
     },
     {
@@ -4138,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T16:54:40.000Z",
       "durationSeconds": 596,
-      "viewCount": 189308,
+      "viewCount": 190505,
       "kind": "video"
     },
     {
@@ -4157,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 157777,
+      "viewCount": 158053,
       "kind": "video"
     },
     {
@@ -4176,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 76136,
+      "viewCount": 76292,
       "kind": "video"
     },
     {
@@ -4195,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48527,
+      "viewCount": 48555,
       "kind": "video"
     },
     {
@@ -4214,7 +4214,7 @@
       "athlete": null,
       "publishedAt": "2026-04-11T14:04:37.000Z",
       "durationSeconds": 791,
-      "viewCount": 4789,
+      "viewCount": 4792,
       "kind": "video"
     },
     {
@@ -4233,7 +4233,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109323,
+      "viewCount": 109348,
       "kind": "video"
     },
     {
@@ -4252,7 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 32901,
+      "viewCount": 32928,
       "kind": "video"
     },
     {
@@ -4271,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 44312,
+      "viewCount": 44390,
       "kind": "video"
     },
     {
@@ -4290,7 +4290,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45461,
+      "viewCount": 45467,
       "kind": "video"
     },
     {
@@ -4309,7 +4309,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23719,
+      "viewCount": 23729,
       "kind": "video"
     },
     {
@@ -4332,10 +4332,10 @@
       "kind": "video"
     },
     {
-      "id": "JzB-HSI_E1s",
-      "videoId": "JzB-HSI_E1s",
-      "title": "On Lighstpray Cloudboom Strike 2",
-      "url": "https://www.youtube.com/watch?v=JzB-HSI_E1s",
+      "id": "D9G5jljZ9Gk",
+      "videoId": "D9G5jljZ9Gk",
+      "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
+      "url": "https://www.youtube.com/watch?v=D9G5jljZ9Gk",
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
@@ -4345,9 +4345,9 @@
         "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-10-23T12:00:08.000Z",
-      "durationSeconds": 973,
-      "viewCount": 48792,
+      "publishedAt": "2026-10-26T16:16:52.000Z",
+      "durationSeconds": 776,
+      "viewCount": 23723,
       "kind": "video"
     },
     {
@@ -4366,7 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T23:18:02.000Z",
       "durationSeconds": 1047,
-      "viewCount": 3704,
+      "viewCount": 3708,
       "kind": "video"
     },
     {
@@ -4385,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T16:00:23.000Z",
       "durationSeconds": 857,
-      "viewCount": 489918,
+      "viewCount": 490533,
       "kind": "video"
     },
     {
@@ -4404,7 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42496,
+      "viewCount": 42535,
       "kind": "video"
     },
     {
@@ -4423,7 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57279,
+      "viewCount": 57318,
       "kind": "video"
     },
     {
@@ -4442,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T15:38:34.000Z",
       "durationSeconds": 882,
-      "viewCount": 6829,
+      "viewCount": 6832,
       "kind": "video"
     },
     {
@@ -4461,7 +4461,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60749,
+      "viewCount": 60756,
       "kind": "video"
     },
     {
@@ -4480,7 +4480,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32383,
+      "viewCount": 32422,
       "kind": "video"
     },
     {
@@ -4499,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14348,
+      "viewCount": 14381,
       "kind": "video"
     },
     {
@@ -4518,7 +4518,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 28008,
+      "viewCount": 28010,
       "kind": "video"
     },
     {
@@ -4537,7 +4537,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 32866,
+      "viewCount": 32920,
       "kind": "video"
     },
     {
@@ -4560,10 +4560,10 @@
       "kind": "video"
     },
     {
-      "id": "CHiBwZy3pro",
-      "videoId": "CHiBwZy3pro",
-      "title": "Twin Cities Marathon 2026 - A Runner's Weekend",
-      "url": "https://www.youtube.com/watch?v=CHiBwZy3pro",
+      "id": "JzB-HSI_E1s",
+      "videoId": "JzB-HSI_E1s",
+      "title": "On Lighstpray Cloudboom Strike 2",
+      "url": "https://www.youtube.com/watch?v=JzB-HSI_E1s",
       "discipline": "Distance",
       "creator": {
         "name": "kofuzi",
@@ -4573,9 +4573,9 @@
         "kind": "creative"
       },
       "athlete": null,
-      "publishedAt": "2026-10-21T12:00:30.000Z",
-      "durationSeconds": 1971,
-      "viewCount": 38414,
+      "publishedAt": "2026-10-23T12:00:08.000Z",
+      "durationSeconds": 973,
+      "viewCount": 48968,
       "kind": "video"
     },
     {
@@ -4594,7 +4594,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T13:15:51.000Z",
       "durationSeconds": 937,
-      "viewCount": 436308,
+      "viewCount": 436993,
       "kind": "video"
     },
     {
@@ -4613,7 +4613,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 66967,
+      "viewCount": 66973,
       "kind": "video"
     },
     {
@@ -4632,7 +4632,7 @@
       "athlete": null,
       "publishedAt": "2026-07-21T15:03:48.000Z",
       "durationSeconds": 1470,
-      "viewCount": 42095,
+      "viewCount": 42106,
       "kind": "video"
     },
     {
@@ -4651,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2026-02-18T16:33:28.000Z",
       "durationSeconds": 1037,
-      "viewCount": 15768,
+      "viewCount": 15791,
       "kind": "video"
     },
     {
@@ -4670,7 +4670,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19249,
+      "viewCount": 19250,
       "kind": "video"
     },
     {
@@ -4689,7 +4689,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T21:34:44.000Z",
       "durationSeconds": 289,
-      "viewCount": 10548,
+      "viewCount": 10549,
       "kind": "video"
     }
   ]
