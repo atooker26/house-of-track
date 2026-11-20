@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T15:31:59.336Z",
+  "generatedAt": "2026-11-20T15:10:25.319Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -42,7 +42,7 @@
       "description": "Just running around the world. ",
       "avatar": "https://yt3.ggpht.com/PHy-OUtm6Sznye8_V-XEDcXooiDP-IS391OqG8MsEH_dNfQ8pBSwy6DppZQR9HQDOgbsnXIfUA=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 917000,
-      "videoCount": 741,
+      "videoCount": 742,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -56,7 +56,7 @@
       "description": "Athlete - Coach - Creator - 2:25 Marathon PB \n\nCreating videos to help you become the runner you want to be. \n\nBased in London, UK.",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_mDy4ZoQqcj7DiO_-1z6j2Y6Nu_PvFESGAsJagEM5FdPg=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 376000,
-      "videoCount": 580,
+      "videoCount": 581,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -252,7 +252,7 @@
       "description": "Just a dad trying to run consistently, hit new goals, and motivate others to get into the running game! ",
       "avatar": "https://yt3.ggpht.com/sUeq81d9sHZPg4Ao0a83YOkHK6UNtguxiZL7VQZ6YLFd4StYWnu3EFIh1rHAH_Ysqjcdd3enYQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 72900,
-      "videoCount": 176,
+      "videoCount": 177,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -349,7 +349,7 @@
       "url": "https://www.youtube.com/@JimmyWhelan",
       "description": "🇦🇺 Pro Runner for Salomon \nFormer Pro Cyclist",
       "avatar": "https://yt3.ggpht.com/4juj9eG34dkPrU4bYvL2Hnc3dotKTrO-izuNBZy16xWdGIzTSHx0cIRUbx0FeK5lIc6sbNpd=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 13000,
+      "subscriberCount": 13100,
       "videoCount": 27,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -377,7 +377,7 @@
       "url": "https://www.youtube.com/@joe_klecker",
       "description": "",
       "avatar": "https://yt3.ggpht.com/AUduKpkuG1yqYpKHH3V_0t6x-J2leWP-GcdQlsl5xD73eW1kv_OL3CtUgAV97McQoVHQ8q-AWw=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 2300,
+      "subscriberCount": 2310,
       "videoCount": 5,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -399,6 +399,44 @@
   ],
   "items": [
     {
+      "id": "5ceHdoCtAn8",
+      "videoId": "5ceHdoCtAn8",
+      "title": "Indy Monumental Marathon - A Tribute to Cyrus",
+      "url": "https://www.youtube.com/watch?v=5ceHdoCtAn8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-19T18:06:57.000Z",
+      "durationSeconds": 1167,
+      "viewCount": 17454,
+      "kind": "video"
+    },
+    {
+      "id": "dQAmBoKppbg",
+      "videoId": "dQAmBoKppbg",
+      "title": "Everything I Bought To Make Winter Running BETTER! (lots of tips too!)",
+      "url": "https://www.youtube.com/watch?v=dQAmBoKppbg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-19T17:00:26.000Z",
+      "durationSeconds": 724,
+      "viewCount": 61277,
+      "kind": "video"
+    },
+    {
       "id": "qliKlXe7wE4",
       "videoId": "qliKlXe7wE4",
       "title": "my first race on norwegian singles method - NSM W3",
@@ -414,7 +452,7 @@
       "athlete": null,
       "publishedAt": "2026-11-18T15:49:47.000Z",
       "durationSeconds": 1388,
-      "viewCount": 20813,
+      "viewCount": 24961,
       "kind": "video"
     },
     {
@@ -433,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-17T18:16:33.000Z",
       "durationSeconds": 1903,
-      "viewCount": 90758,
+      "viewCount": 123651,
       "kind": "video"
     },
     {
@@ -452,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 2370,
+      "viewCount": 2471,
       "kind": "video"
     },
     {
@@ -471,26 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 46967,
-      "kind": "video"
-    },
-    {
-      "id": "LIfR116q9A0",
-      "videoId": "LIfR116q9A0",
-      "title": "It's TOUGH, but this will make you run a Sub 3 Marathon",
-      "url": "https://www.youtube.com/watch?v=LIfR116q9A0",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-15T17:00:04.000Z",
-      "durationSeconds": 924,
-      "viewCount": 138973,
+      "viewCount": 50574,
       "kind": "video"
     },
     {
@@ -509,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T16:00:20.000Z",
       "durationSeconds": 1205,
-      "viewCount": 42847,
+      "viewCount": 44249,
       "kind": "video"
     },
     {
@@ -528,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T14:00:29.000Z",
       "durationSeconds": 952,
-      "viewCount": 36397,
+      "viewCount": 39328,
       "kind": "video"
     },
     {
@@ -547,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 20188,
+      "viewCount": 21305,
       "kind": "video"
     },
     {
@@ -566,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 108617,
+      "viewCount": 112075,
       "kind": "video"
     },
     {
@@ -585,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 78515,
+      "viewCount": 80860,
       "kind": "video"
     },
     {
@@ -604,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 315732,
+      "viewCount": 321908,
       "kind": "video"
     },
     {
@@ -623,7 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 32805,
+      "viewCount": 33325,
       "kind": "video"
     },
     {
@@ -642,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 415656,
+      "viewCount": 437182,
       "kind": "video"
     },
     {
@@ -661,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 3142,
+      "viewCount": 3164,
       "kind": "video"
     },
     {
@@ -680,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9130,
+      "viewCount": 9196,
       "kind": "video"
     },
     {
@@ -699,26 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 60695,
-      "kind": "video"
-    },
-    {
-      "id": "jdFwxWYm-p0",
-      "videoId": "jdFwxWYm-p0",
-      "title": "CHICAGO MARATHON 2026 - Pacing for 2:48",
-      "url": "https://www.youtube.com/watch?v=jdFwxWYm-p0",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-16T20:08:03.000Z",
-      "durationSeconds": 1425,
-      "viewCount": 65764,
+      "viewCount": 60878,
       "kind": "video"
     },
     {
@@ -737,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33556,
+      "viewCount": 33581,
       "kind": "video"
     },
     {
@@ -756,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 502097,
+      "viewCount": 504249,
       "kind": "video"
     },
     {
@@ -775,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T19:51:21.000Z",
       "durationSeconds": 866,
-      "viewCount": 30592,
+      "viewCount": 30675,
       "kind": "video"
     },
     {
@@ -794,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 184929,
+      "viewCount": 185788,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 25924,
+      "viewCount": 26002,
       "kind": "video"
     },
     {
@@ -832,7 +832,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3494,
+      "viewCount": 3495,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20266,
+      "viewCount": 20283,
       "kind": "video"
     },
     {
@@ -889,7 +889,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 124750,
+      "viewCount": 124890,
       "kind": "video"
     },
     {
@@ -908,7 +908,45 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 714657,
+      "viewCount": 715724,
+      "kind": "video"
+    },
+    {
+      "id": "jdFwxWYm-p0",
+      "videoId": "jdFwxWYm-p0",
+      "title": "CHICAGO MARATHON 2026 - Pacing for 2:48",
+      "url": "https://www.youtube.com/watch?v=jdFwxWYm-p0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-16T20:08:03.000Z",
+      "durationSeconds": 1425,
+      "viewCount": 65880,
+      "kind": "video"
+    },
+    {
+      "id": "LIfR116q9A0",
+      "videoId": "LIfR116q9A0",
+      "title": "It's TOUGH, but this will make you run a Sub 3 Marathon",
+      "url": "https://www.youtube.com/watch?v=LIfR116q9A0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-15T17:00:04.000Z",
+      "durationSeconds": 924,
+      "viewCount": 146715,
       "kind": "video"
     },
     {
@@ -927,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T16:53:37.000Z",
       "durationSeconds": 1113,
-      "viewCount": 62689,
+      "viewCount": 64807,
       "kind": "video"
     },
     {
@@ -946,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 98469,
+      "viewCount": 99482,
       "kind": "video"
     },
     {
@@ -965,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7172,
+      "viewCount": 7175,
       "kind": "video"
     },
     {
@@ -984,26 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 37614,
-      "kind": "video"
-    },
-    {
-      "id": "vTCWl9a7VSg",
-      "videoId": "vTCWl9a7VSg",
-      "title": "The Top 6 WORST running shoes of 2026 (& what to get instead)",
-      "url": "https://www.youtube.com/watch?v=vTCWl9a7VSg",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-12T17:00:07.000Z",
-      "durationSeconds": 605,
-      "viewCount": 603289,
+      "viewCount": 38294,
       "kind": "video"
     },
     {
@@ -1022,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 68343,
+      "viewCount": 68658,
       "kind": "video"
     },
     {
@@ -1041,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 36836,
+      "viewCount": 37120,
       "kind": "video"
     },
     {
@@ -1060,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 91964,
+      "viewCount": 92117,
       "kind": "video"
     },
     {
@@ -1079,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 130130,
+      "viewCount": 131036,
       "kind": "video"
     },
     {
@@ -1098,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 128173,
+      "viewCount": 128398,
       "kind": "video"
     },
     {
@@ -1117,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 184832,
+      "viewCount": 184963,
       "kind": "video"
     },
     {
@@ -1136,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21238,
+      "viewCount": 21271,
       "kind": "video"
     },
     {
@@ -1155,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 99369,
+      "viewCount": 99776,
       "kind": "video"
     },
     {
@@ -1174,7 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15482,
+      "viewCount": 15509,
       "kind": "video"
     },
     {
@@ -1193,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 12027,
+      "viewCount": 12060,
       "kind": "video"
     },
     {
@@ -1212,26 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73127,
-      "kind": "video"
-    },
-    {
-      "id": "85MBkAYzAgk",
-      "videoId": "85MBkAYzAgk",
-      "title": "My marathon went from 3:59 to 2:29...here’s how I did it.",
-      "url": "https://www.youtube.com/watch?v=85MBkAYzAgk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-12T16:36:15.000Z",
-      "durationSeconds": 1521,
-      "viewCount": 325381,
+      "viewCount": 73184,
       "kind": "video"
     },
     {
@@ -1250,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21213,
+      "viewCount": 21226,
       "kind": "video"
     },
     {
@@ -1269,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37642,
+      "viewCount": 37685,
       "kind": "video"
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22640,
+      "viewCount": 22667,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46128,
+      "viewCount": 46146,
       "kind": "video"
     },
     {
@@ -1326,7 +1326,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 11011,
+      "viewCount": 11014,
       "kind": "video"
     },
     {
@@ -1364,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47464,
+      "viewCount": 47478,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 123223,
+      "viewCount": 123359,
       "kind": "video"
     },
     {
@@ -1402,7 +1402,45 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 328964,
+      "viewCount": 329583,
+      "kind": "video"
+    },
+    {
+      "id": "85MBkAYzAgk",
+      "videoId": "85MBkAYzAgk",
+      "title": "My marathon went from 3:59 to 2:29...here’s how I did it.",
+      "url": "https://www.youtube.com/watch?v=85MBkAYzAgk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-12T16:36:15.000Z",
+      "durationSeconds": 1521,
+      "viewCount": 326379,
+      "kind": "video"
+    },
+    {
+      "id": "vTCWl9a7VSg",
+      "videoId": "vTCWl9a7VSg",
+      "title": "The Top 6 WORST running shoes of 2026 (& what to get instead)",
+      "url": "https://www.youtube.com/watch?v=vTCWl9a7VSg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-12T17:00:07.000Z",
+      "durationSeconds": 605,
+      "viewCount": 628538,
       "kind": "video"
     },
     {
@@ -1421,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T12:00:09.000Z",
       "durationSeconds": 1293,
-      "viewCount": 30357,
+      "viewCount": 31288,
       "kind": "video"
     },
     {
@@ -1440,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 250470,
+      "viewCount": 252572,
       "kind": "video"
     },
     {
@@ -1459,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6208,
+      "viewCount": 6214,
       "kind": "video"
     },
     {
@@ -1478,26 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 66294,
-      "kind": "video"
-    },
-    {
-      "id": "5XhiIkEnrzk",
-      "videoId": "5XhiIkEnrzk",
-      "title": "Honest Review of Every Nike Running Shoe! (2026 line up)",
-      "url": "https://www.youtube.com/watch?v=5XhiIkEnrzk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-08T17:00:31.000Z",
-      "durationSeconds": 1231,
-      "viewCount": 158549,
+      "viewCount": 66508,
       "kind": "video"
     },
     {
@@ -1516,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 68185,
+      "viewCount": 68815,
       "kind": "video"
     },
     {
@@ -1535,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 32731,
+      "viewCount": 32838,
       "kind": "video"
     },
     {
@@ -1554,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 86105,
+      "viewCount": 86231,
       "kind": "video"
     },
     {
@@ -1573,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T19:00:03.000Z",
       "durationSeconds": 882,
-      "viewCount": 102869,
+      "viewCount": 103125,
       "kind": "video"
     },
     {
@@ -1592,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 254056,
+      "viewCount": 254244,
       "kind": "video"
     },
     {
@@ -1611,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 151027,
+      "viewCount": 151220,
       "kind": "video"
     },
     {
@@ -1630,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 23916,
+      "viewCount": 23929,
       "kind": "video"
     },
     {
@@ -1649,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 186831,
+      "viewCount": 188000,
       "kind": "video"
     },
     {
@@ -1668,7 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 9976,
+      "viewCount": 9981,
       "kind": "video"
     },
     {
@@ -1687,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11724,
+      "viewCount": 11733,
       "kind": "video"
     },
     {
@@ -1706,26 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59072,
-      "kind": "video"
-    },
-    {
-      "id": "cyZuoWYz2FU",
-      "videoId": "cyZuoWYz2FU",
-      "title": "BERLIN MARATHON 2026 - The End of the PB Streak",
-      "url": "https://www.youtube.com/watch?v=cyZuoWYz2FU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-06T12:00:47.000Z",
-      "durationSeconds": 1954,
-      "viewCount": 72282,
+      "viewCount": 59107,
       "kind": "video"
     },
     {
@@ -1744,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46165,
+      "viewCount": 46228,
       "kind": "video"
     },
     {
@@ -1763,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 35884,
+      "viewCount": 35958,
       "kind": "video"
     },
     {
@@ -1782,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60457,
+      "viewCount": 60482,
       "kind": "video"
     },
     {
@@ -1801,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 41072,
+      "viewCount": 41108,
       "kind": "video"
     },
     {
@@ -1858,7 +1858,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29041,
+      "viewCount": 29044,
       "kind": "video"
     },
     {
@@ -1877,7 +1877,45 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 261469,
+      "viewCount": 261766,
+      "kind": "video"
+    },
+    {
+      "id": "cyZuoWYz2FU",
+      "videoId": "cyZuoWYz2FU",
+      "title": "BERLIN MARATHON 2026 - The End of the PB Streak",
+      "url": "https://www.youtube.com/watch?v=cyZuoWYz2FU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-06T12:00:47.000Z",
+      "durationSeconds": 1954,
+      "viewCount": 72382,
+      "kind": "video"
+    },
+    {
+      "id": "5XhiIkEnrzk",
+      "videoId": "5XhiIkEnrzk",
+      "title": "Honest Review of Every Nike Running Shoe! (2026 line up)",
+      "url": "https://www.youtube.com/watch?v=5XhiIkEnrzk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-08T17:00:31.000Z",
+      "durationSeconds": 1231,
+      "viewCount": 161306,
       "kind": "video"
     },
     {
@@ -1896,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:54:04.000Z",
       "durationSeconds": 941,
-      "viewCount": 130528,
+      "viewCount": 137427,
       "kind": "video"
     },
     {
@@ -1915,7 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 149433,
+      "viewCount": 149702,
       "kind": "video"
     },
     {
@@ -1934,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T21:39:04.000Z",
       "durationSeconds": 1161,
-      "viewCount": 5379,
+      "viewCount": 5382,
       "kind": "video"
     },
     {
@@ -1953,26 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 43671,
-      "kind": "video"
-    },
-    {
-      "id": "iR63J-KOw3s",
-      "videoId": "iR63J-KOw3s",
-      "title": "This Could Be The Fastest Shoe of 2026 - Nike Alphafly 4 Review",
-      "url": "https://www.youtube.com/watch?v=iR63J-KOw3s",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-04T17:00:21.000Z",
-      "durationSeconds": 792,
-      "viewCount": 206283,
+      "viewCount": 43799,
       "kind": "video"
     },
     {
@@ -1991,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 96023,
+      "viewCount": 96086,
       "kind": "video"
     },
     {
@@ -2010,7 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 43934,
+      "viewCount": 44008,
       "kind": "video"
     },
     {
@@ -2029,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 798898,
+      "viewCount": 802611,
       "kind": "video"
     },
     {
@@ -2048,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T18:00:06.000Z",
       "durationSeconds": 788,
-      "viewCount": 150780,
+      "viewCount": 150976,
       "kind": "video"
     },
     {
@@ -2067,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 117022,
+      "viewCount": 117086,
       "kind": "video"
     },
     {
@@ -2086,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 200041,
+      "viewCount": 200114,
       "kind": "video"
     },
     {
@@ -2105,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10768,
+      "viewCount": 10774,
       "kind": "video"
     },
     {
@@ -2124,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 249476,
+      "viewCount": 249796,
       "kind": "video"
     },
     {
@@ -2143,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15468,
+      "viewCount": 15476,
       "kind": "video"
     },
     {
@@ -2162,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15438,
+      "viewCount": 15447,
       "kind": "video"
     },
     {
@@ -2181,26 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91270,
-      "kind": "video"
-    },
-    {
-      "id": "UrvUbiPVNGs",
-      "videoId": "UrvUbiPVNGs",
-      "title": "FINAL BERLIN Long Run WORKOUT + Hidden Gem Half Marathon",
-      "url": "https://www.youtube.com/watch?v=UrvUbiPVNGs",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-16T16:53:34.000Z",
-      "durationSeconds": 1396,
-      "viewCount": 45937,
+      "viewCount": 91315,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26210,
+      "viewCount": 26334,
       "kind": "video"
     },
     {
@@ -2238,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 31065,
+      "viewCount": 31238,
       "kind": "video"
     },
     {
@@ -2257,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14772,
+      "viewCount": 14776,
       "kind": "video"
     },
     {
@@ -2276,7 +2276,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 43885,
+      "viewCount": 43912,
       "kind": "video"
     },
     {
@@ -2333,7 +2333,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18751,
+      "viewCount": 18758,
       "kind": "video"
     },
     {
@@ -2352,7 +2352,45 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 119952,
+      "viewCount": 120025,
+      "kind": "video"
+    },
+    {
+      "id": "UrvUbiPVNGs",
+      "videoId": "UrvUbiPVNGs",
+      "title": "FINAL BERLIN Long Run WORKOUT + Hidden Gem Half Marathon",
+      "url": "https://www.youtube.com/watch?v=UrvUbiPVNGs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-16T16:53:34.000Z",
+      "durationSeconds": 1396,
+      "viewCount": 45965,
+      "kind": "video"
+    },
+    {
+      "id": "iR63J-KOw3s",
+      "videoId": "iR63J-KOw3s",
+      "title": "This Could Be The Fastest Shoe of 2026 - Nike Alphafly 4 Review",
+      "url": "https://www.youtube.com/watch?v=iR63J-KOw3s",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-04T17:00:21.000Z",
+      "durationSeconds": 792,
+      "viewCount": 207312,
       "kind": "video"
     },
     {
@@ -2371,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:08:11.000Z",
       "durationSeconds": 1760,
-      "viewCount": 49046,
+      "viewCount": 49659,
       "kind": "video"
     },
     {
@@ -2390,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 19648,
+      "viewCount": 19826,
       "kind": "video"
     },
     {
@@ -2409,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6919,
+      "viewCount": 6921,
       "kind": "video"
     },
     {
@@ -2428,26 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 78069,
-      "kind": "video"
-    },
-    {
-      "id": "RRN0p7vDb5w",
-      "videoId": "RRN0p7vDb5w",
-      "title": "I Trained So Hard For This Moment (Dublin Marathon was incredible!)",
-      "url": "https://www.youtube.com/watch?v=RRN0p7vDb5w",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-01T17:00:22.000Z",
-      "durationSeconds": 891,
-      "viewCount": 158287,
+      "viewCount": 78168,
       "kind": "video"
     },
     {
@@ -2466,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 74885,
+      "viewCount": 75166,
       "kind": "video"
     },
     {
@@ -2485,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 28980,
+      "viewCount": 28993,
       "kind": "video"
     },
     {
@@ -2504,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 113763,
+      "viewCount": 113909,
       "kind": "video"
     },
     {
@@ -2523,7 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T18:00:23.000Z",
       "durationSeconds": 954,
-      "viewCount": 128984,
+      "viewCount": 129072,
       "kind": "video"
     },
     {
@@ -2542,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 102726,
+      "viewCount": 102794,
       "kind": "video"
     },
     {
@@ -2561,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 135526,
+      "viewCount": 135636,
       "kind": "video"
     },
     {
@@ -2580,7 +2599,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12302,
+      "viewCount": 12316,
       "kind": "video"
     },
     {
@@ -2599,7 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T06:48:09.000Z",
       "durationSeconds": 1425,
-      "viewCount": 8463,
+      "viewCount": 8464,
       "kind": "video"
     },
     {
@@ -2618,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8831,
+      "viewCount": 8833,
       "kind": "video"
     },
     {
@@ -2637,26 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 66028,
-      "kind": "video"
-    },
-    {
-      "id": "7scD7BJec3c",
-      "videoId": "7scD7BJec3c",
-      "title": "BUILD TO BERLIN - Sunrise PEAK Workout [5K Tempo, 3xK]",
-      "url": "https://www.youtube.com/watch?v=7scD7BJec3c",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-11T13:00:09.000Z",
-      "durationSeconds": 1191,
-      "viewCount": 34775,
+      "viewCount": 66067,
       "kind": "video"
     },
     {
@@ -2675,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7889,
+      "viewCount": 7898,
       "kind": "video"
     },
     {
@@ -2694,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 30037,
+      "viewCount": 30080,
       "kind": "video"
     },
     {
@@ -2713,7 +2713,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27680,
+      "viewCount": 27694,
       "kind": "video"
     },
     {
@@ -2732,7 +2732,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34693,
+      "viewCount": 34711,
       "kind": "video"
     },
     {
@@ -2789,7 +2789,45 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 304217,
+      "viewCount": 304498,
+      "kind": "video"
+    },
+    {
+      "id": "7scD7BJec3c",
+      "videoId": "7scD7BJec3c",
+      "title": "BUILD TO BERLIN - Sunrise PEAK Workout [5K Tempo, 3xK]",
+      "url": "https://www.youtube.com/watch?v=7scD7BJec3c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-11T13:00:09.000Z",
+      "durationSeconds": 1191,
+      "viewCount": 34801,
+      "kind": "video"
+    },
+    {
+      "id": "RRN0p7vDb5w",
+      "videoId": "RRN0p7vDb5w",
+      "title": "I Trained So Hard For This Moment (Dublin Marathon was incredible!)",
+      "url": "https://www.youtube.com/watch?v=RRN0p7vDb5w",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-01T17:00:22.000Z",
+      "durationSeconds": 891,
+      "viewCount": 158786,
       "kind": "video"
     },
     {
@@ -2808,7 +2846,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T12:30:34.000Z",
       "durationSeconds": 848,
-      "viewCount": 20615,
+      "viewCount": 20776,
       "kind": "video"
     },
     {
@@ -2827,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 90526,
+      "viewCount": 90723,
       "kind": "video"
     },
     {
@@ -2865,26 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 48834,
-      "kind": "video"
-    },
-    {
-      "id": "lLvB3I-_bIk",
-      "videoId": "lLvB3I-_bIk",
-      "title": "I Spent £800 Testing EVERY WINTER RUNNING SHOE - one clear WINNER!",
-      "url": "https://www.youtube.com/watch?v=lLvB3I-_bIk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-25T17:00:10.000Z",
-      "durationSeconds": 892,
-      "viewCount": 154215,
+      "viewCount": 48923,
       "kind": "video"
     },
     {
@@ -2903,7 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 244432,
+      "viewCount": 246376,
       "kind": "video"
     },
     {
@@ -2922,7 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24280,
+      "viewCount": 24288,
       "kind": "video"
     },
     {
@@ -2941,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 529306,
+      "viewCount": 530535,
       "kind": "video"
     },
     {
@@ -2960,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163277,
+      "viewCount": 163311,
       "kind": "video"
     },
     {
@@ -2979,7 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 132580,
+      "viewCount": 132695,
       "kind": "video"
     },
     {
@@ -2998,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6450,
+      "viewCount": 6451,
       "kind": "video"
     },
     {
@@ -3017,26 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 73763,
-      "kind": "video"
-    },
-    {
-      "id": "gUl8ED302WQ",
-      "videoId": "gUl8ED302WQ",
-      "title": "Is 2:27 Realistic for BERLIN Marathon? [Training Block Breakdown]",
-      "url": "https://www.youtube.com/watch?v=gUl8ED302WQ",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-05T13:00:40.000Z",
-      "durationSeconds": 1327,
-      "viewCount": 44657,
+      "viewCount": 73813,
       "kind": "video"
     },
     {
@@ -3055,7 +3055,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8958,
+      "viewCount": 8962,
       "kind": "video"
     },
     {
@@ -3074,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 39775,
+      "viewCount": 39805,
       "kind": "video"
     },
     {
@@ -3093,7 +3093,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22680,
+      "viewCount": 22685,
       "kind": "video"
     },
     {
@@ -3112,7 +3112,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23803,
+      "viewCount": 23820,
       "kind": "video"
     },
     {
@@ -3169,7 +3169,45 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2179291,
+      "viewCount": 2181964,
+      "kind": "video"
+    },
+    {
+      "id": "gUl8ED302WQ",
+      "videoId": "gUl8ED302WQ",
+      "title": "Is 2:27 Realistic for BERLIN Marathon? [Training Block Breakdown]",
+      "url": "https://www.youtube.com/watch?v=gUl8ED302WQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-05T13:00:40.000Z",
+      "durationSeconds": 1327,
+      "viewCount": 44686,
+      "kind": "video"
+    },
+    {
+      "id": "lLvB3I-_bIk",
+      "videoId": "lLvB3I-_bIk",
+      "title": "I Spent £800 Testing EVERY WINTER RUNNING SHOE - one clear WINNER!",
+      "url": "https://www.youtube.com/watch?v=lLvB3I-_bIk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-25T17:00:10.000Z",
+      "durationSeconds": 892,
+      "viewCount": 155807,
       "kind": "video"
     },
     {
@@ -3188,7 +3226,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T12:30:33.000Z",
       "durationSeconds": 743,
-      "viewCount": 22319,
+      "viewCount": 22360,
       "kind": "video"
     },
     {
@@ -3207,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 76858,
+      "viewCount": 77068,
       "kind": "video"
     },
     {
@@ -3226,7 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T18:20:10.000Z",
       "durationSeconds": 809,
-      "viewCount": 11195,
+      "viewCount": 11197,
       "kind": "video"
     },
     {
@@ -3245,26 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37167,
-      "kind": "video"
-    },
-    {
-      "id": "QXnBLYVJxSs",
-      "videoId": "QXnBLYVJxSs",
-      "title": "How To Run The Perfect Marathon!",
-      "url": "https://www.youtube.com/watch?v=QXnBLYVJxSs",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-18T18:10:30.000Z",
-      "durationSeconds": 1134,
-      "viewCount": 112620,
+      "viewCount": 37217,
       "kind": "video"
     },
     {
@@ -3283,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68292,
+      "viewCount": 68324,
       "kind": "video"
     },
     {
@@ -3302,7 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-08-10T15:00:30.000Z",
       "durationSeconds": 1108,
-      "viewCount": 19909,
+      "viewCount": 19913,
       "kind": "video"
     },
     {
@@ -3321,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 190930,
+      "viewCount": 191826,
       "kind": "video"
     },
     {
@@ -3340,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93627,
+      "viewCount": 93668,
       "kind": "video"
     },
     {
@@ -3359,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8733,
+      "viewCount": 8740,
       "kind": "video"
     },
     {
@@ -3378,26 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60232,
-      "kind": "video"
-    },
-    {
-      "id": "w9FZtEOqF90",
-      "videoId": "w9FZtEOqF90",
-      "title": "160KM [100 MILE] Weeks - BUILD to BERLIN",
-      "url": "https://www.youtube.com/watch?v=w9FZtEOqF90",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-25T12:45:15.000Z",
-      "durationSeconds": 2221,
-      "viewCount": 47262,
+      "viewCount": 60251,
       "kind": "video"
     },
     {
@@ -3416,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 11189,
+      "viewCount": 11190,
       "kind": "video"
     },
     {
@@ -3435,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 41887,
+      "viewCount": 41933,
       "kind": "video"
     },
     {
@@ -3454,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23224,
+      "viewCount": 23231,
       "kind": "video"
     },
     {
@@ -3473,7 +3473,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 43456,
+      "viewCount": 43611,
       "kind": "video"
     },
     {
@@ -3492,7 +3492,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:20:10.000Z",
       "durationSeconds": 1017,
-      "viewCount": 9564,
+      "viewCount": 9565,
       "kind": "video"
     },
     {
@@ -3515,6 +3515,44 @@
       "kind": "video"
     },
     {
+      "id": "w9FZtEOqF90",
+      "videoId": "w9FZtEOqF90",
+      "title": "160KM [100 MILE] Weeks - BUILD to BERLIN",
+      "url": "https://www.youtube.com/watch?v=w9FZtEOqF90",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-25T12:45:15.000Z",
+      "durationSeconds": 2221,
+      "viewCount": 47286,
+      "kind": "video"
+    },
+    {
+      "id": "QXnBLYVJxSs",
+      "videoId": "QXnBLYVJxSs",
+      "title": "How To Run The Perfect Marathon!",
+      "url": "https://www.youtube.com/watch?v=QXnBLYVJxSs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-18T18:10:30.000Z",
+      "durationSeconds": 1134,
+      "viewCount": 113082,
+      "kind": "video"
+    },
+    {
       "id": "Kp7DuRMY6fk",
       "videoId": "Kp7DuRMY6fk",
       "title": "Skechers Aero Elite",
@@ -3530,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T13:00:27.000Z",
       "durationSeconds": 652,
-      "viewCount": 24174,
+      "viewCount": 24255,
       "kind": "video"
     },
     {
@@ -3549,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6938,
+      "viewCount": 6941,
       "kind": "video"
     },
     {
@@ -3568,26 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35645,
-      "kind": "video"
-    },
-    {
-      "id": "rxPhCVg6dlo",
-      "videoId": "rxPhCVg6dlo",
-      "title": "The Most Comfortable Shoe I’ve Ever Bought - ASICS Gel Slowcush Review!",
-      "url": "https://www.youtube.com/watch?v=rxPhCVg6dlo",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-15T16:30:31.000Z",
-      "durationSeconds": 587,
-      "viewCount": 169407,
+      "viewCount": 35668,
       "kind": "video"
     },
     {
@@ -3606,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37416,
+      "viewCount": 37421,
       "kind": "video"
     },
     {
@@ -3625,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34344,
+      "viewCount": 34395,
       "kind": "video"
     },
     {
@@ -3644,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48132,
+      "viewCount": 48163,
       "kind": "video"
     },
     {
@@ -3663,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5992,
+      "viewCount": 5997,
       "kind": "video"
     },
     {
@@ -3682,26 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78262,
-      "kind": "video"
-    },
-    {
-      "id": "zxDwXYxNcu4",
-      "videoId": "zxDwXYxNcu4",
-      "title": "Shoeholics Anonymous [a short film about running shoes]",
-      "url": "https://www.youtube.com/watch?v=zxDwXYxNcu4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-17T16:15:39.000Z",
-      "durationSeconds": 146,
-      "viewCount": 51363,
+      "viewCount": 78301,
       "kind": "video"
     },
     {
@@ -3720,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 27227,
+      "viewCount": 27263,
       "kind": "video"
     },
     {
@@ -3739,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24841,
+      "viewCount": 24847,
       "kind": "video"
     },
     {
@@ -3758,7 +3758,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 31761,
+      "viewCount": 31858,
       "kind": "video"
     },
     {
@@ -3800,6 +3800,44 @@
       "kind": "video"
     },
     {
+      "id": "zxDwXYxNcu4",
+      "videoId": "zxDwXYxNcu4",
+      "title": "Shoeholics Anonymous [a short film about running shoes]",
+      "url": "https://www.youtube.com/watch?v=zxDwXYxNcu4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-17T16:15:39.000Z",
+      "durationSeconds": 146,
+      "viewCount": 51400,
+      "kind": "video"
+    },
+    {
+      "id": "rxPhCVg6dlo",
+      "videoId": "rxPhCVg6dlo",
+      "title": "The Most Comfortable Shoe I’ve Ever Bought - ASICS Gel Slowcush Review!",
+      "url": "https://www.youtube.com/watch?v=rxPhCVg6dlo",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-15T16:30:31.000Z",
+      "durationSeconds": 587,
+      "viewCount": 169989,
+      "kind": "video"
+    },
+    {
       "id": "2HiUszlg2nE",
       "videoId": "2HiUszlg2nE",
       "title": "2026 Chicago Marathon",
@@ -3815,7 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T21:51:47.000Z",
       "durationSeconds": 2410,
-      "viewCount": 40790,
+      "viewCount": 40910,
       "kind": "video"
     },
     {
@@ -3853,26 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28636,
-      "kind": "video"
-    },
-    {
-      "id": "kmZCzZBXAHA",
-      "videoId": "kmZCzZBXAHA",
-      "title": "The Most Durable and Long Lasting Running Shoes in 2026!",
-      "url": "https://www.youtube.com/watch?v=kmZCzZBXAHA",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-11T15:00:00.000Z",
-      "durationSeconds": 1162,
-      "viewCount": 356526,
+      "viewCount": 28672,
       "kind": "video"
     },
     {
@@ -3891,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62210,
+      "viewCount": 62214,
       "kind": "video"
     },
     {
@@ -3910,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 75147,
+      "viewCount": 75267,
       "kind": "video"
     },
     {
@@ -3929,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52557,
+      "viewCount": 52574,
       "kind": "video"
     },
     {
@@ -3948,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11566,
+      "viewCount": 11576,
       "kind": "video"
     },
     {
@@ -3967,26 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93536,
-      "kind": "video"
-    },
-    {
-      "id": "HhbK4OS4uXc",
-      "videoId": "HhbK4OS4uXc",
-      "title": "A Sub 2:30 Marathon Track Workout - Build to Berlin",
-      "url": "https://www.youtube.com/watch?v=HhbK4OS4uXc",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-16T13:28:02.000Z",
-      "durationSeconds": 1442,
-      "viewCount": 26693,
+      "viewCount": 93582,
       "kind": "video"
     },
     {
@@ -4005,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16602,
+      "viewCount": 16611,
       "kind": "video"
     },
     {
@@ -4024,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21888,
+      "viewCount": 21895,
       "kind": "video"
     },
     {
@@ -4043,7 +4043,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 44688,
+      "viewCount": 46420,
       "kind": "video"
     },
     {
@@ -4066,6 +4066,44 @@
       "kind": "video"
     },
     {
+      "id": "HhbK4OS4uXc",
+      "videoId": "HhbK4OS4uXc",
+      "title": "A Sub 2:30 Marathon Track Workout - Build to Berlin",
+      "url": "https://www.youtube.com/watch?v=HhbK4OS4uXc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-16T13:28:02.000Z",
+      "durationSeconds": 1442,
+      "viewCount": 26708,
+      "kind": "video"
+    },
+    {
+      "id": "kmZCzZBXAHA",
+      "videoId": "kmZCzZBXAHA",
+      "title": "The Most Durable and Long Lasting Running Shoes in 2026!",
+      "url": "https://www.youtube.com/watch?v=kmZCzZBXAHA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-11T15:00:00.000Z",
+      "durationSeconds": 1162,
+      "viewCount": 360007,
+      "kind": "video"
+    },
+    {
       "id": "bKQZZr12zrI",
       "videoId": "bKQZZr12zrI",
       "title": "Puma Deviate Pure After 100 Miles",
@@ -4081,7 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T11:36:31.000Z",
       "durationSeconds": 693,
-      "viewCount": 111630,
+      "viewCount": 112221,
       "kind": "video"
     },
     {
@@ -4119,26 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-05-03T11:11:31.000Z",
       "durationSeconds": 2142,
-      "viewCount": 57559,
-      "kind": "video"
-    },
-    {
-      "id": "kSYaUqjZcnY",
-      "videoId": "kSYaUqjZcnY",
-      "title": "Asics made a waterproof shoe and it’s AMAZING - NOVABLAST 6 GTX REVIEW!",
-      "url": "https://www.youtube.com/watch?v=kSYaUqjZcnY",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-09T16:54:40.000Z",
-      "durationSeconds": 596,
-      "viewCount": 190505,
+      "viewCount": 57592,
       "kind": "video"
     },
     {
@@ -4157,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 158053,
+      "viewCount": 158253,
       "kind": "video"
     },
     {
@@ -4176,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 76292,
+      "viewCount": 76433,
       "kind": "video"
     },
     {
@@ -4195,7 +4214,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48555,
+      "viewCount": 48586,
       "kind": "video"
     },
     {
@@ -4214,7 +4233,7 @@
       "athlete": null,
       "publishedAt": "2026-04-11T14:04:37.000Z",
       "durationSeconds": 791,
-      "viewCount": 4792,
+      "viewCount": 4795,
       "kind": "video"
     },
     {
@@ -4233,26 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109348,
-      "kind": "video"
-    },
-    {
-      "id": "_VT2PN2MJA8",
-      "videoId": "_VT2PN2MJA8",
-      "title": "SUB 16:00 5K?? - Training for BERLIN MARATHON",
-      "url": "https://www.youtube.com/watch?v=_VT2PN2MJA8",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-05T16:46:39.000Z",
-      "durationSeconds": 1112,
-      "viewCount": 32928,
+      "viewCount": 109378,
       "kind": "video"
     },
     {
@@ -4271,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 44390,
+      "viewCount": 44498,
       "kind": "video"
     },
     {
@@ -4290,7 +4290,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45467,
+      "viewCount": 45489,
       "kind": "video"
     },
     {
@@ -4309,7 +4309,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23729,
+      "viewCount": 23737,
       "kind": "video"
     },
     {
@@ -4332,6 +4332,44 @@
       "kind": "video"
     },
     {
+      "id": "_VT2PN2MJA8",
+      "videoId": "_VT2PN2MJA8",
+      "title": "SUB 16:00 5K?? - Training for BERLIN MARATHON",
+      "url": "https://www.youtube.com/watch?v=_VT2PN2MJA8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-05T16:46:39.000Z",
+      "durationSeconds": 1112,
+      "viewCount": 32981,
+      "kind": "video"
+    },
+    {
+      "id": "kSYaUqjZcnY",
+      "videoId": "kSYaUqjZcnY",
+      "title": "Asics made a waterproof shoe and it’s AMAZING - NOVABLAST 6 GTX REVIEW!",
+      "url": "https://www.youtube.com/watch?v=kSYaUqjZcnY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-09T16:54:40.000Z",
+      "durationSeconds": 596,
+      "viewCount": 191867,
+      "kind": "video"
+    },
+    {
       "id": "D9G5jljZ9Gk",
       "videoId": "D9G5jljZ9Gk",
       "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
@@ -4347,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T16:16:52.000Z",
       "durationSeconds": 776,
-      "viewCount": 23723,
+      "viewCount": 23740,
       "kind": "video"
     },
     {
@@ -4370,25 +4408,6 @@
       "kind": "video"
     },
     {
-      "id": "qja-pFgtFmw",
-      "videoId": "qja-pFgtFmw",
-      "title": "The Best Race Of My Life - Berlin Marathon 2026!",
-      "url": "https://www.youtube.com/watch?v=qja-pFgtFmw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-04T16:00:23.000Z",
-      "durationSeconds": 857,
-      "viewCount": 490533,
-      "kind": "video"
-    },
-    {
       "id": "RMD3zYq8PoU",
       "videoId": "RMD3zYq8PoU",
       "title": "PROJECT 222 | Last Race Before the WR Attempt | Josh Kerr",
@@ -4404,7 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42535,
+      "viewCount": 42587,
       "kind": "video"
     },
     {
@@ -4423,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57318,
+      "viewCount": 57372,
       "kind": "video"
     },
     {
@@ -4461,26 +4480,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60756,
-      "kind": "video"
-    },
-    {
-      "id": "sfhKlVs5DHY",
-      "videoId": "sfhKlVs5DHY",
-      "title": "FULL WEEK of Marathon Training - Berlin Marathon [2:27 Goal]",
-      "url": "https://www.youtube.com/watch?v=sfhKlVs5DHY",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-29T19:45:27.000Z",
-      "durationSeconds": 2131,
-      "viewCount": 32422,
+      "viewCount": 60771,
       "kind": "video"
     },
     {
@@ -4499,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14381,
+      "viewCount": 14399,
       "kind": "video"
     },
     {
@@ -4518,7 +4518,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 28010,
+      "viewCount": 28014,
       "kind": "video"
     },
     {
@@ -4537,7 +4537,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 32920,
+      "viewCount": 33007,
       "kind": "video"
     },
     {
@@ -4560,6 +4560,44 @@
       "kind": "video"
     },
     {
+      "id": "sfhKlVs5DHY",
+      "videoId": "sfhKlVs5DHY",
+      "title": "FULL WEEK of Marathon Training - Berlin Marathon [2:27 Goal]",
+      "url": "https://www.youtube.com/watch?v=sfhKlVs5DHY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Floberg Runs",
+        "slug": "floberg-runs",
+        "handle": "FlobergRuns",
+        "url": "https://www.youtube.com/@FlobergRuns",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-07-29T19:45:27.000Z",
+      "durationSeconds": 2131,
+      "viewCount": 32445,
+      "kind": "video"
+    },
+    {
+      "id": "qja-pFgtFmw",
+      "videoId": "qja-pFgtFmw",
+      "title": "The Best Race Of My Life - Berlin Marathon 2026!",
+      "url": "https://www.youtube.com/watch?v=qja-pFgtFmw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-04T16:00:23.000Z",
+      "durationSeconds": 857,
+      "viewCount": 491284,
+      "kind": "video"
+    },
+    {
       "id": "JzB-HSI_E1s",
       "videoId": "JzB-HSI_E1s",
       "title": "On Lighstpray Cloudboom Strike 2",
@@ -4575,26 +4613,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T12:00:08.000Z",
       "durationSeconds": 973,
-      "viewCount": 48968,
-      "kind": "video"
-    },
-    {
-      "id": "JVyU5SVVQiY",
-      "videoId": "JVyU5SVVQiY",
-      "title": "I bought the Adidas Adios Pro 5 (brutally honest review)",
-      "url": "https://www.youtube.com/watch?v=JVyU5SVVQiY",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-25T13:15:51.000Z",
-      "durationSeconds": 937,
-      "viewCount": 436993,
+      "viewCount": 49115,
       "kind": "video"
     },
     {
@@ -4613,26 +4632,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 66973,
-      "kind": "video"
-    },
-    {
-      "id": "sWLnYKJCTGY",
-      "videoId": "sWLnYKJCTGY",
-      "title": "2:27:XX in the Marathon - Build to BERLIN Ep. 01",
-      "url": "https://www.youtube.com/watch?v=sWLnYKJCTGY",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Floberg Runs",
-        "slug": "floberg-runs",
-        "handle": "FlobergRuns",
-        "url": "https://www.youtube.com/@FlobergRuns",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-07-21T15:03:48.000Z",
-      "durationSeconds": 1470,
-      "viewCount": 42106,
+      "viewCount": 66986,
       "kind": "video"
     },
     {
@@ -4651,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2026-02-18T16:33:28.000Z",
       "durationSeconds": 1037,
-      "viewCount": 15791,
+      "viewCount": 15809,
       "kind": "video"
     },
     {
@@ -4670,7 +4670,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19250,
+      "viewCount": 19255,
       "kind": "video"
     },
     {
