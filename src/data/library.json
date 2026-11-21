@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T15:10:25.319Z",
+  "generatedAt": "2026-11-21T14:28:03.877Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -42,7 +42,7 @@
       "description": "Just running around the world. ",
       "avatar": "https://yt3.ggpht.com/PHy-OUtm6Sznye8_V-XEDcXooiDP-IS391OqG8MsEH_dNfQ8pBSwy6DppZQR9HQDOgbsnXIfUA=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 917000,
-      "videoCount": 742,
+      "videoCount": 744,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -98,7 +98,7 @@
       "description": "Pro Distance Running Tips and Advice from 2:16 Marathoner (16th place at Boston Marathon), 2-time US Olympic Marathon Trials Qualifier and Mountain-Ultra-Trail runner Sage Canaday. Best running form tips and run technique videos on Youtube as well as nutrition for runners, marathon and half marathon training advice as well as trail running, strength training, long runs, 5k training, ultramarathons",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_nkZOYCRFSvUO-YsygJG6GUFac3XAAJM12iHul63_YVTg=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 253000,
-      "videoCount": 1451,
+      "videoCount": 1452,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -112,7 +112,7 @@
       "description": "non elite runner who reviews shoes\n",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_m3XwPwWSYZpWcrJ7xUZi4hj33WfMTkwsL4rDZL0C-MwQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 244000,
-      "videoCount": 3502,
+      "videoCount": 3503,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -265,7 +265,7 @@
       "url": "https://www.youtube.com/@woah_max",
       "description": "",
       "avatar": "https://yt3.ggpht.com/XXJGUOqS8MJ9UBFNIWBVNv6nZ6QgUproa2h0tFOBfALbaBF2KGID5u8QHcqfbit8l3CW5t4rrg=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 72600,
+      "subscriberCount": 72700,
       "videoCount": 18,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -350,7 +350,7 @@
       "description": "🇦🇺 Pro Runner for Salomon \nFormer Pro Cyclist",
       "avatar": "https://yt3.ggpht.com/4juj9eG34dkPrU4bYvL2Hnc3dotKTrO-izuNBZy16xWdGIzTSHx0cIRUbx0FeK5lIc6sbNpd=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 13100,
-      "videoCount": 27,
+      "videoCount": 28,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -399,6 +399,63 @@
   ],
   "items": [
     {
+      "id": "pDJ5soH40DI",
+      "videoId": "pDJ5soH40DI",
+      "title": "Pre season in Barcelona - Hill Workout",
+      "url": "https://www.youtube.com/watch?v=pDJ5soH40DI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-20T21:05:05.000Z",
+      "durationSeconds": 1207,
+      "viewCount": 12487,
+      "kind": "video"
+    },
+    {
+      "id": "8Y0iwfo6868",
+      "videoId": "8Y0iwfo6868",
+      "title": "I ran 41-miles (66km) on the Track for my Birthday!",
+      "url": "https://www.youtube.com/watch?v=8Y0iwfo6868",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-20T16:27:51.000Z",
+      "durationSeconds": 671,
+      "viewCount": 5460,
+      "kind": "video"
+    },
+    {
+      "id": "gmTCHeDnsKk",
+      "videoId": "gmTCHeDnsKk",
+      "title": "ASICS Metasleek",
+      "url": "https://www.youtube.com/watch?v=gmTCHeDnsKk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-20T16:04:26.000Z",
+      "durationSeconds": 802,
+      "viewCount": 39417,
+      "kind": "video"
+    },
+    {
       "id": "5ceHdoCtAn8",
       "videoId": "5ceHdoCtAn8",
       "title": "Indy Monumental Marathon - A Tribute to Cyrus",
@@ -414,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T18:06:57.000Z",
       "durationSeconds": 1167,
-      "viewCount": 17454,
+      "viewCount": 23852,
       "kind": "video"
     },
     {
@@ -433,26 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T17:00:26.000Z",
       "durationSeconds": 724,
-      "viewCount": 61277,
-      "kind": "video"
-    },
-    {
-      "id": "qliKlXe7wE4",
-      "videoId": "qliKlXe7wE4",
-      "title": "my first race on norwegian singles method - NSM W3",
-      "url": "https://www.youtube.com/watch?v=qliKlXe7wE4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-18T15:49:47.000Z",
-      "durationSeconds": 1388,
-      "viewCount": 24961,
+      "viewCount": 81366,
       "kind": "video"
     },
     {
@@ -471,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-17T18:16:33.000Z",
       "durationSeconds": 1903,
-      "viewCount": 123651,
+      "viewCount": 151189,
       "kind": "video"
     },
     {
@@ -490,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 2471,
+      "viewCount": 2514,
       "kind": "video"
     },
     {
@@ -509,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 50574,
+      "viewCount": 53943,
       "kind": "video"
     },
     {
@@ -528,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T16:00:20.000Z",
       "durationSeconds": 1205,
-      "viewCount": 44249,
+      "viewCount": 45401,
       "kind": "video"
     },
     {
@@ -547,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T14:00:29.000Z",
       "durationSeconds": 952,
-      "viewCount": 39328,
+      "viewCount": 41918,
       "kind": "video"
     },
     {
@@ -566,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 21305,
+      "viewCount": 22022,
       "kind": "video"
     },
     {
@@ -585,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 112075,
+      "viewCount": 114446,
       "kind": "video"
     },
     {
@@ -604,7 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 80860,
+      "viewCount": 82439,
       "kind": "video"
     },
     {
@@ -623,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 321908,
+      "viewCount": 327434,
       "kind": "video"
     },
     {
@@ -642,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 33325,
+      "viewCount": 33904,
       "kind": "video"
     },
     {
@@ -661,26 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 437182,
-      "kind": "video"
-    },
-    {
-      "id": "9sPQqcvAH6I",
-      "videoId": "9sPQqcvAH6I",
-      "title": "New Suunto Race 3S GPS Sports Watch! Lightweight w/navigation. Sponsored Product Feature",
-      "url": "https://www.youtube.com/watch?v=9sPQqcvAH6I",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Sage Canaday",
-        "slug": "sage-canaday",
-        "handle": "Vo2maxProductions",
-        "url": "https://www.youtube.com/@Vo2maxProductions",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-06T06:24:56.000Z",
-      "durationSeconds": 397,
-      "viewCount": 3164,
+      "viewCount": 456381,
       "kind": "video"
     },
     {
@@ -699,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9196,
+      "viewCount": 9242,
       "kind": "video"
     },
     {
@@ -718,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 60878,
+      "viewCount": 61059,
       "kind": "video"
     },
     {
@@ -737,45 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33581,
-      "kind": "video"
-    },
-    {
-      "id": "Wa8GoD2DAwg",
-      "videoId": "Wa8GoD2DAwg",
-      "title": "Melbourne Marathon 2026 - My Debut",
-      "url": "https://www.youtube.com/watch?v=Wa8GoD2DAwg",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-13T22:39:29.000Z",
-      "durationSeconds": 1723,
-      "viewCount": 504249,
-      "kind": "video"
-    },
-    {
-      "id": "y1ZvDniT_iE",
-      "videoId": "y1ZvDniT_iE",
-      "title": "Our First Step to Winning Our Second Olympics",
-      "url": "https://www.youtube.com/watch?v=y1ZvDniT_iE",
-      "discipline": "Field",
-      "creator": {
-        "name": "Tara & Hunter Woodhall",
-        "slug": "tara-hunter-woodhall",
-        "handle": "thewoodhalls",
-        "url": "https://www.youtube.com/@thewoodhalls",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-12T19:51:21.000Z",
-      "durationSeconds": 866,
-      "viewCount": 30675,
+      "viewCount": 33598,
       "kind": "video"
     },
     {
@@ -794,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 185788,
+      "viewCount": 186440,
       "kind": "video"
     },
     {
@@ -813,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 26002,
+      "viewCount": 26076,
       "kind": "video"
     },
     {
@@ -832,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3495,
+      "viewCount": 3496,
       "kind": "video"
     },
     {
@@ -870,7 +851,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20283,
+      "viewCount": 20288,
       "kind": "video"
     },
     {
@@ -889,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 124890,
+      "viewCount": 124975,
       "kind": "video"
     },
     {
@@ -908,7 +889,64 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 715724,
+      "viewCount": 716974,
+      "kind": "video"
+    },
+    {
+      "id": "Wa8GoD2DAwg",
+      "videoId": "Wa8GoD2DAwg",
+      "title": "Melbourne Marathon 2026 - My Debut",
+      "url": "https://www.youtube.com/watch?v=Wa8GoD2DAwg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-13T22:39:29.000Z",
+      "durationSeconds": 1723,
+      "viewCount": 506669,
+      "kind": "video"
+    },
+    {
+      "id": "9sPQqcvAH6I",
+      "videoId": "9sPQqcvAH6I",
+      "title": "New Suunto Race 3S GPS Sports Watch! Lightweight w/navigation. Sponsored Product Feature",
+      "url": "https://www.youtube.com/watch?v=9sPQqcvAH6I",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-06T06:24:56.000Z",
+      "durationSeconds": 397,
+      "viewCount": 3177,
+      "kind": "video"
+    },
+    {
+      "id": "qliKlXe7wE4",
+      "videoId": "qliKlXe7wE4",
+      "title": "my first race on norwegian singles method - NSM W3",
+      "url": "https://www.youtube.com/watch?v=qliKlXe7wE4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-18T15:49:47.000Z",
+      "durationSeconds": 1388,
+      "viewCount": 26543,
       "kind": "video"
     },
     {
@@ -927,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 65880,
+      "viewCount": 66010,
       "kind": "video"
     },
     {
@@ -946,26 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T17:00:04.000Z",
       "durationSeconds": 924,
-      "viewCount": 146715,
-      "kind": "video"
-    },
-    {
-      "id": "6Z5Jo1D-pGI",
-      "videoId": "6Z5Jo1D-pGI",
-      "title": "adidas adios pro evo 3",
-      "url": "https://www.youtube.com/watch?v=6Z5Jo1D-pGI",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-16T16:53:37.000Z",
-      "durationSeconds": 1113,
-      "viewCount": 64807,
+      "viewCount": 152293,
       "kind": "video"
     },
     {
@@ -984,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 99482,
+      "viewCount": 100605,
       "kind": "video"
     },
     {
@@ -1003,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7175,
+      "viewCount": 7180,
       "kind": "video"
     },
     {
@@ -1022,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 38294,
+      "viewCount": 38794,
       "kind": "video"
     },
     {
@@ -1041,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 68658,
+      "viewCount": 68959,
       "kind": "video"
     },
     {
@@ -1060,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 37120,
+      "viewCount": 37353,
       "kind": "video"
     },
     {
@@ -1079,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 92117,
+      "viewCount": 92235,
       "kind": "video"
     },
     {
@@ -1098,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 131036,
+      "viewCount": 131815,
       "kind": "video"
     },
     {
@@ -1117,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 128398,
+      "viewCount": 128688,
       "kind": "video"
     },
     {
@@ -1136,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 184963,
+      "viewCount": 185100,
       "kind": "video"
     },
     {
@@ -1155,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21271,
+      "viewCount": 21300,
       "kind": "video"
     },
     {
@@ -1174,26 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 99776,
-      "kind": "video"
-    },
-    {
-      "id": "-L00OEDww4A",
-      "videoId": "-L00OEDww4A",
-      "title": "My First Backyard Ultra! The Barnyard Backyard at Luvin' Arms #backyardultra",
-      "url": "https://www.youtube.com/watch?v=-L00OEDww4A",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Sage Canaday",
-        "slug": "sage-canaday",
-        "handle": "Vo2maxProductions",
-        "url": "https://www.youtube.com/@Vo2maxProductions",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-03T21:34:03.000Z",
-      "durationSeconds": 694,
-      "viewCount": 15509,
+      "viewCount": 100026,
       "kind": "video"
     },
     {
@@ -1212,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 12060,
+      "viewCount": 12088,
       "kind": "video"
     },
     {
@@ -1231,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73184,
+      "viewCount": 73216,
       "kind": "video"
     },
     {
@@ -1250,26 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21226,
-      "kind": "video"
-    },
-    {
-      "id": "kOmeoBQANz4",
-      "videoId": "kOmeoBQANz4",
-      "title": "Race week - Melbourne Marathon",
-      "url": "https://www.youtube.com/watch?v=kOmeoBQANz4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-10T07:44:26.000Z",
-      "durationSeconds": 2054,
-      "viewCount": 37685,
+      "viewCount": 21233,
       "kind": "video"
     },
     {
@@ -1288,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22667,
+      "viewCount": 22683,
       "kind": "video"
     },
     {
@@ -1307,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46146,
+      "viewCount": 46156,
       "kind": "video"
     },
     {
@@ -1364,7 +1345,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47478,
+      "viewCount": 47503,
       "kind": "video"
     },
     {
@@ -1383,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 123359,
+      "viewCount": 123451,
       "kind": "video"
     },
     {
@@ -1402,7 +1383,64 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 329583,
+      "viewCount": 329970,
+      "kind": "video"
+    },
+    {
+      "id": "kOmeoBQANz4",
+      "videoId": "kOmeoBQANz4",
+      "title": "Race week - Melbourne Marathon",
+      "url": "https://www.youtube.com/watch?v=kOmeoBQANz4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-10T07:44:26.000Z",
+      "durationSeconds": 2054,
+      "viewCount": 37750,
+      "kind": "video"
+    },
+    {
+      "id": "-L00OEDww4A",
+      "videoId": "-L00OEDww4A",
+      "title": "My First Backyard Ultra! The Barnyard Backyard at Luvin' Arms #backyardultra",
+      "url": "https://www.youtube.com/watch?v=-L00OEDww4A",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-03T21:34:03.000Z",
+      "durationSeconds": 694,
+      "viewCount": 15559,
+      "kind": "video"
+    },
+    {
+      "id": "6Z5Jo1D-pGI",
+      "videoId": "6Z5Jo1D-pGI",
+      "title": "adidas adios pro evo 3",
+      "url": "https://www.youtube.com/watch?v=6Z5Jo1D-pGI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-16T16:53:37.000Z",
+      "durationSeconds": 1113,
+      "viewCount": 66125,
       "kind": "video"
     },
     {
@@ -1421,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 326379,
+      "viewCount": 327100,
       "kind": "video"
     },
     {
@@ -1440,26 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:00:07.000Z",
       "durationSeconds": 605,
-      "viewCount": 628538,
-      "kind": "video"
-    },
-    {
-      "id": "ELpwRqMOd-M",
-      "videoId": "ELpwRqMOd-M",
-      "title": "Is Norwegian Singles Method Boring - NSM Week 2",
-      "url": "https://www.youtube.com/watch?v=ELpwRqMOd-M",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-14T12:00:09.000Z",
-      "durationSeconds": 1293,
-      "viewCount": 31288,
+      "viewCount": 651937,
       "kind": "video"
     },
     {
@@ -1478,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 252572,
+      "viewCount": 254922,
       "kind": "video"
     },
     {
@@ -1516,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 66508,
+      "viewCount": 66762,
       "kind": "video"
     },
     {
@@ -1535,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 68815,
+      "viewCount": 69273,
       "kind": "video"
     },
     {
@@ -1554,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 32838,
+      "viewCount": 32915,
       "kind": "video"
     },
     {
@@ -1573,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 86231,
+      "viewCount": 86333,
       "kind": "video"
     },
     {
@@ -1592,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T19:00:03.000Z",
       "durationSeconds": 882,
-      "viewCount": 103125,
+      "viewCount": 103284,
       "kind": "video"
     },
     {
@@ -1611,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 254244,
+      "viewCount": 254436,
       "kind": "video"
     },
     {
@@ -1630,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 151220,
+      "viewCount": 151379,
       "kind": "video"
     },
     {
@@ -1649,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 23929,
+      "viewCount": 23953,
       "kind": "video"
     },
     {
@@ -1668,26 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 188000,
-      "kind": "video"
-    },
-    {
-      "id": "7c0W1yDkfVA",
-      "videoId": "7c0W1yDkfVA",
-      "title": "Getting Ready For My First Backyard Ultra!",
-      "url": "https://www.youtube.com/watch?v=7c0W1yDkfVA",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Sage Canaday",
-        "slug": "sage-canaday",
-        "handle": "Vo2maxProductions",
-        "url": "https://www.youtube.com/@Vo2maxProductions",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-23T08:29:07.000Z",
-      "durationSeconds": 744,
-      "viewCount": 9981,
+      "viewCount": 189101,
       "kind": "video"
     },
     {
@@ -1706,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11733,
+      "viewCount": 11742,
       "kind": "video"
     },
     {
@@ -1725,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59107,
+      "viewCount": 59134,
       "kind": "video"
     },
     {
@@ -1744,26 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46228,
-      "kind": "video"
-    },
-    {
-      "id": "tUqxF-taKFc",
-      "videoId": "tUqxF-taKFc",
-      "title": "My first Marathon Build - The Details",
-      "url": "https://www.youtube.com/watch?v=tUqxF-taKFc",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-07T05:36:13.000Z",
-      "durationSeconds": 1454,
-      "viewCount": 35958,
+      "viewCount": 46261,
       "kind": "video"
     },
     {
@@ -1782,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60482,
+      "viewCount": 60524,
       "kind": "video"
     },
     {
@@ -1801,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 41108,
+      "viewCount": 41148,
       "kind": "video"
     },
     {
@@ -1820,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5411,
+      "viewCount": 5412,
       "kind": "video"
     },
     {
@@ -1858,7 +1839,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29044,
+      "viewCount": 29046,
       "kind": "video"
     },
     {
@@ -1877,7 +1858,64 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 261766,
+      "viewCount": 261997,
+      "kind": "video"
+    },
+    {
+      "id": "tUqxF-taKFc",
+      "videoId": "tUqxF-taKFc",
+      "title": "My first Marathon Build - The Details",
+      "url": "https://www.youtube.com/watch?v=tUqxF-taKFc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-07T05:36:13.000Z",
+      "durationSeconds": 1454,
+      "viewCount": 36015,
+      "kind": "video"
+    },
+    {
+      "id": "7c0W1yDkfVA",
+      "videoId": "7c0W1yDkfVA",
+      "title": "Getting Ready For My First Backyard Ultra!",
+      "url": "https://www.youtube.com/watch?v=7c0W1yDkfVA",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-23T08:29:07.000Z",
+      "durationSeconds": 744,
+      "viewCount": 9992,
+      "kind": "video"
+    },
+    {
+      "id": "ELpwRqMOd-M",
+      "videoId": "ELpwRqMOd-M",
+      "title": "Is Norwegian Singles Method Boring - NSM Week 2",
+      "url": "https://www.youtube.com/watch?v=ELpwRqMOd-M",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-14T12:00:09.000Z",
+      "durationSeconds": 1293,
+      "viewCount": 31970,
       "kind": "video"
     },
     {
@@ -1896,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 72382,
+      "viewCount": 72452,
       "kind": "video"
     },
     {
@@ -1915,26 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T17:00:31.000Z",
       "durationSeconds": 1231,
-      "viewCount": 161306,
-      "kind": "video"
-    },
-    {
-      "id": "2tffR_bGyiU",
-      "videoId": "2tffR_bGyiU",
-      "title": "Puma Fast RB2",
-      "url": "https://www.youtube.com/watch?v=2tffR_bGyiU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-12T17:54:04.000Z",
-      "durationSeconds": 941,
-      "viewCount": 137427,
+      "viewCount": 163852,
       "kind": "video"
     },
     {
@@ -1953,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 149702,
+      "viewCount": 149940,
       "kind": "video"
     },
     {
@@ -1972,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T21:39:04.000Z",
       "durationSeconds": 1161,
-      "viewCount": 5382,
+      "viewCount": 5385,
       "kind": "video"
     },
     {
@@ -1991,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 43799,
+      "viewCount": 43886,
       "kind": "video"
     },
     {
@@ -2010,7 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 96086,
+      "viewCount": 96150,
       "kind": "video"
     },
     {
@@ -2029,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 44008,
+      "viewCount": 44051,
       "kind": "video"
     },
     {
@@ -2048,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 802611,
+      "viewCount": 806627,
       "kind": "video"
     },
     {
@@ -2067,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T18:00:06.000Z",
       "durationSeconds": 788,
-      "viewCount": 150976,
+      "viewCount": 151123,
       "kind": "video"
     },
     {
@@ -2086,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 117086,
+      "viewCount": 117138,
       "kind": "video"
     },
     {
@@ -2105,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 200114,
+      "viewCount": 200157,
       "kind": "video"
     },
     {
@@ -2124,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10774,
+      "viewCount": 10784,
       "kind": "video"
     },
     {
@@ -2143,26 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 249796,
-      "kind": "video"
-    },
-    {
-      "id": "6DJjvcYrg9c",
-      "videoId": "6DJjvcYrg9c",
-      "title": "I barely survived The Taco Bell 50km in Denver 2026!",
-      "url": "https://www.youtube.com/watch?v=6DJjvcYrg9c",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Sage Canaday",
-        "slug": "sage-canaday",
-        "handle": "Vo2maxProductions",
-        "url": "https://www.youtube.com/@Vo2maxProductions",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-12T08:23:14.000Z",
-      "durationSeconds": 454,
-      "viewCount": 15476,
+      "viewCount": 250007,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15447,
+      "viewCount": 15452,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91315,
+      "viewCount": 91350,
       "kind": "video"
     },
     {
@@ -2219,26 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26334,
-      "kind": "video"
-    },
-    {
-      "id": "_htJjkXEvKc",
-      "videoId": "_htJjkXEvKc",
-      "title": "Sunday Long Run - France, Lac de Matemale",
-      "url": "https://www.youtube.com/watch?v=_htJjkXEvKc",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-30T07:08:32.000Z",
-      "durationSeconds": 979,
-      "viewCount": 31238,
+      "viewCount": 26392,
       "kind": "video"
     },
     {
@@ -2257,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14776,
+      "viewCount": 14778,
       "kind": "video"
     },
     {
@@ -2276,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 43912,
+      "viewCount": 43931,
       "kind": "video"
     },
     {
@@ -2295,7 +2276,7 @@
       "athlete": null,
       "publishedAt": "2025-07-20T18:01:32.000Z",
       "durationSeconds": 9354,
-      "viewCount": 27614,
+      "viewCount": 27615,
       "kind": "video"
     },
     {
@@ -2333,7 +2314,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18758,
+      "viewCount": 18764,
       "kind": "video"
     },
     {
@@ -2352,7 +2333,64 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 120025,
+      "viewCount": 120069,
+      "kind": "video"
+    },
+    {
+      "id": "_htJjkXEvKc",
+      "videoId": "_htJjkXEvKc",
+      "title": "Sunday Long Run - France, Lac de Matemale",
+      "url": "https://www.youtube.com/watch?v=_htJjkXEvKc",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-30T07:08:32.000Z",
+      "durationSeconds": 979,
+      "viewCount": 31413,
+      "kind": "video"
+    },
+    {
+      "id": "6DJjvcYrg9c",
+      "videoId": "6DJjvcYrg9c",
+      "title": "I barely survived The Taco Bell 50km in Denver 2026!",
+      "url": "https://www.youtube.com/watch?v=6DJjvcYrg9c",
+      "discipline": "Trail",
+      "creator": {
+        "name": "Sage Canaday",
+        "slug": "sage-canaday",
+        "handle": "Vo2maxProductions",
+        "url": "https://www.youtube.com/@Vo2maxProductions",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-12T08:23:14.000Z",
+      "durationSeconds": 454,
+      "viewCount": 15485,
+      "kind": "video"
+    },
+    {
+      "id": "2tffR_bGyiU",
+      "videoId": "2tffR_bGyiU",
+      "title": "Puma Fast RB2",
+      "url": "https://www.youtube.com/watch?v=2tffR_bGyiU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-12T17:54:04.000Z",
+      "durationSeconds": 941,
+      "viewCount": 143614,
       "kind": "video"
     },
     {
@@ -2371,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 45965,
+      "viewCount": 45990,
       "kind": "video"
     },
     {
@@ -2390,26 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T17:00:21.000Z",
       "durationSeconds": 792,
-      "viewCount": 207312,
-      "kind": "video"
-    },
-    {
-      "id": "JZA0_uPxYYU",
-      "videoId": "JZA0_uPxYYU",
-      "title": "Norwegian Singles Method, Week 1",
-      "url": "https://www.youtube.com/watch?v=JZA0_uPxYYU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-10T13:08:11.000Z",
-      "durationSeconds": 1760,
-      "viewCount": 49659,
+      "viewCount": 208370,
       "kind": "video"
     },
     {
@@ -2428,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 19826,
+      "viewCount": 19987,
       "kind": "video"
     },
     {
@@ -2447,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6921,
+      "viewCount": 6924,
       "kind": "video"
     },
     {
@@ -2466,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 78168,
+      "viewCount": 78265,
       "kind": "video"
     },
     {
@@ -2485,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 75166,
+      "viewCount": 75446,
       "kind": "video"
     },
     {
@@ -2504,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 28993,
+      "viewCount": 29007,
       "kind": "video"
     },
     {
@@ -2523,7 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 113909,
+      "viewCount": 114040,
       "kind": "video"
     },
     {
@@ -2542,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T18:00:23.000Z",
       "durationSeconds": 954,
-      "viewCount": 129072,
+      "viewCount": 129133,
       "kind": "video"
     },
     {
@@ -2561,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 102794,
+      "viewCount": 102827,
       "kind": "video"
     },
     {
@@ -2580,7 +2599,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 135636,
+      "viewCount": 135765,
       "kind": "video"
     },
     {
@@ -2599,26 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12316,
-      "kind": "video"
-    },
-    {
-      "id": "M-Xoe7MFhUQ",
-      "videoId": "M-Xoe7MFhUQ",
-      "title": "2026 Taco Bell 50km Training! VLOG 2: Leadville and 6 x 6 x6 workout \"simulator\" prep",
-      "url": "https://www.youtube.com/watch?v=M-Xoe7MFhUQ",
-      "discipline": "Trail",
-      "creator": {
-        "name": "Sage Canaday",
-        "slug": "sage-canaday",
-        "handle": "Vo2maxProductions",
-        "url": "https://www.youtube.com/@Vo2maxProductions",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-27T06:48:09.000Z",
-      "durationSeconds": 1425,
-      "viewCount": 8464,
+      "viewCount": 12330,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8833,
+      "viewCount": 8834,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 66067,
+      "viewCount": 66109,
       "kind": "video"
     },
     {
@@ -2675,26 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7898,
-      "kind": "video"
-    },
-    {
-      "id": "XpFy1iCMGbM",
-      "videoId": "XpFy1iCMGbM",
-      "title": "Treadmill Workout - 8 x 1k in Barcelona",
-      "url": "https://www.youtube.com/watch?v=XpFy1iCMGbM",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-22T16:29:33.000Z",
-      "durationSeconds": 706,
-      "viewCount": 30080,
+      "viewCount": 7905,
       "kind": "video"
     },
     {
@@ -2713,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27694,
+      "viewCount": 27704,
       "kind": "video"
     },
     {
@@ -2732,7 +2713,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34711,
+      "viewCount": 34723,
       "kind": "video"
     },
     {
@@ -2789,7 +2770,45 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 304498,
+      "viewCount": 304790,
+      "kind": "video"
+    },
+    {
+      "id": "XpFy1iCMGbM",
+      "videoId": "XpFy1iCMGbM",
+      "title": "Treadmill Workout - 8 x 1k in Barcelona",
+      "url": "https://www.youtube.com/watch?v=XpFy1iCMGbM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-22T16:29:33.000Z",
+      "durationSeconds": 706,
+      "viewCount": 30136,
+      "kind": "video"
+    },
+    {
+      "id": "JZA0_uPxYYU",
+      "videoId": "JZA0_uPxYYU",
+      "title": "Norwegian Singles Method, Week 1",
+      "url": "https://www.youtube.com/watch?v=JZA0_uPxYYU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-10T13:08:11.000Z",
+      "durationSeconds": 1760,
+      "viewCount": 50173,
       "kind": "video"
     },
     {
@@ -2808,7 +2827,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34801,
+      "viewCount": 34809,
       "kind": "video"
     },
     {
@@ -2827,26 +2846,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T17:00:22.000Z",
       "durationSeconds": 891,
-      "viewCount": 158786,
-      "kind": "video"
-    },
-    {
-      "id": "j6QjJogSyrw",
-      "videoId": "j6QjJogSyrw",
-      "title": "Diadora Corsa",
-      "url": "https://www.youtube.com/watch?v=j6QjJogSyrw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-06T12:30:34.000Z",
-      "durationSeconds": 848,
-      "viewCount": 20776,
+      "viewCount": 159093,
       "kind": "video"
     },
     {
@@ -2865,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 90723,
+      "viewCount": 90928,
       "kind": "video"
     },
     {
@@ -2903,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 48923,
+      "viewCount": 49023,
       "kind": "video"
     },
     {
@@ -2922,7 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 246376,
+      "viewCount": 248241,
       "kind": "video"
     },
     {
@@ -2941,7 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24288,
+      "viewCount": 24306,
       "kind": "video"
     },
     {
@@ -2960,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 530535,
+      "viewCount": 531885,
       "kind": "video"
     },
     {
@@ -2979,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163311,
+      "viewCount": 163334,
       "kind": "video"
     },
     {
@@ -2998,7 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 132695,
+      "viewCount": 132815,
       "kind": "video"
     },
     {
@@ -3017,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6451,
+      "viewCount": 6455,
       "kind": "video"
     },
     {
@@ -3036,7 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 73813,
+      "viewCount": 73846,
       "kind": "video"
     },
     {
@@ -3055,26 +3055,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8962,
-      "kind": "video"
-    },
-    {
-      "id": "xVYbyXXci6s",
-      "videoId": "xVYbyXXci6s",
-      "title": "SALOMON HQ - VO2 Testing & more - Day 2",
-      "url": "https://www.youtube.com/watch?v=xVYbyXXci6s",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-12T22:23:02.000Z",
-      "durationSeconds": 1002,
-      "viewCount": 39805,
+      "viewCount": 8964,
       "kind": "video"
     },
     {
@@ -3093,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22685,
+      "viewCount": 22689,
       "kind": "video"
     },
     {
@@ -3112,7 +3093,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23820,
+      "viewCount": 23828,
       "kind": "video"
     },
     {
@@ -3131,7 +3112,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:26:44.000Z",
       "durationSeconds": 316,
-      "viewCount": 2463,
+      "viewCount": 2464,
       "kind": "video"
     },
     {
@@ -3169,7 +3150,45 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2181964,
+      "viewCount": 2184539,
+      "kind": "video"
+    },
+    {
+      "id": "xVYbyXXci6s",
+      "videoId": "xVYbyXXci6s",
+      "title": "SALOMON HQ - VO2 Testing & more - Day 2",
+      "url": "https://www.youtube.com/watch?v=xVYbyXXci6s",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-12T22:23:02.000Z",
+      "durationSeconds": 1002,
+      "viewCount": 39850,
+      "kind": "video"
+    },
+    {
+      "id": "j6QjJogSyrw",
+      "videoId": "j6QjJogSyrw",
+      "title": "Diadora Corsa",
+      "url": "https://www.youtube.com/watch?v=j6QjJogSyrw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-06T12:30:34.000Z",
+      "durationSeconds": 848,
+      "viewCount": 20872,
       "kind": "video"
     },
     {
@@ -3188,7 +3207,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44686,
+      "viewCount": 44688,
       "kind": "video"
     },
     {
@@ -3207,26 +3226,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T17:00:10.000Z",
       "durationSeconds": 892,
-      "viewCount": 155807,
-      "kind": "video"
-    },
-    {
-      "id": "YhvbEiM6MS0",
-      "videoId": "YhvbEiM6MS0",
-      "title": "a week of recovery runs",
-      "url": "https://www.youtube.com/watch?v=YhvbEiM6MS0",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-04T12:30:33.000Z",
-      "durationSeconds": 743,
-      "viewCount": 22360,
+      "viewCount": 157625,
       "kind": "video"
     },
     {
@@ -3245,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 77068,
+      "viewCount": 77217,
       "kind": "video"
     },
     {
@@ -3283,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37217,
+      "viewCount": 37254,
       "kind": "video"
     },
     {
@@ -3302,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68324,
+      "viewCount": 68364,
       "kind": "video"
     },
     {
@@ -3321,7 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-08-10T15:00:30.000Z",
       "durationSeconds": 1108,
-      "viewCount": 19913,
+      "viewCount": 19918,
       "kind": "video"
     },
     {
@@ -3340,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 191826,
+      "viewCount": 192968,
       "kind": "video"
     },
     {
@@ -3359,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93668,
+      "viewCount": 93706,
       "kind": "video"
     },
     {
@@ -3378,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8740,
+      "viewCount": 8745,
       "kind": "video"
     },
     {
@@ -3397,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60251,
+      "viewCount": 60271,
       "kind": "video"
     },
     {
@@ -3420,25 +3420,6 @@
       "kind": "video"
     },
     {
-      "id": "9k8llb71Md4",
-      "videoId": "9k8llb71Md4",
-      "title": "Full training Day in Font Romeu - Track Tuesdays",
-      "url": "https://www.youtube.com/watch?v=9k8llb71Md4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-25T08:09:35.000Z",
-      "durationSeconds": 1546,
-      "viewCount": 41933,
-      "kind": "video"
-    },
-    {
       "id": "IH9K0UePqdM",
       "videoId": "IH9K0UePqdM",
       "title": "I Raced the Brooklyn Mile While Building a Running Brand",
@@ -3454,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23231,
+      "viewCount": 23233,
       "kind": "video"
     },
     {
@@ -3473,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 43611,
+      "viewCount": 43791,
       "kind": "video"
     },
     {
@@ -3492,7 +3473,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:20:10.000Z",
       "durationSeconds": 1017,
-      "viewCount": 9565,
+      "viewCount": 9567,
       "kind": "video"
     },
     {
@@ -3515,6 +3496,44 @@
       "kind": "video"
     },
     {
+      "id": "9k8llb71Md4",
+      "videoId": "9k8llb71Md4",
+      "title": "Full training Day in Font Romeu - Track Tuesdays",
+      "url": "https://www.youtube.com/watch?v=9k8llb71Md4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-25T08:09:35.000Z",
+      "durationSeconds": 1546,
+      "viewCount": 42110,
+      "kind": "video"
+    },
+    {
+      "id": "YhvbEiM6MS0",
+      "videoId": "YhvbEiM6MS0",
+      "title": "a week of recovery runs",
+      "url": "https://www.youtube.com/watch?v=YhvbEiM6MS0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-04T12:30:33.000Z",
+      "durationSeconds": 743,
+      "viewCount": 22400,
+      "kind": "video"
+    },
+    {
       "id": "w9FZtEOqF90",
       "videoId": "w9FZtEOqF90",
       "title": "160KM [100 MILE] Weeks - BUILD to BERLIN",
@@ -3530,7 +3549,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47286,
+      "viewCount": 47297,
       "kind": "video"
     },
     {
@@ -3549,26 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:10:30.000Z",
       "durationSeconds": 1134,
-      "viewCount": 113082,
-      "kind": "video"
-    },
-    {
-      "id": "Kp7DuRMY6fk",
-      "videoId": "Kp7DuRMY6fk",
-      "title": "Skechers Aero Elite",
-      "url": "https://www.youtube.com/watch?v=Kp7DuRMY6fk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-02T13:00:27.000Z",
-      "durationSeconds": 652,
-      "viewCount": 24255,
+      "viewCount": 113363,
       "kind": "video"
     },
     {
@@ -3606,7 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35668,
+      "viewCount": 35708,
       "kind": "video"
     },
     {
@@ -3625,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37421,
+      "viewCount": 37430,
       "kind": "video"
     },
     {
@@ -3644,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34395,
+      "viewCount": 34430,
       "kind": "video"
     },
     {
@@ -3663,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48163,
+      "viewCount": 48188,
       "kind": "video"
     },
     {
@@ -3682,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5997,
+      "viewCount": 5998,
       "kind": "video"
     },
     {
@@ -3701,26 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78301,
-      "kind": "video"
-    },
-    {
-      "id": "R4TlwLWZw0Q",
-      "videoId": "R4TlwLWZw0Q",
-      "title": "Barcelona VLOG - Life Update and training video",
-      "url": "https://www.youtube.com/watch?v=R4TlwLWZw0Q",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-05T15:21:01.000Z",
-      "durationSeconds": 1980,
-      "viewCount": 27263,
+      "viewCount": 78348,
       "kind": "video"
     },
     {
@@ -3739,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24847,
+      "viewCount": 24851,
       "kind": "video"
     },
     {
@@ -3758,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 31858,
+      "viewCount": 31938,
       "kind": "video"
     },
     {
@@ -3777,7 +3758,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:12:22.000Z",
       "durationSeconds": 897,
-      "viewCount": 9273,
+      "viewCount": 9274,
       "kind": "video"
     },
     {
@@ -3800,6 +3781,44 @@
       "kind": "video"
     },
     {
+      "id": "R4TlwLWZw0Q",
+      "videoId": "R4TlwLWZw0Q",
+      "title": "Barcelona VLOG - Life Update and training video",
+      "url": "https://www.youtube.com/watch?v=R4TlwLWZw0Q",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-05T15:21:01.000Z",
+      "durationSeconds": 1980,
+      "viewCount": 27332,
+      "kind": "video"
+    },
+    {
+      "id": "Kp7DuRMY6fk",
+      "videoId": "Kp7DuRMY6fk",
+      "title": "Skechers Aero Elite",
+      "url": "https://www.youtube.com/watch?v=Kp7DuRMY6fk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-02T13:00:27.000Z",
+      "durationSeconds": 652,
+      "viewCount": 24330,
+      "kind": "video"
+    },
+    {
       "id": "zxDwXYxNcu4",
       "videoId": "zxDwXYxNcu4",
       "title": "Shoeholics Anonymous [a short film about running shoes]",
@@ -3815,7 +3834,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51400,
+      "viewCount": 51427,
       "kind": "video"
     },
     {
@@ -3834,26 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T16:30:31.000Z",
       "durationSeconds": 587,
-      "viewCount": 169989,
-      "kind": "video"
-    },
-    {
-      "id": "2HiUszlg2nE",
-      "videoId": "2HiUszlg2nE",
-      "title": "2026 Chicago Marathon",
-      "url": "https://www.youtube.com/watch?v=2HiUszlg2nE",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-30T21:51:47.000Z",
-      "durationSeconds": 2410,
-      "viewCount": 40910,
+      "viewCount": 170607,
       "kind": "video"
     },
     {
@@ -3891,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28672,
+      "viewCount": 28704,
       "kind": "video"
     },
     {
@@ -3910,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62214,
+      "viewCount": 62238,
       "kind": "video"
     },
     {
@@ -3929,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 75267,
+      "viewCount": 75344,
       "kind": "video"
     },
     {
@@ -3948,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52574,
+      "viewCount": 52595,
       "kind": "video"
     },
     {
@@ -3967,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11576,
+      "viewCount": 11581,
       "kind": "video"
     },
     {
@@ -3986,26 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93582,
-      "kind": "video"
-    },
-    {
-      "id": "zzFTe6eyi1A",
-      "videoId": "zzFTe6eyi1A",
-      "title": "SALOMON HQ - Behind the Scenes - Day 1",
-      "url": "https://www.youtube.com/watch?v=zzFTe6eyi1A",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-06-06T09:00:17.000Z",
-      "durationSeconds": 1144,
-      "viewCount": 16611,
+      "viewCount": 93612,
       "kind": "video"
     },
     {
@@ -4024,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21895,
+      "viewCount": 21896,
       "kind": "video"
     },
     {
@@ -4043,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 46420,
+      "viewCount": 47894,
       "kind": "video"
     },
     {
@@ -4066,6 +4047,44 @@
       "kind": "video"
     },
     {
+      "id": "zzFTe6eyi1A",
+      "videoId": "zzFTe6eyi1A",
+      "title": "SALOMON HQ - Behind the Scenes - Day 1",
+      "url": "https://www.youtube.com/watch?v=zzFTe6eyi1A",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-06-06T09:00:17.000Z",
+      "durationSeconds": 1144,
+      "viewCount": 16632,
+      "kind": "video"
+    },
+    {
+      "id": "2HiUszlg2nE",
+      "videoId": "2HiUszlg2nE",
+      "title": "2026 Chicago Marathon",
+      "url": "https://www.youtube.com/watch?v=2HiUszlg2nE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-30T21:51:47.000Z",
+      "durationSeconds": 2410,
+      "viewCount": 41035,
+      "kind": "video"
+    },
+    {
       "id": "HhbK4OS4uXc",
       "videoId": "HhbK4OS4uXc",
       "title": "A Sub 2:30 Marathon Track Workout - Build to Berlin",
@@ -4081,7 +4100,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26708,
+      "viewCount": 26714,
       "kind": "video"
     },
     {
@@ -4100,26 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:00.000Z",
       "durationSeconds": 1162,
-      "viewCount": 360007,
-      "kind": "video"
-    },
-    {
-      "id": "bKQZZr12zrI",
-      "videoId": "bKQZZr12zrI",
-      "title": "Puma Deviate Pure After 100 Miles",
-      "url": "https://www.youtube.com/watch?v=bKQZZr12zrI",
-      "discipline": "Trail",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-28T11:36:31.000Z",
-      "durationSeconds": 693,
-      "viewCount": 112221,
+      "viewCount": 363136,
       "kind": "video"
     },
     {
@@ -4138,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T21:53:29.000Z",
       "durationSeconds": 1762,
-      "viewCount": 2998,
+      "viewCount": 3001,
       "kind": "video"
     },
     {
@@ -4157,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-05-03T11:11:31.000Z",
       "durationSeconds": 2142,
-      "viewCount": 57592,
+      "viewCount": 57652,
       "kind": "video"
     },
     {
@@ -4176,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 158253,
+      "viewCount": 158397,
       "kind": "video"
     },
     {
@@ -4195,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 76433,
+      "viewCount": 76579,
       "kind": "video"
     },
     {
@@ -4214,7 +4214,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48586,
+      "viewCount": 48623,
       "kind": "video"
     },
     {
@@ -4252,26 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109378,
-      "kind": "video"
-    },
-    {
-      "id": "zpipJAR5Ao8",
-      "videoId": "zpipJAR5Ao8",
-      "title": "Pacing the Barcelona Marathon - RACE VLOG",
-      "url": "https://www.youtube.com/watch?v=zpipJAR5Ao8",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-03-15T13:57:48.000Z",
-      "durationSeconds": 715,
-      "viewCount": 44498,
+      "viewCount": 109408,
       "kind": "video"
     },
     {
@@ -4290,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45489,
+      "viewCount": 45505,
       "kind": "video"
     },
     {
@@ -4309,7 +4290,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23737,
+      "viewCount": 23748,
       "kind": "video"
     },
     {
@@ -4332,6 +4313,44 @@
       "kind": "video"
     },
     {
+      "id": "zpipJAR5Ao8",
+      "videoId": "zpipJAR5Ao8",
+      "title": "Pacing the Barcelona Marathon - RACE VLOG",
+      "url": "https://www.youtube.com/watch?v=zpipJAR5Ao8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-15T13:57:48.000Z",
+      "durationSeconds": 715,
+      "viewCount": 44659,
+      "kind": "video"
+    },
+    {
+      "id": "bKQZZr12zrI",
+      "videoId": "bKQZZr12zrI",
+      "title": "Puma Deviate Pure After 100 Miles",
+      "url": "https://www.youtube.com/watch?v=bKQZZr12zrI",
+      "discipline": "Trail",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-28T11:36:31.000Z",
+      "durationSeconds": 693,
+      "viewCount": 112946,
+      "kind": "video"
+    },
+    {
       "id": "_VT2PN2MJA8",
       "videoId": "_VT2PN2MJA8",
       "title": "SUB 16:00 5K?? - Training for BERLIN MARATHON",
@@ -4347,7 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 32981,
+      "viewCount": 33001,
       "kind": "video"
     },
     {
@@ -4366,26 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T16:54:40.000Z",
       "durationSeconds": 596,
-      "viewCount": 191867,
-      "kind": "video"
-    },
-    {
-      "id": "D9G5jljZ9Gk",
-      "videoId": "D9G5jljZ9Gk",
-      "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
-      "url": "https://www.youtube.com/watch?v=D9G5jljZ9Gk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-26T16:16:52.000Z",
-      "durationSeconds": 776,
-      "viewCount": 23740,
+      "viewCount": 194013,
       "kind": "video"
     },
     {
@@ -4404,7 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T23:18:02.000Z",
       "durationSeconds": 1047,
-      "viewCount": 3708,
+      "viewCount": 3710,
       "kind": "video"
     },
     {
@@ -4423,7 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42587,
+      "viewCount": 42628,
       "kind": "video"
     },
     {
@@ -4442,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57372,
+      "viewCount": 57404,
       "kind": "video"
     },
     {
@@ -4480,26 +4480,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60771,
-      "kind": "video"
-    },
-    {
-      "id": "C33pAAmnNdA",
-      "videoId": "C33pAAmnNdA",
-      "title": "Back in Sunny Barcelona - ft MNSTRY",
-      "url": "https://www.youtube.com/watch?v=C33pAAmnNdA",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-03-07T13:19:45.000Z",
-      "durationSeconds": 834,
-      "viewCount": 14399,
+      "viewCount": 60774,
       "kind": "video"
     },
     {
@@ -4518,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 28014,
+      "viewCount": 28018,
       "kind": "video"
     },
     {
@@ -4537,7 +4518,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 33007,
+      "viewCount": 33166,
       "kind": "video"
     },
     {
@@ -4560,6 +4541,44 @@
       "kind": "video"
     },
     {
+      "id": "C33pAAmnNdA",
+      "videoId": "C33pAAmnNdA",
+      "title": "Back in Sunny Barcelona - ft MNSTRY",
+      "url": "https://www.youtube.com/watch?v=C33pAAmnNdA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Jimmy Whelan",
+        "slug": "jimmy-whelan",
+        "handle": "JimmyWhelan",
+        "url": "https://www.youtube.com/@JimmyWhelan",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-07T13:19:45.000Z",
+      "durationSeconds": 834,
+      "viewCount": 14442,
+      "kind": "video"
+    },
+    {
+      "id": "D9G5jljZ9Gk",
+      "videoId": "D9G5jljZ9Gk",
+      "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
+      "url": "https://www.youtube.com/watch?v=D9G5jljZ9Gk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-26T16:16:52.000Z",
+      "durationSeconds": 776,
+      "viewCount": 23756,
+      "kind": "video"
+    },
+    {
       "id": "sfhKlVs5DHY",
       "videoId": "sfhKlVs5DHY",
       "title": "FULL WEEK of Marathon Training - Berlin Marathon [2:27 Goal]",
@@ -4575,7 +4594,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32445,
+      "viewCount": 32459,
       "kind": "video"
     },
     {
@@ -4594,26 +4613,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T16:00:23.000Z",
       "durationSeconds": 857,
-      "viewCount": 491284,
-      "kind": "video"
-    },
-    {
-      "id": "JzB-HSI_E1s",
-      "videoId": "JzB-HSI_E1s",
-      "title": "On Lighstpray Cloudboom Strike 2",
-      "url": "https://www.youtube.com/watch?v=JzB-HSI_E1s",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-23T12:00:08.000Z",
-      "durationSeconds": 973,
-      "viewCount": 49115,
+      "viewCount": 491767,
       "kind": "video"
     },
     {
@@ -4632,26 +4632,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 66986,
-      "kind": "video"
-    },
-    {
-      "id": "w_NhX998EJ8",
-      "videoId": "w_NhX998EJ8",
-      "title": "Morning in Melbourne - VLOG",
-      "url": "https://www.youtube.com/watch?v=w_NhX998EJ8",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Jimmy Whelan",
-        "slug": "jimmy-whelan",
-        "handle": "JimmyWhelan",
-        "url": "https://www.youtube.com/@JimmyWhelan",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-02-18T16:33:28.000Z",
-      "durationSeconds": 1037,
-      "viewCount": 15809,
+      "viewCount": 66996,
       "kind": "video"
     },
     {
@@ -4670,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19255,
+      "viewCount": 19258,
       "kind": "video"
     },
     {
