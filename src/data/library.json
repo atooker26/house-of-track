@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T14:23:21.879Z",
+  "generatedAt": "2026-11-23T17:46:37.702Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -70,7 +70,7 @@
       "description": "Alica Schmidt, Track&Field Athlete,\nInstagram: @alicasmd",
       "avatar": "https://yt3.ggpht.com/FRrLLgvSvPtlMsDZwLsA_OgsvuszwsBLTnsRXVgepmIyR0UcKhRvpIEctg4g7kDvxQs-OZqrrkc=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 309000,
-      "videoCount": 103,
+      "videoCount": 104,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -112,7 +112,7 @@
       "description": "non elite runner who reviews shoes\n",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_m3XwPwWSYZpWcrJ7xUZi4hj33WfMTkwsL4rDZL0C-MwQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 244000,
-      "videoCount": 3503,
+      "videoCount": 3504,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -126,7 +126,7 @@
       "description": "I'm making videos about my journey as a professional marathon runner, with my partner in crime and partner in life, otherwise known as @DanielMoves\n\nI keep it 100% real on here, what you see is what you get, and I'm here to take you on the ride wherever it takes me: highs, lows and parts not mentionable at the dinner table all included.\n\n@lululemon Athlete\n\nLOVE THE GRIND!\n",
       "avatar": "https://yt3.ggpht.com/2DbXzcidcP1Edmz9hxFCSN8eXOwI51hSYMrY31i-RErhXKqOTASWMOIijVEsRgpJhIO8VMWA=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 230000,
-      "videoCount": 409,
+      "videoCount": 410,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -182,7 +182,7 @@
       "description": "Documenting my running journey- sharing videos on my training, the gear I use and race day vlogs.\nThank you for your support. \n\nInquiries: benfelton@benisrunning.com",
       "avatar": "https://yt3.ggpht.com/K-mVXkTijLVtW2pVByXP5FuW026wV6bVesxWI8AJfgABAYYpylZqRxp-sfyWEwSBbwMTgpYE=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 159000,
-      "videoCount": 714,
+      "videoCount": 715,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -224,7 +224,7 @@
       "description": "Welcome to the life of an elite runner. Through all the highs and lows of running, I have kept coming back to the sport because I love it so much. This channel is my way of sharing that passion with the world and providing inspiration for working through tough workouts, injuries, mental health struggles, and anything else life throws our way. \n\nAbout me: Hi! I'm Allie O, a runner from Alaska who l",
       "avatar": "https://yt3.ggpht.com/lzNU5OJHIWWXNoEblw-oKWGZ23jr2OVMNEeN0p7pilSjLWZjk0rr91nsynjPZGZ7KaX7RpfDPJM=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 142000,
-      "videoCount": 794,
+      "videoCount": 796,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -399,6 +399,63 @@
   ],
   "items": [
     {
+      "id": "oJGAMqhy4Y8",
+      "videoId": "oJGAMqhy4Y8",
+      "title": "leveling up - norwegian singles method week 4",
+      "url": "https://www.youtube.com/watch?v=oJGAMqhy4Y8",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-23T12:00:34.000Z",
+      "durationSeconds": 1357,
+      "viewCount": 6010,
+      "kind": "video"
+    },
+    {
+      "id": "D0wX8h5Y4oo",
+      "videoId": "D0wX8h5Y4oo",
+      "title": "17th at New York City Marathon: What You Didn’t See",
+      "url": "https://www.youtube.com/watch?v=D0wX8h5Y4oo",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-22T19:00:02.000Z",
+      "durationSeconds": 1837,
+      "viewCount": 120758,
+      "kind": "video"
+    },
+    {
+      "id": "wB-DmOIc2hM",
+      "videoId": "wB-DmOIc2hM",
+      "title": "Aiming For The Podium In My Next Marathon... 148 Days To Make It Happen.",
+      "url": "https://www.youtube.com/watch?v=wB-DmOIc2hM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-22T16:00:30.000Z",
+      "durationSeconds": 1195,
+      "viewCount": 28542,
+      "kind": "video"
+    },
+    {
       "id": "6JkTahnz1Xs",
       "videoId": "6JkTahnz1Xs",
       "title": "I'm Running Out of Time to Save My Marathon Debut",
@@ -414,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-21T20:00:37.000Z",
       "durationSeconds": 804,
-      "viewCount": 54302,
+      "viewCount": 81736,
       "kind": "video"
     },
     {
@@ -433,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T21:05:05.000Z",
       "durationSeconds": 1207,
-      "viewCount": 20489,
+      "viewCount": 25092,
       "kind": "video"
     },
     {
@@ -452,26 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T16:27:51.000Z",
       "durationSeconds": 671,
-      "viewCount": 7303,
-      "kind": "video"
-    },
-    {
-      "id": "gmTCHeDnsKk",
-      "videoId": "gmTCHeDnsKk",
-      "title": "ASICS Metasleek",
-      "url": "https://www.youtube.com/watch?v=gmTCHeDnsKk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-20T16:04:26.000Z",
-      "durationSeconds": 802,
-      "viewCount": 65890,
+      "viewCount": 8365,
       "kind": "video"
     },
     {
@@ -490,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T18:06:57.000Z",
       "durationSeconds": 1167,
-      "viewCount": 26685,
+      "viewCount": 28827,
       "kind": "video"
     },
     {
@@ -509,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T17:00:26.000Z",
       "durationSeconds": 724,
-      "viewCount": 91860,
+      "viewCount": 101295,
       "kind": "video"
     },
     {
@@ -528,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-17T18:16:33.000Z",
       "durationSeconds": 1903,
-      "viewCount": 179811,
+      "viewCount": 202138,
       "kind": "video"
     },
     {
@@ -547,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 2557,
+      "viewCount": 2588,
       "kind": "video"
     },
     {
@@ -566,26 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 57457,
-      "kind": "video"
-    },
-    {
-      "id": "ExXgILWl3Ic",
-      "videoId": "ExXgILWl3Ic",
-      "title": "I'm Finally Starting To Feel Like A Runner Again...",
-      "url": "https://www.youtube.com/watch?v=ExXgILWl3Ic",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-15T16:00:20.000Z",
-      "durationSeconds": 1205,
-      "viewCount": 46433,
+      "viewCount": 60574,
       "kind": "video"
     },
     {
@@ -604,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T14:00:29.000Z",
       "durationSeconds": 952,
-      "viewCount": 44047,
+      "viewCount": 45416,
       "kind": "video"
     },
     {
@@ -623,7 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 22556,
+      "viewCount": 22848,
       "kind": "video"
     },
     {
@@ -642,26 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 84198,
-      "kind": "video"
-    },
-    {
-      "id": "cU8qlyYGj6c",
-      "videoId": "cU8qlyYGj6c",
-      "title": "The Most Emotional Race of My Life - The New York City Marathon",
-      "url": "https://www.youtube.com/watch?v=cU8qlyYGj6c",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Phily Bowden",
-        "slug": "phily-bowden",
-        "handle": "philybowden",
-        "url": "https://www.youtube.com/@philybowden",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-12T18:00:07.000Z",
-      "durationSeconds": 2122,
-      "viewCount": 331468,
+      "viewCount": 86161,
       "kind": "video"
     },
     {
@@ -680,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 34266,
+      "viewCount": 34528,
       "kind": "video"
     },
     {
@@ -699,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 471111,
+      "viewCount": 485303,
       "kind": "video"
     },
     {
@@ -718,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9275,
+      "viewCount": 9328,
       "kind": "video"
     },
     {
@@ -737,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 61232,
+      "viewCount": 61490,
       "kind": "video"
     },
     {
@@ -756,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33614,
+      "viewCount": 33641,
       "kind": "video"
     },
     {
@@ -775,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 187013,
+      "viewCount": 187669,
       "kind": "video"
     },
     {
@@ -794,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 26119,
+      "viewCount": 26193,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3496,
+      "viewCount": 3497,
       "kind": "video"
     },
     {
@@ -851,7 +851,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20302,
+      "viewCount": 20305,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 125073,
+      "viewCount": 125190,
       "kind": "video"
     },
     {
@@ -889,7 +889,64 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 717981,
+      "viewCount": 719151,
+      "kind": "video"
+    },
+    {
+      "id": "gmTCHeDnsKk",
+      "videoId": "gmTCHeDnsKk",
+      "title": "ASICS Metasleek",
+      "url": "https://www.youtube.com/watch?v=gmTCHeDnsKk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-20T16:04:26.000Z",
+      "durationSeconds": 802,
+      "viewCount": 81322,
+      "kind": "video"
+    },
+    {
+      "id": "cU8qlyYGj6c",
+      "videoId": "cU8qlyYGj6c",
+      "title": "The Most Emotional Race of My Life - The New York City Marathon",
+      "url": "https://www.youtube.com/watch?v=cU8qlyYGj6c",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-12T18:00:07.000Z",
+      "durationSeconds": 2122,
+      "viewCount": 335604,
+      "kind": "video"
+    },
+    {
+      "id": "ExXgILWl3Ic",
+      "videoId": "ExXgILWl3Ic",
+      "title": "I'm Finally Starting To Feel Like A Runner Again...",
+      "url": "https://www.youtube.com/watch?v=ExXgILWl3Ic",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-15T16:00:20.000Z",
+      "durationSeconds": 1205,
+      "viewCount": 46943,
       "kind": "video"
     },
     {
@@ -908,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 116088,
+      "viewCount": 117016,
       "kind": "video"
     },
     {
@@ -927,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 509059,
+      "viewCount": 511465,
       "kind": "video"
     },
     {
@@ -946,26 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 3201,
-      "kind": "video"
-    },
-    {
-      "id": "qliKlXe7wE4",
-      "videoId": "qliKlXe7wE4",
-      "title": "my first race on norwegian singles method - NSM W3",
-      "url": "https://www.youtube.com/watch?v=qliKlXe7wE4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-18T15:49:47.000Z",
-      "durationSeconds": 1388,
-      "viewCount": 27722,
+      "viewCount": 3210,
       "kind": "video"
     },
     {
@@ -984,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 66098,
+      "viewCount": 66203,
       "kind": "video"
     },
     {
@@ -1003,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T17:00:04.000Z",
       "durationSeconds": 924,
-      "viewCount": 156575,
+      "viewCount": 160011,
       "kind": "video"
     },
     {
@@ -1022,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 101756,
+      "viewCount": 102762,
       "kind": "video"
     },
     {
@@ -1041,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7186,
+      "viewCount": 7187,
       "kind": "video"
     },
     {
@@ -1060,26 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 39599,
-      "kind": "video"
-    },
-    {
-      "id": "CXzPJ8CP_hk",
-      "videoId": "CXzPJ8CP_hk",
-      "title": "The Most UNFIT I've Been In Years | Comeback After Double Stress Fracture!",
-      "url": "https://www.youtube.com/watch?v=CXzPJ8CP_hk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-08T16:00:04.000Z",
-      "durationSeconds": 1196,
-      "viewCount": 69277,
+      "viewCount": 40350,
       "kind": "video"
     },
     {
@@ -1098,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 37590,
+      "viewCount": 37737,
       "kind": "video"
     },
     {
@@ -1117,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 92363,
+      "viewCount": 92446,
       "kind": "video"
     },
     {
@@ -1136,26 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 128923,
-      "kind": "video"
-    },
-    {
-      "id": "RKYcssfPOEY",
-      "videoId": "RKYcssfPOEY",
-      "title": "My New York City Marathon Goals",
-      "url": "https://www.youtube.com/watch?v=RKYcssfPOEY",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Phily Bowden",
-        "slug": "phily-bowden",
-        "handle": "philybowden",
-        "url": "https://www.youtube.com/@philybowden",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-31T17:00:13.000Z",
-      "durationSeconds": 659,
-      "viewCount": 185205,
+      "viewCount": 129169,
       "kind": "video"
     },
     {
@@ -1174,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21319,
+      "viewCount": 21350,
       "kind": "video"
     },
     {
@@ -1193,7 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 100281,
+      "viewCount": 100625,
       "kind": "video"
     },
     {
@@ -1212,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 12107,
+      "viewCount": 12140,
       "kind": "video"
     },
     {
@@ -1231,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73258,
+      "viewCount": 73313,
       "kind": "video"
     },
     {
@@ -1250,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21236,
+      "viewCount": 21241,
       "kind": "video"
     },
     {
@@ -1269,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22694,
+      "viewCount": 22712,
       "kind": "video"
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46170,
+      "viewCount": 46184,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 11017,
+      "viewCount": 11018,
       "kind": "video"
     },
     {
@@ -1345,7 +1345,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47536,
+      "viewCount": 47546,
       "kind": "video"
     },
     {
@@ -1364,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 123574,
+      "viewCount": 123672,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,64 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 330419,
+      "viewCount": 330855,
+      "kind": "video"
+    },
+    {
+      "id": "qliKlXe7wE4",
+      "videoId": "qliKlXe7wE4",
+      "title": "my first race on norwegian singles method - NSM W3",
+      "url": "https://www.youtube.com/watch?v=qliKlXe7wE4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-18T15:49:47.000Z",
+      "durationSeconds": 1388,
+      "viewCount": 28956,
+      "kind": "video"
+    },
+    {
+      "id": "RKYcssfPOEY",
+      "videoId": "RKYcssfPOEY",
+      "title": "My New York City Marathon Goals",
+      "url": "https://www.youtube.com/watch?v=RKYcssfPOEY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-31T17:00:13.000Z",
+      "durationSeconds": 659,
+      "viewCount": 185370,
+      "kind": "video"
+    },
+    {
+      "id": "CXzPJ8CP_hk",
+      "videoId": "CXzPJ8CP_hk",
+      "title": "The Most UNFIT I've Been In Years | Comeback After Double Stress Fracture!",
+      "url": "https://www.youtube.com/watch?v=CXzPJ8CP_hk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-08T16:00:04.000Z",
+      "durationSeconds": 1196,
+      "viewCount": 69523,
       "kind": "video"
     },
     {
@@ -1402,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 132439,
+      "viewCount": 132866,
       "kind": "video"
     },
     {
@@ -1421,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37820,
+      "viewCount": 37877,
       "kind": "video"
     },
     {
@@ -1440,26 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15582,
-      "kind": "video"
-    },
-    {
-      "id": "6Z5Jo1D-pGI",
-      "videoId": "6Z5Jo1D-pGI",
-      "title": "adidas adios pro evo 3",
-      "url": "https://www.youtube.com/watch?v=6Z5Jo1D-pGI",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-16T16:53:37.000Z",
-      "durationSeconds": 1113,
-      "viewCount": 67638,
+      "viewCount": 15599,
       "kind": "video"
     },
     {
@@ -1478,7 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 328061,
+      "viewCount": 329399,
       "kind": "video"
     },
     {
@@ -1497,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:00:07.000Z",
       "durationSeconds": 605,
-      "viewCount": 676667,
+      "viewCount": 704652,
       "kind": "video"
     },
     {
@@ -1516,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 257665,
+      "viewCount": 259942,
       "kind": "video"
     },
     {
@@ -1535,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6218,
+      "viewCount": 6222,
       "kind": "video"
     },
     {
@@ -1554,26 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 66980,
-      "kind": "video"
-    },
-    {
-      "id": "joUMppv4WUk",
-      "videoId": "joUMppv4WUk",
-      "title": "Why Your Lactate Threshold Is Holding You Back (And How To Fix It)",
-      "url": "https://www.youtube.com/watch?v=joUMppv4WUk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-01T16:00:04.000Z",
-      "durationSeconds": 909,
-      "viewCount": 69636,
+      "viewCount": 67216,
       "kind": "video"
     },
     {
@@ -1592,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 32977,
+      "viewCount": 33025,
       "kind": "video"
     },
     {
@@ -1611,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 86421,
+      "viewCount": 86512,
       "kind": "video"
     },
     {
@@ -1630,26 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 254622,
-      "kind": "video"
-    },
-    {
-      "id": "9VWI46vWMSg",
-      "videoId": "9VWI46vWMSg",
-      "title": "This Week Decides My New York Marathon",
-      "url": "https://www.youtube.com/watch?v=9VWI46vWMSg",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Phily Bowden",
-        "slug": "phily-bowden",
-        "handle": "philybowden",
-        "url": "https://www.youtube.com/@philybowden",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-25T19:00:20.000Z",
-      "durationSeconds": 1930,
-      "viewCount": 151543,
+      "viewCount": 254884,
       "kind": "video"
     },
     {
@@ -1668,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 23968,
+      "viewCount": 23983,
       "kind": "video"
     },
     {
@@ -1687,7 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 190085,
+      "viewCount": 191230,
       "kind": "video"
     },
     {
@@ -1706,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11755,
+      "viewCount": 11768,
       "kind": "video"
     },
     {
@@ -1725,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59168,
+      "viewCount": 59195,
       "kind": "video"
     },
     {
@@ -1744,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46310,
+      "viewCount": 46376,
       "kind": "video"
     },
     {
@@ -1763,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60544,
+      "viewCount": 60565,
       "kind": "video"
     },
     {
@@ -1782,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 41174,
+      "viewCount": 41193,
       "kind": "video"
     },
     {
@@ -1801,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5412,
+      "viewCount": 5414,
       "kind": "video"
     },
     {
@@ -1839,7 +1839,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29050,
+      "viewCount": 29056,
       "kind": "video"
     },
     {
@@ -1858,7 +1858,64 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 262312,
+      "viewCount": 262649,
+      "kind": "video"
+    },
+    {
+      "id": "6Z5Jo1D-pGI",
+      "videoId": "6Z5Jo1D-pGI",
+      "title": "adidas adios pro evo 3",
+      "url": "https://www.youtube.com/watch?v=6Z5Jo1D-pGI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-16T16:53:37.000Z",
+      "durationSeconds": 1113,
+      "viewCount": 68712,
+      "kind": "video"
+    },
+    {
+      "id": "9VWI46vWMSg",
+      "videoId": "9VWI46vWMSg",
+      "title": "This Week Decides My New York Marathon",
+      "url": "https://www.youtube.com/watch?v=9VWI46vWMSg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-25T19:00:20.000Z",
+      "durationSeconds": 1930,
+      "viewCount": 151747,
+      "kind": "video"
+    },
+    {
+      "id": "joUMppv4WUk",
+      "videoId": "joUMppv4WUk",
+      "title": "Why Your Lactate Threshold Is Holding You Back (And How To Fix It)",
+      "url": "https://www.youtube.com/watch?v=joUMppv4WUk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-01T16:00:04.000Z",
+      "durationSeconds": 909,
+      "viewCount": 70062,
       "kind": "video"
     },
     {
@@ -1877,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T19:00:03.000Z",
       "durationSeconds": 882,
-      "viewCount": 103523,
+      "viewCount": 103710,
       "kind": "video"
     },
     {
@@ -1896,7 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 36098,
+      "viewCount": 36168,
       "kind": "video"
     },
     {
@@ -1915,26 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 10004,
-      "kind": "video"
-    },
-    {
-      "id": "ELpwRqMOd-M",
-      "videoId": "ELpwRqMOd-M",
-      "title": "Is Norwegian Singles Method Boring - NSM Week 2",
-      "url": "https://www.youtube.com/watch?v=ELpwRqMOd-M",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-14T12:00:09.000Z",
-      "durationSeconds": 1293,
-      "viewCount": 32640,
+      "viewCount": 10012,
       "kind": "video"
     },
     {
@@ -1953,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 72545,
+      "viewCount": 72640,
       "kind": "video"
     },
     {
@@ -1972,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T17:00:31.000Z",
       "durationSeconds": 1231,
-      "viewCount": 166081,
+      "viewCount": 168587,
       "kind": "video"
     },
     {
@@ -1991,7 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 150292,
+      "viewCount": 150573,
       "kind": "video"
     },
     {
@@ -2029,26 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 43992,
-      "kind": "video"
-    },
-    {
-      "id": "u4kEz0DAyIU",
-      "videoId": "u4kEz0DAyIU",
-      "title": "I'm Finally Running Again... But Things Have Changed!",
-      "url": "https://www.youtube.com/watch?v=u4kEz0DAyIU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-24T15:00:06.000Z",
-      "durationSeconds": 1127,
-      "viewCount": 96195,
+      "viewCount": 44100,
       "kind": "video"
     },
     {
@@ -2067,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 44136,
+      "viewCount": 44180,
       "kind": "video"
     },
     {
@@ -2086,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 811071,
+      "viewCount": 816115,
       "kind": "video"
     },
     {
@@ -2105,26 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 117191,
-      "kind": "video"
-    },
-    {
-      "id": "J7XNOB2lQb4",
-      "videoId": "J7XNOB2lQb4",
-      "title": "TWO weeks before New York Marathon...",
-      "url": "https://www.youtube.com/watch?v=J7XNOB2lQb4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Phily Bowden",
-        "slug": "phily-bowden",
-        "handle": "philybowden",
-        "url": "https://www.youtube.com/@philybowden",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-18T18:00:21.000Z",
-      "durationSeconds": 532,
-      "viewCount": 200193,
+      "viewCount": 117238,
       "kind": "video"
     },
     {
@@ -2143,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10789,
+      "viewCount": 10797,
       "kind": "video"
     },
     {
@@ -2162,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 250288,
+      "viewCount": 250684,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15457,
+      "viewCount": 15468,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91380,
+      "viewCount": 91423,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26450,
+      "viewCount": 26516,
       "kind": "video"
     },
     {
@@ -2238,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14785,
+      "viewCount": 14790,
       "kind": "video"
     },
     {
@@ -2257,7 +2257,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 43948,
+      "viewCount": 43961,
       "kind": "video"
     },
     {
@@ -2314,7 +2314,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18768,
+      "viewCount": 18767,
       "kind": "video"
     },
     {
@@ -2333,7 +2333,64 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 120119,
+      "viewCount": 120168,
+      "kind": "video"
+    },
+    {
+      "id": "ELpwRqMOd-M",
+      "videoId": "ELpwRqMOd-M",
+      "title": "Is Norwegian Singles Method Boring - NSM Week 2",
+      "url": "https://www.youtube.com/watch?v=ELpwRqMOd-M",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-14T12:00:09.000Z",
+      "durationSeconds": 1293,
+      "viewCount": 33495,
+      "kind": "video"
+    },
+    {
+      "id": "J7XNOB2lQb4",
+      "videoId": "J7XNOB2lQb4",
+      "title": "TWO weeks before New York Marathon...",
+      "url": "https://www.youtube.com/watch?v=J7XNOB2lQb4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-18T18:00:21.000Z",
+      "durationSeconds": 532,
+      "viewCount": 200239,
+      "kind": "video"
+    },
+    {
+      "id": "u4kEz0DAyIU",
+      "videoId": "u4kEz0DAyIU",
+      "title": "I'm Finally Running Again... But Things Have Changed!",
+      "url": "https://www.youtube.com/watch?v=u4kEz0DAyIU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-24T15:00:06.000Z",
+      "durationSeconds": 1127,
+      "viewCount": 96277,
       "kind": "video"
     },
     {
@@ -2352,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T18:00:06.000Z",
       "durationSeconds": 788,
-      "viewCount": 151290,
+      "viewCount": 151444,
       "kind": "video"
     },
     {
@@ -2371,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 31570,
+      "viewCount": 31707,
       "kind": "video"
     },
     {
@@ -2390,26 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15494,
-      "kind": "video"
-    },
-    {
-      "id": "2tffR_bGyiU",
-      "videoId": "2tffR_bGyiU",
-      "title": "Puma Fast RB2",
-      "url": "https://www.youtube.com/watch?v=2tffR_bGyiU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-12T17:54:04.000Z",
-      "durationSeconds": 941,
-      "viewCount": 147323,
+      "viewCount": 15504,
       "kind": "video"
     },
     {
@@ -2428,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 46008,
+      "viewCount": 46035,
       "kind": "video"
     },
     {
@@ -2447,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T17:00:21.000Z",
       "durationSeconds": 792,
-      "viewCount": 209477,
+      "viewCount": 210579,
       "kind": "video"
     },
     {
@@ -2466,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 20242,
+      "viewCount": 20553,
       "kind": "video"
     },
     {
@@ -2485,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6927,
+      "viewCount": 6929,
       "kind": "video"
     },
     {
@@ -2504,26 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 78356,
-      "kind": "video"
-    },
-    {
-      "id": "vkCDbseU6Xs",
-      "videoId": "vkCDbseU6Xs",
-      "title": "I Wish I Knew THIS Before My FIRST Half Marathon- 7 BEGINNER TIPS!",
-      "url": "https://www.youtube.com/watch?v=vkCDbseU6Xs",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-18T16:01:46.000Z",
-      "durationSeconds": 1057,
-      "viewCount": 75703,
+      "viewCount": 78471,
       "kind": "video"
     },
     {
@@ -2542,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 29014,
+      "viewCount": 29032,
       "kind": "video"
     },
     {
@@ -2561,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 114171,
+      "viewCount": 114282,
       "kind": "video"
     },
     {
@@ -2580,26 +2599,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 102885,
-      "kind": "video"
-    },
-    {
-      "id": "OFRU9JR4_bQ",
-      "videoId": "OFRU9JR4_bQ",
-      "title": "How a 2:25 Marathoner Fuels a 24 Mile Long Run",
-      "url": "https://www.youtube.com/watch?v=OFRU9JR4_bQ",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Phily Bowden",
-        "slug": "phily-bowden",
-        "handle": "philybowden",
-        "url": "https://www.youtube.com/@philybowden",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-11T18:00:26.000Z",
-      "durationSeconds": 1576,
-      "viewCount": 135878,
+      "viewCount": 102950,
       "kind": "video"
     },
     {
@@ -2618,7 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12333,
+      "viewCount": 12343,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8838,
+      "viewCount": 8842,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 66152,
+      "viewCount": 66212,
       "kind": "video"
     },
     {
@@ -2675,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7906,
+      "viewCount": 7911,
       "kind": "video"
     },
     {
@@ -2694,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27708,
+      "viewCount": 27716,
       "kind": "video"
     },
     {
@@ -2713,7 +2713,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34730,
+      "viewCount": 34737,
       "kind": "video"
     },
     {
@@ -2732,7 +2732,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:35:39.000Z",
       "durationSeconds": 348,
-      "viewCount": 1449,
+      "viewCount": 1450,
       "kind": "video"
     },
     {
@@ -2770,26 +2770,64 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 305059,
+      "viewCount": 305439,
       "kind": "video"
     },
     {
-      "id": "dxHrjKB_Pbk",
-      "videoId": "dxHrjKB_Pbk",
-      "title": "My First Test of the Marathon Build | Valencia Half Marathon",
-      "url": "https://www.youtube.com/watch?v=dxHrjKB_Pbk",
+      "id": "2tffR_bGyiU",
+      "videoId": "2tffR_bGyiU",
+      "title": "Puma Fast RB2",
+      "url": "https://www.youtube.com/watch?v=2tffR_bGyiU",
       "discipline": "Distance",
       "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-12T17:54:04.000Z",
+      "durationSeconds": 941,
+      "viewCount": 149473,
+      "kind": "video"
+    },
+    {
+      "id": "OFRU9JR4_bQ",
+      "videoId": "OFRU9JR4_bQ",
+      "title": "How a 2:25 Marathoner Fuels a 24 Mile Long Run",
+      "url": "https://www.youtube.com/watch?v=OFRU9JR4_bQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
         "kind": "athlete"
       },
       "athlete": null,
-      "publishedAt": "2026-10-23T18:00:23.000Z",
-      "durationSeconds": 954,
-      "viewCount": 129214,
+      "publishedAt": "2026-10-11T18:00:26.000Z",
+      "durationSeconds": 1576,
+      "viewCount": 136013,
+      "kind": "video"
+    },
+    {
+      "id": "vkCDbseU6Xs",
+      "videoId": "vkCDbseU6Xs",
+      "title": "I Wish I Knew THIS Before My FIRST Half Marathon- 7 BEGINNER TIPS!",
+      "url": "https://www.youtube.com/watch?v=vkCDbseU6Xs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-18T16:01:46.000Z",
+      "durationSeconds": 1057,
+      "viewCount": 76025,
       "kind": "video"
     },
     {
@@ -2808,26 +2846,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 30194,
-      "kind": "video"
-    },
-    {
-      "id": "JZA0_uPxYYU",
-      "videoId": "JZA0_uPxYYU",
-      "title": "Norwegian Singles Method, Week 1",
-      "url": "https://www.youtube.com/watch?v=JZA0_uPxYYU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-10T13:08:11.000Z",
-      "durationSeconds": 1760,
-      "viewCount": 50719,
+      "viewCount": 30271,
       "kind": "video"
     },
     {
@@ -2846,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34829,
+      "viewCount": 34843,
       "kind": "video"
     },
     {
@@ -2865,7 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T17:00:22.000Z",
       "durationSeconds": 891,
-      "viewCount": 159401,
+      "viewCount": 159758,
       "kind": "video"
     },
     {
@@ -2884,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 91229,
+      "viewCount": 91524,
       "kind": "video"
     },
     {
@@ -2922,26 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 49140,
-      "kind": "video"
-    },
-    {
-      "id": "va_zwpGSU-I",
-      "videoId": "va_zwpGSU-I",
-      "title": "How much Fitness did I Gain in 365 days (One Year Of Cycling)",
-      "url": "https://www.youtube.com/watch?v=va_zwpGSU-I",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-11T15:00:07.000Z",
-      "durationSeconds": 980,
-      "viewCount": 250222,
+      "viewCount": 49287,
       "kind": "video"
     },
     {
@@ -2960,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24325,
+      "viewCount": 24338,
       "kind": "video"
     },
     {
@@ -2979,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 533030,
+      "viewCount": 534338,
       "kind": "video"
     },
     {
@@ -2998,26 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163372,
-      "kind": "video"
-    },
-    {
-      "id": "5jOFwvlIrqQ",
-      "videoId": "5jOFwvlIrqQ",
-      "title": "More Fitness in Less Time.",
-      "url": "https://www.youtube.com/watch?v=5jOFwvlIrqQ",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Phily Bowden",
-        "slug": "phily-bowden",
-        "handle": "philybowden",
-        "url": "https://www.youtube.com/@philybowden",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-08T18:00:30.000Z",
-      "durationSeconds": 1184,
-      "viewCount": 132894,
+      "viewCount": 163409,
       "kind": "video"
     },
     {
@@ -3036,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6460,
+      "viewCount": 6463,
       "kind": "video"
     },
     {
@@ -3055,7 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 73876,
+      "viewCount": 73924,
       "kind": "video"
     },
     {
@@ -3093,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22695,
+      "viewCount": 22698,
       "kind": "video"
     },
     {
@@ -3112,7 +3093,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23841,
+      "viewCount": 23849,
       "kind": "video"
     },
     {
@@ -3150,7 +3131,7 @@
       "athlete": null,
       "publishedAt": "2026-02-13T15:00:32.000Z",
       "durationSeconds": 4292,
-      "viewCount": 16,
+      "viewCount": 17,
       "kind": "video"
     },
     {
@@ -3169,7 +3150,64 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2187403,
+      "viewCount": 2190694,
+      "kind": "video"
+    },
+    {
+      "id": "JZA0_uPxYYU",
+      "videoId": "JZA0_uPxYYU",
+      "title": "Norwegian Singles Method, Week 1",
+      "url": "https://www.youtube.com/watch?v=JZA0_uPxYYU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-10T13:08:11.000Z",
+      "durationSeconds": 1760,
+      "viewCount": 51351,
+      "kind": "video"
+    },
+    {
+      "id": "5jOFwvlIrqQ",
+      "videoId": "5jOFwvlIrqQ",
+      "title": "More Fitness in Less Time.",
+      "url": "https://www.youtube.com/watch?v=5jOFwvlIrqQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Phily Bowden",
+        "slug": "phily-bowden",
+        "handle": "philybowden",
+        "url": "https://www.youtube.com/@philybowden",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-08T18:00:30.000Z",
+      "durationSeconds": 1184,
+      "viewCount": 132985,
+      "kind": "video"
+    },
+    {
+      "id": "va_zwpGSU-I",
+      "videoId": "va_zwpGSU-I",
+      "title": "How much Fitness did I Gain in 365 days (One Year Of Cycling)",
+      "url": "https://www.youtube.com/watch?v=va_zwpGSU-I",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-11T15:00:07.000Z",
+      "durationSeconds": 980,
+      "viewCount": 252549,
       "kind": "video"
     },
     {
@@ -3188,26 +3226,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 39912,
-      "kind": "video"
-    },
-    {
-      "id": "j6QjJogSyrw",
-      "videoId": "j6QjJogSyrw",
-      "title": "Diadora Corsa",
-      "url": "https://www.youtube.com/watch?v=j6QjJogSyrw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-06T12:30:34.000Z",
-      "durationSeconds": 848,
-      "viewCount": 20941,
+      "viewCount": 39965,
       "kind": "video"
     },
     {
@@ -3226,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44692,
+      "viewCount": 44702,
       "kind": "video"
     },
     {
@@ -3245,7 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T17:00:10.000Z",
       "durationSeconds": 892,
-      "viewCount": 159088,
+      "viewCount": 160479,
       "kind": "video"
     },
     {
@@ -3264,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 77403,
+      "viewCount": 77660,
       "kind": "video"
     },
     {
@@ -3302,26 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37301,
-      "kind": "video"
-    },
-    {
-      "id": "r6O_URVcrsk",
-      "videoId": "r6O_URVcrsk",
-      "title": "I Ran a 5K in JAKOB'S Hometown | Return to Running After INJURY!",
-      "url": "https://www.youtube.com/watch?v=r6O_URVcrsk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-07T15:00:10.000Z",
-      "durationSeconds": 1563,
-      "viewCount": 68396,
+      "viewCount": 37381,
       "kind": "video"
     },
     {
@@ -3359,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 194022,
+      "viewCount": 195292,
       "kind": "video"
     },
     {
@@ -3378,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93739,
+      "viewCount": 93776,
       "kind": "video"
     },
     {
@@ -3397,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8752,
+      "viewCount": 8758,
       "kind": "video"
     },
     {
@@ -3416,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60304,
+      "viewCount": 60321,
       "kind": "video"
     },
     {
@@ -3435,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 11193,
+      "viewCount": 11194,
       "kind": "video"
     },
     {
@@ -3454,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23235,
+      "viewCount": 23236,
       "kind": "video"
     },
     {
@@ -3473,7 +3473,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 44026,
+      "viewCount": 44219,
       "kind": "video"
     },
     {
@@ -3492,7 +3492,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:20:10.000Z",
       "durationSeconds": 1017,
-      "viewCount": 9568,
+      "viewCount": 9569,
       "kind": "video"
     },
     {
@@ -3515,6 +3515,44 @@
       "kind": "video"
     },
     {
+      "id": "j6QjJogSyrw",
+      "videoId": "j6QjJogSyrw",
+      "title": "Diadora Corsa",
+      "url": "https://www.youtube.com/watch?v=j6QjJogSyrw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-06T12:30:34.000Z",
+      "durationSeconds": 848,
+      "viewCount": 21012,
+      "kind": "video"
+    },
+    {
+      "id": "r6O_URVcrsk",
+      "videoId": "r6O_URVcrsk",
+      "title": "I Ran a 5K in JAKOB'S Hometown | Return to Running After INJURY!",
+      "url": "https://www.youtube.com/watch?v=r6O_URVcrsk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-07T15:00:10.000Z",
+      "durationSeconds": 1563,
+      "viewCount": 68443,
+      "kind": "video"
+    },
+    {
       "id": "9k8llb71Md4",
       "videoId": "9k8llb71Md4",
       "title": "Full training Day in Font Romeu - Track Tuesdays",
@@ -3530,26 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 42243,
-      "kind": "video"
-    },
-    {
-      "id": "YhvbEiM6MS0",
-      "videoId": "YhvbEiM6MS0",
-      "title": "a week of recovery runs",
-      "url": "https://www.youtube.com/watch?v=YhvbEiM6MS0",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-04T12:30:33.000Z",
-      "durationSeconds": 743,
-      "viewCount": 22430,
+      "viewCount": 42353,
       "kind": "video"
     },
     {
@@ -3568,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47313,
+      "viewCount": 47331,
       "kind": "video"
     },
     {
@@ -3587,7 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:10:30.000Z",
       "durationSeconds": 1134,
-      "viewCount": 113676,
+      "viewCount": 113981,
       "kind": "video"
     },
     {
@@ -3606,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6943,
+      "viewCount": 6945,
       "kind": "video"
     },
     {
@@ -3625,26 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35741,
-      "kind": "video"
-    },
-    {
-      "id": "hqwXx_I8bmw",
-      "videoId": "hqwXx_I8bmw",
-      "title": "A 2:23 Marathon Runner Takes On Mallorca's Hardest Climb!",
-      "url": "https://www.youtube.com/watch?v=hqwXx_I8bmw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-27T15:00:16.000Z",
-      "durationSeconds": 2024,
-      "viewCount": 37446,
+      "viewCount": 35785,
       "kind": "video"
     },
     {
@@ -3663,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34454,
+      "viewCount": 34488,
       "kind": "video"
     },
     {
@@ -3682,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48214,
+      "viewCount": 48244,
       "kind": "video"
     },
     {
@@ -3701,7 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 5999,
+      "viewCount": 6000,
       "kind": "video"
     },
     {
@@ -3720,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78382,
+      "viewCount": 78427,
       "kind": "video"
     },
     {
@@ -3739,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24854,
+      "viewCount": 24858,
       "kind": "video"
     },
     {
@@ -3758,7 +3758,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 31996,
+      "viewCount": 32108,
       "kind": "video"
     },
     {
@@ -3800,6 +3800,44 @@
       "kind": "video"
     },
     {
+      "id": "YhvbEiM6MS0",
+      "videoId": "YhvbEiM6MS0",
+      "title": "a week of recovery runs",
+      "url": "https://www.youtube.com/watch?v=YhvbEiM6MS0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-04T12:30:33.000Z",
+      "durationSeconds": 743,
+      "viewCount": 22483,
+      "kind": "video"
+    },
+    {
+      "id": "hqwXx_I8bmw",
+      "videoId": "hqwXx_I8bmw",
+      "title": "A 2:23 Marathon Runner Takes On Mallorca's Hardest Climb!",
+      "url": "https://www.youtube.com/watch?v=hqwXx_I8bmw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-27T15:00:16.000Z",
+      "durationSeconds": 2024,
+      "viewCount": 37473,
+      "kind": "video"
+    },
+    {
       "id": "R4TlwLWZw0Q",
       "videoId": "R4TlwLWZw0Q",
       "title": "Barcelona VLOG - Life Update and training video",
@@ -3815,26 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 27454,
-      "kind": "video"
-    },
-    {
-      "id": "Kp7DuRMY6fk",
-      "videoId": "Kp7DuRMY6fk",
-      "title": "Skechers Aero Elite",
-      "url": "https://www.youtube.com/watch?v=Kp7DuRMY6fk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-02T13:00:27.000Z",
-      "durationSeconds": 652,
-      "viewCount": 24409,
+      "viewCount": 27554,
       "kind": "video"
     },
     {
@@ -3853,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51463,
+      "viewCount": 51499,
       "kind": "video"
     },
     {
@@ -3872,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T16:30:31.000Z",
       "durationSeconds": 587,
-      "viewCount": 171552,
+      "viewCount": 172513,
       "kind": "video"
     },
     {
@@ -3891,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T15:04:10.000Z",
       "durationSeconds": 377,
-      "viewCount": 12327,
+      "viewCount": 12328,
       "kind": "video"
     },
     {
@@ -3910,26 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28745,
-      "kind": "video"
-    },
-    {
-      "id": "okrchBaJXLk",
-      "videoId": "okrchBaJXLk",
-      "title": "I Took On My First Ever Cycling Race | Can A Runner Compete For The WIN?!",
-      "url": "https://www.youtube.com/watch?v=okrchBaJXLk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-20T15:00:27.000Z",
-      "durationSeconds": 1146,
-      "viewCount": 62252,
+      "viewCount": 28777,
       "kind": "video"
     },
     {
@@ -3948,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 75430,
+      "viewCount": 75525,
       "kind": "video"
     },
     {
@@ -3967,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52628,
+      "viewCount": 52651,
       "kind": "video"
     },
     {
@@ -3986,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11585,
+      "viewCount": 11590,
       "kind": "video"
     },
     {
@@ -4005,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93632,
+      "viewCount": 93683,
       "kind": "video"
     },
     {
@@ -4024,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21897,
+      "viewCount": 21899,
       "kind": "video"
     },
     {
@@ -4043,7 +4043,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 48895,
+      "viewCount": 49996,
       "kind": "video"
     },
     {
@@ -4066,6 +4066,44 @@
       "kind": "video"
     },
     {
+      "id": "Kp7DuRMY6fk",
+      "videoId": "Kp7DuRMY6fk",
+      "title": "Skechers Aero Elite",
+      "url": "https://www.youtube.com/watch?v=Kp7DuRMY6fk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-02T13:00:27.000Z",
+      "durationSeconds": 652,
+      "viewCount": 24486,
+      "kind": "video"
+    },
+    {
+      "id": "okrchBaJXLk",
+      "videoId": "okrchBaJXLk",
+      "title": "I Took On My First Ever Cycling Race | Can A Runner Compete For The WIN?!",
+      "url": "https://www.youtube.com/watch?v=okrchBaJXLk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-20T15:00:27.000Z",
+      "durationSeconds": 1146,
+      "viewCount": 62283,
+      "kind": "video"
+    },
+    {
       "id": "zzFTe6eyi1A",
       "videoId": "zzFTe6eyi1A",
       "title": "SALOMON HQ - Behind the Scenes - Day 1",
@@ -4081,26 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16656,
-      "kind": "video"
-    },
-    {
-      "id": "2HiUszlg2nE",
-      "videoId": "2HiUszlg2nE",
-      "title": "2026 Chicago Marathon",
-      "url": "https://www.youtube.com/watch?v=2HiUszlg2nE",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-30T21:51:47.000Z",
-      "durationSeconds": 2410,
-      "viewCount": 41148,
+      "viewCount": 16686,
       "kind": "video"
     },
     {
@@ -4119,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26732,
+      "viewCount": 26750,
       "kind": "video"
     },
     {
@@ -4138,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:00.000Z",
       "durationSeconds": 1162,
-      "viewCount": 366231,
+      "viewCount": 369437,
       "kind": "video"
     },
     {
@@ -4157,45 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T21:53:29.000Z",
       "durationSeconds": 1762,
-      "viewCount": 3003,
-      "kind": "video"
-    },
-    {
-      "id": "-VpAooGbfxY",
-      "videoId": "-VpAooGbfxY",
-      "title": "Höhentrainingslager, Verletzung und everyday life as an athlete | Vlog Alica Schmidt",
-      "url": "https://www.youtube.com/watch?v=-VpAooGbfxY",
-      "discipline": "Sprints",
-      "creator": {
-        "name": "Alica Schmidt",
-        "slug": "alica-schmidt",
-        "handle": "alicaschmidt4882",
-        "url": "https://www.youtube.com/@alicaschmidt4882",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-05-03T11:11:31.000Z",
-      "durationSeconds": 2142,
-      "viewCount": 57696,
-      "kind": "video"
-    },
-    {
-      "id": "fJ8l1ehTKo4",
-      "videoId": "fJ8l1ehTKo4",
-      "title": "Carbon vs Normal Shoes... Are they ACTUALLY faster for BEGINNERS? *5K All Out In Each*",
-      "url": "https://www.youtube.com/watch?v=fJ8l1ehTKo4",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Is Running",
-        "slug": "ben-is-running",
-        "handle": "benisrunning",
-        "url": "https://www.youtube.com/@benisrunning",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-13T15:00:02.000Z",
-      "durationSeconds": 1439,
-      "viewCount": 158749,
+      "viewCount": 3004,
       "kind": "video"
     },
     {
@@ -4214,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 76694,
+      "viewCount": 76849,
       "kind": "video"
     },
     {
@@ -4233,7 +4214,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48659,
+      "viewCount": 48695,
       "kind": "video"
     },
     {
@@ -4271,7 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109440,
+      "viewCount": 109474,
       "kind": "video"
     },
     {
@@ -4290,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45514,
+      "viewCount": 45532,
       "kind": "video"
     },
     {
@@ -4309,7 +4290,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23763,
+      "viewCount": 23778,
       "kind": "video"
     },
     {
@@ -4332,6 +4313,44 @@
       "kind": "video"
     },
     {
+      "id": "2HiUszlg2nE",
+      "videoId": "2HiUszlg2nE",
+      "title": "2026 Chicago Marathon",
+      "url": "https://www.youtube.com/watch?v=2HiUszlg2nE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-30T21:51:47.000Z",
+      "durationSeconds": 2410,
+      "viewCount": 41229,
+      "kind": "video"
+    },
+    {
+      "id": "fJ8l1ehTKo4",
+      "videoId": "fJ8l1ehTKo4",
+      "title": "Carbon vs Normal Shoes... Are they ACTUALLY faster for BEGINNERS? *5K All Out In Each*",
+      "url": "https://www.youtube.com/watch?v=fJ8l1ehTKo4",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Is Running",
+        "slug": "ben-is-running",
+        "handle": "benisrunning",
+        "url": "https://www.youtube.com/@benisrunning",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-13T15:00:02.000Z",
+      "durationSeconds": 1439,
+      "viewCount": 159211,
+      "kind": "video"
+    },
+    {
       "id": "zpipJAR5Ao8",
       "videoId": "zpipJAR5Ao8",
       "title": "Pacing the Barcelona Marathon - RACE VLOG",
@@ -4347,26 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 44877,
-      "kind": "video"
-    },
-    {
-      "id": "bKQZZr12zrI",
-      "videoId": "bKQZZr12zrI",
-      "title": "Puma Deviate Pure After 100 Miles",
-      "url": "https://www.youtube.com/watch?v=bKQZZr12zrI",
-      "discipline": "Trail",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-28T11:36:31.000Z",
-      "durationSeconds": 693,
-      "viewCount": 114612,
+      "viewCount": 45027,
       "kind": "video"
     },
     {
@@ -4385,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 33030,
+      "viewCount": 33062,
       "kind": "video"
     },
     {
@@ -4404,7 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T16:54:40.000Z",
       "durationSeconds": 596,
-      "viewCount": 195535,
+      "viewCount": 197950,
       "kind": "video"
     },
     {
@@ -4442,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42683,
+      "viewCount": 42727,
       "kind": "video"
     },
     {
@@ -4461,7 +4461,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57442,
+      "viewCount": 57468,
       "kind": "video"
     },
     {
@@ -4499,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60776,
+      "viewCount": 60785,
       "kind": "video"
     },
     {
@@ -4537,7 +4537,7 @@
       "athlete": null,
       "publishedAt": "2026-01-08T19:00:06.000Z",
       "durationSeconds": 572,
-      "viewCount": 33228,
+      "viewCount": 33369,
       "kind": "video"
     },
     {
@@ -4560,6 +4560,25 @@
       "kind": "video"
     },
     {
+      "id": "bKQZZr12zrI",
+      "videoId": "bKQZZr12zrI",
+      "title": "Puma Deviate Pure After 100 Miles",
+      "url": "https://www.youtube.com/watch?v=bKQZZr12zrI",
+      "discipline": "Trail",
+      "creator": {
+        "name": "kofuzi",
+        "slug": "kofuzi",
+        "handle": "kofuzi",
+        "url": "https://www.youtube.com/@kofuzi",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-28T11:36:31.000Z",
+      "durationSeconds": 693,
+      "viewCount": 116410,
+      "kind": "video"
+    },
+    {
       "id": "C33pAAmnNdA",
       "videoId": "C33pAAmnNdA",
       "title": "Back in Sunny Barcelona - ft MNSTRY",
@@ -4575,26 +4594,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14505,
-      "kind": "video"
-    },
-    {
-      "id": "D9G5jljZ9Gk",
-      "videoId": "D9G5jljZ9Gk",
-      "title": "ASICS Michigan Sport Innovation Center (ASMI) - Ribbon Cutting",
-      "url": "https://www.youtube.com/watch?v=D9G5jljZ9Gk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "kofuzi",
-        "slug": "kofuzi",
-        "handle": "kofuzi",
-        "url": "https://www.youtube.com/@kofuzi",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-26T16:16:52.000Z",
-      "durationSeconds": 776,
-      "viewCount": 23770,
+      "viewCount": 14546,
       "kind": "video"
     },
     {
@@ -4613,7 +4613,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32474,
+      "viewCount": 32506,
       "kind": "video"
     },
     {
@@ -4632,7 +4632,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T16:00:23.000Z",
       "durationSeconds": 857,
-      "viewCount": 492267,
+      "viewCount": 492702,
       "kind": "video"
     },
     {
@@ -4651,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 67007,
+      "viewCount": 67020,
       "kind": "video"
     },
     {
@@ -4670,7 +4670,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19262,
+      "viewCount": 19264,
       "kind": "video"
     },
     {
