@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import type { ActionResult } from "@/lib/admin/auth";
 import { createDrop, updateDrop } from "@/lib/admin/actions/catalog";
 import { pacificInputToIso } from "@/lib/admin/format";
+import { DEFAULT_TAGLINE, TAGLINE_MAX } from "@/lib/shop/tagline-defaults";
 import Msg from "./Msg";
 
 export type DropValues = {
@@ -17,9 +18,12 @@ export type DropValues = {
   shipping: string; // dollars
   shipsBy: string; // YYYY-MM-DD or ""
   policy: string;
+  /** #108: the red line above the product name. Off = the drop title shows there instead. */
+  taglineOn: boolean;
+  tagline: string;
 };
 
-const EMPTY: DropValues = { title: "", slug: "", blurb: "", status: "draft", startsAt: "", endsAt: "", shipping: "8", shipsBy: "", policy: "" };
+const EMPTY: DropValues = { title: "", slug: "", blurb: "", status: "draft", startsAt: "", endsAt: "", shipping: "8", shipsBy: "", policy: "", taglineOn: true, tagline: DEFAULT_TAGLINE };
 
 export function slugify(s: string): string {
   return s
@@ -37,7 +41,7 @@ export function dollarsToCents(s: string): number {
   return Number.isFinite(n) ? Math.round(n * 100) : NaN;
 }
 
-export default function DropForm({ id, initial }: { id?: number; initial?: DropValues }) {
+export default function DropForm({ id, initial, taglineReady = true }: { id?: number; initial?: DropValues; taglineReady?: boolean }) {
   const router = useRouter();
   const [v, setV] = useState<DropValues>(initial ?? EMPTY);
   const [slugTouched, setSlugTouched] = useState(Boolean(initial));
@@ -59,6 +63,8 @@ export default function DropForm({ id, initial }: { id?: number; initial?: DropV
       shippingCents,
       shipsBy: v.shipsBy,
       policy: v.policy,
+      taglineOn: v.taglineOn,
+      tagline: v.tagline,
     };
     start(async () => {
       if (id) {
@@ -143,6 +149,27 @@ export default function DropForm({ id, initial }: { id?: number; initial?: DropV
           <span className="hint">Shown on the product page and in the receipt. Blank = no date promised.</span>
         </div>
       </div>
+      <fieldset className="adm-field adm-tagline">
+        <legend>Red line above the product name</legend>
+        <label className="adm-check" htmlFor="d-tagline-on">
+          <input id="d-tagline-on" type="checkbox" checked={v.taglineOn} onChange={(e) => set("taglineOn", e.target.checked)} />
+          Show it
+        </label>
+        <input
+          className="adm-input"
+          id="d-tagline"
+          aria-label="Red line text"
+          value={v.tagline}
+          maxLength={TAGLINE_MAX}
+          disabled={!v.taglineOn}
+          placeholder={DEFAULT_TAGLINE}
+          onChange={(e) => set("tagline", e.target.value)}
+        />
+        <span className="hint">
+          The small red text above the product name on every product in this drop. Off = the drop title shows there instead.
+          {taglineReady ? null : " Not saved yet: needs a database update, so the default shows until then."}
+        </span>
+      </fieldset>
       <div className="adm-field">
         <label htmlFor="d-policy">Policy line</label>
         <textarea

@@ -4,15 +4,18 @@ import { getDb } from "@/db";
 import { getDrop } from "@/lib/admin/queries";
 import { STATUS_LABEL, toPacificInput } from "@/lib/admin/format";
 import { formatCents } from "@/lib/shop/catalog";
+import { getDropTagline } from "@/lib/shop/tagline";
 import DropForm from "@/components/admin/DropForm";
 import NewProduct from "@/components/admin/NewProduct";
 
 export default async function DropPage({ params }: { params: Promise<{ id: string }> }) {
   const id = Number((await params).id);
   if (!Number.isInteger(id) || id <= 0) notFound();
-  const data = await getDrop(await getDb(), id);
+  const db = await getDb();
+  const data = await getDrop(db, id);
   if (!data) notFound();
   const { drop: d, phase, products } = data;
+  const tagline = await getDropTagline(db, d.id);
 
   return (
     <>
@@ -122,7 +125,10 @@ export default async function DropPage({ params }: { params: Promise<{ id: strin
             shipping: (d.shippingCents / 100).toFixed(d.shippingCents % 100 ? 2 : 0),
             shipsBy: d.shipsBy ?? "",
             policy: d.policy,
+            taglineOn: tagline.on,
+            tagline: tagline.text,
           }}
+          taglineReady={tagline.stored}
         />
       </section>
     </>

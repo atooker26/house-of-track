@@ -79,6 +79,10 @@ a.adm-stat:hover { border-color: var(--indigo-300); }
 .adm-input:focus, .adm select:focus, .adm textarea:focus { outline: 2px solid var(--focus); outline-offset: 1px; border-color: transparent; }
 .adm-check { display: flex; align-items: center; gap: 8px; font-size: 14px; }
 .adm-check input { width: 16px; height: 16px; accent-color: var(--indigo); }
+.adm-tagline { border: 0; padding: 0; margin: 0; }
+.adm-tagline legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-weight: 700; color: var(--ink); }
+.adm-field.adm-tagline label.adm-check { font-weight: 500; }
+.adm-tagline .adm-input:disabled { opacity: .55; }
 .adm-prefix { display: flex; align-items: center; border: 1px solid rgba(43,41,40,.24); border-radius: var(--r-md); background: #fff; }
 .adm-prefix span { padding: 0 0 0 11px; color: var(--fg-3); }
 .adm-prefix .adm-input { border: 0; }

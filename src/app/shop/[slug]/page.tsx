@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { getDb } from "@/db";
 import { formatCents, formatShipsBy, getProductPage, type ShopDrop } from "@/lib/shop/catalog";
 import { checkoutOpen } from "@/lib/shop/stripe";
+import { eyebrowFor, getDropTagline } from "@/lib/shop/tagline";
 import BuyBox from "./BuyBox";
 import NotifyForm from "./NotifyForm";
+import ProductGallery from "./ProductGallery";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -42,11 +43,12 @@ function closedLabel(drop: ShopDrop): string | null {
 export default async function ProductPage({ params }: Props) {
   await connection();
   const { slug } = await params;
-  const page = await getProductPage(await getDb(), slug);
+  const db = await getDb();
+  const page = await getProductPage(db, slug);
   if (!page) notFound();
   const { drop, product } = page;
+  const tagline = await getDropTagline(db, drop.id);
   const canBuy = drop.phase === "open" && checkoutOpen();
-  const [cover, ...rest] = product.images;
 
   return (
     <section className="section shop-product">
@@ -55,24 +57,10 @@ export default async function ProductPage({ params }: Props) {
           <Link href="/shop">Shop</Link> / {drop.title}
         </p>
         <div className="shop-product-grid">
-          <div className="shop-gallery">
-            <div className="shop-gallery-main">
-              {cover ? <Image src={cover} alt={product.name} fill priority sizes="(max-width: 768px) 100vw, 55vw" /> : null}
-              {product.soldOut ? <span className="shop-badge">Sold out</span> : null}
-            </div>
-            {rest.length ? (
-              <div className="shop-gallery-thumbs">
-                {rest.map((src, i) => (
-                  <div key={src} className="shop-gallery-thumb">
-                    <Image src={src} alt={`${product.name}, photo ${i + 2}`} fill sizes="25vw" />
-                  </div>
-                ))}
-              </div>
-            ) : null}
-          </div>
+          <ProductGallery images={product.images} name={product.name} soldOut={product.soldOut} />
 
           <div className="shop-product-info">
-            <p className="eyebrow coral">{drop.title}</p>
+            <p className="eyebrow coral">{eyebrowFor(tagline, drop.title)}</p>
             <h1 className="shop-product-name">{product.name}</h1>
             <p className="shop-product-price">{formatCents(product.priceCents)}</p>
             {product.run ? (
