@@ -6,6 +6,7 @@ import { z } from "zod";
 import { getDb } from "@/db";
 import { drops, orderItems, products, variants, DROP_STATUSES } from "@/db/schema";
 import { adminOrError, NOT_ALLOWED, type ActionResult } from "@/lib/admin/auth";
+import { setDropTagline, TAGLINE_MAX } from "@/lib/shop/tagline";
 
 type Created = ActionResult & { id?: number };
 
@@ -75,6 +76,8 @@ const dropSchema = z
         return v;
       }),
     policy: z.string().trim().max(500, "Keep the policy line under 500 characters"),
+    taglineOn: z.boolean(),
+    tagline: z.string().trim().max(TAGLINE_MAX, `Keep the red line under ${TAGLINE_MAX} characters`),
   })
   .refine((d) => !(d.startsAt && d.endsAt && d.endsAt <= d.startsAt), {
     message: "The drop has to end after it starts",
@@ -82,13 +85,18 @@ const dropSchema = z
 
 export type DropInput = z.input<typeof dropSchema>;
 
+/** Said when migration 0004 (drops.tagline_on / tagline) isn't applied yet: the rest saved, the red line didn't. */
+const TAGLINE_NOT_READY = "The red line setting can't be saved yet (database update pending), so the default shows for now.";
+
 export async function createDrop(input: DropInput): Promise<Created> {
   if (!(await adminOrError())) return NOT_ALLOWED;
   const p = dropSchema.safeParse(input);
   if (!p.success) return { ok: false, error: firstIssue(p.error) };
   const db = await getDb();
   try {
-    const [row] = await db.insert(drops).values(p.data).returning({ id: drops.id });
+    const { taglineOn, tagline, ...data } = p.data;
+    const [row] = await db.insert(drops).values(data).returning({ id: drops.id });
+    await setDropTagline(db, row.id, taglineOn, tagline);
     refreshCatalog();
     return { ok: true, id: row.id };
   } catch (err) {
@@ -109,14 +117,16 @@ export async function updateDrop(id: number, input: DropInput): Promise<ActionRe
       .where(and(eq(products.dropId, id), eq(products.active, 1)));
     if (n === 0) return { ok: false, error: "Add at least one visible product before going live." };
   }
+  const { taglineOn, tagline, ...data } = p.data;
   try {
-    await db.update(drops).set(p.data).where(eq(drops.id, id));
+    await db.update(drops).set(data).where(eq(drops.id, id));
   } catch (err) {
     if (uniqueViolation(err)) return { ok: false, error: "Another drop already uses that slug." };
     throw err;
   }
+  const taglineSaved = await setDropTagline(db, id, taglineOn, tagline);
   refreshCatalog();
-  return { ok: true, message: "Drop saved." };
+  return { ok: true, message: taglineSaved ? "Drop saved." : `Drop saved. ${TAGLINE_NOT_READY}` };
 }
 
 // ---- Products ----------------------------------------------------------------
