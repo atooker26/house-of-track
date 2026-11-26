@@ -51,7 +51,7 @@ export default function TopNav() {
             {label}
           </Link>
         ))}
-        <Link href="/#join" className={`btn btn-${isLight ? "primary" : "cream"}`} onClick={() => setOpen(false)}>
+        <Link href="/#join" className={`btn btn-${isLight ? "primary" : "cream"}`} data-tego-cta="join-network-nav" onClick={() => setOpen(false)}>
           <Icon name="users" size={16} />
           Join the Network
         </Link>

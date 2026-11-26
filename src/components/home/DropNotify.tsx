@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 import Icon from "@/components/Icon";
 
 /** "Email me when it drops" for the featured item before it's in the shop. */
@@ -22,6 +23,7 @@ export default function DropNotify({ dropSlug }: { dropSlug: string }) {
         body: JSON.stringify({ formType: "drop-notify", dropSlug, email: val("email"), _hp: val("_hp") }),
       });
       if (!res.ok) throw new Error();
+      trackFormSubmit("drop-notify", "Notify me (drop)");
       setSent(true);
     } catch {
       setError(true);

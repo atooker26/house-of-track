@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 import Icon from "@/components/Icon";
 import { COACH_ROLES, OPT_IN_LABEL, OTHER, PROGRAMS, SURVEY_QUESTIONS } from "@/lib/survey";
 
@@ -57,6 +58,7 @@ export default function SurveyForm() {
         }),
       });
       if (!res.ok) throw new Error("Submission failed");
+      trackFormSubmit("coach-survey", "Coach survey");
       setSent(true);
     } catch {
       setError("Something went wrong. Please try again.");

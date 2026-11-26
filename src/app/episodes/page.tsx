@@ -21,7 +21,7 @@ export default async function EpisodesPage() {
           <p className="guest-cta-sub">
             This isn&apos;t an interview — it&apos;s a conversation. We keep it raw and real. Come share your journey.
           </p>
-          <Link href="/guest" className="btn btn-cream btn-lg">
+          <Link href="/guest" className="btn btn-cream btn-lg" data-tego-cta="be-a-guest">
             <Icon name="mic" size={16} />
             Apply to join the House
           </Link>

@@ -5,6 +5,7 @@ import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 import HideOnAdmin from "@/components/HideOnAdmin";
 import "./globals.css";
+import { TEGO_QUEUE_STUB } from "@/lib/tego-stub";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -50,6 +51,10 @@ const podcastJsonLd = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={openSans.variable}>
+      <head>
+        {/* Queues tego() calls made before tego.js loads — see src/lib/tego-stub.ts. */}
+        <script dangerouslySetInnerHTML={{ __html: TEGO_QUEUE_STUB }} />
+      </head>
       <body>
         <script
           type="application/ld+json"

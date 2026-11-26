@@ -120,7 +120,7 @@ export default function BuyBox({
         </div>
       ) : null}
 
-      <button type="button" className="btn btn-primary btn-lg buybox-buy" onClick={buy} disabled={disabled} aria-disabled={disabled}>
+      <button type="button" className="btn btn-primary btn-lg buybox-buy" data-tego-cta="checkout" onClick={buy} disabled={disabled} aria-disabled={disabled}>
         {label} {disabled ? null : <Icon name="arrow" size={16} />}
       </button>
       {error ? (
