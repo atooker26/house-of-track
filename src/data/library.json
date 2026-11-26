@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T16:59:22.745Z",
+  "generatedAt": "2026-11-26T16:40:18.291Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -42,7 +42,7 @@
       "description": "Just running around the world. ",
       "avatar": "https://yt3.ggpht.com/PHy-OUtm6Sznye8_V-XEDcXooiDP-IS391OqG8MsEH_dNfQ8pBSwy6DppZQR9HQDOgbsnXIfUA=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 917000,
-      "videoCount": 750,
+      "videoCount": 753,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -126,7 +126,7 @@
       "description": "I'm making videos about my journey as a professional marathon runner, with my partner in crime and partner in life, otherwise known as @DanielMoves\n\nI keep it 100% real on here, what you see is what you get, and I'm here to take you on the ride wherever it takes me: highs, lows and parts not mentionable at the dinner table all included.\n\n@lululemon Athlete\n\nLOVE THE GRIND!\n",
       "avatar": "https://yt3.ggpht.com/2DbXzcidcP1Edmz9hxFCSN8eXOwI51hSYMrY31i-RErhXKqOTASWMOIijVEsRgpJhIO8VMWA=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 230000,
-      "videoCount": 409,
+      "videoCount": 410,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -224,7 +224,7 @@
       "description": "Welcome to the life of an elite runner. Through all the highs and lows of running, I have kept coming back to the sport because I love it so much. This channel is my way of sharing that passion with the world and providing inspiration for working through tough workouts, injuries, mental health struggles, and anything else life throws our way. \n\nAbout me: Hi! I'm Allie O, a runner from Alaska who l",
       "avatar": "https://yt3.ggpht.com/lzNU5OJHIWWXNoEblw-oKWGZ23jr2OVMNEeN0p7pilSjLWZjk0rr91nsynjPZGZ7KaX7RpfDPJM=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 142000,
-      "videoCount": 797,
+      "videoCount": 798,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -307,7 +307,7 @@
       "url": "https://www.youtube.com/channel/UCm3ERqka5Tzpzdki3RAmKiQ",
       "description": "Mile World Record Holder\nWorld Champion & Olympic Medalist",
       "avatar": "https://yt3.ggpht.com/k0VaGSjJwQfANf-bwiWh386WDHqjgrZZ0kM91wVaJTFQJrC9FCUyQIlaB4AQdKmbfd6UYfIc0A=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 33200,
+      "subscriberCount": 33300,
       "videoCount": 154,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -321,8 +321,8 @@
       "url": "https://www.youtube.com/@thecolehocker",
       "description": "Olympic Champion · 1500 m · Olympic Record Holder",
       "avatar": "https://yt3.ggpht.com/xMrCfPw4dXNAjt9TMNugWks4xFIDCB1biD3TlnoQVQTlb9ClzGz9qeg_H_4AAtpq7Svg6wSlk_E=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 22200,
-      "videoCount": 93,
+      "subscriberCount": 22600,
+      "videoCount": 94,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -336,7 +336,7 @@
       "description": "2024 Canadian Olympian, Husband, Father, Believer, and Marathoner for Puma 🐾🇨🇦\nDocumenting the process and my story of being a professional runner. \n\n\nhttps://www.letstango.run\n\n",
       "avatar": "https://yt3.ggpht.com/EgVeUSQtdU4ScAIpImLeChSkBSyP5Avcib6p7lzYjSjsyid3PqGzBSYD90bs-TqTitbQ3I3cwLQ=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 19600,
-      "videoCount": 137,
+      "videoCount": 138,
       "kind": "athlete",
       "claimState": "unclaimed"
     },
@@ -399,6 +399,44 @@
   ],
   "items": [
     {
+      "id": "mZUagnqfUdw",
+      "videoId": "mZUagnqfUdw",
+      "title": "Road To Valencia - EP III “It’s All Coming Together”",
+      "url": "https://www.youtube.com/watch?v=mZUagnqfUdw",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-26T14:23:10.000Z",
+      "durationSeconds": 935,
+      "viewCount": 1139,
+      "kind": "video"
+    },
+    {
+      "id": "8wqUWt6OvBA",
+      "videoId": "8wqUWt6OvBA",
+      "title": "Fall Training at Nike Headquarters",
+      "url": "https://www.youtube.com/watch?v=8wqUWt6OvBA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-25T18:13:36.000Z",
+      "durationSeconds": 639,
+      "viewCount": 29237,
+      "kind": "video"
+    },
+    {
       "id": "HH7j1xNSGjI",
       "videoId": "HH7j1xNSGjI",
       "title": "adidas Hyperboost Run",
@@ -414,7 +452,7 @@
       "athlete": null,
       "publishedAt": "2026-11-25T12:56:55.000Z",
       "durationSeconds": 890,
-      "viewCount": 6822,
+      "viewCount": 34255,
       "kind": "video"
     },
     {
@@ -433,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-22T19:00:02.000Z",
       "durationSeconds": 1837,
-      "viewCount": 189852,
+      "viewCount": 203823,
       "kind": "video"
     },
     {
@@ -452,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-22T16:00:30.000Z",
       "durationSeconds": 1195,
-      "viewCount": 44978,
+      "viewCount": 48098,
       "kind": "video"
     },
     {
@@ -471,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-21T20:00:37.000Z",
       "durationSeconds": 804,
-      "viewCount": 103952,
+      "viewCount": 110267,
       "kind": "video"
     },
     {
@@ -490,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T21:05:05.000Z",
       "durationSeconds": 1207,
-      "viewCount": 30506,
+      "viewCount": 32019,
       "kind": "video"
     },
     {
@@ -509,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T16:27:51.000Z",
       "durationSeconds": 671,
-      "viewCount": 8957,
+      "viewCount": 9026,
       "kind": "video"
     },
     {
@@ -528,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T18:06:57.000Z",
       "durationSeconds": 1167,
-      "viewCount": 31807,
+      "viewCount": 32674,
       "kind": "video"
     },
     {
@@ -547,7 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T17:00:26.000Z",
       "durationSeconds": 724,
-      "viewCount": 114331,
+      "viewCount": 119193,
       "kind": "video"
     },
     {
@@ -566,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-17T18:16:33.000Z",
       "durationSeconds": 1903,
-      "viewCount": 227491,
+      "viewCount": 236862,
       "kind": "video"
     },
     {
@@ -585,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 2609,
+      "viewCount": 2633,
       "kind": "video"
     },
     {
@@ -604,26 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 63171,
-      "kind": "video"
-    },
-    {
-      "id": "o0reC-ARjTI",
-      "videoId": "o0reC-ARjTI",
-      "title": "Road To Valencia - EP II “Checking the Ego”",
-      "url": "https://www.youtube.com/watch?v=o0reC-ARjTI",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-15T14:00:29.000Z",
-      "durationSeconds": 952,
-      "viewCount": 47649,
+      "viewCount": 64496,
       "kind": "video"
     },
     {
@@ -642,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 23295,
+      "viewCount": 23458,
       "kind": "video"
     },
     {
@@ -661,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 89228,
+      "viewCount": 90410,
       "kind": "video"
     },
     {
@@ -680,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 34952,
+      "viewCount": 35075,
       "kind": "video"
     },
     {
@@ -699,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 502360,
+      "viewCount": 510686,
       "kind": "video"
     },
     {
@@ -718,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9422,
+      "viewCount": 9462,
       "kind": "video"
     },
     {
@@ -737,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 61806,
+      "viewCount": 61959,
       "kind": "video"
     },
     {
@@ -756,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33702,
+      "viewCount": 33719,
       "kind": "video"
     },
     {
@@ -775,26 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 188989,
-      "kind": "video"
-    },
-    {
-      "id": "9INhuhu69Bo",
-      "videoId": "9INhuhu69Bo",
-      "title": "Racing the Double | 1500m & 5000m at the Ultimate Championships",
-      "url": "https://www.youtube.com/watch?v=9INhuhu69Bo",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-05T20:00:24.000Z",
-      "durationSeconds": 975,
-      "viewCount": 26290,
+      "viewCount": 189756,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3499,
+      "viewCount": 3500,
       "kind": "video"
     },
     {
@@ -851,7 +851,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20318,
+      "viewCount": 20330,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 125354,
+      "viewCount": 125464,
       "kind": "video"
     },
     {
@@ -889,7 +889,45 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 720877,
+      "viewCount": 721809,
+      "kind": "video"
+    },
+    {
+      "id": "o0reC-ARjTI",
+      "videoId": "o0reC-ARjTI",
+      "title": "Road To Valencia - EP II “Checking the Ego”",
+      "url": "https://www.youtube.com/watch?v=o0reC-ARjTI",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-15T14:00:29.000Z",
+      "durationSeconds": 952,
+      "viewCount": 48682,
+      "kind": "video"
+    },
+    {
+      "id": "9INhuhu69Bo",
+      "videoId": "9INhuhu69Bo",
+      "title": "Racing the Double | 1500m & 5000m at the Ultimate Championships",
+      "url": "https://www.youtube.com/watch?v=9INhuhu69Bo",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-05T20:00:24.000Z",
+      "durationSeconds": 975,
+      "viewCount": 26487,
       "kind": "video"
     },
     {
@@ -908,7 +946,7 @@
       "athlete": null,
       "publishedAt": "2026-11-23T12:00:34.000Z",
       "durationSeconds": 1357,
-      "viewCount": 21742,
+      "viewCount": 23243,
       "kind": "video"
     },
     {
@@ -927,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 339452,
+      "viewCount": 341000,
       "kind": "video"
     },
     {
@@ -946,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T16:00:20.000Z",
       "durationSeconds": 1205,
-      "viewCount": 47350,
+      "viewCount": 47531,
       "kind": "video"
     },
     {
@@ -965,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 118417,
+      "viewCount": 118950,
       "kind": "video"
     },
     {
@@ -984,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 514901,
+      "viewCount": 516832,
       "kind": "video"
     },
     {
@@ -1003,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 3224,
+      "viewCount": 3229,
       "kind": "video"
     },
     {
@@ -1022,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 66400,
+      "viewCount": 66478,
       "kind": "video"
     },
     {
@@ -1041,7 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T17:00:04.000Z",
       "durationSeconds": 924,
-      "viewCount": 165394,
+      "viewCount": 167930,
       "kind": "video"
     },
     {
@@ -1060,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 104114,
+      "viewCount": 104845,
       "kind": "video"
     },
     {
@@ -1079,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7191,
+      "viewCount": 7194,
       "kind": "video"
     },
     {
@@ -1098,26 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 41120,
-      "kind": "video"
-    },
-    {
-      "id": "ORJPtGxP-xg",
-      "videoId": "ORJPtGxP-xg",
-      "title": "Road To Valencia - EP I “The Midway Point”",
-      "url": "https://www.youtube.com/watch?v=ORJPtGxP-xg",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-02T01:00:06.000Z",
-      "durationSeconds": 1644,
-      "viewCount": 37908,
+      "viewCount": 41743,
       "kind": "video"
     },
     {
@@ -1136,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 92628,
+      "viewCount": 92722,
       "kind": "video"
     },
     {
@@ -1155,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 129609,
+      "viewCount": 129813,
       "kind": "video"
     },
     {
@@ -1174,7 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21418,
+      "viewCount": 21443,
       "kind": "video"
     },
     {
@@ -1193,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 101074,
+      "viewCount": 101321,
       "kind": "video"
     },
     {
@@ -1212,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 12180,
+      "viewCount": 12202,
       "kind": "video"
     },
     {
@@ -1231,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73389,
+      "viewCount": 73441,
       "kind": "video"
     },
     {
@@ -1250,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21250,
+      "viewCount": 21252,
       "kind": "video"
     },
     {
@@ -1269,26 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22754,
-      "kind": "video"
-    },
-    {
-      "id": "bUW89B53DVU",
-      "videoId": "bUW89B53DVU",
-      "title": "What Really Happened at the Diamond League Final ￼",
-      "url": "https://www.youtube.com/watch?v=bUW89B53DVU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-10T18:45:06.000Z",
-      "durationSeconds": 633,
-      "viewCount": 46222,
+      "viewCount": 22778,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 11021,
+      "viewCount": 11027,
       "kind": "video"
     },
     {
@@ -1345,7 +1345,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47590,
+      "viewCount": 47608,
       "kind": "video"
     },
     {
@@ -1364,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 123876,
+      "viewCount": 123964,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,45 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 331764,
+      "viewCount": 332139,
+      "kind": "video"
+    },
+    {
+      "id": "ORJPtGxP-xg",
+      "videoId": "ORJPtGxP-xg",
+      "title": "Road To Valencia - EP I “The Midway Point”",
+      "url": "https://www.youtube.com/watch?v=ORJPtGxP-xg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-02T01:00:06.000Z",
+      "durationSeconds": 1644,
+      "viewCount": 38011,
+      "kind": "video"
+    },
+    {
+      "id": "bUW89B53DVU",
+      "videoId": "bUW89B53DVU",
+      "title": "What Really Happened at the Diamond League Final ￼",
+      "url": "https://www.youtube.com/watch?v=bUW89B53DVU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-10T18:45:06.000Z",
+      "durationSeconds": 633,
+      "viewCount": 46269,
       "kind": "video"
     },
     {
@@ -1402,7 +1440,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T16:04:26.000Z",
       "durationSeconds": 802,
-      "viewCount": 97950,
+      "viewCount": 100101,
       "kind": "video"
     },
     {
@@ -1421,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 185515,
+      "viewCount": 185566,
       "kind": "video"
     },
     {
@@ -1440,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 69755,
+      "viewCount": 69883,
       "kind": "video"
     },
     {
@@ -1459,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 133542,
+      "viewCount": 133789,
       "kind": "video"
     },
     {
@@ -1478,7 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37951,
+      "viewCount": 37990,
       "kind": "video"
     },
     {
@@ -1497,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15614,
+      "viewCount": 15622,
       "kind": "video"
     },
     {
@@ -1516,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 331996,
+      "viewCount": 333246,
       "kind": "video"
     },
     {
@@ -1535,7 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:00:07.000Z",
       "durationSeconds": 605,
-      "viewCount": 751571,
+      "viewCount": 771858,
       "kind": "video"
     },
     {
@@ -1554,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 262816,
+      "viewCount": 264387,
       "kind": "video"
     },
     {
@@ -1573,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6228,
+      "viewCount": 6230,
       "kind": "video"
     },
     {
@@ -1592,26 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 67568,
-      "kind": "video"
-    },
-    {
-      "id": "LfGaWXdaj90",
-      "videoId": "LfGaWXdaj90",
-      "title": "I’m Officially in Marathon Mode",
-      "url": "https://www.youtube.com/watch?v=LfGaWXdaj90",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-08T16:00:10.000Z",
-      "durationSeconds": 1810,
-      "viewCount": 33136,
+      "viewCount": 67715,
       "kind": "video"
     },
     {
@@ -1630,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 86705,
+      "viewCount": 86780,
       "kind": "video"
     },
     {
@@ -1649,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 255265,
+      "viewCount": 255490,
       "kind": "video"
     },
     {
@@ -1668,7 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 24005,
+      "viewCount": 24022,
       "kind": "video"
     },
     {
@@ -1687,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 192867,
+      "viewCount": 193389,
       "kind": "video"
     },
     {
@@ -1706,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11785,
+      "viewCount": 11798,
       "kind": "video"
     },
     {
@@ -1725,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59258,
+      "viewCount": 59279,
       "kind": "video"
     },
     {
@@ -1744,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46454,
+      "viewCount": 46498,
       "kind": "video"
     },
     {
@@ -1763,26 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60598,
-      "kind": "video"
-    },
-    {
-      "id": "PUgkYgUAWkU",
-      "videoId": "PUgkYgUAWkU",
-      "title": "Inside Race Day: Winning a Professional Track Meet",
-      "url": "https://www.youtube.com/watch?v=PUgkYgUAWkU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-02T19:45:06.000Z",
-      "durationSeconds": 756,
-      "viewCount": 41231,
+      "viewCount": 60634,
       "kind": "video"
     },
     {
@@ -1801,7 +1801,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T04:44:58.000Z",
       "durationSeconds": 16082,
-      "viewCount": 5414,
+      "viewCount": 5416,
       "kind": "video"
     },
     {
@@ -1839,7 +1839,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29066,
+      "viewCount": 29069,
       "kind": "video"
     },
     {
@@ -1858,7 +1858,45 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 263111,
+      "viewCount": 263383,
+      "kind": "video"
+    },
+    {
+      "id": "LfGaWXdaj90",
+      "videoId": "LfGaWXdaj90",
+      "title": "I’m Officially in Marathon Mode",
+      "url": "https://www.youtube.com/watch?v=LfGaWXdaj90",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-08T16:00:10.000Z",
+      "durationSeconds": 1810,
+      "viewCount": 33200,
+      "kind": "video"
+    },
+    {
+      "id": "PUgkYgUAWkU",
+      "videoId": "PUgkYgUAWkU",
+      "title": "Inside Race Day: Winning a Professional Track Meet",
+      "url": "https://www.youtube.com/watch?v=PUgkYgUAWkU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-02T19:45:06.000Z",
+      "durationSeconds": 756,
+      "viewCount": 41326,
       "kind": "video"
     },
     {
@@ -1877,7 +1915,7 @@
       "athlete": null,
       "publishedAt": "2026-11-18T15:49:47.000Z",
       "durationSeconds": 1388,
-      "viewCount": 29927,
+      "viewCount": 30366,
       "kind": "video"
     },
     {
@@ -1896,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 152081,
+      "viewCount": 152227,
       "kind": "video"
     },
     {
@@ -1915,26 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 70512,
-      "kind": "video"
-    },
-    {
-      "id": "FZFCYEX0pno",
-      "videoId": "FZFCYEX0pno",
-      "title": "What Actually Transformed My Half Marathon in Just 9 Months",
-      "url": "https://www.youtube.com/watch?v=FZFCYEX0pno",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Allie Ostrander",
-        "slug": "allie-ostrander",
-        "handle": "allie_ostrander",
-        "url": "https://www.youtube.com/@allie_ostrander",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-02T19:00:03.000Z",
-      "durationSeconds": 882,
-      "viewCount": 104008,
+      "viewCount": 70771,
       "kind": "video"
     },
     {
@@ -1953,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 36306,
+      "viewCount": 36375,
       "kind": "video"
     },
     {
@@ -1972,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 10019,
+      "viewCount": 10022,
       "kind": "video"
     },
     {
@@ -1991,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 72792,
+      "viewCount": 72857,
       "kind": "video"
     },
     {
@@ -2010,7 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T17:00:31.000Z",
       "durationSeconds": 1231,
-      "viewCount": 172398,
+      "viewCount": 174690,
       "kind": "video"
     },
     {
@@ -2029,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 151148,
+      "viewCount": 151375,
       "kind": "video"
     },
     {
@@ -2048,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T21:39:04.000Z",
       "durationSeconds": 1161,
-      "viewCount": 5396,
+      "viewCount": 5398,
       "kind": "video"
     },
     {
@@ -2067,26 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 44236,
-      "kind": "video"
-    },
-    {
-      "id": "SUQdgAYhTbQ",
-      "videoId": "SUQdgAYhTbQ",
-      "title": "Racing the World Half Marathon Champs | Copenhagen World Road Running Championships 2026",
-      "url": "https://www.youtube.com/watch?v=SUQdgAYhTbQ",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-27T18:00:28.000Z",
-      "durationSeconds": 1876,
-      "viewCount": 44225,
+      "viewCount": 44315,
       "kind": "video"
     },
     {
@@ -2105,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 822744,
+      "viewCount": 826464,
       "kind": "video"
     },
     {
@@ -2124,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 117346,
+      "viewCount": 117382,
       "kind": "video"
     },
     {
@@ -2143,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10801,
+      "viewCount": 10802,
       "kind": "video"
     },
     {
@@ -2162,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 251167,
+      "viewCount": 251348,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15480,
+      "viewCount": 15493,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91489,
+      "viewCount": 91551,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26627,
+      "viewCount": 26672,
       "kind": "video"
     },
     {
@@ -2238,26 +2238,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14793,
-      "kind": "video"
-    },
-    {
-      "id": "tqNaAoKvP50",
-      "videoId": "tqNaAoKvP50",
-      "title": "Poland Diamond League | Cole Hocker Race Week",
-      "url": "https://www.youtube.com/watch?v=tqNaAoKvP50",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-26T17:00:06.000Z",
-      "durationSeconds": 1055,
-      "viewCount": 43989,
+      "viewCount": 14796,
       "kind": "video"
     },
     {
@@ -2314,7 +2295,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18772,
+      "viewCount": 18773,
       "kind": "video"
     },
     {
@@ -2333,7 +2314,45 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 120277,
+      "viewCount": 120315,
+      "kind": "video"
+    },
+    {
+      "id": "SUQdgAYhTbQ",
+      "videoId": "SUQdgAYhTbQ",
+      "title": "Racing the World Half Marathon Champs | Copenhagen World Road Running Championships 2026",
+      "url": "https://www.youtube.com/watch?v=SUQdgAYhTbQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-27T18:00:28.000Z",
+      "durationSeconds": 1876,
+      "viewCount": 44254,
+      "kind": "video"
+    },
+    {
+      "id": "tqNaAoKvP50",
+      "videoId": "tqNaAoKvP50",
+      "title": "Poland Diamond League | Cole Hocker Race Week",
+      "url": "https://www.youtube.com/watch?v=tqNaAoKvP50",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-26T17:00:06.000Z",
+      "durationSeconds": 1055,
+      "viewCount": 44066,
       "kind": "video"
     },
     {
@@ -2352,7 +2371,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T16:53:37.000Z",
       "durationSeconds": 1113,
-      "viewCount": 69651,
+      "viewCount": 70003,
       "kind": "video"
     },
     {
@@ -2371,7 +2390,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 200326,
+      "viewCount": 200352,
       "kind": "video"
     },
     {
@@ -2390,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 96368,
+      "viewCount": 96430,
       "kind": "video"
     },
     {
@@ -2409,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 31890,
+      "viewCount": 31995,
       "kind": "video"
     },
     {
@@ -2428,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15515,
+      "viewCount": 15522,
       "kind": "video"
     },
     {
@@ -2447,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 46082,
+      "viewCount": 46108,
       "kind": "video"
     },
     {
@@ -2466,7 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T17:00:21.000Z",
       "durationSeconds": 792,
-      "viewCount": 212212,
+      "viewCount": 212955,
       "kind": "video"
     },
     {
@@ -2485,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 21009,
+      "viewCount": 21187,
       "kind": "video"
     },
     {
@@ -2504,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6938,
+      "viewCount": 6944,
       "kind": "video"
     },
     {
@@ -2523,26 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 78659,
-      "kind": "video"
-    },
-    {
-      "id": "QI-Hh1q05gk",
-      "videoId": "QI-Hh1q05gk",
-      "title": "Week of Training for Copenhagen26",
-      "url": "https://www.youtube.com/watch?v=QI-Hh1q05gk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-09-06T16:30:29.000Z",
-      "durationSeconds": 1150,
-      "viewCount": 29046,
+      "viewCount": 78721,
       "kind": "video"
     },
     {
@@ -2561,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 114432,
+      "viewCount": 114538,
       "kind": "video"
     },
     {
@@ -2580,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 103062,
+      "viewCount": 103086,
       "kind": "video"
     },
     {
@@ -2599,7 +2599,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12350,
+      "viewCount": 12357,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 66268,
+      "viewCount": 66323,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7919,
+      "viewCount": 7922,
       "kind": "video"
     },
     {
@@ -2675,26 +2675,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27725,
-      "kind": "video"
-    },
-    {
-      "id": "41HPlxBYAwA",
-      "videoId": "41HPlxBYAwA",
-      "title": "Training for Europe",
-      "url": "https://www.youtube.com/watch?v=41HPlxBYAwA",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-18T17:00:06.000Z",
-      "durationSeconds": 498,
-      "viewCount": 34757,
+      "viewCount": 27736,
       "kind": "video"
     },
     {
@@ -2713,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:35:39.000Z",
       "durationSeconds": 348,
-      "viewCount": 1453,
+      "viewCount": 1454,
       "kind": "video"
     },
     {
@@ -2751,7 +2732,45 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 306091,
+      "viewCount": 306455,
+      "kind": "video"
+    },
+    {
+      "id": "QI-Hh1q05gk",
+      "videoId": "QI-Hh1q05gk",
+      "title": "Week of Training for Copenhagen26",
+      "url": "https://www.youtube.com/watch?v=QI-Hh1q05gk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-09-06T16:30:29.000Z",
+      "durationSeconds": 1150,
+      "viewCount": 29058,
+      "kind": "video"
+    },
+    {
+      "id": "41HPlxBYAwA",
+      "videoId": "41HPlxBYAwA",
+      "title": "Training for Europe",
+      "url": "https://www.youtube.com/watch?v=41HPlxBYAwA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-18T17:00:06.000Z",
+      "durationSeconds": 498,
+      "viewCount": 34799,
       "kind": "video"
     },
     {
@@ -2770,7 +2789,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T12:00:09.000Z",
       "durationSeconds": 1293,
-      "viewCount": 34558,
+      "viewCount": 34893,
       "kind": "video"
     },
     {
@@ -2789,7 +2808,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 136188,
+      "viewCount": 136296,
       "kind": "video"
     },
     {
@@ -2808,7 +2827,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 76440,
+      "viewCount": 76716,
       "kind": "video"
     },
     {
@@ -2827,7 +2846,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 30379,
+      "viewCount": 30434,
       "kind": "video"
     },
     {
@@ -2846,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34871,
+      "viewCount": 34888,
       "kind": "video"
     },
     {
@@ -2865,7 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T17:00:22.000Z",
       "durationSeconds": 891,
-      "viewCount": 160336,
+      "viewCount": 160554,
       "kind": "video"
     },
     {
@@ -2884,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 91987,
+      "viewCount": 92173,
       "kind": "video"
     },
     {
@@ -2903,7 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:51:38.000Z",
       "durationSeconds": 526,
-      "viewCount": 6001,
+      "viewCount": 6003,
       "kind": "video"
     },
     {
@@ -2922,26 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 49460,
-      "kind": "video"
-    },
-    {
-      "id": "oOk3JQ4JsRQ",
-      "videoId": "oOk3JQ4JsRQ",
-      "title": "Calling My Shot in Edmonton - 2026 Canadian Half Marathon Championships",
-      "url": "https://www.youtube.com/watch?v=oOk3JQ4JsRQ",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-23T16:30:30.000Z",
-      "durationSeconds": 1456,
-      "viewCount": 24356,
+      "viewCount": 49545,
       "kind": "video"
     },
     {
@@ -2960,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 536824,
+      "viewCount": 538250,
       "kind": "video"
     },
     {
@@ -2979,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163458,
+      "viewCount": 163479,
       "kind": "video"
     },
     {
@@ -2998,7 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6477,
+      "viewCount": 6481,
       "kind": "video"
     },
     {
@@ -3017,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 74006,
+      "viewCount": 74038,
       "kind": "video"
     },
     {
@@ -3036,7 +3036,7 @@
       "athlete": null,
       "publishedAt": "2026-07-03T00:44:43.000Z",
       "durationSeconds": 1528,
-      "viewCount": 8970,
+      "viewCount": 8972,
       "kind": "video"
     },
     {
@@ -3055,26 +3055,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22702,
-      "kind": "video"
-    },
-    {
-      "id": "oqY1BJnVb-A",
-      "videoId": "oqY1BJnVb-A",
-      "title": "World Championship Prep",
-      "url": "https://www.youtube.com/watch?v=oqY1BJnVb-A",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-03-20T16:00:06.000Z",
-      "durationSeconds": 677,
-      "viewCount": 23870,
+      "viewCount": 22706,
       "kind": "video"
     },
     {
@@ -3131,7 +3112,45 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2195591,
+      "viewCount": 2198326,
+      "kind": "video"
+    },
+    {
+      "id": "oOk3JQ4JsRQ",
+      "videoId": "oOk3JQ4JsRQ",
+      "title": "Calling My Shot in Edmonton - 2026 Canadian Half Marathon Championships",
+      "url": "https://www.youtube.com/watch?v=oOk3JQ4JsRQ",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-23T16:30:30.000Z",
+      "durationSeconds": 1456,
+      "viewCount": 24364,
+      "kind": "video"
+    },
+    {
+      "id": "oqY1BJnVb-A",
+      "videoId": "oqY1BJnVb-A",
+      "title": "World Championship Prep",
+      "url": "https://www.youtube.com/watch?v=oqY1BJnVb-A",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-03-20T16:00:06.000Z",
+      "durationSeconds": 677,
+      "viewCount": 23895,
       "kind": "video"
     },
     {
@@ -3150,7 +3169,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:54:04.000Z",
       "durationSeconds": 941,
-      "viewCount": 153060,
+      "viewCount": 153820,
       "kind": "video"
     },
     {
@@ -3169,7 +3188,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 133188,
+      "viewCount": 133282,
       "kind": "video"
     },
     {
@@ -3188,7 +3207,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 255836,
+      "viewCount": 257750,
       "kind": "video"
     },
     {
@@ -3207,7 +3226,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 40055,
+      "viewCount": 40093,
       "kind": "video"
     },
     {
@@ -3226,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44722,
+      "viewCount": 44740,
       "kind": "video"
     },
     {
@@ -3245,7 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T17:00:10.000Z",
       "durationSeconds": 892,
-      "viewCount": 162760,
+      "viewCount": 163773,
       "kind": "video"
     },
     {
@@ -3264,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 77936,
+      "viewCount": 78122,
       "kind": "video"
     },
     {
@@ -3283,7 +3302,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T18:20:10.000Z",
       "durationSeconds": 809,
-      "viewCount": 11203,
+      "viewCount": 11206,
       "kind": "video"
     },
     {
@@ -3302,26 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37514,
-      "kind": "video"
-    },
-    {
-      "id": "jx3WnfxKcNE",
-      "videoId": "jx3WnfxKcNE",
-      "title": "Fall European Tour  - Starting the Journey to LA 2028",
-      "url": "https://www.youtube.com/watch?v=jx3WnfxKcNE",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Rory Linkletter",
-        "slug": "rory-linkletter",
-        "handle": "LinkletterRory",
-        "url": "https://www.youtube.com/@LinkletterRory",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-08-10T15:00:30.000Z",
-      "durationSeconds": 1108,
-      "viewCount": 19943,
+      "viewCount": 37548,
       "kind": "video"
     },
     {
@@ -3340,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 197584,
+      "viewCount": 198732,
       "kind": "video"
     },
     {
@@ -3359,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93831,
+      "viewCount": 93862,
       "kind": "video"
     },
     {
@@ -3378,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8769,
+      "viewCount": 8780,
       "kind": "video"
     },
     {
@@ -3397,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60370,
+      "viewCount": 60410,
       "kind": "video"
     },
     {
@@ -3435,26 +3435,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23244,
-      "kind": "video"
-    },
-    {
-      "id": "zdUJ1qaLSeA",
-      "videoId": "zdUJ1qaLSeA",
-      "title": "How to Run a 3:45 Mile",
-      "url": "https://www.youtube.com/watch?v=zdUJ1qaLSeA",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-02-26T19:00:06.000Z",
-      "durationSeconds": 551,
-      "viewCount": 44724,
+      "viewCount": 23246,
       "kind": "video"
     },
     {
@@ -3473,7 +3454,7 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:20:10.000Z",
       "durationSeconds": 1017,
-      "viewCount": 9569,
+      "viewCount": 9570,
       "kind": "video"
     },
     {
@@ -3492,7 +3473,45 @@
       "athlete": null,
       "publishedAt": "2026-02-05T15:01:05.000Z",
       "durationSeconds": 3616,
-      "viewCount": 15,
+      "viewCount": 16,
+      "kind": "video"
+    },
+    {
+      "id": "jx3WnfxKcNE",
+      "videoId": "jx3WnfxKcNE",
+      "title": "Fall European Tour  - Starting the Journey to LA 2028",
+      "url": "https://www.youtube.com/watch?v=jx3WnfxKcNE",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Rory Linkletter",
+        "slug": "rory-linkletter",
+        "handle": "LinkletterRory",
+        "url": "https://www.youtube.com/@LinkletterRory",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-08-10T15:00:30.000Z",
+      "durationSeconds": 1108,
+      "viewCount": 19950,
+      "kind": "video"
+    },
+    {
+      "id": "zdUJ1qaLSeA",
+      "videoId": "zdUJ1qaLSeA",
+      "title": "How to Run a 3:45 Mile",
+      "url": "https://www.youtube.com/watch?v=zdUJ1qaLSeA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-26T19:00:06.000Z",
+      "durationSeconds": 551,
+      "viewCount": 45115,
       "kind": "video"
     },
     {
@@ -3511,7 +3530,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:08:11.000Z",
       "durationSeconds": 1760,
-      "viewCount": 52085,
+      "viewCount": 52339,
       "kind": "video"
     },
     {
@@ -3530,7 +3549,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68472,
+      "viewCount": 68500,
       "kind": "video"
     },
     {
@@ -3549,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 42619,
+      "viewCount": 42695,
       "kind": "video"
     },
     {
@@ -3568,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47360,
+      "viewCount": 47378,
       "kind": "video"
     },
     {
@@ -3587,7 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:10:30.000Z",
       "durationSeconds": 1134,
-      "viewCount": 114349,
+      "viewCount": 114537,
       "kind": "video"
     },
     {
@@ -3606,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6948,
+      "viewCount": 6953,
       "kind": "video"
     },
     {
@@ -3625,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35856,
+      "viewCount": 35903,
       "kind": "video"
     },
     {
@@ -3644,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34568,
+      "viewCount": 34605,
       "kind": "video"
     },
     {
@@ -3663,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48309,
+      "viewCount": 48344,
       "kind": "video"
     },
     {
@@ -3682,7 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 6003,
+      "viewCount": 6004,
       "kind": "video"
     },
     {
@@ -3701,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78497,
+      "viewCount": 78541,
       "kind": "video"
     },
     {
@@ -3720,26 +3739,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24865,
-      "kind": "video"
-    },
-    {
-      "id": "Cb1wIpZEFOs",
-      "videoId": "Cb1wIpZEFOs",
-      "title": "Training For a Fast Mile",
-      "url": "https://www.youtube.com/watch?v=Cb1wIpZEFOs",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-02-22T01:00:06.000Z",
-      "durationSeconds": 605,
-      "viewCount": 32408,
+      "viewCount": 24868,
       "kind": "video"
     },
     {
@@ -3781,6 +3781,25 @@
       "kind": "video"
     },
     {
+      "id": "Cb1wIpZEFOs",
+      "videoId": "Cb1wIpZEFOs",
+      "title": "Training For a Fast Mile",
+      "url": "https://www.youtube.com/watch?v=Cb1wIpZEFOs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-22T01:00:06.000Z",
+      "durationSeconds": 605,
+      "viewCount": 32551,
+      "kind": "video"
+    },
+    {
       "id": "j6QjJogSyrw",
       "videoId": "j6QjJogSyrw",
       "title": "Diadora Corsa",
@@ -3796,7 +3815,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T12:30:34.000Z",
       "durationSeconds": 848,
-      "viewCount": 21112,
+      "viewCount": 21178,
       "kind": "video"
     },
     {
@@ -3815,7 +3834,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37491,
+      "viewCount": 37496,
       "kind": "video"
     },
     {
@@ -3834,7 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 27717,
+      "viewCount": 27767,
       "kind": "video"
     },
     {
@@ -3853,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51578,
+      "viewCount": 51619,
       "kind": "video"
     },
     {
@@ -3872,7 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T16:30:31.000Z",
       "durationSeconds": 587,
-      "viewCount": 174213,
+      "viewCount": 174502,
       "kind": "video"
     },
     {
@@ -3891,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T15:04:10.000Z",
       "durationSeconds": 377,
-      "viewCount": 12331,
+      "viewCount": 12336,
       "kind": "video"
     },
     {
@@ -3910,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28839,
+      "viewCount": 28865,
       "kind": "video"
     },
     {
@@ -3929,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 75721,
+      "viewCount": 75813,
       "kind": "video"
     },
     {
@@ -3948,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52704,
+      "viewCount": 52739,
       "kind": "video"
     },
     {
@@ -3967,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11595,
+      "viewCount": 11602,
       "kind": "video"
     },
     {
@@ -3986,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93731,
+      "viewCount": 93763,
       "kind": "video"
     },
     {
@@ -4005,26 +4024,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21906,
-      "kind": "video"
-    },
-    {
-      "id": "LKxel9s5MFU",
-      "videoId": "LKxel9s5MFU",
-      "title": "We Ran a 3:57 Mile... Then Kept Going",
-      "url": "https://www.youtube.com/watch?v=LKxel9s5MFU",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-02-05T21:15:06.000Z",
-      "durationSeconds": 576,
-      "viewCount": 51490,
+      "viewCount": 21910,
       "kind": "video"
     },
     {
@@ -4043,7 +4043,26 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:04:55.000Z",
       "durationSeconds": 185,
-      "viewCount": 2095,
+      "viewCount": 2097,
+      "kind": "video"
+    },
+    {
+      "id": "LKxel9s5MFU",
+      "videoId": "LKxel9s5MFU",
+      "title": "We Ran a 3:57 Mile... Then Kept Going",
+      "url": "https://www.youtube.com/watch?v=LKxel9s5MFU",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-02-05T21:15:06.000Z",
+      "durationSeconds": 576,
+      "viewCount": 52499,
       "kind": "video"
     },
     {
@@ -4062,7 +4081,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T12:30:33.000Z",
       "durationSeconds": 743,
-      "viewCount": 22538,
+      "viewCount": 22561,
       "kind": "video"
     },
     {
@@ -4081,7 +4100,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62305,
+      "viewCount": 62315,
       "kind": "video"
     },
     {
@@ -4100,7 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16716,
+      "viewCount": 16738,
       "kind": "video"
     },
     {
@@ -4119,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26783,
+      "viewCount": 26808,
       "kind": "video"
     },
     {
@@ -4138,7 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:00.000Z",
       "durationSeconds": 1162,
-      "viewCount": 374493,
+      "viewCount": 376880,
       "kind": "video"
     },
     {
@@ -4157,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T21:53:29.000Z",
       "durationSeconds": 1762,
-      "viewCount": 3009,
+      "viewCount": 3016,
       "kind": "video"
     },
     {
@@ -4176,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 77148,
+      "viewCount": 77268,
       "kind": "video"
     },
     {
@@ -4195,7 +4214,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48756,
+      "viewCount": 48778,
       "kind": "video"
     },
     {
@@ -4233,7 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109539,
+      "viewCount": 109564,
       "kind": "video"
     },
     {
@@ -4252,26 +4271,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45554,
-      "kind": "video"
-    },
-    {
-      "id": "7jW5j8ez6Eo",
-      "videoId": "7jW5j8ez6Eo",
-      "title": "Running \"the Michigan\" in Chicago",
-      "url": "https://www.youtube.com/watch?v=7jW5j8ez6Eo",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-01-12T17:15:06.000Z",
-      "durationSeconds": 618,
-      "viewCount": 23798,
+      "viewCount": 45576,
       "kind": "video"
     },
     {
@@ -4294,6 +4294,25 @@
       "kind": "video"
     },
     {
+      "id": "7jW5j8ez6Eo",
+      "videoId": "7jW5j8ez6Eo",
+      "title": "Running \"the Michigan\" in Chicago",
+      "url": "https://www.youtube.com/watch?v=7jW5j8ez6Eo",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Cole Hocker",
+        "slug": "cole-hocker",
+        "handle": "thecolehocker",
+        "url": "https://www.youtube.com/@thecolehocker",
+        "kind": "athlete"
+      },
+      "athlete": null,
+      "publishedAt": "2026-01-12T17:15:06.000Z",
+      "durationSeconds": 618,
+      "viewCount": 23811,
+      "kind": "video"
+    },
+    {
       "id": "Kp7DuRMY6fk",
       "videoId": "Kp7DuRMY6fk",
       "title": "Skechers Aero Elite",
@@ -4309,7 +4328,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T13:00:27.000Z",
       "durationSeconds": 652,
-      "viewCount": 24619,
+      "viewCount": 24689,
       "kind": "video"
     },
     {
@@ -4328,7 +4347,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 159753,
+      "viewCount": 159956,
       "kind": "video"
     },
     {
@@ -4347,7 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 45269,
+      "viewCount": 45382,
       "kind": "video"
     },
     {
@@ -4366,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 33108,
+      "viewCount": 33143,
       "kind": "video"
     },
     {
@@ -4385,7 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T16:54:40.000Z",
       "durationSeconds": 596,
-      "viewCount": 200816,
+      "viewCount": 201613,
       "kind": "video"
     },
     {
@@ -4404,7 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T23:18:02.000Z",
       "durationSeconds": 1047,
-      "viewCount": 3716,
+      "viewCount": 3717,
       "kind": "video"
     },
     {
@@ -4423,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42783,
+      "viewCount": 42815,
       "kind": "video"
     },
     {
@@ -4442,7 +4461,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57527,
+      "viewCount": 57549,
       "kind": "video"
     },
     {
@@ -4461,7 +4480,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T15:38:34.000Z",
       "durationSeconds": 882,
-      "viewCount": 6839,
+      "viewCount": 6843,
       "kind": "video"
     },
     {
@@ -4480,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60789,
+      "viewCount": 60793,
       "kind": "video"
     },
     {
@@ -4499,26 +4518,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 28028,
-      "kind": "video"
-    },
-    {
-      "id": "jXS3Yl4StNk",
-      "videoId": "jXS3Yl4StNk",
-      "title": "When Pro Runners Race Cross Country",
-      "url": "https://www.youtube.com/watch?v=jXS3Yl4StNk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Cole Hocker",
-        "slug": "cole-hocker",
-        "handle": "thecolehocker",
-        "url": "https://www.youtube.com/@thecolehocker",
-        "kind": "athlete"
-      },
-      "athlete": null,
-      "publishedAt": "2026-01-08T19:00:06.000Z",
-      "durationSeconds": 572,
-      "viewCount": 33779,
+      "viewCount": 28030,
       "kind": "video"
     },
     {
@@ -4556,7 +4556,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T21:51:47.000Z",
       "durationSeconds": 2410,
-      "viewCount": 41415,
+      "viewCount": 41471,
       "kind": "video"
     },
     {
@@ -4575,7 +4575,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14604,
+      "viewCount": 14616,
       "kind": "video"
     },
     {
@@ -4594,7 +4594,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32530,
+      "viewCount": 32555,
       "kind": "video"
     },
     {
@@ -4613,7 +4613,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T16:00:23.000Z",
       "durationSeconds": 857,
-      "viewCount": 493303,
+      "viewCount": 493638,
       "kind": "video"
     },
     {
@@ -4632,7 +4632,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 67038,
+      "viewCount": 67052,
       "kind": "video"
     },
     {
@@ -4651,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19272,
+      "viewCount": 19278,
       "kind": "video"
     },
     {
