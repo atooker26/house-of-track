@@ -2,7 +2,8 @@
  * The one layout every House of Track email uses (receipt, order alert, shipped,
  * admin invite and reset). Table-based and inline-styled, because email clients
  * (Outlook above all) ignore most CSS; images use absolute URLs because an email has
- * no page to resolve a relative one against.
+ * no page to resolve a relative one against. The wordmark is a 360px-wide copy
+ * (2x the 180px it shows at), ~37 KB instead of the site's 272 KB original.
  */
 
 const SITE = "https://www.houseoftrack.media";
@@ -51,7 +52,7 @@ export function emailLayout(input: {
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${cream}"><tr><td align="center" style="padding:32px 16px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:560px">
 <tr><td align="center" style="padding:0 0 24px">
-<a href="${SITE}" style="text-decoration:none"><img src="${SITE}/assets/wordmark-navy.png" width="180" alt="House of Track" style="display:block;width:180px;height:auto;border:0"></a>
+<a href="${SITE}" style="text-decoration:none"><img src="${SITE}/assets/wordmark-navy-email.png" width="180" alt="House of Track" style="display:block;width:180px;height:auto;border:0"></a>
 </td></tr>
 <tr><td style="background:${card};border-radius:12px;padding:32px 28px;font-family:${FONT};font-size:15px;line-height:1.55;color:${ink}">
 <h1 style="margin:0 0 16px;font-family:${FONT};font-size:24px;line-height:1.15;font-weight:800;letter-spacing:.01em;text-transform:uppercase;color:${ink}">${esc(input.title)}</h1>

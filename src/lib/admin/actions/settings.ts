@@ -6,6 +6,7 @@ import { z } from "zod";
 import { getDb } from "@/db";
 import { orderAlertRecipients } from "@/db/schema";
 import { adminOrError, NOT_ALLOWED, type ActionResult } from "@/lib/admin/auth";
+import { emailLayout, esc } from "@/lib/email/layout";
 import { envAlertRecipients, sendEmail, tegoConfigured } from "@/lib/shop/tego";
 
 const emailSchema = z.string().trim().toLowerCase().email("Enter a valid email");
@@ -49,7 +50,11 @@ export async function sendTestAlert(email: string): Promise<ActionResult> {
     await sendEmail({
       to: p.data,
       subject: "Test: House of Track order alert",
-      html: `<!DOCTYPE html><html><body style="font-family:Helvetica,Arial,sans-serif;color:#2B2928;background:#EDE9D8;margin:0"><div style="max-width:520px;margin:0 auto;padding:32px 24px"><p style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px">House of Track</p><h1 style="font-size:24px;text-transform:uppercase;margin:0 0 16px">Order alerts work</h1><p style="font-size:15px;line-height:1.5">${text}</p></div></body></html>`,
+      html: emailLayout({
+        title: "Order alerts work",
+        preheader: "A test of the House of Track order alert.",
+        body: `<p style="margin:0">${esc(text)}</p>`,
+      }),
       text,
       idempotencyKey: `hot-alert-test-${p.data}-${Date.now()}`,
     });
