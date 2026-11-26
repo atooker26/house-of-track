@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 import Icon from "@/components/Icon";
 
 export default function Subscribe() {
@@ -20,7 +21,10 @@ export default function Subscribe() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ formType: "newsletter", email, _hp: hp }),
       });
-      if (res.ok) setSent(true);
+      if (res.ok) {
+        trackFormSubmit("newsletter", "Newsletter signup");
+        setSent(true);
+      }
     } catch {
       /* keep the CTA usable on failure */
     } finally {

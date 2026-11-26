@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 import Icon from "@/components/Icon";
 
 export default function GuestForm() {
@@ -30,6 +31,7 @@ export default function GuestForm() {
       });
 
       if (!res.ok) throw new Error("Submission failed");
+      trackFormSubmit("guest-application", "Be a guest");
       setSent(true);
     } catch {
       setError("Something went wrong. Please try again.");

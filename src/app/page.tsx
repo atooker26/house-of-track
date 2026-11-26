@@ -70,17 +70,17 @@ export default async function Home() {
             </p>
             <div className="hero-cta">
               {feat ? (
-                <Link href={`/episodes/${feat.slug}`} className="btn btn-cream btn-lg">
+                <Link href={`/episodes/${feat.slug}`} className="btn btn-cream btn-lg" data-tego-cta="listen">
                   <Icon name="play" size={16} />
                   Latest Episode
                 </Link>
               ) : (
-                <Link href="/episodes" className="btn btn-cream btn-lg">
+                <Link href="/episodes" className="btn btn-cream btn-lg" data-tego-cta="listen">
                   <Icon name="play" size={16} />
                   Listen Now
                 </Link>
               )}
-              <Link href="#join" className="btn btn-outline-cream btn-lg">
+              <Link href="#join" className="btn btn-outline-cream btn-lg" data-tego-cta="join-network">
                 <Icon name="users" size={16} />
                 Join the Network
               </Link>
@@ -125,11 +125,11 @@ export default async function Home() {
             </p>
             {featured?.href ? (
               featured.canBuy ? (
-                <Link href={featured.href} className="btn btn-primary btn-lg">
+                <Link href={featured.href} className="btn btn-primary btn-lg" data-tego-cta="shop-featured">
                   Shop now <Icon name="arrow" size={16} />
                 </Link>
               ) : (
-                <Link href={`${featured.href}#notify-email`} className="btn btn-primary btn-lg">
+                <Link href={`${featured.href}#notify-email`} className="btn btn-primary btn-lg" data-tego-cta="notify-featured">
                   Notify me <Icon name="bell" size={16} />
                 </Link>
               )

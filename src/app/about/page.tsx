@@ -65,7 +65,7 @@ export default function AboutPage() {
             <div className="team-rolecard"><span className="ri">03</span><h4>Built to Share</h4><p>Full episodes, clips and promos — produced so every story reaches the people who need it.</p></div>
           </div>
           <div style={{ marginTop: 40, display: "flex", gap: 14, flexWrap: "wrap", alignItems: "center" }}>
-            <Link href="/guest" className="btn btn-cream btn-lg">
+            <Link href="/guest" className="btn btn-cream btn-lg" data-tego-cta="be-a-guest">
               <Icon name="mic" size={16} />
               Be a Guest
             </Link>

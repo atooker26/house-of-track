@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 import Icon from "@/components/Icon";
 
 type Role = "creative" | "athlete";
@@ -52,6 +53,7 @@ export default function JoinForms() {
         body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error("Submission failed");
+      trackFormSubmit(data.formType, role === "creative" ? "Creative signup" : "Athlete signup");
       setSent(true);
     } catch {
       setError("Something went wrong. Please try again.");

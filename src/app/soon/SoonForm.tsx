@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 
 export default function SoonForm() {
   const [sent, setSent] = useState(false);
@@ -22,7 +23,10 @@ export default function SoonForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ formType: "newsletter", email, _hp: hp }),
       });
-      if (res.ok) setSent(true);
+      if (res.ok) {
+        trackFormSubmit("newsletter", "Newsletter signup");
+        setSent(true);
+      }
       else setError(true);
     } catch {
       setError(true);

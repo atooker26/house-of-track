@@ -5,6 +5,7 @@ import { getDb } from "@/db";
 import { formatCents } from "@/lib/shop/catalog";
 import { getOrderView } from "@/lib/shop/orders";
 import { STATEMENT_DESCRIPTOR } from "@/lib/shop/stripe";
+import TrackOrder from "./TrackOrder";
 
 export const metadata: Metadata = {
   title: "Thanks — House of Track",
@@ -68,6 +69,8 @@ export default async function ThanksPage({ searchParams }: Props) {
             </tr>
           </tbody>
         </table>
+        {/* Only a paid order counts; the "confirming…" render fires it on the refresh. */}
+        {confirmed && sessionId && <TrackOrder sessionId={sessionId} />}
         <p className="shop-product-ship">Your card statement will read {STATEMENT_DESCRIPTOR}.</p>
         <Link href="/shop" className="btn btn-outline">
           Back to the shop

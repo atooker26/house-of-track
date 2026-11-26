@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 import Icon from "@/components/Icon";
 import { NETWORK_ROLES, type NetworkRole } from "@/lib/constants";
 
@@ -35,6 +36,7 @@ export default function JoinNetwork() {
         body: JSON.stringify({ formType: "network-join", roles, name: val("name"), email: val("email"), _hp: val("_hp") }),
       });
       if (!res.ok) throw new Error("Submission failed");
+      trackFormSubmit("network-join", "Join the network");
       setSent(true);
     } catch {
       setError("Something went wrong. Please try again.");

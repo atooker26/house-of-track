@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit } from "@/lib/tego-conversions";
 
 /**
  * "Email me when it drops." Shown when the product can't be bought right now: before
@@ -22,6 +23,7 @@ export default function NotifyForm({ dropSlug, soldOut }: { dropSlug: string; so
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ formType: "drop-notify", dropSlug, email, _hp: hp }),
       });
+      if (res.ok) trackFormSubmit("drop-notify", "Notify me (drop)");
       setState(res.ok ? "done" : "error");
     } catch {
       setState("error");
