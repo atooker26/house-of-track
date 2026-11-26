@@ -16,7 +16,7 @@ const TEAM: { name: string; role: string; photo?: string }[] = [
   { name: "David Fuller", role: "Creative Director" },
 ];
 
-type Featured = { name: string; blurb: string | null; image: string | null; href: string | null };
+type Featured = { name: string; blurb: string | null; image: string | null; href: string | null; canBuy: boolean };
 
 /**
  * The homepage's featured item: the first product of the live drop, so it changes
@@ -27,8 +27,11 @@ async function loadFeatured(): Promise<Featured | null> {
   try {
     const drop = await getCurrentDrop(await getDb());
     const p = drop && drop.phase !== "ended" ? drop.products[0] : null;
-    if (!p) return null;
-    return { name: p.name, blurb: drop?.blurb ?? null, image: p.images?.[0] ?? null, href: `/shop/${p.slug}` };
+    if (!drop || !p) return null;
+    // Before the drop opens (or once it sells out) the button can't sell, so it asks
+    // for an email on the product page instead of saying "Shop now".
+    const canBuy = drop.phase === "open" && !p.soldOut;
+    return { name: p.name, blurb: drop.blurb ?? null, image: p.images?.[0] ?? null, href: `/shop/${p.slug}`, canBuy };
   } catch (err) {
     console.error("[home] featured item:", err);
     return null;
@@ -121,9 +124,15 @@ export default async function Home() {
               {featured?.blurb ?? "Our first piece of House of Track gear. Limited run, coming soon."}
             </p>
             {featured?.href ? (
-              <Link href={featured.href} className="btn btn-primary btn-lg">
-                Shop now <Icon name="arrow" size={16} />
-              </Link>
+              featured.canBuy ? (
+                <Link href={featured.href} className="btn btn-primary btn-lg">
+                  Shop now <Icon name="arrow" size={16} />
+                </Link>
+              ) : (
+                <Link href={`${featured.href}#notify-email`} className="btn btn-primary btn-lg">
+                  Notify me <Icon name="bell" size={16} />
+                </Link>
+              )
             ) : (
               <DropNotify dropSlug="first-drop" />
             )}
