@@ -50,6 +50,15 @@ also become TEGO email contacts through `POST /api/v1/contacts` (the site key ne
 launch email in TEGO targets `drop:<slug>`. The creative/athlete join forms don't become
 email contacts: joining the roster isn't asking for marketing email.
 
+The pre-site list (7 contacts exported from the old GoHighLevel sub-account on
+2026-07-30, before GHL deleted it) was imported into TEGO on 2026-11-26, tagged
+`ghl-import` + `legacy-2026`. They are **not** on `newsletter`: the export holds no record
+of email consent. Two that look like bot signups are also tagged `suspect-bot` and
+flagged as bots, so sends skip them.
+
+Every signup form, the paid-order page and the main CTAs also report conversions to TEGO
+(channel attribution): see docs/ATTRIBUTION.md.
+
 ## After payment
 
 Best-effort, after the response; a failure is logged and never fails the webhook:
@@ -92,13 +101,13 @@ PGlite locks its directory: stop `next dev` before running a script against it.
 
 ## Launch checklist
 
-Status 2026-11-13: the coming-soon gate is down and the whole site is public. Steps 2
-(TEGO API key), 4 (database) and 5 (Stripe webhook) are done; the shop pages are live with
-checkout off. A test drop ("TEST Drop 01 — Hat") sits in Draft: delete or replace it when
+Status 2026-11-26: the coming-soon gate is down and the whole site is public. Steps 1
+(email), 2 (TEGO API key), 4 (database) and 5 (Stripe webhook) are done; the shop pages are
+live with checkout off. A test drop ("TEST Drop 01 — Hat") sits in Draft: delete or replace it when
 the real drop is set up.
 The admin is live too (docs/ADMIN.md), including Settings for order alerts. Left before
 checkout can turn on: Stripe Connect onboarding (step 3), order-alert recipients (step 6),
-the real drop (step 7), one real test order (step 8), and DKIM (step 1).
+the real drop (step 7) and one real test order (step 8).
 
 Production env vars set as of 2026-11-11: `DATABASE_URL`, `POSTGRES_URL_NON_POOLING`,
 `TEGO_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
@@ -109,19 +118,20 @@ it is). Order alerts are set in /admin → Settings, not an env var.
 On the **existing** House of Track client account in TEGO (already linked to the
 house-of-track Space, with its email account set up):
 
-1. **Email:** sending-domain verification for houseoftrack.media was started in TEGO
-   (2026-11-10) and shows 3 DKIM CNAMEs. Add them in the DNS of the Cloudflare
-   account that actually holds the zone (the registrar is Cloudflare; it is not the
-   GoHighLevel account), then re-check in TEGO. **Blocked (2026-11-11):** the zone isn't
-   in TEGO's Cloudflare account and the domain is being recovered from the old
-   registrant. Until DKIM is in, TEGO email from hello@houseoftrack.media can land in
-   spam (admin invites included).
-   **Workaround (2026-11-13):** SES refused hello@houseoftrack.media outright ("Email
-   address is not verified"), so every site email (invites, resets, receipts, alerts,
-   shipped) was failing. The TEGO email account now sends from
-   **houseoftrack@inbox.tegomarketing.com**, which is on a verified TEGO domain and
-   receives into TEGO Conversations. Switch it back to hello@houseoftrack.media once the
-   domain is recovered and its DKIM verifies. Hold the drop launch email until then.
+1. **Email (done 2026-11-26):** houseoftrack.media's DNS is now TEGO's Cloudflare zone
+   (nameservers moved off the GoHighLevel-held account). The 3 SES DKIM CNAMEs resolve and
+   the sending domain is **verified** in TEGO. A root MX (`10
+   inbound-smtp.us-east-1.amazonaws.com`) routes mail for the domain into SES, and
+   `hello@houseoftrack.media` is a receiving address on the Receiving card in TEGO (Client
+   workspace → Email → Billing), so replies land in TEGO Conversations. The email
+   account sends **from hello@houseoftrack.media** again (it used
+   houseoftrack@inbox.tegomarketing.com 2026-11-13 → 11-26 while the domain was
+   unverified; that address still receives). The two MX records on the `email.`
+   subdomain are GoHighLevel/Mailgun leftovers and don't affect the root domain.
+   **Before the first marketing send:** the brand's mailing address is still blank, and
+   the footer's `{{account.address}}` prints it (required by law). Templates "Welcome —
+   new subscriber" and "Drop launch — notify list" are in TEGO (Email → Templates) with
+   `[EDIT: …]` placeholders waiting on House of Track's copy.
 2. **API key (done 2026-11-11):** "House of Track site — shop email + purchases" in TEGO
    (Admin → API keys), scopes `email:send` + `purchases:write` (+ `contacts:write` since
    2026-11-13), bound to the House
@@ -136,7 +146,11 @@ house-of-track Space, with its email account set up):
    app role **owns** the tables: RLS is on with no policies, so only the owner can read
    them (a non-owner role sees zero rows). Use the `aws-1-…` session/transaction
    pooler host; `aws-0` answers "tenant not found". Both pooler URLs are in Vercel
-   production. Later migrations: `POSTGRES_URL_NON_POOLING=… npm run db:migrate`.
+   production. Later migrations: `POSTGRES_URL_NON_POOLING=… npm run db:migrate`, run from
+   `main` (a stale branch can miss a migration). The URLs are **Sensitive** in Vercel,
+   so `vercel env pull` writes them blank and the script stops with "No Postgres URL": paste
+   the session-pooler URL from Supabase instead. Applied so far: `0000`–`0004`
+   (checked 2026-11-26).
 5. **Stripe webhook (done 2026-11-11):** destination `house-of-track` on TEGO's platform
    account (Your account, Snapshot payload). Endpoint
    `https://www.houseoftrack.media/api/shop/webhook` with events
