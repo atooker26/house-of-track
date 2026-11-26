@@ -132,6 +132,14 @@ house-of-track Space, with its email account set up):
    the footer's `{{account.address}}` prints it (required by law). Templates "Welcome —
    new subscriber" and "Drop launch — notify list" are in TEGO (Email → Templates) with
    `[EDIT: …]` placeholders waiting on House of Track's copy.
+   **Email billing:** campaigns (welcome, drop launch, newsletters) draw from House of
+   Track's prepaid email wallet in TEGO ($2.70 per 1,000 sends). As of 2026-11-26 it is
+   empty with no card, so campaigns can't send. House of Track pays: the owner adds a
+   card in their TEGO portal (Account → Billing & usage), then TEGO turns on
+   auto-recharge (Client workspace → Email → Billing). The site's own emails (receipts,
+   order alerts, shipped, admin invite/reset) go through `POST /api/v1/email/send`, which
+   isn't wallet-billed, so they keep working either way. The account's monthly send limit
+   is 0, which means no cap.
 2. **API key (done 2026-11-11):** "House of Track site — shop email + purchases" in TEGO
    (Admin → API keys), scopes `email:send` + `purchases:write` (+ `contacts:write` since
    2026-11-13), bound to the House
