@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T16:40:18.291Z",
+  "generatedAt": "2026-11-27T16:25:48.643Z",
   "source": "youtube:data-api-v3",
   "runId": null,
   "quotaUnits": 82,
@@ -56,7 +56,7 @@
       "description": "Athlete - Coach - Creator - 2:25 Marathon PB \n\nCreating videos to help you become the runner you want to be. \n\nBased in London, UK.",
       "avatar": "https://yt3.ggpht.com/ytc/AIdro_mDy4ZoQqcj7DiO_-1z6j2Y6Nu_PvFESGAsJagEM5FdPg=s800-c-k-c0x00ffffff-no-rj",
       "subscriberCount": 377000,
-      "videoCount": 581,
+      "videoCount": 582,
       "kind": "creative",
       "claimState": "unclaimed"
     },
@@ -223,7 +223,7 @@
       "url": "https://www.youtube.com/@allie_ostrander",
       "description": "Welcome to the life of an elite runner. Through all the highs and lows of running, I have kept coming back to the sport because I love it so much. This channel is my way of sharing that passion with the world and providing inspiration for working through tough workouts, injuries, mental health struggles, and anything else life throws our way. \n\nAbout me: Hi! I'm Allie O, a runner from Alaska who l",
       "avatar": "https://yt3.ggpht.com/lzNU5OJHIWWXNoEblw-oKWGZ23jr2OVMNEeN0p7pilSjLWZjk0rr91nsynjPZGZ7KaX7RpfDPJM=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 142000,
+      "subscriberCount": 143000,
       "videoCount": 798,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -265,7 +265,7 @@
       "url": "https://www.youtube.com/@woah_max",
       "description": "",
       "avatar": "https://yt3.ggpht.com/XXJGUOqS8MJ9UBFNIWBVNv6nZ6QgUproa2h0tFOBfALbaBF2KGID5u8QHcqfbit8l3CW5t4rrg=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 72800,
+      "subscriberCount": 72900,
       "videoCount": 18,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -321,7 +321,7 @@
       "url": "https://www.youtube.com/@thecolehocker",
       "description": "Olympic Champion · 1500 m · Olympic Record Holder",
       "avatar": "https://yt3.ggpht.com/xMrCfPw4dXNAjt9TMNugWks4xFIDCB1biD3TlnoQVQTlb9ClzGz9qeg_H_4AAtpq7Svg6wSlk_E=s800-c-k-c0x00ffffff-no-rj",
-      "subscriberCount": 22600,
+      "subscriberCount": 22800,
       "videoCount": 94,
       "kind": "athlete",
       "claimState": "unclaimed"
@@ -399,9 +399,28 @@
   ],
   "items": [
     {
+      "id": "Rkpap4We3TM",
+      "videoId": "Rkpap4We3TM",
+      "title": "I Spent $18,000 on Running Shoes in 2026, These Are The Very Best!",
+      "url": "https://www.youtube.com/watch?v=Rkpap4We3TM",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-27T06:00:03.000Z",
+      "durationSeconds": 1979,
+      "viewCount": 72573,
+      "kind": "video"
+    },
+    {
       "id": "mZUagnqfUdw",
       "videoId": "mZUagnqfUdw",
-      "title": "Road To Valencia - EP III “It’s All Coming Together”",
+      "title": "Road To Valencia - EP III “It’s all coming together”",
       "url": "https://www.youtube.com/watch?v=mZUagnqfUdw",
       "discipline": "Distance",
       "creator": {
@@ -414,7 +433,7 @@
       "athlete": null,
       "publishedAt": "2026-11-26T14:23:10.000Z",
       "durationSeconds": 935,
-      "viewCount": 1139,
+      "viewCount": 18530,
       "kind": "video"
     },
     {
@@ -433,7 +452,7 @@
       "athlete": null,
       "publishedAt": "2026-11-25T18:13:36.000Z",
       "durationSeconds": 639,
-      "viewCount": 29237,
+      "viewCount": 53393,
       "kind": "video"
     },
     {
@@ -452,7 +471,7 @@
       "athlete": null,
       "publishedAt": "2026-11-25T12:56:55.000Z",
       "durationSeconds": 890,
-      "viewCount": 34255,
+      "viewCount": 42751,
       "kind": "video"
     },
     {
@@ -471,7 +490,7 @@
       "athlete": null,
       "publishedAt": "2026-11-22T19:00:02.000Z",
       "durationSeconds": 1837,
-      "viewCount": 203823,
+      "viewCount": 213796,
       "kind": "video"
     },
     {
@@ -490,7 +509,7 @@
       "athlete": null,
       "publishedAt": "2026-11-22T16:00:30.000Z",
       "durationSeconds": 1195,
-      "viewCount": 48098,
+      "viewCount": 50226,
       "kind": "video"
     },
     {
@@ -509,7 +528,7 @@
       "athlete": null,
       "publishedAt": "2026-11-21T20:00:37.000Z",
       "durationSeconds": 804,
-      "viewCount": 110267,
+      "viewCount": 114194,
       "kind": "video"
     },
     {
@@ -528,7 +547,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T21:05:05.000Z",
       "durationSeconds": 1207,
-      "viewCount": 32019,
+      "viewCount": 33229,
       "kind": "video"
     },
     {
@@ -547,7 +566,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T16:27:51.000Z",
       "durationSeconds": 671,
-      "viewCount": 9026,
+      "viewCount": 9146,
       "kind": "video"
     },
     {
@@ -566,26 +585,7 @@
       "athlete": null,
       "publishedAt": "2026-11-19T18:06:57.000Z",
       "durationSeconds": 1167,
-      "viewCount": 32674,
-      "kind": "video"
-    },
-    {
-      "id": "dQAmBoKppbg",
-      "videoId": "dQAmBoKppbg",
-      "title": "Everything I Bought To Make Winter Running BETTER! (lots of tips too!)",
-      "url": "https://www.youtube.com/watch?v=dQAmBoKppbg",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-19T17:00:26.000Z",
-      "durationSeconds": 724,
-      "viewCount": 119193,
+      "viewCount": 33168,
       "kind": "video"
     },
     {
@@ -604,7 +604,7 @@
       "athlete": null,
       "publishedAt": "2026-11-17T18:16:33.000Z",
       "durationSeconds": 1903,
-      "viewCount": 236862,
+      "viewCount": 245361,
       "kind": "video"
     },
     {
@@ -623,7 +623,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T01:27:37.000Z",
       "durationSeconds": 1143,
-      "viewCount": 2633,
+      "viewCount": 2651,
       "kind": "video"
     },
     {
@@ -642,7 +642,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T19:59:10.000Z",
       "durationSeconds": 1452,
-      "viewCount": 64496,
+      "viewCount": 65952,
       "kind": "video"
     },
     {
@@ -661,7 +661,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T21:30:10.000Z",
       "durationSeconds": 513,
-      "viewCount": 23458,
+      "viewCount": 23627,
       "kind": "video"
     },
     {
@@ -680,7 +680,7 @@
       "athlete": null,
       "publishedAt": "2026-11-13T01:01:04.000Z",
       "durationSeconds": 1466,
-      "viewCount": 90410,
+      "viewCount": 91487,
       "kind": "video"
     },
     {
@@ -699,7 +699,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:17:54.000Z",
       "durationSeconds": 844,
-      "viewCount": 35075,
+      "viewCount": 35174,
       "kind": "video"
     },
     {
@@ -718,7 +718,7 @@
       "athlete": null,
       "publishedAt": "2026-11-07T13:58:01.000Z",
       "durationSeconds": 1686,
-      "viewCount": 510686,
+      "viewCount": 517757,
       "kind": "video"
     },
     {
@@ -737,7 +737,7 @@
       "athlete": null,
       "publishedAt": "2026-11-05T12:00:01.000Z",
       "durationSeconds": 801,
-      "viewCount": 9462,
+      "viewCount": 9495,
       "kind": "video"
     },
     {
@@ -756,7 +756,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T17:07:17.000Z",
       "durationSeconds": 1014,
-      "viewCount": 61959,
+      "viewCount": 62100,
       "kind": "video"
     },
     {
@@ -775,7 +775,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T04:50:41.000Z",
       "durationSeconds": 803,
-      "viewCount": 33719,
+      "viewCount": 33740,
       "kind": "video"
     },
     {
@@ -794,7 +794,7 @@
       "athlete": null,
       "publishedAt": "2026-10-09T20:29:01.000Z",
       "durationSeconds": 3032,
-      "viewCount": 189756,
+      "viewCount": 190698,
       "kind": "video"
     },
     {
@@ -813,7 +813,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T16:07:23.000Z",
       "durationSeconds": 7387,
-      "viewCount": 3500,
+      "viewCount": 3501,
       "kind": "video"
     },
     {
@@ -851,7 +851,7 @@
       "athlete": null,
       "publishedAt": "2026-03-06T16:10:58.000Z",
       "durationSeconds": 1168,
-      "viewCount": 20330,
+      "viewCount": 20343,
       "kind": "video"
     },
     {
@@ -870,7 +870,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T15:08:07.000Z",
       "durationSeconds": 875,
-      "viewCount": 125464,
+      "viewCount": 125542,
       "kind": "video"
     },
     {
@@ -889,7 +889,26 @@
       "athlete": null,
       "publishedAt": "2025-10-17T13:00:55.000Z",
       "durationSeconds": 1110,
-      "viewCount": 721809,
+      "viewCount": 722822,
+      "kind": "video"
+    },
+    {
+      "id": "dQAmBoKppbg",
+      "videoId": "dQAmBoKppbg",
+      "title": "Everything I Bought To Make Winter Running BETTER! (lots of tips too!)",
+      "url": "https://www.youtube.com/watch?v=dQAmBoKppbg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-19T17:00:26.000Z",
+      "durationSeconds": 724,
+      "viewCount": 122379,
       "kind": "video"
     },
     {
@@ -908,7 +927,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T14:00:29.000Z",
       "durationSeconds": 952,
-      "viewCount": 48682,
+      "viewCount": 49440,
       "kind": "video"
     },
     {
@@ -927,7 +946,7 @@
       "athlete": null,
       "publishedAt": "2026-10-05T20:00:24.000Z",
       "durationSeconds": 975,
-      "viewCount": 26487,
+      "viewCount": 26651,
       "kind": "video"
     },
     {
@@ -946,7 +965,7 @@
       "athlete": null,
       "publishedAt": "2026-11-23T12:00:34.000Z",
       "durationSeconds": 1357,
-      "viewCount": 23243,
+      "viewCount": 24123,
       "kind": "video"
     },
     {
@@ -965,7 +984,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T18:00:07.000Z",
       "durationSeconds": 2122,
-      "viewCount": 341000,
+      "viewCount": 342420,
       "kind": "video"
     },
     {
@@ -984,7 +1003,7 @@
       "athlete": null,
       "publishedAt": "2026-11-15T16:00:20.000Z",
       "durationSeconds": 1205,
-      "viewCount": 47531,
+      "viewCount": 47710,
       "kind": "video"
     },
     {
@@ -1003,7 +1022,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T19:00:35.000Z",
       "durationSeconds": 894,
-      "viewCount": 118950,
+      "viewCount": 119298,
       "kind": "video"
     },
     {
@@ -1022,7 +1041,7 @@
       "athlete": null,
       "publishedAt": "2026-10-13T22:39:29.000Z",
       "durationSeconds": 1723,
-      "viewCount": 516832,
+      "viewCount": 518704,
       "kind": "video"
     },
     {
@@ -1041,7 +1060,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T06:24:56.000Z",
       "durationSeconds": 397,
-      "viewCount": 3229,
+      "viewCount": 3241,
       "kind": "video"
     },
     {
@@ -1060,26 +1079,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T20:08:03.000Z",
       "durationSeconds": 1425,
-      "viewCount": 66478,
-      "kind": "video"
-    },
-    {
-      "id": "LIfR116q9A0",
-      "videoId": "LIfR116q9A0",
-      "title": "It's TOUGH, but this will make you run a Sub 3 Marathon",
-      "url": "https://www.youtube.com/watch?v=LIfR116q9A0",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-15T17:00:04.000Z",
-      "durationSeconds": 924,
-      "viewCount": 167930,
+      "viewCount": 66543,
       "kind": "video"
     },
     {
@@ -1098,7 +1098,7 @@
       "athlete": null,
       "publishedAt": "2026-10-26T19:53:20.000Z",
       "durationSeconds": 3650,
-      "viewCount": 104845,
+      "viewCount": 105383,
       "kind": "video"
     },
     {
@@ -1117,7 +1117,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T16:01:17.000Z",
       "durationSeconds": 383,
-      "viewCount": 7194,
+      "viewCount": 7201,
       "kind": "video"
     },
     {
@@ -1136,7 +1136,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T14:05:02.000Z",
       "durationSeconds": 1314,
-      "viewCount": 41743,
+      "viewCount": 42338,
       "kind": "video"
     },
     {
@@ -1155,7 +1155,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T22:00:13.000Z",
       "durationSeconds": 345,
-      "viewCount": 92722,
+      "viewCount": 92844,
       "kind": "video"
     },
     {
@@ -1174,7 +1174,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T20:00:32.000Z",
       "durationSeconds": 1867,
-      "viewCount": 129813,
+      "viewCount": 130014,
       "kind": "video"
     },
     {
@@ -1193,7 +1193,7 @@
       "athlete": null,
       "publishedAt": "2026-10-28T00:06:40.000Z",
       "durationSeconds": 818,
-      "viewCount": 21443,
+      "viewCount": 21474,
       "kind": "video"
     },
     {
@@ -1212,7 +1212,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T13:00:33.000Z",
       "durationSeconds": 1313,
-      "viewCount": 101321,
+      "viewCount": 101525,
       "kind": "video"
     },
     {
@@ -1231,7 +1231,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T00:05:49.000Z",
       "durationSeconds": 734,
-      "viewCount": 12202,
+      "viewCount": 12223,
       "kind": "video"
     },
     {
@@ -1250,7 +1250,7 @@
       "athlete": null,
       "publishedAt": "2026-10-03T15:31:22.000Z",
       "durationSeconds": 923,
-      "viewCount": 73441,
+      "viewCount": 73486,
       "kind": "video"
     },
     {
@@ -1269,7 +1269,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T06:59:46.000Z",
       "durationSeconds": 662,
-      "viewCount": 21252,
+      "viewCount": 21259,
       "kind": "video"
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T15:42:53.000Z",
       "durationSeconds": 903,
-      "viewCount": 22778,
+      "viewCount": 22799,
       "kind": "video"
     },
     {
@@ -1307,7 +1307,7 @@
       "athlete": null,
       "publishedAt": "2026-06-22T04:27:00.000Z",
       "durationSeconds": 22221,
-      "viewCount": 11027,
+      "viewCount": 11031,
       "kind": "video"
     },
     {
@@ -1326,7 +1326,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T14:00:01.000Z",
       "durationSeconds": 4196,
-      "viewCount": 14,
+      "viewCount": 15,
       "kind": "video"
     },
     {
@@ -1345,7 +1345,7 @@
       "athlete": null,
       "publishedAt": "2025-09-19T15:05:04.000Z",
       "durationSeconds": 1303,
-      "viewCount": 47608,
+      "viewCount": 47632,
       "kind": "video"
     },
     {
@@ -1364,7 +1364,7 @@
       "athlete": null,
       "publishedAt": "2025-10-23T20:43:51.000Z",
       "durationSeconds": 1208,
-      "viewCount": 123964,
+      "viewCount": 124083,
       "kind": "video"
     },
     {
@@ -1383,7 +1383,26 @@
       "athlete": null,
       "publishedAt": "2025-08-08T21:00:29.000Z",
       "durationSeconds": 1244,
-      "viewCount": 332139,
+      "viewCount": 332668,
+      "kind": "video"
+    },
+    {
+      "id": "LIfR116q9A0",
+      "videoId": "LIfR116q9A0",
+      "title": "It's TOUGH, but this will make you run a Sub 3 Marathon",
+      "url": "https://www.youtube.com/watch?v=LIfR116q9A0",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-15T17:00:04.000Z",
+      "durationSeconds": 924,
+      "viewCount": 170226,
       "kind": "video"
     },
     {
@@ -1402,7 +1421,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T01:00:06.000Z",
       "durationSeconds": 1644,
-      "viewCount": 38011,
+      "viewCount": 38195,
       "kind": "video"
     },
     {
@@ -1421,7 +1440,7 @@
       "athlete": null,
       "publishedAt": "2026-09-10T18:45:06.000Z",
       "durationSeconds": 633,
-      "viewCount": 46269,
+      "viewCount": 46304,
       "kind": "video"
     },
     {
@@ -1440,7 +1459,7 @@
       "athlete": null,
       "publishedAt": "2026-11-20T16:04:26.000Z",
       "durationSeconds": 802,
-      "viewCount": 100101,
+      "viewCount": 101461,
       "kind": "video"
     },
     {
@@ -1459,7 +1478,7 @@
       "athlete": null,
       "publishedAt": "2026-10-31T17:00:13.000Z",
       "durationSeconds": 659,
-      "viewCount": 185566,
+      "viewCount": 185630,
       "kind": "video"
     },
     {
@@ -1478,7 +1497,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T16:00:04.000Z",
       "durationSeconds": 1196,
-      "viewCount": 69883,
+      "viewCount": 69971,
       "kind": "video"
     },
     {
@@ -1497,7 +1516,7 @@
       "athlete": null,
       "publishedAt": "2026-11-08T20:00:29.000Z",
       "durationSeconds": 1057,
-      "viewCount": 133789,
+      "viewCount": 134090,
       "kind": "video"
     },
     {
@@ -1516,7 +1535,7 @@
       "athlete": null,
       "publishedAt": "2026-10-10T07:44:26.000Z",
       "durationSeconds": 2054,
-      "viewCount": 37990,
+      "viewCount": 38040,
       "kind": "video"
     },
     {
@@ -1535,7 +1554,7 @@
       "athlete": null,
       "publishedAt": "2026-11-03T21:34:03.000Z",
       "durationSeconds": 694,
-      "viewCount": 15622,
+      "viewCount": 15630,
       "kind": "video"
     },
     {
@@ -1554,26 +1573,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T16:36:15.000Z",
       "durationSeconds": 1521,
-      "viewCount": 333246,
-      "kind": "video"
-    },
-    {
-      "id": "vTCWl9a7VSg",
-      "videoId": "vTCWl9a7VSg",
-      "title": "The Top 6 WORST running shoes of 2026 (& what to get instead)",
-      "url": "https://www.youtube.com/watch?v=vTCWl9a7VSg",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-12T17:00:07.000Z",
-      "durationSeconds": 605,
-      "viewCount": 771858,
+      "viewCount": 334224,
       "kind": "video"
     },
     {
@@ -1592,7 +1592,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T02:46:42.000Z",
       "durationSeconds": 1622,
-      "viewCount": 264387,
+      "viewCount": 266146,
       "kind": "video"
     },
     {
@@ -1611,7 +1611,7 @@
       "athlete": null,
       "publishedAt": "2026-10-04T20:14:18.000Z",
       "durationSeconds": 605,
-      "viewCount": 6230,
+      "viewCount": 6234,
       "kind": "video"
     },
     {
@@ -1630,7 +1630,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T16:26:49.000Z",
       "durationSeconds": 1590,
-      "viewCount": 67715,
+      "viewCount": 67864,
       "kind": "video"
     },
     {
@@ -1649,7 +1649,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T20:45:11.000Z",
       "durationSeconds": 747,
-      "viewCount": 86780,
+      "viewCount": 86898,
       "kind": "video"
     },
     {
@@ -1668,7 +1668,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T00:54:43.000Z",
       "durationSeconds": 1886,
-      "viewCount": 255490,
+      "viewCount": 255691,
       "kind": "video"
     },
     {
@@ -1687,7 +1687,7 @@
       "athlete": null,
       "publishedAt": "2026-09-14T17:01:16.000Z",
       "durationSeconds": 894,
-      "viewCount": 24022,
+      "viewCount": 24031,
       "kind": "video"
     },
     {
@@ -1706,7 +1706,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T13:00:06.000Z",
       "durationSeconds": 1579,
-      "viewCount": 193389,
+      "viewCount": 194011,
       "kind": "video"
     },
     {
@@ -1725,7 +1725,7 @@
       "athlete": null,
       "publishedAt": "2026-10-15T02:05:20.000Z",
       "durationSeconds": 670,
-      "viewCount": 11798,
+      "viewCount": 11802,
       "kind": "video"
     },
     {
@@ -1744,7 +1744,7 @@
       "athlete": null,
       "publishedAt": "2026-09-26T18:27:47.000Z",
       "durationSeconds": 633,
-      "viewCount": 59279,
+      "viewCount": 59301,
       "kind": "video"
     },
     {
@@ -1763,7 +1763,7 @@
       "athlete": null,
       "publishedAt": "2026-08-27T02:11:28.000Z",
       "durationSeconds": 1191,
-      "viewCount": 46498,
+      "viewCount": 46534,
       "kind": "video"
     },
     {
@@ -1782,7 +1782,7 @@
       "athlete": null,
       "publishedAt": "2026-01-23T19:01:28.000Z",
       "durationSeconds": 735,
-      "viewCount": 60634,
+      "viewCount": 60656,
       "kind": "video"
     },
     {
@@ -1839,7 +1839,7 @@
       "athlete": null,
       "publishedAt": "2025-06-28T00:42:42.000Z",
       "durationSeconds": 426,
-      "viewCount": 29069,
+      "viewCount": 29072,
       "kind": "video"
     },
     {
@@ -1858,7 +1858,26 @@
       "athlete": null,
       "publishedAt": "2025-09-03T17:13:31.000Z",
       "durationSeconds": 934,
-      "viewCount": 263383,
+      "viewCount": 263648,
+      "kind": "video"
+    },
+    {
+      "id": "vTCWl9a7VSg",
+      "videoId": "vTCWl9a7VSg",
+      "title": "The Top 6 WORST running shoes of 2026 (& what to get instead)",
+      "url": "https://www.youtube.com/watch?v=vTCWl9a7VSg",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-12T17:00:07.000Z",
+      "durationSeconds": 605,
+      "viewCount": 791220,
       "kind": "video"
     },
     {
@@ -1877,7 +1896,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T16:00:10.000Z",
       "durationSeconds": 1810,
-      "viewCount": 33200,
+      "viewCount": 33299,
       "kind": "video"
     },
     {
@@ -1896,7 +1915,7 @@
       "athlete": null,
       "publishedAt": "2026-09-02T19:45:06.000Z",
       "durationSeconds": 756,
-      "viewCount": 41326,
+      "viewCount": 41436,
       "kind": "video"
     },
     {
@@ -1915,7 +1934,7 @@
       "athlete": null,
       "publishedAt": "2026-11-18T15:49:47.000Z",
       "durationSeconds": 1388,
-      "viewCount": 30366,
+      "viewCount": 30869,
       "kind": "video"
     },
     {
@@ -1934,7 +1953,7 @@
       "athlete": null,
       "publishedAt": "2026-10-25T19:00:20.000Z",
       "durationSeconds": 1930,
-      "viewCount": 152227,
+      "viewCount": 152388,
       "kind": "video"
     },
     {
@@ -1953,7 +1972,7 @@
       "athlete": null,
       "publishedAt": "2026-11-01T16:00:04.000Z",
       "durationSeconds": 909,
-      "viewCount": 70771,
+      "viewCount": 71035,
       "kind": "video"
     },
     {
@@ -1972,7 +1991,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T05:36:13.000Z",
       "durationSeconds": 1454,
-      "viewCount": 36375,
+      "viewCount": 36412,
       "kind": "video"
     },
     {
@@ -1991,7 +2010,7 @@
       "athlete": null,
       "publishedAt": "2026-10-23T08:29:07.000Z",
       "durationSeconds": 744,
-      "viewCount": 10022,
+      "viewCount": 10026,
       "kind": "video"
     },
     {
@@ -2010,26 +2029,7 @@
       "athlete": null,
       "publishedAt": "2026-10-06T12:00:47.000Z",
       "durationSeconds": 1954,
-      "viewCount": 72857,
-      "kind": "video"
-    },
-    {
-      "id": "5XhiIkEnrzk",
-      "videoId": "5XhiIkEnrzk",
-      "title": "Honest Review of Every Nike Running Shoe! (2026 line up)",
-      "url": "https://www.youtube.com/watch?v=5XhiIkEnrzk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-08T17:00:31.000Z",
-      "durationSeconds": 1231,
-      "viewCount": 174690,
+      "viewCount": 72916,
       "kind": "video"
     },
     {
@@ -2048,7 +2048,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T19:14:55.000Z",
       "durationSeconds": 3717,
-      "viewCount": 151375,
+      "viewCount": 151628,
       "kind": "video"
     },
     {
@@ -2067,7 +2067,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T21:39:04.000Z",
       "durationSeconds": 1161,
-      "viewCount": 5398,
+      "viewCount": 5399,
       "kind": "video"
     },
     {
@@ -2086,7 +2086,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:41:18.000Z",
       "durationSeconds": 1702,
-      "viewCount": 44315,
+      "viewCount": 44379,
       "kind": "video"
     },
     {
@@ -2105,7 +2105,7 @@
       "athlete": null,
       "publishedAt": "2026-09-25T22:30:06.000Z",
       "durationSeconds": 309,
-      "viewCount": 826464,
+      "viewCount": 829968,
       "kind": "video"
     },
     {
@@ -2124,7 +2124,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T00:30:08.000Z",
       "durationSeconds": 2204,
-      "viewCount": 117382,
+      "viewCount": 117416,
       "kind": "video"
     },
     {
@@ -2143,7 +2143,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T21:06:57.000Z",
       "durationSeconds": 950,
-      "viewCount": 10802,
+      "viewCount": 10805,
       "kind": "video"
     },
     {
@@ -2162,7 +2162,7 @@
       "athlete": null,
       "publishedAt": "2026-10-16T13:32:04.000Z",
       "durationSeconds": 771,
-      "viewCount": 251348,
+      "viewCount": 251530,
       "kind": "video"
     },
     {
@@ -2181,7 +2181,7 @@
       "athlete": null,
       "publishedAt": "2026-10-02T03:03:04.000Z",
       "durationSeconds": 1100,
-      "viewCount": 15493,
+      "viewCount": 15496,
       "kind": "video"
     },
     {
@@ -2200,7 +2200,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T17:28:18.000Z",
       "durationSeconds": 1124,
-      "viewCount": 91551,
+      "viewCount": 91584,
       "kind": "video"
     },
     {
@@ -2219,7 +2219,7 @@
       "athlete": null,
       "publishedAt": "2026-08-20T03:19:14.000Z",
       "durationSeconds": 1245,
-      "viewCount": 26672,
+      "viewCount": 26726,
       "kind": "video"
     },
     {
@@ -2238,7 +2238,7 @@
       "athlete": null,
       "publishedAt": "2025-10-07T23:55:07.000Z",
       "durationSeconds": 773,
-      "viewCount": 14796,
+      "viewCount": 14798,
       "kind": "video"
     },
     {
@@ -2295,7 +2295,7 @@
       "athlete": null,
       "publishedAt": "2025-02-26T15:14:48.000Z",
       "durationSeconds": 517,
-      "viewCount": 18773,
+      "viewCount": 18775,
       "kind": "video"
     },
     {
@@ -2314,7 +2314,26 @@
       "athlete": null,
       "publishedAt": "2025-06-13T16:41:11.000Z",
       "durationSeconds": 860,
-      "viewCount": 120315,
+      "viewCount": 120365,
+      "kind": "video"
+    },
+    {
+      "id": "5XhiIkEnrzk",
+      "videoId": "5XhiIkEnrzk",
+      "title": "Honest Review of Every Nike Running Shoe! (2026 line up)",
+      "url": "https://www.youtube.com/watch?v=5XhiIkEnrzk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-08T17:00:31.000Z",
+      "durationSeconds": 1231,
+      "viewCount": 176836,
       "kind": "video"
     },
     {
@@ -2333,7 +2352,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T18:00:28.000Z",
       "durationSeconds": 1876,
-      "viewCount": 44254,
+      "viewCount": 44305,
       "kind": "video"
     },
     {
@@ -2352,7 +2371,7 @@
       "athlete": null,
       "publishedAt": "2026-08-26T17:00:06.000Z",
       "durationSeconds": 1055,
-      "viewCount": 44066,
+      "viewCount": 44128,
       "kind": "video"
     },
     {
@@ -2371,7 +2390,7 @@
       "athlete": null,
       "publishedAt": "2026-11-16T16:53:37.000Z",
       "durationSeconds": 1113,
-      "viewCount": 70003,
+      "viewCount": 70376,
       "kind": "video"
     },
     {
@@ -2390,7 +2409,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T18:00:21.000Z",
       "durationSeconds": 532,
-      "viewCount": 200352,
+      "viewCount": 200394,
       "kind": "video"
     },
     {
@@ -2409,7 +2428,7 @@
       "athlete": null,
       "publishedAt": "2026-10-24T15:00:06.000Z",
       "durationSeconds": 1127,
-      "viewCount": 96430,
+      "viewCount": 96471,
       "kind": "video"
     },
     {
@@ -2428,7 +2447,7 @@
       "athlete": null,
       "publishedAt": "2026-09-30T07:08:32.000Z",
       "durationSeconds": 979,
-      "viewCount": 31995,
+      "viewCount": 32044,
       "kind": "video"
     },
     {
@@ -2447,7 +2466,7 @@
       "athlete": null,
       "publishedAt": "2026-10-12T08:23:14.000Z",
       "durationSeconds": 454,
-      "viewCount": 15522,
+      "viewCount": 15530,
       "kind": "video"
     },
     {
@@ -2466,26 +2485,7 @@
       "athlete": null,
       "publishedAt": "2026-09-16T16:53:34.000Z",
       "durationSeconds": 1396,
-      "viewCount": 46108,
-      "kind": "video"
-    },
-    {
-      "id": "iR63J-KOw3s",
-      "videoId": "iR63J-KOw3s",
-      "title": "This Could Be The Fastest Shoe of 2026 - Nike Alphafly 4 Review",
-      "url": "https://www.youtube.com/watch?v=iR63J-KOw3s",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-04T17:00:21.000Z",
-      "durationSeconds": 792,
-      "viewCount": 212955,
+      "viewCount": 46126,
       "kind": "video"
     },
     {
@@ -2504,7 +2504,7 @@
       "athlete": null,
       "publishedAt": "2026-07-28T16:01:07.000Z",
       "durationSeconds": 364,
-      "viewCount": 21187,
+      "viewCount": 21317,
       "kind": "video"
     },
     {
@@ -2523,7 +2523,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T18:21:24.000Z",
       "durationSeconds": 948,
-      "viewCount": 6944,
+      "viewCount": 6946,
       "kind": "video"
     },
     {
@@ -2542,7 +2542,7 @@
       "athlete": null,
       "publishedAt": "2026-09-01T12:54:41.000Z",
       "durationSeconds": 940,
-      "viewCount": 78721,
+      "viewCount": 78801,
       "kind": "video"
     },
     {
@@ -2561,7 +2561,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T21:45:06.000Z",
       "durationSeconds": 739,
-      "viewCount": 114538,
+      "viewCount": 114609,
       "kind": "video"
     },
     {
@@ -2580,7 +2580,7 @@
       "athlete": null,
       "publishedAt": "2026-09-17T01:30:25.000Z",
       "durationSeconds": 2018,
-      "viewCount": 103086,
+      "viewCount": 103107,
       "kind": "video"
     },
     {
@@ -2599,7 +2599,7 @@
       "athlete": null,
       "publishedAt": "2026-07-25T19:57:10.000Z",
       "durationSeconds": 957,
-      "viewCount": 12357,
+      "viewCount": 12362,
       "kind": "video"
     },
     {
@@ -2618,7 +2618,7 @@
       "athlete": null,
       "publishedAt": "2026-08-21T21:59:57.000Z",
       "durationSeconds": 583,
-      "viewCount": 8848,
+      "viewCount": 8849,
       "kind": "video"
     },
     {
@@ -2637,7 +2637,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T16:44:30.000Z",
       "durationSeconds": 1110,
-      "viewCount": 66323,
+      "viewCount": 66339,
       "kind": "video"
     },
     {
@@ -2656,7 +2656,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T10:16:48.000Z",
       "durationSeconds": 1450,
-      "viewCount": 7922,
+      "viewCount": 7926,
       "kind": "video"
     },
     {
@@ -2675,7 +2675,7 @@
       "athlete": null,
       "publishedAt": "2025-09-05T21:51:40.000Z",
       "durationSeconds": 519,
-      "viewCount": 27736,
+      "viewCount": 27742,
       "kind": "video"
     },
     {
@@ -2694,7 +2694,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:35:39.000Z",
       "durationSeconds": 348,
-      "viewCount": 1454,
+      "viewCount": 1456,
       "kind": "video"
     },
     {
@@ -2732,7 +2732,26 @@
       "athlete": null,
       "publishedAt": "2025-04-21T16:39:16.000Z",
       "durationSeconds": 947,
-      "viewCount": 306455,
+      "viewCount": 306774,
+      "kind": "video"
+    },
+    {
+      "id": "iR63J-KOw3s",
+      "videoId": "iR63J-KOw3s",
+      "title": "This Could Be The Fastest Shoe of 2026 - Nike Alphafly 4 Review",
+      "url": "https://www.youtube.com/watch?v=iR63J-KOw3s",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-04T17:00:21.000Z",
+      "durationSeconds": 792,
+      "viewCount": 213686,
       "kind": "video"
     },
     {
@@ -2751,7 +2770,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:30:29.000Z",
       "durationSeconds": 1150,
-      "viewCount": 29058,
+      "viewCount": 29071,
       "kind": "video"
     },
     {
@@ -2770,7 +2789,7 @@
       "athlete": null,
       "publishedAt": "2026-08-18T17:00:06.000Z",
       "durationSeconds": 498,
-      "viewCount": 34799,
+      "viewCount": 34850,
       "kind": "video"
     },
     {
@@ -2789,7 +2808,7 @@
       "athlete": null,
       "publishedAt": "2026-11-14T12:00:09.000Z",
       "durationSeconds": 1293,
-      "viewCount": 34893,
+      "viewCount": 35142,
       "kind": "video"
     },
     {
@@ -2808,7 +2827,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T18:00:26.000Z",
       "durationSeconds": 1576,
-      "viewCount": 136296,
+      "viewCount": 136407,
       "kind": "video"
     },
     {
@@ -2827,7 +2846,7 @@
       "athlete": null,
       "publishedAt": "2026-10-18T16:01:46.000Z",
       "durationSeconds": 1057,
-      "viewCount": 76716,
+      "viewCount": 76963,
       "kind": "video"
     },
     {
@@ -2846,7 +2865,7 @@
       "athlete": null,
       "publishedAt": "2026-09-22T16:29:33.000Z",
       "durationSeconds": 706,
-      "viewCount": 30434,
+      "viewCount": 30491,
       "kind": "video"
     },
     {
@@ -2865,26 +2884,7 @@
       "athlete": null,
       "publishedAt": "2026-09-11T13:00:09.000Z",
       "durationSeconds": 1191,
-      "viewCount": 34888,
-      "kind": "video"
-    },
-    {
-      "id": "RRN0p7vDb5w",
-      "videoId": "RRN0p7vDb5w",
-      "title": "I Trained So Hard For This Moment (Dublin Marathon was incredible!)",
-      "url": "https://www.youtube.com/watch?v=RRN0p7vDb5w",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-11-01T17:00:22.000Z",
-      "durationSeconds": 891,
-      "viewCount": 160554,
+      "viewCount": 34908,
       "kind": "video"
     },
     {
@@ -2903,7 +2903,7 @@
       "athlete": null,
       "publishedAt": "2026-07-18T15:45:00.000Z",
       "durationSeconds": 3212,
-      "viewCount": 92173,
+      "viewCount": 92298,
       "kind": "video"
     },
     {
@@ -2922,7 +2922,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T17:51:38.000Z",
       "durationSeconds": 526,
-      "viewCount": 6003,
+      "viewCount": 6004,
       "kind": "video"
     },
     {
@@ -2941,7 +2941,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T17:39:16.000Z",
       "durationSeconds": 1222,
-      "viewCount": 49545,
+      "viewCount": 49647,
       "kind": "video"
     },
     {
@@ -2960,7 +2960,7 @@
       "athlete": null,
       "publishedAt": "2026-08-14T15:00:06.000Z",
       "durationSeconds": 1175,
-      "viewCount": 538250,
+      "viewCount": 539482,
       "kind": "video"
     },
     {
@@ -2979,7 +2979,7 @@
       "athlete": null,
       "publishedAt": "2026-09-03T01:00:30.000Z",
       "durationSeconds": 1759,
-      "viewCount": 163479,
+      "viewCount": 163500,
       "kind": "video"
     },
     {
@@ -2998,7 +2998,7 @@
       "athlete": null,
       "publishedAt": "2026-08-12T19:14:44.000Z",
       "durationSeconds": 509,
-      "viewCount": 6481,
+      "viewCount": 6484,
       "kind": "video"
     },
     {
@@ -3017,7 +3017,7 @@
       "athlete": null,
       "publishedAt": "2026-08-08T19:23:08.000Z",
       "durationSeconds": 1092,
-      "viewCount": 74038,
+      "viewCount": 74055,
       "kind": "video"
     },
     {
@@ -3055,7 +3055,7 @@
       "athlete": null,
       "publishedAt": "2025-08-23T01:01:58.000Z",
       "durationSeconds": 496,
-      "viewCount": 22706,
+      "viewCount": 22707,
       "kind": "video"
     },
     {
@@ -3074,7 +3074,7 @@
       "athlete": null,
       "publishedAt": "2025-07-08T17:26:44.000Z",
       "durationSeconds": 316,
-      "viewCount": 2464,
+      "viewCount": 2465,
       "kind": "video"
     },
     {
@@ -3112,7 +3112,26 @@
       "athlete": null,
       "publishedAt": "2025-03-21T16:00:06.000Z",
       "durationSeconds": 3149,
-      "viewCount": 2198326,
+      "viewCount": 2200875,
+      "kind": "video"
+    },
+    {
+      "id": "RRN0p7vDb5w",
+      "videoId": "RRN0p7vDb5w",
+      "title": "I Trained So Hard For This Moment (Dublin Marathon was incredible!)",
+      "url": "https://www.youtube.com/watch?v=RRN0p7vDb5w",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-11-01T17:00:22.000Z",
+      "durationSeconds": 891,
+      "viewCount": 160830,
       "kind": "video"
     },
     {
@@ -3131,7 +3150,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T16:30:30.000Z",
       "durationSeconds": 1456,
-      "viewCount": 24364,
+      "viewCount": 24384,
       "kind": "video"
     },
     {
@@ -3150,7 +3169,7 @@
       "athlete": null,
       "publishedAt": "2026-03-20T16:00:06.000Z",
       "durationSeconds": 677,
-      "viewCount": 23895,
+      "viewCount": 23919,
       "kind": "video"
     },
     {
@@ -3169,7 +3188,7 @@
       "athlete": null,
       "publishedAt": "2026-11-12T17:54:04.000Z",
       "durationSeconds": 941,
-      "viewCount": 153820,
+      "viewCount": 154529,
       "kind": "video"
     },
     {
@@ -3188,7 +3207,7 @@
       "athlete": null,
       "publishedAt": "2026-10-08T18:00:30.000Z",
       "durationSeconds": 1184,
-      "viewCount": 133282,
+      "viewCount": 133357,
       "kind": "video"
     },
     {
@@ -3207,7 +3226,7 @@
       "athlete": null,
       "publishedAt": "2026-10-11T15:00:07.000Z",
       "durationSeconds": 980,
-      "viewCount": 257750,
+      "viewCount": 259343,
       "kind": "video"
     },
     {
@@ -3226,7 +3245,7 @@
       "athlete": null,
       "publishedAt": "2026-09-12T22:23:02.000Z",
       "durationSeconds": 1002,
-      "viewCount": 40093,
+      "viewCount": 40127,
       "kind": "video"
     },
     {
@@ -3245,26 +3264,7 @@
       "athlete": null,
       "publishedAt": "2026-09-05T13:00:40.000Z",
       "durationSeconds": 1327,
-      "viewCount": 44740,
-      "kind": "video"
-    },
-    {
-      "id": "lLvB3I-_bIk",
-      "videoId": "lLvB3I-_bIk",
-      "title": "I Spent £800 Testing EVERY WINTER RUNNING SHOE - one clear WINNER!",
-      "url": "https://www.youtube.com/watch?v=lLvB3I-_bIk",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-25T17:00:10.000Z",
-      "durationSeconds": 892,
-      "viewCount": 163773,
+      "viewCount": 44746,
       "kind": "video"
     },
     {
@@ -3283,7 +3283,7 @@
       "athlete": null,
       "publishedAt": "2026-07-13T16:00:25.000Z",
       "durationSeconds": 746,
-      "viewCount": 78122,
+      "viewCount": 78268,
       "kind": "video"
     },
     {
@@ -3321,7 +3321,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T07:59:54.000Z",
       "durationSeconds": 1067,
-      "viewCount": 37548,
+      "viewCount": 37597,
       "kind": "video"
     },
     {
@@ -3340,7 +3340,7 @@
       "athlete": null,
       "publishedAt": "2026-07-17T20:00:25.000Z",
       "durationSeconds": 262,
-      "viewCount": 198732,
+      "viewCount": 199954,
       "kind": "video"
     },
     {
@@ -3359,7 +3359,7 @@
       "athlete": null,
       "publishedAt": "2026-08-22T00:45:34.000Z",
       "durationSeconds": 1629,
-      "viewCount": 93862,
+      "viewCount": 93883,
       "kind": "video"
     },
     {
@@ -3378,7 +3378,7 @@
       "athlete": null,
       "publishedAt": "2026-07-20T21:48:31.000Z",
       "durationSeconds": 888,
-      "viewCount": 8780,
+      "viewCount": 8784,
       "kind": "video"
     },
     {
@@ -3397,7 +3397,7 @@
       "athlete": null,
       "publishedAt": "2026-04-25T15:39:20.000Z",
       "durationSeconds": 1376,
-      "viewCount": 60410,
+      "viewCount": 60435,
       "kind": "video"
     },
     {
@@ -3416,7 +3416,7 @@
       "athlete": null,
       "publishedAt": "2026-05-29T05:53:40.000Z",
       "durationSeconds": 929,
-      "viewCount": 11196,
+      "viewCount": 11202,
       "kind": "video"
     },
     {
@@ -3435,7 +3435,7 @@
       "athlete": null,
       "publishedAt": "2025-08-08T23:25:12.000Z",
       "durationSeconds": 592,
-      "viewCount": 23246,
+      "viewCount": 23248,
       "kind": "video"
     },
     {
@@ -3477,6 +3477,25 @@
       "kind": "video"
     },
     {
+      "id": "lLvB3I-_bIk",
+      "videoId": "lLvB3I-_bIk",
+      "title": "I Spent £800 Testing EVERY WINTER RUNNING SHOE - one clear WINNER!",
+      "url": "https://www.youtube.com/watch?v=lLvB3I-_bIk",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-25T17:00:10.000Z",
+      "durationSeconds": 892,
+      "viewCount": 164835,
+      "kind": "video"
+    },
+    {
       "id": "jx3WnfxKcNE",
       "videoId": "jx3WnfxKcNE",
       "title": "Fall European Tour  - Starting the Journey to LA 2028",
@@ -3492,7 +3511,7 @@
       "athlete": null,
       "publishedAt": "2026-08-10T15:00:30.000Z",
       "durationSeconds": 1108,
-      "viewCount": 19950,
+      "viewCount": 19970,
       "kind": "video"
     },
     {
@@ -3511,7 +3530,7 @@
       "athlete": null,
       "publishedAt": "2026-02-26T19:00:06.000Z",
       "durationSeconds": 551,
-      "viewCount": 45115,
+      "viewCount": 45328,
       "kind": "video"
     },
     {
@@ -3530,7 +3549,7 @@
       "athlete": null,
       "publishedAt": "2026-11-10T13:08:11.000Z",
       "durationSeconds": 1760,
-      "viewCount": 52339,
+      "viewCount": 52582,
       "kind": "video"
     },
     {
@@ -3549,7 +3568,7 @@
       "athlete": null,
       "publishedAt": "2026-10-07T15:00:10.000Z",
       "durationSeconds": 1563,
-      "viewCount": 68500,
+      "viewCount": 68513,
       "kind": "video"
     },
     {
@@ -3568,7 +3587,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T08:09:35.000Z",
       "durationSeconds": 1546,
-      "viewCount": 42695,
+      "viewCount": 42749,
       "kind": "video"
     },
     {
@@ -3587,26 +3606,7 @@
       "athlete": null,
       "publishedAt": "2026-08-25T12:45:15.000Z",
       "durationSeconds": 2221,
-      "viewCount": 47378,
-      "kind": "video"
-    },
-    {
-      "id": "QXnBLYVJxSs",
-      "videoId": "QXnBLYVJxSs",
-      "title": "How To Run The Perfect Marathon!",
-      "url": "https://www.youtube.com/watch?v=QXnBLYVJxSs",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-18T18:10:30.000Z",
-      "durationSeconds": 1134,
-      "viewCount": 114537,
+      "viewCount": 47393,
       "kind": "video"
     },
     {
@@ -3625,7 +3625,7 @@
       "athlete": null,
       "publishedAt": "2026-09-06T16:38:47.000Z",
       "durationSeconds": 865,
-      "viewCount": 6953,
+      "viewCount": 6957,
       "kind": "video"
     },
     {
@@ -3644,7 +3644,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T15:51:06.000Z",
       "durationSeconds": 1041,
-      "viewCount": 35903,
+      "viewCount": 35944,
       "kind": "video"
     },
     {
@@ -3663,7 +3663,7 @@
       "athlete": null,
       "publishedAt": "2026-07-12T21:30:06.000Z",
       "durationSeconds": 273,
-      "viewCount": 34605,
+      "viewCount": 34637,
       "kind": "video"
     },
     {
@@ -3682,7 +3682,7 @@
       "athlete": null,
       "publishedAt": "2026-08-07T02:21:01.000Z",
       "durationSeconds": 1305,
-      "viewCount": 48344,
+      "viewCount": 48361,
       "kind": "video"
     },
     {
@@ -3701,7 +3701,7 @@
       "athlete": null,
       "publishedAt": "2026-04-19T20:24:26.000Z",
       "durationSeconds": 571,
-      "viewCount": 6004,
+      "viewCount": 6005,
       "kind": "video"
     },
     {
@@ -3720,7 +3720,7 @@
       "athlete": null,
       "publishedAt": "2026-04-18T15:42:32.000Z",
       "durationSeconds": 1163,
-      "viewCount": 78541,
+      "viewCount": 78584,
       "kind": "video"
     },
     {
@@ -3739,7 +3739,7 @@
       "athlete": null,
       "publishedAt": "2025-07-25T22:28:28.000Z",
       "durationSeconds": 668,
-      "viewCount": 24868,
+      "viewCount": 24872,
       "kind": "video"
     },
     {
@@ -3781,6 +3781,25 @@
       "kind": "video"
     },
     {
+      "id": "QXnBLYVJxSs",
+      "videoId": "QXnBLYVJxSs",
+      "title": "How To Run The Perfect Marathon!",
+      "url": "https://www.youtube.com/watch?v=QXnBLYVJxSs",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-18T18:10:30.000Z",
+      "durationSeconds": 1134,
+      "viewCount": 114811,
+      "kind": "video"
+    },
+    {
       "id": "Cb1wIpZEFOs",
       "videoId": "Cb1wIpZEFOs",
       "title": "Training For a Fast Mile",
@@ -3796,7 +3815,7 @@
       "athlete": null,
       "publishedAt": "2026-02-22T01:00:06.000Z",
       "durationSeconds": 605,
-      "viewCount": 32551,
+      "viewCount": 32649,
       "kind": "video"
     },
     {
@@ -3815,7 +3834,7 @@
       "athlete": null,
       "publishedAt": "2026-11-06T12:30:34.000Z",
       "durationSeconds": 848,
-      "viewCount": 21178,
+      "viewCount": 21221,
       "kind": "video"
     },
     {
@@ -3834,7 +3853,7 @@
       "athlete": null,
       "publishedAt": "2026-09-27T15:00:16.000Z",
       "durationSeconds": 2024,
-      "viewCount": 37496,
+      "viewCount": 37510,
       "kind": "video"
     },
     {
@@ -3853,7 +3872,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T15:21:01.000Z",
       "durationSeconds": 1980,
-      "viewCount": 27767,
+      "viewCount": 27824,
       "kind": "video"
     },
     {
@@ -3872,26 +3891,7 @@
       "athlete": null,
       "publishedAt": "2026-08-17T16:15:39.000Z",
       "durationSeconds": 146,
-      "viewCount": 51619,
-      "kind": "video"
-    },
-    {
-      "id": "rxPhCVg6dlo",
-      "videoId": "rxPhCVg6dlo",
-      "title": "The Most Comfortable Shoe I’ve Ever Bought - ASICS Gel Slowcush Review!",
-      "url": "https://www.youtube.com/watch?v=rxPhCVg6dlo",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-15T16:30:31.000Z",
-      "durationSeconds": 587,
-      "viewCount": 174502,
+      "viewCount": 51666,
       "kind": "video"
     },
     {
@@ -3910,7 +3910,7 @@
       "athlete": null,
       "publishedAt": "2026-08-30T15:04:10.000Z",
       "durationSeconds": 377,
-      "viewCount": 12336,
+      "viewCount": 12339,
       "kind": "video"
     },
     {
@@ -3929,7 +3929,7 @@
       "athlete": null,
       "publishedAt": "2026-06-03T15:16:23.000Z",
       "durationSeconds": 1018,
-      "viewCount": 28865,
+      "viewCount": 28938,
       "kind": "video"
     },
     {
@@ -3948,7 +3948,7 @@
       "athlete": null,
       "publishedAt": "2026-07-05T18:15:06.000Z",
       "durationSeconds": 422,
-      "viewCount": 75813,
+      "viewCount": 75866,
       "kind": "video"
     },
     {
@@ -3967,7 +3967,7 @@
       "athlete": null,
       "publishedAt": "2026-07-31T18:00:17.000Z",
       "durationSeconds": 1458,
-      "viewCount": 52739,
+      "viewCount": 52764,
       "kind": "video"
     },
     {
@@ -3986,7 +3986,7 @@
       "athlete": null,
       "publishedAt": "2026-04-15T15:54:48.000Z",
       "durationSeconds": 507,
-      "viewCount": 11602,
+      "viewCount": 11604,
       "kind": "video"
     },
     {
@@ -4005,7 +4005,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T18:10:11.000Z",
       "durationSeconds": 1215,
-      "viewCount": 93763,
+      "viewCount": 93787,
       "kind": "video"
     },
     {
@@ -4024,7 +4024,7 @@
       "athlete": null,
       "publishedAt": "2025-07-11T21:14:58.000Z",
       "durationSeconds": 641,
-      "viewCount": 21910,
+      "viewCount": 21914,
       "kind": "video"
     },
     {
@@ -4043,7 +4043,26 @@
       "athlete": null,
       "publishedAt": "2025-06-30T22:04:55.000Z",
       "durationSeconds": 185,
-      "viewCount": 2097,
+      "viewCount": 2098,
+      "kind": "video"
+    },
+    {
+      "id": "rxPhCVg6dlo",
+      "videoId": "rxPhCVg6dlo",
+      "title": "The Most Comfortable Shoe I’ve Ever Bought - ASICS Gel Slowcush Review!",
+      "url": "https://www.youtube.com/watch?v=rxPhCVg6dlo",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-15T16:30:31.000Z",
+      "durationSeconds": 587,
+      "viewCount": 174876,
       "kind": "video"
     },
     {
@@ -4062,7 +4081,7 @@
       "athlete": null,
       "publishedAt": "2026-02-05T21:15:06.000Z",
       "durationSeconds": 576,
-      "viewCount": 52499,
+      "viewCount": 53440,
       "kind": "video"
     },
     {
@@ -4081,7 +4100,7 @@
       "athlete": null,
       "publishedAt": "2026-11-04T12:30:33.000Z",
       "durationSeconds": 743,
-      "viewCount": 22561,
+      "viewCount": 22585,
       "kind": "video"
     },
     {
@@ -4100,7 +4119,7 @@
       "athlete": null,
       "publishedAt": "2026-09-20T15:00:27.000Z",
       "durationSeconds": 1146,
-      "viewCount": 62315,
+      "viewCount": 62332,
       "kind": "video"
     },
     {
@@ -4119,7 +4138,7 @@
       "athlete": null,
       "publishedAt": "2026-06-06T09:00:17.000Z",
       "durationSeconds": 1144,
-      "viewCount": 16738,
+      "viewCount": 16754,
       "kind": "video"
     },
     {
@@ -4138,26 +4157,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T13:28:02.000Z",
       "durationSeconds": 1442,
-      "viewCount": 26808,
-      "kind": "video"
-    },
-    {
-      "id": "kmZCzZBXAHA",
-      "videoId": "kmZCzZBXAHA",
-      "title": "The Most Durable and Long Lasting Running Shoes in 2026!",
-      "url": "https://www.youtube.com/watch?v=kmZCzZBXAHA",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-11T15:00:00.000Z",
-      "durationSeconds": 1162,
-      "viewCount": 376880,
+      "viewCount": 26816,
       "kind": "video"
     },
     {
@@ -4176,7 +4176,7 @@
       "athlete": null,
       "publishedAt": "2026-08-23T21:53:29.000Z",
       "durationSeconds": 1762,
-      "viewCount": 3016,
+      "viewCount": 3018,
       "kind": "video"
     },
     {
@@ -4195,7 +4195,7 @@
       "athlete": null,
       "publishedAt": "2026-06-28T18:00:06.000Z",
       "durationSeconds": 812,
-      "viewCount": 77268,
+      "viewCount": 77441,
       "kind": "video"
     },
     {
@@ -4214,7 +4214,7 @@
       "athlete": null,
       "publishedAt": "2026-07-24T01:30:21.000Z",
       "durationSeconds": 1090,
-      "viewCount": 48778,
+      "viewCount": 48799,
       "kind": "video"
     },
     {
@@ -4233,7 +4233,7 @@
       "athlete": null,
       "publishedAt": "2026-04-11T14:04:37.000Z",
       "durationSeconds": 791,
-      "viewCount": 4800,
+      "viewCount": 4801,
       "kind": "video"
     },
     {
@@ -4252,7 +4252,7 @@
       "athlete": null,
       "publishedAt": "2026-03-21T17:11:32.000Z",
       "durationSeconds": 934,
-      "viewCount": 109564,
+      "viewCount": 109588,
       "kind": "video"
     },
     {
@@ -4271,7 +4271,7 @@
       "athlete": null,
       "publishedAt": "2025-06-27T21:29:23.000Z",
       "durationSeconds": 683,
-      "viewCount": 45576,
+      "viewCount": 45597,
       "kind": "video"
     },
     {
@@ -4294,6 +4294,25 @@
       "kind": "video"
     },
     {
+      "id": "kmZCzZBXAHA",
+      "videoId": "kmZCzZBXAHA",
+      "title": "The Most Durable and Long Lasting Running Shoes in 2026!",
+      "url": "https://www.youtube.com/watch?v=kmZCzZBXAHA",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-11T15:00:00.000Z",
+      "durationSeconds": 1162,
+      "viewCount": 378680,
+      "kind": "video"
+    },
+    {
       "id": "7jW5j8ez6Eo",
       "videoId": "7jW5j8ez6Eo",
       "title": "Running \"the Michigan\" in Chicago",
@@ -4309,7 +4328,7 @@
       "athlete": null,
       "publishedAt": "2026-01-12T17:15:06.000Z",
       "durationSeconds": 618,
-      "viewCount": 23811,
+      "viewCount": 23853,
       "kind": "video"
     },
     {
@@ -4328,7 +4347,7 @@
       "athlete": null,
       "publishedAt": "2026-11-02T13:00:27.000Z",
       "durationSeconds": 652,
-      "viewCount": 24689,
+      "viewCount": 24734,
       "kind": "video"
     },
     {
@@ -4347,7 +4366,7 @@
       "athlete": null,
       "publishedAt": "2026-09-13T15:00:02.000Z",
       "durationSeconds": 1439,
-      "viewCount": 159956,
+      "viewCount": 160208,
       "kind": "video"
     },
     {
@@ -4366,7 +4385,7 @@
       "athlete": null,
       "publishedAt": "2026-03-15T13:57:48.000Z",
       "durationSeconds": 715,
-      "viewCount": 45382,
+      "viewCount": 45447,
       "kind": "video"
     },
     {
@@ -4385,26 +4404,7 @@
       "athlete": null,
       "publishedAt": "2026-08-05T16:46:39.000Z",
       "durationSeconds": 1112,
-      "viewCount": 33143,
-      "kind": "video"
-    },
-    {
-      "id": "kSYaUqjZcnY",
-      "videoId": "kSYaUqjZcnY",
-      "title": "Asics made a waterproof shoe and it’s AMAZING - NOVABLAST 6 GTX REVIEW!",
-      "url": "https://www.youtube.com/watch?v=kSYaUqjZcnY",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-09T16:54:40.000Z",
-      "durationSeconds": 596,
-      "viewCount": 201613,
+      "viewCount": 33165,
       "kind": "video"
     },
     {
@@ -4423,7 +4423,7 @@
       "athlete": null,
       "publishedAt": "2026-08-16T23:18:02.000Z",
       "durationSeconds": 1047,
-      "viewCount": 3717,
+      "viewCount": 3719,
       "kind": "video"
     },
     {
@@ -4442,7 +4442,7 @@
       "athlete": null,
       "publishedAt": "2026-06-21T18:00:06.000Z",
       "durationSeconds": 567,
-      "viewCount": 42815,
+      "viewCount": 42845,
       "kind": "video"
     },
     {
@@ -4461,7 +4461,7 @@
       "athlete": null,
       "publishedAt": "2026-07-10T01:30:37.000Z",
       "durationSeconds": 1135,
-      "viewCount": 57549,
+      "viewCount": 57580,
       "kind": "video"
     },
     {
@@ -4480,7 +4480,7 @@
       "athlete": null,
       "publishedAt": "2026-04-04T15:38:34.000Z",
       "durationSeconds": 882,
-      "viewCount": 6843,
+      "viewCount": 6844,
       "kind": "video"
     },
     {
@@ -4499,7 +4499,7 @@
       "athlete": null,
       "publishedAt": "2025-11-15T18:46:02.000Z",
       "durationSeconds": 1060,
-      "viewCount": 60793,
+      "viewCount": 60800,
       "kind": "video"
     },
     {
@@ -4518,7 +4518,7 @@
       "athlete": null,
       "publishedAt": "2025-06-13T19:51:09.000Z",
       "durationSeconds": 642,
-      "viewCount": 28030,
+      "viewCount": 28032,
       "kind": "video"
     },
     {
@@ -4537,7 +4537,26 @@
       "athlete": null,
       "publishedAt": "2025-06-30T21:42:50.000Z",
       "durationSeconds": 319,
-      "viewCount": 3115,
+      "viewCount": 3116,
+      "kind": "video"
+    },
+    {
+      "id": "kSYaUqjZcnY",
+      "videoId": "kSYaUqjZcnY",
+      "title": "Asics made a waterproof shoe and it’s AMAZING - NOVABLAST 6 GTX REVIEW!",
+      "url": "https://www.youtube.com/watch?v=kSYaUqjZcnY",
+      "discipline": "Distance",
+      "creator": {
+        "name": "Ben Parkes",
+        "slug": "ben-parkes",
+        "handle": "benparkes",
+        "url": "https://www.youtube.com/@benparkes",
+        "kind": "creative"
+      },
+      "athlete": null,
+      "publishedAt": "2026-10-09T16:54:40.000Z",
+      "durationSeconds": 596,
+      "viewCount": 202468,
       "kind": "video"
     },
     {
@@ -4556,7 +4575,7 @@
       "athlete": null,
       "publishedAt": "2026-10-30T21:51:47.000Z",
       "durationSeconds": 2410,
-      "viewCount": 41471,
+      "viewCount": 41527,
       "kind": "video"
     },
     {
@@ -4575,7 +4594,7 @@
       "athlete": null,
       "publishedAt": "2026-03-07T13:19:45.000Z",
       "durationSeconds": 834,
-      "viewCount": 14616,
+      "viewCount": 14634,
       "kind": "video"
     },
     {
@@ -4594,26 +4613,7 @@
       "athlete": null,
       "publishedAt": "2026-07-29T19:45:27.000Z",
       "durationSeconds": 2131,
-      "viewCount": 32555,
-      "kind": "video"
-    },
-    {
-      "id": "qja-pFgtFmw",
-      "videoId": "qja-pFgtFmw",
-      "title": "The Best Race Of My Life - Berlin Marathon 2026!",
-      "url": "https://www.youtube.com/watch?v=qja-pFgtFmw",
-      "discipline": "Distance",
-      "creator": {
-        "name": "Ben Parkes",
-        "slug": "ben-parkes",
-        "handle": "benparkes",
-        "url": "https://www.youtube.com/@benparkes",
-        "kind": "creative"
-      },
-      "athlete": null,
-      "publishedAt": "2026-10-04T16:00:23.000Z",
-      "durationSeconds": 857,
-      "viewCount": 493638,
+      "viewCount": 32573,
       "kind": "video"
     },
     {
@@ -4632,7 +4632,7 @@
       "athlete": null,
       "publishedAt": "2025-09-20T16:46:24.000Z",
       "durationSeconds": 1074,
-      "viewCount": 67052,
+      "viewCount": 67056,
       "kind": "video"
     },
     {
@@ -4651,7 +4651,7 @@
       "athlete": null,
       "publishedAt": "2025-05-30T21:15:01.000Z",
       "durationSeconds": 528,
-      "viewCount": 19278,
+      "viewCount": 19280,
       "kind": "video"
     },
     {
